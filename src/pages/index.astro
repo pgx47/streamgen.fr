@@ -11,6 +11,9 @@ import deals from '../data/vpn_deals.json';
 const events = (await getCollection('matches'))
   .sort((a, b) => a.data.eventDate.getTime() - b.data.eventDate.getTime());
 const upcoming = events.filter((e) => e.data.status !== 'finished');
+const newsItems = (await getCollection('news'))
+  .sort((a, b) => b.data.publishDate.localeCompare(a.data.publishDate))
+  .slice(0, 3);
 const best = deals.find((d) => d.recommended) ?? deals[0];
 const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
 ---
@@ -67,6 +70,23 @@ const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
       </a>
     ))}
   </section>
+
+  {newsItems.length > 0 && (
+    <section class="mt-12">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-2xl font-black text-white">Dernières actus droits TV</h2>
+        <a href="/actualites/" class="text-sm font-semibold text-cyan-400 hover:text-cyan-300">Toutes les actus →</a>
+      </div>
+      <div class="mt-4 grid gap-4 sm:grid-cols-3">
+        {newsItems.map((n) => (
+          <a href={`/actualites/${n.id}/`} class="rounded-xl border border-slate-800 bg-slate-900/80 p-4 transition hover:border-cyan-500/40">
+            <p class="text-[11px] font-bold uppercase tracking-wide text-cyan-400">{new Date(n.data.publishDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })}</p>
+            <h3 class="mt-1.5 text-sm font-bold text-white">{n.data.title}</h3>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <section class="mt-12">
     <SavingsCalculator />

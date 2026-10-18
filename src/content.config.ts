@@ -57,4 +57,16 @@ const guides = defineCollection({
   }),
 });
 
-export const collections = { matches, guides };
+const news = defineCollection({
+  loader: glob({ pattern: '**/*.mdx', base: './src/content/news' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    publishDate: z.string(),
+    sourceUrl: z.string().url().optional(),
+    sourceName: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { matches, guides, news };
