@@ -87,6 +87,20 @@ def fetch_next_events(league_id: str) -> list[dict]:
     return []
 
 
+def team_badge(team_id: str) -> str:
+    """Recupere le logo d'une equipe (strTeamBadge) via lookupteam."""
+    try:
+        r = requests.get(f"{BASE}/lookupteam.php", params={"id": team_id}, timeout=15)
+        if r.status_code == 429:
+            time.sleep(2)
+            r = requests.get(f"{BASE}/lookupteam.php", params={"id": team_id}, timeout=15)
+        r.raise_for_status()
+        teams = r.json().get("teams") or []
+        return (teams[0].get("strTeamBadge") or teams[0].get("strBadge") or "") if teams else ""
+    except Exception:
+        return ""
+
+
 def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tuple[str, str] | None:
     title = (ev.get("strEvent") or "").strip()
     if re.search(r"practice|free practice|fp[123]|warm[\s-]?up|sprint shootout", title, re.I):
@@ -106,6 +120,9 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tu
 
     home, away = ev.get("strHomeTeam"), ev.get("strAwayTeam")
     venue = ev.get("strVenue") or ""
+    poster = ev.get("strPoster") or ev.get("strSquare") or ev.get("strBanner") or ev.get("strThumb") or ""
+    home_logo = team_badge(ev.get("idHomeTeam")) if ev.get("idHomeTeam") else ""
+    away_logo = team_badge(ev.get("idAwayTeam")) if ev.get("idAwayTeam") else ""
 
     lines = ["---"]
     lines.append(f"title: {yaml_str(title)}")
@@ -117,6 +134,12 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tu
         lines.append(f"awayTeam: {yaml_str(away)}")
     if venue:
         lines.append(f"venue: {yaml_str(venue)}")
+    if poster:
+        lines.append(f"eventPoster: {yaml_str(poster)}")
+    if home_logo:
+        lines.append(f"homeTeamLogo: {yaml_str(home_logo)}")
+    if away_logo:
+        lines.append(f"awayTeamLogo: {yaml_str(away_logo)}")
     lines.append(f"eventDate: {iso}")
     lines.append('status: upcoming')
     lines.append(f"vpnServer: {yaml_str(vpn)}")

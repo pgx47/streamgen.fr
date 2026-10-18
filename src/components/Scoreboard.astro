@@ -5,12 +5,15 @@ interface Props {
   sport: string;
   homeTeam?: string;
   awayTeam?: string;
+  homeTeamLogo?: string;
+  awayTeamLogo?: string;
+  eventPoster?: string;
   eventDate: Date;
   status: 'upcoming' | 'live' | 'finished';
   score?: string;
   venue?: string;
 }
-const { title, competition, sport, homeTeam, awayTeam, eventDate, status, score, venue } = Astro.props;
+const { title, competition, sport, homeTeam, awayTeam, homeTeamLogo, awayTeamLogo, eventPoster, eventDate, status, score, venue } = Astro.props;
 const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️', tennis: '🎾', rugby: '🏉', cyclisme: '🚴', 'sports-hiver': '⛷️', combat: '🥊' };
 const statusBadge = {
   upcoming: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
@@ -19,49 +22,69 @@ const statusBadge = {
 };
 const statusLabel = { upcoming: 'À venir', live: 'EN DIRECT', finished: 'Terminé' };
 ---
-<div class="rounded-2xl border border-slate-800 bg-slate-900/90 p-6 sm:p-8 shadow-2xl shadow-black/40">
-  <div class="flex flex-wrap items-center gap-3 mb-5">
-    <span class="text-2xl">{icons[sport] ?? '🏆'}</span>
-    <span class="text-sm font-semibold uppercase tracking-wider text-slate-400">{competition}</span>
-    <span class={`ml-auto rounded-full border px-3 py-1 text-xs font-bold uppercase ${statusBadge[status]}`}>{statusLabel[status]}</span>
-  </div>
-
-  {homeTeam && awayTeam ? (
-    <div class="flex items-center justify-between gap-4 text-center">
-      <div class="flex-1">
-        <div class="mx-auto mb-2 flex h-14 w-14 items-center justify-center rounded-full bg-slate-800 text-2xl font-black text-white">{homeTeam.slice(0, 2).toUpperCase()}</div>
-        <p class="font-bold text-white">{homeTeam}</p>
-      </div>
-      <div class="px-4">
-        {status === 'finished' && score
-          ? <p class="text-4xl font-black text-white">{score}</p>
-          : <p class="text-3xl font-black text-slate-500">VS</p>}
-      </div>
-      <div class="flex-1">
-        <div class="mx-auto mb-2 flex h-14 w-14 items-center justify-center rounded-full bg-slate-800 text-2xl font-black text-white">{awayTeam.slice(0, 2).toUpperCase()}</div>
-        <p class="font-bold text-white">{awayTeam}</p>
-      </div>
+<div class="relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/90 p-6 sm:p-8 shadow-2xl shadow-black/40">
+  {eventPoster && (
+    <div class="absolute inset-0 z-0">
+      <img src={eventPoster} alt="" class="h-full w-full object-cover opacity-20 blur-sm mix-blend-luminosity" loading="lazy" />
+      <div class="absolute inset-0 bg-gradient-to-b from-slate-900/40 to-slate-900"></div>
     </div>
-  ) : (
-    <h1 class="text-2xl sm:text-3xl font-black text-white">{title}</h1>
   )}
 
-  <div class="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-400">
-    <span>📅 {eventDate.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}</span>
-    <span>🕒 {eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
-    {venue && <span>📍 {venue}</span>}
-  </div>
+  <div class="relative z-10">
+    <div class="flex flex-wrap items-center gap-3 mb-5">
+      <span class="text-2xl">{icons[sport] ?? '🏆'}</span>
+      <span class="text-sm font-semibold uppercase tracking-wider text-slate-400">{competition}</span>
+      <span class={`ml-auto rounded-full border px-3 py-1 text-xs font-bold uppercase ${statusBadge[status]}`}>{statusLabel[status]}</span>
+    </div>
 
-  {status === 'upcoming' && (
-    <div id="countdown" data-date={eventDate.toISOString()} class="mt-5 grid grid-cols-4 gap-2 text-center">
-      {['Jours', 'Heures', 'Min', 'Sec'].map((l) => (
-        <div class="rounded-lg bg-slate-800/80 py-3">
-          <div class="cd-val text-2xl font-black text-cyan-400">--</div>
-          <div class="text-[10px] uppercase tracking-wider text-slate-500">{l}</div>
+    {homeTeam && awayTeam ? (
+      <div class="flex items-center justify-between gap-4 text-center">
+        <div class="flex-1">
+          <div class="mx-auto mb-2 flex h-20 w-20 items-center justify-center overflow-hidden rounded-3xl border border-slate-700/50 bg-slate-800/80 p-3 shadow-xl sm:h-28 sm:w-28">
+            {homeTeamLogo
+              ? <img src={homeTeamLogo} alt={homeTeam} class="h-full w-full object-contain" loading="lazy" />
+              : <span class="text-2xl font-black text-slate-400 sm:text-3xl">{homeTeam.slice(0, 2).toUpperCase()}</span>}
+          </div>
+          <p class="font-bold text-white">{homeTeam}</p>
         </div>
-      ))}
+        <div class="px-4">
+          {status === 'finished' && score
+            ? <p class="text-4xl font-black text-white">{score}</p>
+            : <p class="text-3xl font-black text-slate-500">VS</p>}
+        </div>
+        <div class="flex-1">
+          <div class="mx-auto mb-2 flex h-20 w-20 items-center justify-center overflow-hidden rounded-3xl border border-slate-700/50 bg-slate-800/80 p-3 shadow-xl sm:h-28 sm:w-28">
+            {awayTeamLogo
+              ? <img src={awayTeamLogo} alt={awayTeam} class="h-full w-full object-contain" loading="lazy" />
+              : <span class="text-2xl font-black text-slate-400 sm:text-3xl">{awayTeam.slice(0, 2).toUpperCase()}</span>}
+          </div>
+          <p class="font-bold text-white">{awayTeam}</p>
+        </div>
+      </div>
+    ) : (
+      <h1 class="text-2xl sm:text-3xl font-black text-white">{title}</h1>
+    )}
+
+    <div class="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-400">
+      <span class="local-date" data-iso={eventDate.toISOString()}>📅 {eventDate.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}</span>
+      <span class="flex items-center gap-1.5" title="Heure locale de votre navigateur">
+        🕒 <span class="local-time" data-iso={eventDate.toISOString()}>{eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
+        <span class="text-[10px] uppercase text-slate-500">heure locale</span>
+      </span>
+      {venue && <span>📍 {venue}</span>}
     </div>
-  )}
+
+    {status === 'upcoming' && (
+      <div id="countdown" data-date={eventDate.toISOString()} class="mt-5 grid grid-cols-4 gap-2 text-center">
+        {['Jours', 'Heures', 'Min', 'Sec'].map((l) => (
+          <div class="rounded-lg bg-slate-800/80 py-3 backdrop-blur">
+            <div class="cd-val text-2xl font-black text-cyan-400">--</div>
+            <div class="text-[10px] uppercase tracking-wider text-slate-500">{l}</div>
+          </div>
+        ))}
+      </div>
+    )}
+  </div>
 </div>
 
 <script>
@@ -80,4 +103,13 @@ const statusLabel = { upcoming: 'À venir', live: 'EN DIRECT', finished: 'Termin
     tick();
     setInterval(tick, 1000);
   }
+  // Heure & date localisees selon le navigateur du visiteur
+  document.querySelectorAll('.local-time').forEach((n) => {
+    const d = new Date(n.dataset.iso ?? '');
+    if (!isNaN(d.getTime())) n.textContent = d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  });
+  document.querySelectorAll('.local-date').forEach((n) => {
+    const d = new Date(n.dataset.iso ?? '');
+    if (!isNaN(d.getTime())) n.textContent = '📅 ' + d.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  });
 </script>
