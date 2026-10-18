@@ -22,6 +22,15 @@ const badge = {
   <h3 class="mt-3 font-bold text-white group-hover:text-cyan-300">{d.title}</h3>
   <div class="mt-2 flex items-center gap-3 text-xs text-slate-500">
     <span>{d.eventDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })} · {d.eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
-    <span class="rounded bg-emerald-950 px-1.5 py-0.5 font-bold text-emerald-400">En clair dispo</span>
+    <span class="flex items-center gap-1.5">
+      {d.freeBroadcasters.slice(0, 3).map((b) => (
+        <img
+          src={`https://www.google.com/s2/favicons?domain=${new URL(b.url).hostname}&sz=64`}
+          alt={b.name} title={`${b.name} — en clair`}
+          class="h-4 w-4 rounded-sm bg-white/90" loading="lazy"
+        />
+      ))}
+      <span class="font-bold text-emerald-400">en clair</span>
+    </span>
   </div>
 </a>

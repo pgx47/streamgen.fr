@@ -20,20 +20,34 @@ const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
       ✔ 100 % légal · chaînes officielles en clair
     </p>
     <h1 class="mx-auto mt-5 max-w-3xl text-4xl font-black leading-tight text-white sm:text-5xl">
-      Regardez le sport <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">en direct et gratuit</span>
+      Le comparateur des <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">retransmissions sportives en clair</span>
     </h1>
     <p class="mx-auto mt-4 max-w-2xl text-slate-400">
       Foot, F1, UFC, MotoGP : les chaînes publiques belges, suisses et autrichiennes diffusent les mêmes événements
-      <strong class="text-emerald-400"> en clair</strong>. On vous montre où, et comment y accéder avec un VPN à {best.price}.
+      <strong class="text-emerald-400"> en clair et gratuitement</strong>. StreamGen vous dit où — et comment y accéder légalement.
     </p>
     <div class="mt-6 flex flex-wrap justify-center gap-3">
-      <a href={ctaUrl} rel="nofollow sponsored noopener" target="_blank"
-         class="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 font-black text-white shadow-xl shadow-cyan-500/25 hover:from-cyan-400 hover:to-blue-500">
-        Débloquer les chaînes ({best.discount} {best.name}) →
+      <a href="#evenements" class="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 font-black text-white shadow-xl shadow-cyan-500/25 hover:from-cyan-400 hover:to-blue-500">
+        Voir le programme en clair →
       </a>
       <a href="/tutoriel-vpn/" class="rounded-xl border border-slate-700 px-6 py-3 font-bold text-slate-200 hover:bg-slate-800">
-        Comment ça marche ?
+        Comment fonctionne le déblocage ?
       </a>
+    </div>
+  </section>
+
+  <div class="my-8 border-y border-slate-800 bg-slate-900/40 py-3">
+    <div class="mx-auto flex max-w-5xl flex-wrap justify-around gap-4 px-4 text-xs font-semibold text-slate-400">
+      <span>✓ 100 % chaînes publiques officielles</span>
+      <span>✓ Aucun flux illégal hébergé ou relayé</span>
+      <span>✓ Horaires et diffuseurs vérifiés chaque matin</span>
+    </div>
+  </div>
+
+  <section id="evenements">
+    <h2 class="text-2xl font-black text-white">À l'affiche cette semaine</h2>
+    <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {upcoming.slice(0, 9).map((e) => <EventCard entry={e} />)}
     </div>
   </section>
 
