@@ -66,7 +66,7 @@ def main() -> None:
     import json
     sent = set(json.loads(STATE.read_text()) if STATE.exists() else [])
     now = dt.datetime.now(dt.timezone.utc)
-    lo, hi = now + dt.timedelta(minutes=50), now + dt.timedelta(minutes=75)
+    lo, hi = now + dt.timedelta(minutes=55), now + dt.timedelta(minutes=115)
     n = 0
     for f in MATCHES.glob("*.mdx"):
         d = parse_mdx(f)
