@@ -22,6 +22,12 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-flash' }}
+      - name: Ping Google Indexing API (URLs modifiées)
+        if: always()
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+        run: python scripts/google_index.py || true
+
       - name: Commit news
         run: |
           git config user.name "streamgen-bot"

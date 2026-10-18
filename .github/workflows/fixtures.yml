@@ -26,6 +26,12 @@ jobs:
           LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-flash' }}
       - name: Update statuses
         run: python scripts/fetch_fixtures.py --update-status
+      - name: Ping Google Indexing API (URLs modifiées)
+        if: always()
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+        run: python scripts/google_index.py || true
+
       - name: Commit changes
         run: |
           git config user.name "streamgen-bot"
