@@ -1,0 +1,22 @@
+---
+const TAG = import.meta.env.PUBLIC_AMAZON_TAG ?? 'streamgen-21';
+const items = [
+  { name: 'Fire TV Stick 4K', q: 'Fire+TV+Stick+4K', arg: "Apps VPN + chaînes étrangères en 2 clics sur ta TV" },
+  { name: 'Boîtier Android TV', q: 'Xiaomi+TV+Box+4K', arg: "Décodeur 4K universel, Play Store complet" },
+  { name: 'Câble HDMI 2.1', q: 'Cable+HDMI+2.1', arg: "Connexion directe PC/Mac → TV sans perte" },
+];
+---
+<div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-5">
+  <p class="font-bold text-white">📺 Regarder sur grand écran : le matériel recommandé</p>
+  <div class="mt-4 grid gap-3 sm:grid-cols-3">
+    {items.map((i) => (
+      <a href={`https://www.amazon.fr/s?k=${i.q}&tag=${TAG}`} rel="nofollow sponsored noopener" target="_blank"
+         class="rounded-xl border border-slate-800 bg-slate-900 p-4 transition hover:border-cyan-500/40">
+        <p class="text-sm font-bold text-white">{i.name}</p>
+        <p class="mt-1 text-xs text-slate-500">{i.arg}</p>
+        <p class="mt-2 text-xs font-bold text-amber-400">Voir sur Amazon →</p>
+      </a>
+    ))}
+  </div>
+  <p class="mt-3 text-[10px] text-slate-600">Liens affiliés Amazon — sans surcoût pour vous.</p>
+</div>

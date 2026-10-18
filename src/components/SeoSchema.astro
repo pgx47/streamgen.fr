@@ -44,6 +44,8 @@ const sportsEvent = {
   ...(competitors.length ? { competitor: competitors } : {}),
   ...(event.venue ? { location: { '@type': 'Place', name: event.venue } } : {}),
   organizer: { '@type': 'Organization', name: event.competition },
+  image: event.eventPoster || `${SITE.url}/og-image.png`,
+  endDate: new Date(event.eventDate.getTime() + 2 * 3600e3).toISOString(),
 };
 
 const breadcrumb = {

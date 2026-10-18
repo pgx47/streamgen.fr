@@ -1,0 +1,25 @@
+---
+import gps from '../data/circuits_gps.json';
+interface Props { venue?: string; competition?: string }
+const { venue = '', competition = '' } = Astro.props;
+const key = Object.keys(gps).find((k) => (venue + ' ' + competition).toLowerCase().includes(k)) ?? 'default';
+const [lat, lon] = gps[key];
+---
+<div id="weather" data-lat={lat} data-lon={lon} class="hidden rounded-xl border border-slate-800 bg-slate-900/80 p-4">
+  <p class="text-sm font-bold text-white">🌤️ Météo circuit</p>
+  <p class="mt-1 text-sm text-slate-400" id="w-data">Chargement…</p>
+</div>
+<script>
+  const w = document.getElementById('weather');
+  if (w) {
+    fetch(`https://api.open-meteo.com/v1/forecast?latitude=${w.dataset.lat}&longitude=${w.dataset.lon}&current=temperature_2m,precipitation_probability,weather_code,wind_speed_10m`)
+      .then(r => r.json()).then(d => {
+        const c = d.current || {};
+        const code = c.weather_code ?? 0;
+        const icon = code < 3 ? '☀️' : code < 50 ? '⛅' : code < 70 ? '🌧️' : '⛈️';
+        document.getElementById('w-data').textContent =
+          `${icon} ${Math.round(c.temperature_2m)}°C · pluie ${c.precipitation_probability ?? 0}% · vent ${Math.round(c.wind_speed_10m)} km/h`;
+        w.classList.remove('hidden');
+      }).catch(() => {});
+  }
+</script>
