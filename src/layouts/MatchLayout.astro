@@ -18,7 +18,7 @@ interface Props { entry: CollectionEntry<'matches'> }
 const { entry } = Astro.props;
 const d = entry.data;
 const pageUrl = `${SITE.url}/${d.sport}/${entry.id}/`;
-const seoTitle = d.seoTitle ?? `${d.title} : Sur quelle chaîne regarder en streaming direct et en clair ?`;
+const seoTitle = d.seoTitle ?? (/:.*(direct|clair)/i.test(d.title) ? `${d.title} — où le regarder ?` : `${d.title} : Sur quelle chaîne regarder en streaming direct et en clair ?`);
 const free = d.freeBroadcasters;
 const topFree = free[0];
 ---
@@ -35,7 +35,9 @@ const topFree = free[0];
     <h1 class="mb-6 text-2xl font-black text-white sm:text-4xl">
       {d.status === 'finished'
         ? `${d.title} : regarder le replay intégral gratuitement`
-        : `${d.title} : sur quelle chaîne regarder en direct ?`}
+        : /:.*(direct|clair)/i.test(d.title)
+          ? `${d.title} : sur quelle chaîne en clair ?`
+          : `${d.title} : sur quelle chaîne regarder en direct ?`}
     </h1>
 
     <Scoreboard
