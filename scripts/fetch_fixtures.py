@@ -216,6 +216,20 @@ def update_statuses() -> None:
             new = "live"
         if new and new != sm.group(1):
             txt = txt.replace(sm.group(0), f"status: {new}", 1)
+            if new == "finished":
+                # Bascule SEO en mode "replay" : la page reste rentable 48-72h.
+                title_m = re.search(r'^title:\s*"(.+)"', txt, re.M)
+                if title_m:
+                    ev_title = title_m.group(1)
+                    txt = re.sub(
+                        r"^description:.*$",
+                        f'description: "{ev_title} : comment regarder le replay integral gratuitement et legalement sur les chaines publiques etrangeres."',
+                        txt, count=1, flags=re.M)
+                    if "seoTitle:" not in txt:
+                        txt = txt.replace(
+                            title_m.group(0),
+                            f'{title_m.group(0)}\nseoTitle: "{ev_title} : le replay integral en streaming gratuit"',
+                            1)
             f.write_text(txt)
             print(f"  ~ {f.name} -> {new}")
 
