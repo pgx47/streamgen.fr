@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *' # horaire : alerte 1-2h avant le direct (quota Actions repo privé)
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   alerts:
     runs-on: ubuntu-latest
