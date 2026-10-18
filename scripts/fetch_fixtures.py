@@ -175,6 +175,15 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
     if home and away:
         lines.append(f"homeTeam: {yaml_str(home)}")
         lines.append(f"awayTeam: {yaml_str(away)}")
+    for fk, key in (("_f1", "fighter1"), ("_f2", "fighter2")):
+        f = ev.get(fk)
+        if f:
+            lines.append(f"{key}:")
+            lines.append(f'  name: {yaml_str(f["name"])}')
+            if f.get("country"): lines.append(f'  country: {yaml_str(f["country"])}')
+            if f.get("flag"): lines.append(f'  flag: {yaml_str(f["flag"])}')
+            if f.get("record"): lines.append(f'  record: {yaml_str(f["record"])}')
+            if f.get("photo"): lines.append(f'  photo: {yaml_str(f["photo"])}')
     if venue:
         lines.append(f"venue: {yaml_str(venue)}")
     if poster:
@@ -243,6 +252,9 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
             lines.append("### La carte preliminaire (Prelims)")
             lines.extend(f"*   {f}" for f in ev["_card_prelims"])
             lines.append("")
+        lines.append("### Les horaires (heure de Paris)")
+        lines.extend(["*   **Early Prelims** — ~00h00", "*   **Prelims** — ~02h00",
+                      "*   **Main Card** — heure du debut affichee plus haut", ""])
     if schedule:
         lines.append("### Programme TV complet du week-end")
         lines.append(f"**{top}** diffuse l'integralite du week-end en clair :")
@@ -345,11 +357,20 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
             ev["_card_prelims"] = card[:-5]   # le reste = prelims
             fighters = main.get("competitors") or []
             if len(fighters) >= 2:
-                a1, a2 = fighters[0]["athlete"], fighters[1]["athlete"]
-                ev["strHomeTeam"] = a1.get("displayName")
-                ev["strAwayTeam"] = a2.get("displayName")
-                ev["_homeLogo"] = espn_headshot(fighters[0].get("id") or a1.get("id", ""))
-                ev["_awayLogo"] = espn_headshot(fighters[1].get("id") or a2.get("id", ""))
+                for i, k in enumerate(("_f1", "_f2")):
+                    c, a = fighters[i], fighters[i]["athlete"]
+                    rec = next((r.get("summary") for r in (c.get("records") or []) if r.get("type") == "total"), "")
+                    ev[k] = {
+                        "name": a.get("displayName", ""),
+                        "country": (a.get("flag") or {}).get("alt", ""),
+                        "flag": (a.get("flag") or {}).get("href", ""),
+                        "record": rec or "",
+                        "photo": espn_headshot(c.get("id") or a.get("id", "")),
+                    }
+                ev["strHomeTeam"] = ev["_f1"]["name"]
+                ev["strAwayTeam"] = ev["_f2"]["name"]
+                ev["_homeLogo"] = ev["_f1"]["photo"]
+                ev["_awayLogo"] = ev["_f2"]["photo"]
         if sport == "formule-1":
             race = next((c for c in comps if (c.get("type") or {}).get("abbreviation") == "Race"), None)
             ev["dateEvent"] = ((race or e).get("date") or "")[:10]

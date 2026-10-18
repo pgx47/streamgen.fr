@@ -20,4 +20,6 @@ export const SPORTS = [
   { slug: 'motogp', label: 'MotoGP', icon: '🏍️' },
   { slug: 'tennis', label: 'Tennis', icon: '🎾' },
   { slug: 'rugby', label: 'Rugby', icon: '🏉' },
+  { slug: 'cyclisme', label: 'Cyclisme', icon: '🚴' },
+  { slug: 'combat', label: 'Combat', icon: '🥊' },
 ] as const;
