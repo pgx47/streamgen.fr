@@ -22,7 +22,7 @@ const matches = defineCollection({
     title: z.string(),
     seoTitle: z.string().optional(),
     description: z.string(),
-    sport: z.enum(['football', 'formule-1', 'ufc', 'motogp', 'tennis', 'rugby']),
+    sport: z.enum(['football', 'formule-1', 'ufc', 'motogp', 'tennis', 'rugby', 'cyclisme', 'sports-hiver', 'combat']),
     competition: z.string(),
     homeTeam: z.string().optional(),
     awayTeam: z.string().optional(),
@@ -37,4 +37,21 @@ const matches = defineCollection({
   }),
 });
 
-export const collections = { matches };
+const guides = defineCollection({
+  loader: glob({ pattern: '**/*.mdx', base: './src/content/guides' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    category: z.enum(['chaines-etrangeres', 'svod-cinema', 'economies', 'tutoriels-vpn']),
+    publishDate: z.string(),
+    updatedDate: z.string(),
+    vpnRequired: z.boolean().default(true),
+    vpnCountry: z.string().optional(),
+    featuredImage: z.string().optional(),
+    steps: z.array(z.object({ name: z.string(), text: z.string() })).default([]),
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    schemaType: z.enum(['HowTo', 'Article']).default('HowTo'),
+  }),
+});
+
+export const collections = { matches, guides };

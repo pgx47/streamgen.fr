@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StickyVpnBar from '../../components/StickyVpnBar.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '../../site.config';
+
+const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️', tennis: '🎾', rugby: '🏉', cyclisme: '🚴', 'sports-hiver': '⛷️', combat: '🥊' };
+const today = new Date();
+const events = (await getCollection('matches'))
+  .sort((a, b) => a.data.eventDate.getTime() - b.data.eventDate.getTime());
+const sameDay = (d: Date) => d.toDateString() === today.toDateString();
+const nextDays = (d: Date) => d > today && (d.getTime() - today.getTime()) < 7 * 86400000;
+const todayEvents = events.filter((e) => sameDay(e.data.eventDate));
+const weekEvents = events.filter((e) => nextDays(e.data.eventDate));
+---
+<BaseLayout
+  title="Programme TV sport aujourd'hui : matchs et directs en clair"
+  description="Quel match ce soir, sur quelle chaîne ? Le programme TV sport complet : diffusions en clair (TNT, RTBF, RTS) et chaînes payantes, filtrable.">
+  <section class="py-8">
+    <h1 class="text-3xl font-black text-white sm:text-4xl">📺 Programme TV sport</h1>
+    <p class="mt-2 text-slate-400">{today.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })} — chaînes payantes et diffusions en clair.</p>
+
+    <label class="mt-5 flex w-fit cursor-pointer items-center gap-3 rounded-lg border border-emerald-500/30 bg-emerald-950/40 px-4 py-2.5">
+      <input type="checkbox" id="freeOnly" class="h-4 w-4 accent-emerald-500" checked />
+      <span class="text-sm font-bold text-emerald-300">En clair uniquement</span>
+    </label>
+
+    <h2 class="mt-8 text-xl font-black text-white">Ce soir</h2>
+    <div class="mt-4 space-y-3" id="list-today">
+      {todayEvents.length === 0 && <p class="text-slate-500">Aucun événement programmé aujourd'hui — voir les 7 prochains jours ci-dessous.</p>}
+      {todayEvents.map((e) => (
+        <a href={`/${e.data.sport}/${e.id}/`} class="ev block rounded-xl border border-slate-800 bg-slate-900/80 p-4 transition hover:border-cyan-500/40">
+          <div class="flex flex-wrap items-center gap-3">
+            <span>{icons[e.data.sport] ?? '🏆'}</span>
+            <span class="font-bold text-white">{e.data.title}</span>
+            <span class="ml-auto rounded bg-slate-800 px-2 py-1 text-sm font-black text-cyan-300">{e.data.eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs">
+            <span class="text-slate-500">{e.data.competition}</span>
+            <span class="paid rounded bg-rose-950/60 px-2 py-0.5 font-bold text-rose-300">{e.data.paidBroadcasters[0]?.name ?? 'Canal+'} — payant</span>
+            {e.data.freeBroadcasters.map((b) => (
+              <span class="free rounded bg-emerald-950 px-2 py-0.5 font-bold text-emerald-300">{b.name} ({b.country}) — en clair</span>
+            ))}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {weekEvents.length > 0 && (
+      <>
+        <h2 class="mt-10 text-xl font-black text-white">7 prochains jours</h2>
+        <div class="mt-4 space-y-3" id="list-week">
+          {weekEvents.map((e) => (
+            <a href={`/${e.data.sport}/${e.id}/`} class="ev block rounded-xl border border-slate-800 bg-slate-900/80 p-4 transition hover:border-cyan-500/40">
+              <div class="flex flex-wrap items-center gap-3">
+                <span>{icons[e.data.sport] ?? '🏆'}</span>
+                <span class="font-bold text-white">{e.data.title}</span>
+                <span class="ml-auto text-sm font-bold text-slate-400">
+                  {e.data.eventDate.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' })} · {e.data.eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+                </span>
+              </div>
+              <div class="mt-2 flex flex-wrap gap-2 text-xs">
+                <span class="text-slate-500">{e.data.competition}</span>
+                <span class="paid rounded bg-rose-950/60 px-2 py-0.5 font-bold text-rose-300">{e.data.paidBroadcasters[0]?.name ?? 'Payant'}</span>
+                {e.data.freeBroadcasters.map((b) => (
+                  <span class="free rounded bg-emerald-950 px-2 py-0.5 font-bold text-emerald-300">{b.name} ({b.country})</span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+      </>
+    )}
+
+    <p class="mt-10 rounded-xl border border-slate-800 bg-slate-900/50 p-4 text-xs leading-relaxed text-slate-500">{SITE.disclaimer}</p>
+  </section>
+  <StickyVpnBar />
+</BaseLayout>
+
+<script>
+  document.getElementById('freeOnly')?.addEventListener('change', (e) => {
+    const on = (e.target as HTMLInputElement).checked;
+    document.querySelectorAll('.paid').forEach((el) => el.classList.toggle('hidden', on));
+  });
+  document.getElementById('freeOnly')?.dispatchEvent(new Event('change'));
+</script>

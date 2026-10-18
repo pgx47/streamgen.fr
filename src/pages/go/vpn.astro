@@ -1,0 +1,25 @@
+---
+// /go/vpn : repartition A/B des liens affilies (rotation aleatoire 50/50).
+// Modifier la liste ci-dessous pour changer les offres/poids.
+const LINKS = [
+  'https://lowest-prices.eu/a/3143zh2LR6iO79g', // CyberGhost (MyLead) — offre A
+  // 'https://track.secondvpn.com/...',        // offre B — decommenter pour A/B
+];
+const idx = Math.floor(Math.random() * LINKS.length);
+const target = LINKS[idx] ?? LINKS[0];
+---
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="refresh" content={`0;url=${target}`} />
+  <title>Redirection…</title>
+  <script is:inline define:vars={{ LINKS }}>
+    location.replace(LINKS[Math.floor(Math.random() * LINKS.length)]);
+  </script>
+</head>
+<body style="background:#020617;color:#e2e8f0;font-family:system-ui;display:flex;min-height:100vh;align-items:center;justify-content:center">
+  <p>Redirection vers l'offre partenaire… <a href={target} rel="nofollow sponsored noopener" style="color:#22d3ee">cliquez ici</a> si rien ne se passe.</p>
+</body>
+</html>

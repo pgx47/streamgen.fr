@@ -5,6 +5,8 @@ import BroadcasterTable from '../components/BroadcasterTable.astro';
 import VpnTutorial from '../components/VpnTutorial.astro';
 import StickyVpnBar from '../components/StickyVpnBar.astro';
 import SeoSchema from '../components/SeoSchema.astro';
+import CalendarButton from '../components/CalendarButton.astro';
+import SavingsCalculator from '../components/SavingsCalculator.astro';
 import { SITE } from '../site.config';
 import type { CollectionEntry } from 'astro:content';
 
@@ -36,7 +38,18 @@ const topFree = free[0];
       eventDate={d.eventDate} status={d.status} score={d.score}
     />
 
+    <div class="mt-5">
+      <CalendarButton
+        title={d.title} eventDate={d.eventDate}
+        channel={topFree.name} vpnServer={d.vpnServer} url={pageUrl}
+      />
+    </div>
+
     <div class="mt-8 space-y-8">
+      <p class="flex items-center gap-2 text-sm font-semibold text-emerald-300">
+        <span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500 text-[11px] font-black text-slate-950">✓</span>
+        Chaînes officielles en clair — fiche vérifiée le {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+      </p>
       <BroadcasterTable free={free} paid={d.paidBroadcasters} />
 
       <VpnTutorial
@@ -45,9 +58,22 @@ const topFree = free[0];
         channelUrl={topFree.url}
       />
 
+      <aside class="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
+        <p class="text-sm font-bold uppercase tracking-wider text-slate-300">📚 Guides associés</p>
+        <ul class="mt-2 space-y-1.5 text-sm">
+          {(d.sport === 'formule-1' || d.sport === 'motogp') && (
+            <li><a class="text-cyan-400 hover:text-cyan-300" href="/astuces/f1-motogp-chaines-etrangeres-gratuites/">F1 & MotoGP : toutes les chaînes étrangères gratuites en clair</a></li>
+          )}
+          <li><a class="text-cyan-400 hover:text-cyan-300" href="/tutoriel-vpn/">Tutoriel VPN : regarder les chaînes étrangères depuis la France</a></li>
+          <li><a class="text-cyan-400 hover:text-cyan-300" href="/astuces/reduire-facture-abonnements-streaming-legal/">Diviser par 4 ses abonnements streaming (co-abonnement légal)</a></li>
+        </ul>
+      </aside>
+
       <div class="prose-sport max-w-none">
         <slot />
       </div>
+
+      <SavingsCalculator />
 
       {d.faq.length > 0 && (
         <section class="rounded-2xl border border-slate-800 bg-slate-900/60 p-6">

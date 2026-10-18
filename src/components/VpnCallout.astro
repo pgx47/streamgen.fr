@@ -1,0 +1,19 @@
+---
+import deals from '../data/vpn_deals.json';
+interface Props { country?: string; text?: string }
+const { country = 'Belgique', text } = Astro.props;
+const best = deals.find((d) => d.recommended) ?? deals[0];
+const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
+---
+<aside class="my-6 flex flex-col gap-3 rounded-xl border border-cyan-500/30 bg-gradient-to-r from-slate-900 to-slate-950 p-5 sm:flex-row sm:items-center">
+  <div class="flex-1">
+    <p class="font-bold text-white">🔓 Prérequis : serveur VPN <span class="text-cyan-400">{country}</span></p>
+    <p class="mt-1 text-sm text-slate-400">
+      {text ?? `Pour appliquer ce tutoriel, connectez votre VPN sur un serveur en ${country}. ${best.name} : ${best.price}, ${best.guarantee}.`}
+    </p>
+  </div>
+  <a href={ctaUrl} rel="nofollow sponsored noopener" target="_blank"
+     class="shrink-0 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-5 py-2.5 text-center text-sm font-black text-white shadow-lg shadow-cyan-500/25 hover:from-cyan-400 hover:to-blue-500">
+    Obtenir {best.name} →
+  </a>
+</aside>

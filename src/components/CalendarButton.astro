@@ -1,0 +1,39 @@
+---
+interface Props {
+  title: string;
+  eventDate: Date;
+  channel: string;
+  vpnServer: string;
+  url: string;
+}
+const { title, eventDate, channel, vpnServer, url } = Astro.props;
+const start = eventDate;
+const end = new Date(eventDate.getTime() + 2.5 * 3600 * 1000);
+const fmt = (d: Date) => d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+const desc = `Retransmission en clair sur ${channel}. Pour debloquer le direct : lancez votre VPN sur serveur ${vpnServer} puis https://streamgen.fr/go/vpn`;
+const ics = [
+  'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//StreamGen//FR',
+  'BEGIN:VEVENT',
+  `UID:${Date.now()}@streamgen.fr`,
+  `DTSTAMP:${fmt(new Date())}`,
+  `DTSTART:${fmt(start)}`,
+  `DTEND:${fmt(end)}`,
+  `SUMMARY:${title} (direct en clair)`,
+  `DESCRIPTION:${desc.replace(/,/g, '\\,')}`,
+  `LOCATION:${channel}`,
+  'BEGIN:VALARM', 'TRIGGER:-PT15M', 'ACTION:DISPLAY', `DESCRIPTION:${title} commence dans 15 min`, 'END:VALARM',
+  'END:VEVENT', 'END:VCALENDAR',
+].join('\r\n');
+const gcal = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title + ' (direct en clair)')}&dates=${fmt(start)}/${fmt(end)}&details=${encodeURIComponent(desc)}`;
+const icsData = `data:text/calendar;charset=utf8,${encodeURIComponent(ics)}`;
+---
+<div class="flex flex-wrap gap-3">
+  <a href={icsData} download={`${title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.ics`}
+     class="inline-flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-900 px-4 py-2 text-sm font-bold text-slate-200 hover:border-cyan-500/40 hover:text-white">
+    📅 Ajouter le coup d'envoi au calendrier
+  </a>
+  <a href={gcal} target="_blank" rel="noopener"
+     class="inline-flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-900 px-4 py-2 text-sm font-bold text-slate-200 hover:border-cyan-500/40 hover:text-white">
+    Google Agenda ↗
+  </a>
+</div>

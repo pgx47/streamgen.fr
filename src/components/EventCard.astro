@@ -3,7 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 interface Props { entry: CollectionEntry<'matches'> }
 const { entry } = Astro.props;
 const d = entry.data;
-const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️' };
+const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️', tennis: '🎾', rugby: '🏉', cyclisme: '🚴', 'sports-hiver': '⛷️', combat: '🥊' };
 const badge = {
   upcoming: 'text-cyan-300 border-cyan-500/30 bg-cyan-500/10',
   live: 'text-rose-300 border-rose-500/30 bg-rose-500/10 animate-pulse',

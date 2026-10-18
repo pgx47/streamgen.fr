@@ -47,8 +47,9 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
       </a>
       <nav class="ml-auto flex items-center gap-1 text-sm font-semibold">
         {SPORTS.map((s) => (
-          <a href={`/${s.slug}/`} class="rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white">{s.label}</a>
+          <a href={`/${s.slug}/`} class="hidden rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white md:inline-block">{s.label}</a>
         ))}
+        <a href="/astuces/" class="rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white">Astuces</a>
         <a href="/tutoriel-vpn/" class="rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-3 py-2 font-bold text-white hover:from-cyan-400 hover:to-blue-500">Tuto VPN</a>
       </nav>
     </div>
@@ -73,7 +74,10 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
       <div>
         <p class="text-sm font-bold uppercase tracking-wider text-slate-300">Guides</p>
         <ul class="mt-3 space-y-2 text-sm text-slate-400">
+          <li><a class="hover:text-cyan-400" href="/programme-tv-sport/">Programme TV sport</a></li>
+          <li><a class="hover:text-cyan-400" href="/astuces/">Astuces & déblocage</a></li>
           <li><a class="hover:text-cyan-400" href="/tutoriel-vpn/">Tutoriel VPN</a></li>
+          <li><a class="hover:text-cyan-400" href="/streaming-legal/">Streaming légal : les règles</a></li>
           <li><a class="hover:text-cyan-400" href="/a-propos/">À propos</a></li>
         </ul>
       </div>

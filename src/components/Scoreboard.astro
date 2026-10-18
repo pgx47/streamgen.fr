@@ -11,7 +11,7 @@ interface Props {
   venue?: string;
 }
 const { title, competition, sport, homeTeam, awayTeam, eventDate, status, score, venue } = Astro.props;
-const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️' };
+const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️', tennis: '🎾', rugby: '🏉', cyclisme: '🚴', 'sports-hiver': '⛷️', combat: '🥊' };
 const statusBadge = {
   upcoming: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
   live: 'bg-rose-500/15 text-rose-300 border-rose-500/30 animate-pulse',

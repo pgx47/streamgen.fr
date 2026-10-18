@@ -44,6 +44,11 @@ LEAGUES = {
     "4467": ("tennis", "Open d'Australie", "australian-open", "Autriche"),
     "4551": ("rugby", "Tournoi des 6 Nations", "six-nations", "Royaume-Uni"),
     "4435": ("rugby", "Champions Cup", "champions-cup", "France"),
+    # Sports de niche : IDs a verifier cote TheSportsDB
+    "4391": ("cyclisme", "Tour de France", "cyclisme", "Belgique"),
+    "4416": ("cyclisme", "Tour d'Italie (Giro)", "cyclisme", "Belgique"),
+    "4573": ("sports-hiver", "Biathlon Coupe du Monde", "sports-hiver", "Suisse"),
+    "4561": ("sports-hiver", "Ski Alpin Coupe du Monde", "sports-hiver", "Autriche"),
 }
 
 LLM_URL = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com") + "/chat/completions"

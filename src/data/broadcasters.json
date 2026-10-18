@@ -338,5 +338,95 @@
         "price": "~30 €/mois"
       }
     ]
+  },
+  "cyclisme": {
+    "label": "Cyclisme (classiques & grands tours)",
+    "free": [
+      {
+        "name": "RTBF Auvio",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://auvio.rtbf.be/",
+        "note": "Classiques flandriennes & Giro en clair, commentaires FR"
+      },
+      {
+        "name": "France TV",
+        "country": "France",
+        "lang": "FR",
+        "url": "https://www.france.tv/",
+        "note": "Tour de France & grandes classiques"
+      }
+    ],
+    "paid": [
+      {
+        "name": "Eurosport / Max",
+        "price": "~10 €/mois"
+      },
+      {
+        "name": "Canal+",
+        "price": "~30 €/mois"
+      }
+    ]
+  },
+  "sports-hiver": {
+    "label": "Ski alpin & Biathlon",
+    "free": [
+      {
+        "name": "RTS Play",
+        "country": "Suisse",
+        "lang": "FR",
+        "url": "https://www.rts.ch/play",
+        "note": "Coupe du monde en clair"
+      },
+      {
+        "name": "ServusTV / ORF",
+        "country": "Autriche",
+        "lang": "DE",
+        "url": "https://www.servustv.com/",
+        "note": "Ski alpin & biathlon en clair"
+      },
+      {
+        "name": "ARD/ZDF",
+        "country": "Allemagne",
+        "lang": "DE",
+        "url": "https://www.zdf.de/",
+        "note": "Biathlon en clair"
+      }
+    ],
+    "paid": [
+      {
+        "name": "Eurosport / Max",
+        "price": "~10 €/mois"
+      }
+    ]
+  },
+  "combat": {
+    "label": "Sports de combat (PFL, KSW, Glory)",
+    "free": [
+      {
+        "name": "Polsat Sport Fight",
+        "country": "Pologne",
+        "lang": "PL",
+        "url": "https://www.polsatsport.pl/",
+        "note": "KSW en clair"
+      },
+      {
+        "name": "RTL Play",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://www.rtlplay.be/",
+        "note": "Événements MMA sélectionnés"
+      }
+    ],
+    "paid": [
+      {
+        "name": "RMC Sport",
+        "price": "~20 €/mois"
+      },
+      {
+        "name": "DAZN",
+        "price": "~15 €/mois"
+      }
+    ]
   }
 }
