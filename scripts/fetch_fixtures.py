@@ -44,12 +44,18 @@ LEAGUES = {
     "4467": ("tennis", "Open d'Australie", "australian-open", "Autriche"),
     "4551": ("rugby", "Tournoi des 6 Nations", "six-nations", "Royaume-Uni"),
     "4435": ("rugby", "Champions Cup", "champions-cup", "France"),
-    # Sports de niche : IDs a verifier cote TheSportsDB
+    # Sports de niche : IDs a verifier cote TheSportsDB (IDs invalides = 0 event)
     "4391": ("cyclisme", "Tour de France", "cyclisme", "Belgique"),
     "4416": ("cyclisme", "Tour d'Italie (Giro)", "cyclisme", "Belgique"),
-    "4573": ("sports-hiver", "Biathlon Coupe du Monde", "sports-hiver", "Suisse"),
-    "4561": ("sports-hiver", "Ski Alpin Coupe du Monde", "sports-hiver", "Autriche"),
 }
+
+# ESPN (API publique sans cle) : meilleures images pour UFC (headshots) et F1.
+ESPN_SOURCES = [
+    ("https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
+     "ufc", "UFC", "ufc", "Belgique"),
+    ("https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard",
+     "formule-1", "Formule 1", "formule-1", "Belgique"),
+]
 
 LLM_URL = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com") + "/chat/completions"
 LLM_KEY = os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("OPENROUTER_API_KEY")
@@ -101,7 +107,17 @@ def team_badge(team_id: str) -> str:
         return ""
 
 
+# strSport attendu par sport (evite les fiches hors-sujet si un ID de ligue est faux)
+EXPECTED_SPORT = {
+    "football": "Soccer", "formule-1": "Motorsport", "motogp": "Motorsport",
+    "ufc": "Fighting", "tennis": "Tennis", "rugby": "Rugby",
+    "cyclisme": "Cycling", "sports-hiver": None, "combat": "Fighting",
+}
+
+
 def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tuple[str, str] | None:
+    if ev.get("strSport") and EXPECTED_SPORT.get(sport) and ev["strSport"] != EXPECTED_SPORT[sport]:
+        return None
     title = (ev.get("strEvent") or "").strip()
     if re.search(r"practice|free practice|fp[123]|warm[\s-]?up|sprint shootout", title, re.I):
         return None
@@ -121,8 +137,8 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tu
     home, away = ev.get("strHomeTeam"), ev.get("strAwayTeam")
     venue = ev.get("strVenue") or ""
     poster = ev.get("strPoster") or ev.get("strSquare") or ev.get("strBanner") or ev.get("strThumb") or ""
-    home_logo = team_badge(ev.get("idHomeTeam")) if ev.get("idHomeTeam") else ""
-    away_logo = team_badge(ev.get("idAwayTeam")) if ev.get("idAwayTeam") else ""
+    home_logo = ev.get("_homeLogo") or (team_badge(ev.get("idHomeTeam")) if ev.get("idHomeTeam") else "")
+    away_logo = ev.get("_awayLogo") or (team_badge(ev.get("idAwayTeam")) if ev.get("idAwayTeam") else "")
 
     lines = ["---"]
     lines.append(f"title: {yaml_str(title)}")
@@ -217,6 +233,55 @@ def generate_analysis(title: str, competition: str, sport: str, date: str) -> st
         return ""
 
 
+def espn_headshot(athlete_id: str) -> str:
+    """Photo detouree du combattant via l'API web ESPN (sans cle)."""
+    try:
+        r = requests.get(
+            f"https://site.web.api.espn.com/apis/common/v3/sports/mma/ufc/athletes/{athlete_id}",
+            timeout=15)
+        r.raise_for_status()
+        return (r.json().get("athlete", {}).get("headshot") or {}).get("href") or ""
+    except Exception:
+        return ""
+
+
+def fetch_espn(url: str, sport: str) -> list[dict]:
+    """Normalise les events ESPN au format TheSportsDB utilise par build_mdx."""
+    try:
+        r = requests.get(url, timeout=15)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  ! espn {sport}: {e}")
+        return []
+    out = []
+    for e in (r.json().get("events") or []):
+        comps = e.get("competitions") or []
+        ev = {
+            "strEvent": e.get("shortName") or e.get("name"),
+            "strVenue": (comps[0].get("venue") or {}).get("fullName") if comps else "",
+            "strPoster": "",
+        }
+        if sport == "ufc" and comps:
+            main = comps[-1]  # dernier combat = main event
+            fighters = main.get("competitors") or []
+            if len(fighters) >= 2:
+                a1, a2 = fighters[0]["athlete"], fighters[1]["athlete"]
+                ev["strHomeTeam"] = a1.get("displayName")
+                ev["strAwayTeam"] = a2.get("displayName")
+                ev["_homeLogo"] = espn_headshot(fighters[0].get("id") or a1.get("id", ""))
+                ev["_awayLogo"] = espn_headshot(fighters[1].get("id") or a2.get("id", ""))
+        if sport == "formule-1":
+            race = next((c for c in comps if (c.get("type") or {}).get("abbreviation") == "Race"), None)
+            ev["dateEvent"] = ((race or e).get("date") or "")[:10]
+            t = ((race or e).get("date") or "T20:00:00").split("T")[-1].rstrip("Z")
+            ev["strTime"] = t if ":" in t else "20:00:00"
+        else:
+            ev["dateEvent"] = (e.get("date") or "")[:10]
+            ev["strTime"] = (e.get("date") or "T20:00:00").split("T")[-1].rstrip("Z") or "20:00:00"
+        out.append(ev)
+    return out
+
+
 def update_statuses() -> None:
     """Passe les fiches en 'live' le jour J, 'finished' apres +4h."""
     now = dt.datetime.now(dt.timezone.utc)
@@ -269,8 +334,11 @@ def main() -> None:
 
     existing = {f.stem for f in MATCHES_DIR.glob("*.mdx")}
     created = 0
-    for league_id, (sport, comp, bkey, vpn) in LEAGUES.items():
-        for ev in fetch_next_events(league_id):
+    jobs = [fetch_next_events(lid) for lid in LEAGUES]
+    jobs += [fetch_espn(url, sport) for url, sport, *_ in ESPN_SOURCES]
+    meta = list(LEAGUES.values()) + [s[1:] for s in ESPN_SOURCES]
+    for (sport, comp, bkey, vpn), events in zip(meta, jobs):
+        for ev in events:
             built = build_mdx(ev, sport, comp, bkey, vpn)
             if not built:
                 continue
