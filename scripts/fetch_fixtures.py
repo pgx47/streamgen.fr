@@ -32,13 +32,8 @@ BASE = f"https://www.thesportsdb.com/api/v1/json/{API_KEY}"
 # Ligues TheSportsDB -> (sport, competition, matrice broadcasters.json, serveur VPN)
 # IDs a verifier : un ID invalide renvoie simplement 0 evenement.
 LEAGUES = {
-    "4480": ("football", "Ligue des Champions", "ligue-des-champions", "Belgique"),
-    "4334": ("football", "Ligue 1", "ligue-1", "Belgique"),
-    "4481": ("football", "Ligue Europa", "europa-league", "Autriche"),
-    "4896": ("football", "Ligue Europa Conference", "conference-league", "Autriche"),
-    "4370": ("formule-1", "Formule 1", "formule-1", "Belgique"),
+    # Foot/F1/UFC : desormais via ESPN (sans cle). TheSportsDB = complement.
     "4407": ("motogp", "MotoGP", "motogp", "Belgique"),
-    "4443": ("ufc", "UFC", "ufc", "Belgique"),
     "4464": ("tennis", "Roland-Garros", "roland-garros", "France"),
     "4461": ("tennis", "Wimbledon", "wimbledon", "Royaume-Uni"),
     "4467": ("tennis", "Open d'Australie", "australian-open", "Autriche"),
@@ -50,11 +45,20 @@ LEAGUES = {
 }
 
 # ESPN (API publique sans cle) : meilleures images pour UFC (headshots) et F1.
+# ESPN = source principale (gratuit, sans cle, sans rate-limit)
 ESPN_SOURCES = [
     ("https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
      "ufc", "UFC", "ufc", "Belgique"),
     ("https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard",
      "formule-1", "Formule 1", "formule-1", "Belgique"),
+    ("https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard",
+     "football", "Ligue des Champions", "ligue-des-champions", "Belgique"),
+    ("https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard",
+     "football", "Ligue 1", "ligue-1", "Belgique"),
+    ("https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard",
+     "football", "Ligue Europa", "europa-league", "Autriche"),
+    ("https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard",
+     "football", "Ligue Europa Conference", "conference-league", "Autriche"),
 ]
 
 LLM_URL = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com") + "/chat/completions"
@@ -342,7 +346,7 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
     for e in (r.json().get("events") or []):
         comps = e.get("competitions") or []
         ev = {
-            "strEvent": e.get("shortName") or e.get("name"),
+            "strEvent": e.get("name") or e.get("shortName"),
             "strVenue": (comps[0].get("venue") or {}).get("fullName") if comps else "",
             "strPoster": "",
         }
@@ -371,6 +375,14 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
                 ev["strAwayTeam"] = ev["_f2"]["name"]
                 ev["_homeLogo"] = ev["_f1"]["photo"]
                 ev["_awayLogo"] = ev["_f2"]["photo"]
+        if sport == "football" and comps:
+            teams = comps[0].get("competitors") or []
+            for c in teams:
+                t = c.get("team") or {}
+                key = "strHomeTeam" if c.get("homeAway") == "home" else "strAwayTeam"
+                logo_k = "_homeLogo" if key == "strHomeTeam" else "_awayLogo"
+                ev[key] = t.get("displayName") or t.get("name")
+                ev[logo_k] = (t.get("logo") or "")
         if sport == "formule-1":
             race = next((c for c in comps if (c.get("type") or {}).get("abbreviation") == "Race"), None)
             ev["dateEvent"] = ((race or e).get("date") or "")[:10]
