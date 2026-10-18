@@ -1,12 +1,14 @@
 ---
 // /go/vpn : repartition A/B des liens affilies (rotation aleatoire 50/50).
 // Modifier la liste ci-dessous pour changer les offres/poids.
-const LINKS = [
-  'https://lowest-prices.eu/a/3143zh2LR6iO79g', // CyberGhost (MyLead) — offre A
-  // 'https://track.secondvpn.com/...',        // offre B — decommenter pour A/B
-];
-const idx = Math.floor(Math.random() * LINKS.length);
-const target = LINKS[idx] ?? LINKS[0];
+const LINKS: Record<string, string> = {
+  cyberghost: 'https://lowest-prices.eu/a/3143zh2LR6iO79g',
+  nordvpn: 'https://nordvpn.com/fr/',
+  surfshark: 'https://surfshark.com/',
+  default: 'https://lowest-prices.eu/a/3143zh2LR6iO79g',
+};
+const provider = Astro.url.searchParams.get('provider') ?? 'default';
+const target = LINKS[provider] ?? LINKS.default;
 ---
 <!doctype html>
 <html lang="fr">
@@ -16,7 +18,8 @@ const target = LINKS[idx] ?? LINKS[0];
   <meta http-equiv="refresh" content={`0;url=${target}`} />
   <title>Redirection…</title>
   <script is:inline define:vars={{ LINKS }}>
-    location.replace(LINKS[Math.floor(Math.random() * LINKS.length)]);
+    const p = new URLSearchParams(location.search).get('provider');
+    location.replace(LINKS[p] || LINKS.default);
   </script>
 </head>
 <body style="background:#020617;color:#e2e8f0;font-family:system-ui;display:flex;min-height:100vh;align-items:center;justify-content:center">

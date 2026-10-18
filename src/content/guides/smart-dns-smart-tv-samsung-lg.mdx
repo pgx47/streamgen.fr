@@ -1,0 +1,36 @@
+---
+title: "Smart DNS : débloquer RTBF et RTS sur Samsung & LG sans installer d'app"
+description: "Les TV Samsung (Tizen) et LG (webOS) n'acceptent pas les apps VPN. La solution : le Smart DNS inclus dans les offres VPN — configuration réseau en 2 minutes."
+category: tutoriels-vpn
+publishDate: "2026-10-18"
+updatedDate: "2026-10-18"
+vpnRequired: true
+vpnCountry: "Belgique"
+schemaType: HowTo
+steps:
+  - name: "Activez le Smart DNS dans votre compte VPN"
+    text: "Dans l'espace client du VPN (CyberGhost, NordVPN…), section « Smart DNS » : notez les 2 adresses DNS fournies et validez votre IP."
+  - name: "Entrez le DNS sur la TV"
+    text: "Samsung : Paramètres → Général → Réseau → Paramètres IP → DNS manuel. LG : Paramètres → Réseau → Wi-Fi/Ethernet → Modifier → DNS manuel. Collez l'adresse Smart DNS."
+  - name: "Redémarrez la TV"
+    text: "La télévision apparaît désormais comme localisée dans le pays choisi (Belgique pour RTBF, Suisse pour RTS)."
+  - name: "Ouvrez le site de la chaîne"
+    text: "Navigateur intégré de la TV → auvio.rtbf.be ou rts.ch/play → compte gratuit → direct en plein écran."
+faq:
+  - q: "Smart DNS vs VPN : quelle différence ?"
+    a: "Le Smart DNS ne redirige que la géolocalisation des plateformes (pas tout le trafic) : aucune perte de débit, parfait pour le streaming TV. Pas de chiffrement, mais pour regarder une chaîne en clair, c'est suffisant."
+  - q: "Ça marche sur quelles TV ?"
+    a: "Toutes : Samsung Tizen, LG webOS, mais aussi Android TV, Apple TV et consoles. La méthode fonctionne partout où on peut saisir un DNS manuel."
+---
+
+## Le problème des TV « fermées »
+
+Samsung Tizen et LG webOS interdisent les applications VPN natives. Plutôt que de bricoler un partage de connexion, le **Smart DNS** — inclus gratuitement dans les abonnements VPN premium — règle tout dans les paramètres réseau de la TV.
+
+## Pourquoi c'est la méthode recommandée
+
+Aucune app, aucun matériel, aucun ralentissement : seules les requêtes de géolocalisation des plateformes sont reroutées. La qualité reste en HD/4K native.
+
+## Attention : renouvellement d'IP
+
+Si votre box change d'IP (redémarrage), revalidez-la dans l'espace client du VPN — 10 secondes, une fois par mois au plus.

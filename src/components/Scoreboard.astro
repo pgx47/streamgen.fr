@@ -12,8 +12,10 @@ interface Props {
   status: 'upcoming' | 'live' | 'finished';
   score?: string;
   venue?: string;
+  channel?: string;
+  vpnServer?: string;
 }
-const { title, competition, sport, homeTeam, awayTeam, homeTeamLogo, awayTeamLogo, eventPoster, eventDate, status, score, venue } = Astro.props;
+const { title, competition, sport, homeTeam, awayTeam, homeTeamLogo, awayTeamLogo, eventPoster, eventDate, status, score, venue, channel, vpnServer } = Astro.props;
 const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️', tennis: '🎾', rugby: '🏉', cyclisme: '🚴', 'sports-hiver': '⛷️', combat: '🥊' };
 const statusBadge = {
   upcoming: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
@@ -73,6 +75,16 @@ const statusLabel = { upcoming: 'À venir', live: 'EN DIRECT', finished: 'Termin
       </span>
       {venue && <span>📍 {venue}</span>}
     </div>
+
+    {status === 'live' && (
+      <div class="mt-5 flex items-center gap-3 rounded-xl border border-rose-500/40 bg-rose-950/30 px-4 py-3">
+        <span class="h-3 w-3 animate-pulse rounded-full bg-rose-500"></span>
+        <p class="text-sm font-bold text-rose-300">
+          EN DIRECT {channel ? `sur ${channel}` : 'maintenant'}
+        </p>
+        <p class="ml-auto hidden text-xs text-slate-400 sm:block">Match en cours — VPN serveur {vpnServer ?? 'Belgique'} pour rejoindre le flux officiel.</p>
+      </div>
+    )}
 
     {status === 'upcoming' && (
       <div id="countdown" data-date={eventDate.toISOString()} class="mt-5 grid grid-cols-4 gap-2 text-center">

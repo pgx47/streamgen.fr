@@ -23,7 +23,7 @@ jobs:
           THESPORTSDB_KEY: ${{ vars.THESPORTSDB_KEY || '123' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-chat' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-flash' }}
       - name: Update statuses
         run: python scripts/fetch_fixtures.py --update-status
       - name: Commit changes

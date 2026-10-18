@@ -1,0 +1,25 @@
+---
+interface LineupData { formation?: string; starters?: string[]; subs?: string[] }
+interface Props { home?: LineupData; away?: LineupData; homeTeam?: string; awayTeam?: string }
+const { home, away, homeTeam, awayTeam } = Astro.props;
+---
+{(home || away) && (
+  <section class="rounded-2xl border border-slate-800 bg-slate-900/60 p-5">
+    <h2 class="text-lg font-black text-white">Compositions probables</h2>
+    <div class="mt-4 grid gap-6 sm:grid-cols-2">
+      {[ {t: homeTeam, l: home}, {t: awayTeam, l: away} ].map((side) => side.l && (
+        <div>
+          <p class="font-bold text-cyan-300">{side.t} {side.l.formation && <span class="ml-2 rounded bg-slate-800 px-2 py-0.5 text-xs text-slate-300">{side.l.formation}</span>}</p>
+          {side.l.starters && (
+            <ol class="mt-2 space-y-1 text-sm text-slate-300">
+              {side.l.starters.map((p, i) => <li><span class="mr-2 text-slate-500">{i + 1}.</span>{p}</li>)}
+            </ol>
+          )}
+          {side.l.subs && side.l.subs.length > 0 && (
+            <p class="mt-2 text-xs text-slate-500"><span class="font-bold">Remplaçants :</span> {side.l.subs.join(', ')}</p>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+)}

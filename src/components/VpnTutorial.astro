@@ -58,8 +58,40 @@ const steps = [
       </li>
     ))}
   </ol>
+  <div class="mt-8">
+    <p class="mb-3 text-sm font-bold uppercase tracking-wider text-slate-300">Sur quel appareil ?</p>
+    <div class="flex flex-wrap gap-2" id="dev-tabs">
+      <button data-tab="tv" class="dtab rounded-lg border border-cyan-500/40 bg-cyan-500/10 px-4 py-2 text-sm font-bold text-cyan-300">Smart TV & Fire Stick</button>
+      <button data-tab="pc" class="dtab rounded-lg border border-slate-700 px-4 py-2 text-sm font-bold text-slate-300 hover:bg-slate-800">PC / Mac</button>
+      <button data-tab="mob" class="dtab rounded-lg border border-slate-700 px-4 py-2 text-sm font-bold text-slate-300 hover:bg-slate-800">Smartphone & Tablette</button>
+      <button data-tab="dns" class="dtab rounded-lg border border-slate-700 px-4 py-2 text-sm font-bold text-slate-300 hover:bg-slate-800">Samsung / LG (Smart DNS)</button>
+    </div>
+    <div id="tab-tv" class="dpanel mt-4 rounded-xl border border-slate-800 bg-slate-900/80 p-5 text-sm text-slate-300">
+      <strong class="text-white">TV de salon :</strong> installez l'app VPN depuis le store de votre Fire TV Stick / Android TV (ou Smart DNS pour Samsung/LG), connectez le serveur {country}, puis ouvrez le site de la chaîne dans le navigateur TV ou castez depuis votre téléphone. <a href="/astuces/vpn-fire-tv-stick-regarder-rtbf/" class="text-cyan-400 underline">Guide Fire TV détaillé →</a>
+    </div>
+    <div id="tab-pc" class="dpanel mt-4 hidden rounded-xl border border-slate-800 bg-slate-900/80 p-5 text-sm text-slate-300">
+      <strong class="text-white">Ordinateur :</strong> application bureau ou extension navigateur du VPN → serveur {country} → ouvrez {channelName} dans un onglet. Le flux HD démarre en un clic ; passez en plein écran comme n'importe quel direct.
+    </div>
+    <div id="tab-dns" class="dpanel mt-4 hidden rounded-xl border border-slate-800 bg-slate-900/80 p-5 text-sm text-slate-300">
+      <strong class="text-white">Smart TV sans store :</strong> Samsung et LG n'installent pas d'app VPN — utilisez le <strong>Smart DNS</strong> inclus dans l'abonnement : 2 adresses à saisir dans les paramètres réseau de la TV, en 2 minutes. <a href="/astuces/smart-dns-smart-tv-samsung-lg/" class="text-cyan-400 underline">Guide Smart DNS →</a>
+    </div>
+    <div id="tab-mob" class="dpanel mt-4 hidden rounded-xl border border-slate-800 bg-slate-900/80 p-5 text-sm text-slate-300">
+      <strong class="text-white">Mobile :</strong> app iOS/Android du VPN → serveur {country} → site ou app de la chaîne. Compatible Chromecast/AirPlay pour renvoyer l'image sur la TV. <a href="/astuces/club-rtl-chromecast-google-tv/" class="text-cyan-400 underline">Guide Chromecast →</a>
+    </div>
+  </div>
+
   <p class="mt-5 text-xs leading-relaxed text-slate-500">
     ✅ Méthode 100 % légale : vous regardez le flux officiel de la chaîne, détentrice des droits dans son pays.
     Le VPN ne fait que vous donner une adresse IP locale — la même qu'un habitant sur place.
   </p>
 </section>
+
+<script>
+  const tabs = document.querySelectorAll('.dtab');
+  tabs.forEach((t) => t.addEventListener('click', () => {
+    tabs.forEach((x) => { x.className = 'dtab rounded-lg border border-slate-700 px-4 py-2 text-sm font-bold text-slate-300 hover:bg-slate-800'; });
+    t.className = 'dtab rounded-lg border border-cyan-500/40 bg-cyan-500/10 px-4 py-2 text-sm font-bold text-cyan-300';
+    document.querySelectorAll('.dpanel').forEach((p) => p.classList.add('hidden'));
+    document.getElementById('tab-' + t.dataset.tab)?.classList.remove('hidden');
+  }));
+</script>

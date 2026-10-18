@@ -28,7 +28,7 @@ RSS = ("https://news.google.com/rss/search?q="
 
 LLM_URL = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com") + "/chat/completions"
 LLM_KEY = os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("OPENROUTER_API_KEY")
-LLM_MODEL = os.environ.get("LLM_MODEL", "deepseek-chat")
+LLM_MODEL = os.environ.get("LLM_MODEL", "deepseek-flash")
 
 KEYWORDS = re.compile(
     r"droit|diffus|cha[iî]ne|canal|dazn|bein|rmc|ligue|sport|tv|télé|stream|clair|prix|abonn",

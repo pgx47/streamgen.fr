@@ -59,7 +59,7 @@ ESPN_SOURCES = [
 
 LLM_URL = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com") + "/chat/completions"
 LLM_KEY = os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("OPENROUTER_API_KEY")
-LLM_MODEL = os.environ.get("LLM_MODEL", "deepseek-chat")
+LLM_MODEL = os.environ.get("LLM_MODEL", "deepseek-flash")
 
 FR_MONTHS = {
     "January": "janvier", "February": "fevrier", "March": "mars", "April": "avril",
@@ -115,7 +115,34 @@ EXPECTED_SPORT = {
 }
 
 
-def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tuple[str, str] | None:
+SESSION_RE = re.compile(
+    r"\s*[-–—:]?\s*(practice|free practice|fp[123]|qualifying|qualification|qualifs?|sprint|"
+    r"warm[\s-]?up|race|grand prix|gp)\s*\d*\s*$", re.I)
+
+
+def gp_base(title: str) -> str:
+    """Nom de base du GP (ex: 'United States Grand Prix' depuis '... Practice 1')."""
+    t = SESSION_RE.sub("", title).strip(" -–—:")
+    t = re.sub(r"\s+(practice|fp[123]|qualifying|sprint|shootout|warm[\s-]?up).*$", "", t, flags=re.I)
+    return t.strip()
+
+
+def session_label(title: str) -> str:
+    t = title.lower()
+    for pat, lab in [(r"practice 1|fp1|free practice 1", "Essais libres 1"),
+                     (r"practice 2|fp2|free practice 2", "Essais libres 2"),
+                     (r"practice 3|fp3|free practice 3", "Essais libres 3"),
+                     (r"practice|free practice", "Essais libres"),
+                     (r"sprint shootout", "Sprint Shootout"), (r"sprint", "Course Sprint"),
+                     (r"qualifying|qualification", "Qualifications"),
+                     (r"warm[\s-]?up", "Warm-up"), (r"race|grand prix", "Course / Grand Prix")]:
+        if re.search(pat, t):
+            return lab
+    return "Course"
+
+
+def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
+              schedule: list[tuple[str, str]] | None = None) -> tuple[str, str] | None:
     if ev.get("strSport") and EXPECTED_SPORT.get(sport) and ev["strSport"] != EXPECTED_SPORT[sport]:
         return None
     title = (ev.get("strEvent") or "").strip()
@@ -157,6 +184,11 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tu
     if away_logo:
         lines.append(f"awayTeamLogo: {yaml_str(away_logo)}")
     lines.append(f"eventDate: {iso}")
+    if schedule:
+        lines.append("schedule:")
+        for lab, dt_iso in schedule:
+            lines.append(f'  - label: {yaml_str(lab)}')
+            lines.append(f'    date: {dt_iso}')
     lines.append('status: upcoming')
     lines.append(f"vpnServer: {yaml_str(vpn)}")
     lines.append("freeBroadcasters:")
@@ -339,7 +371,24 @@ def main() -> None:
     meta = list(LEAGUES.values()) + [s[1:] for s in ESPN_SOURCES]
     for (sport, comp, bkey, vpn), events in zip(meta, jobs):
         for ev in events:
-            built = build_mdx(ev, sport, comp, bkey, vpn)
+            schedule = None
+            if sport in ("formule-1", "motogp"):
+                # Programme du week-end : toutes les sessions du meme GP
+                base = gp_base(ev.get("strEvent") or "")
+                sched = [
+                    (session_label(e2.get("strEvent") or ""),
+                     f"{e2.get('dateEvent')}T{e2.get('strTime') or '20:00:00'}+02:00")
+                    for e2 in events
+                    if e2.get("dateEvent") and gp_base(e2.get("strEvent") or "") == base
+                ]
+                sched.sort(key=lambda x: x[1])
+                # dedupe labels
+                seen_l, schedule = set(), []
+                for lab, d in sched:
+                    if lab not in seen_l:
+                        seen_l.add(lab)
+                        schedule.append((lab, d))
+            built = build_mdx(ev, sport, comp, bkey, vpn, schedule)
             if not built:
                 continue
             slug, mdx = built
