@@ -210,11 +210,51 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
     lines.append(f'  - q: {yaml_str(f"Ou regarder {title} en streaming ?")}')
     top = free[0]["name"]
     lines.append(f'    a: {yaml_str(f"{title} est diffuse en clair sur {top}. Depuis la France, un VPN connecte a un serveur {vpn} permet d acceder au flux officiel gratuitement.")}')
+    # FAQ contextualisee par sport (requetes reelles)
+    extra_faq = {
+        "ufc": ("A quelle heure commence le main event en France ?",
+                "Les cartes UFC americaines demarrent generalement vers 3h-4h du matin heure francaise pour la main card ; les preliminaires commencent plus tot. L'heure exacte figure en haut de cette page."),
+        "formule-1": ("Peut-on regarder les qualifications et essais en clair ?",
+                      "Oui : RTBF et RTS diffusent l'integralite du week-end en clair — essais libres, qualifications et course."),
+        "motogp": ("Les qualifications MotoGP sont-elles en clair ?",
+                   "Oui, les chaines publiques belges et autrichiennes diffusent qualifs et courses en clair."),
+        "football": ("Y a-t-il prolongation et tirs au but en cas d'egalite ?",
+                     "En phase a elimination directe (Ligue des Champions, coupes), oui : 2x15 minutes puis tirs au but. En phase de ligue, le match nul est definitif."),
+        "tennis": ("Le match peut-il etre decale ou interrompu ?",
+                   "Oui : pluie (hors courts couverts) ou match precedent long peuvent decaler l'horaire. Le direct reste accessible sur la meme chaine."),
+        "rugby": ("Le match est-il diffuse en clair en France ?",
+                  "Les grandes affiches du 6 Nations sont sur France TV ; la Champions Cup a des matchs selectionnes en clair. Le detail figure dans le tableau ci-dessus."),
+    }
+    if sport in extra_faq:
+        q, a = extra_faq[sport]
+        lines.append(f'  - q: {yaml_str(q)}')
+        lines.append(f'    a: {yaml_str(a)}')
     lines.append("---")
     lines.append("")
     body = generate_analysis(title, competition, sport, date)
     if body:
         lines.append(body)
+        lines.append("")
+    if ev.get("_card_main"):
+        lines.append("### La carte principale (Main Card)")
+        lines.extend(f"*   **{f}**" for f in ev["_card_main"])
+        lines.append("")
+        if ev.get("_card_prelims"):
+            lines.append("### La carte preliminaire (Prelims)")
+            lines.extend(f"*   {f}" for f in ev["_card_prelims"])
+            lines.append("")
+    if schedule:
+        lines.append("### Programme TV complet du week-end")
+        lines.append(f"**{top}** diffuse l'integralite du week-end en clair :")
+        lines.append("")
+        for lab, diso in schedule:
+            try:
+                dd = dt.datetime.fromisoformat(diso)
+                h = dd.strftime("%Hh%M")
+                j = dd.strftime("%A %d %B")
+            except Exception:
+                j, h = diso[:10], diso[11:16]
+            lines.append(f"*   **{lab}** — {j}, {h}")
         lines.append("")
     lines.append(f"## {title} : ou regarder le direct ?")
     lines.append("")
@@ -237,13 +277,14 @@ def generate_analysis(title: str, competition: str, sport: str, date: str) -> st
     if not LLM_KEY:
         return ""
     prompt = (
-        f"Tu es journaliste sportif francais. Redige 300 a 400 mots en Markdown "
-        f"(sous-titres ## et ###, gras) d'analyse avant-match pour : « {title} » "
-        f"({competition}, {sport}, le {date}). Couvre : l'enjeu de la rencontre "
-        f"(classement, qualification, dynamique), les forces en presence (joueurs "
-        f"cles, absents, etat de forme), l'historique recent, et les conditions "
-        f"(lieu, meteo, ambiance). Pas de cotes de paris, pas de lien, pas de "
-        f"conclusion commerciale. Texte factuel et neutre."
+        f"Tu es journaliste sportif francais. Redige au moins 300 mots en Markdown "
+        f"d'analyse avant-match pour : « {title} » ({competition}, {sport}, le {date}). "
+        f"Structure EXACTE avec sous-titres ### : "
+        f"### L'enjeu de la rencontre (classement, qualification, enjeu du match) ; "
+        f"### L'etat de forme et les forces en presence (joueurs cles, absents, dynamique) ; "
+        f"### L'historique et le contexte (match aller, edition precedente, conditions). "
+        f"Pas de cotes de paris, pas de lien, pas de conclusion commerciale. "
+        f"Texte factuel et neutre."
     )
     try:
         r = requests.post(
@@ -295,6 +336,13 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
         }
         if sport == "ufc" and comps:
             main = comps[-1]  # dernier combat = main event
+            card = []
+            for c in comps:
+                fs = c.get("competitors") or []
+                if len(fs) >= 2:
+                    card.append(f"{fs[0]['athlete'].get('displayName','?')} vs {fs[1]['athlete'].get('displayName','?')}")
+            ev["_card_main"] = card[-5:]      # 5 derniers = main card
+            ev["_card_prelims"] = card[:-5]   # le reste = prelims
             fighters = main.get("competitors") or []
             if len(fighters) >= 2:
                 a1, a2 = fighters[0]["athlete"], fighters[1]["athlete"]
