@@ -18,13 +18,15 @@ import re
 import unicodedata
 from pathlib import Path
 
+import time
+
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 MATCHES_DIR = ROOT / "src" / "content" / "matches"
 BROADCASTERS = json.loads((ROOT / "src" / "data" / "broadcasters.json").read_text())
 
-API_KEY = os.environ.get("THESPORTSDB_KEY", "3")
+API_KEY = os.environ.get("THESPORTSDB_KEY", "123")
 BASE = f"https://www.thesportsdb.com/api/v1/json/{API_KEY}"
 
 # Ligues TheSportsDB -> (sport, competition, matrice broadcasters.json, serveur VPN)
@@ -53,17 +55,25 @@ def yaml_str(v) -> str:
 
 
 def fetch_next_events(league_id: str) -> list[dict]:
-    try:
-        r = requests.get(f"{BASE}/eventsnextleague.php", params={"id": league_id}, timeout=15)
-        r.raise_for_status()
-        return r.json().get("events") or []
-    except Exception as e:
-        print(f"  ! ligue {league_id}: {e}")
-        return []
+    for attempt in range(4):
+        try:
+            r = requests.get(f"{BASE}/eventsnextleague.php", params={"id": league_id}, timeout=15)
+            if r.status_code == 429:
+                time.sleep(2 ** attempt + 1)
+                continue
+            r.raise_for_status()
+            return r.json().get("events") or []
+        except Exception as e:
+            print(f"  ! ligue {league_id}: {e}")
+            return []
+    print(f"  ! ligue {league_id}: rate-limit")
+    return []
 
 
 def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tuple[str, str] | None:
     title = (ev.get("strEvent") or "").strip()
+    if re.search(r"practice|free practice|fp[123]|warm[\s-]?up|sprint shootout", title, re.I):
+        return None
     date = ev.get("dateEvent")
     time = ev.get("strTime") or "20:00:00"
     if not title or not date:

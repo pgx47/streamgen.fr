@@ -16,6 +16,8 @@ jobs:
       - run: pip install -r scripts/requirements.txt
       - name: Fetch upcoming fixtures
         run: python scripts/fetch_fixtures.py
+        env:
+          THESPORTSDB_KEY: ${{ vars.THESPORTSDB_KEY || '123' }}
       - name: Update statuses
         run: python scripts/fetch_fixtures.py --update-status
       - name: Commit changes
