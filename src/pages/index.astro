@@ -11,7 +11,7 @@ const events = (await getCollection('matches'))
   .sort((a, b) => a.data.eventDate.getTime() - b.data.eventDate.getTime());
 const upcoming = events.filter((e) => e.data.status !== 'finished');
 const best = deals.find((d) => d.recommended) ?? deals[0];
-const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? best.url;
+const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
 ---
 <BaseLayout title={`${SITE.name} — ${SITE.tagline}`} description={SITE.description}>
   <section class="py-10 text-center sm:py-14">

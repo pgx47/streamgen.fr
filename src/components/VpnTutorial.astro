@@ -9,7 +9,7 @@ interface Props {
 }
 const { country = 'Belgique', channelName = 'RTBF Auvio', channelUrl = 'https://auvio.rtbf.be/' } = Astro.props;
 const best = deals.find((d) => d.recommended) ?? deals[0];
-const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? best.url;
+const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
 
 const steps = [
   {
