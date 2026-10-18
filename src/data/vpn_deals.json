@@ -1,23 +1,23 @@
 [
   {
+    "name": "CyberGhost",
+    "url": "/go/vpn",
+    "discount": "2,19 €/mois",
+    "price": "2,19 €/mois",
+    "guarantee": "45 jours satisfait ou remboursé",
+    "servers": "Serveurs optimisés streaming (RTBF, RTS, ServusTV)",
+    "recommended": true,
+    "args": ["Offre exclusive : +2 mois offerts sur le plan 2 ans", "Serveurs dédiés par chaîne TV", "Garantie la plus longue du marché (45 jours)"]
+  },
+  {
     "name": "NordVPN",
     "url": "https://nordvpn.com/fr/",
     "discount": "-72 %",
     "price": "3,09 €/mois",
     "guarantee": "30 jours satisfait ou remboursé",
     "servers": "6 300+ serveurs, Belgique & Suisse incluses",
-    "recommended": true,
-    "args": ["Le plus rapide pour le streaming HD", "Serveurs belges et suisses dédiés", "2 ans au prix le plus bas"]
-  },
-  {
-    "name": "CyberGhost",
-    "url": "https://www.cyberghostvpn.com/",
-    "discount": "-83 %",
-    "price": "2,03 €/mois",
-    "guarantee": "45 jours satisfait ou remboursé",
-    "servers": "Serveurs optimisés streaming (RTBF, RTS)",
     "recommended": false,
-    "args": ["Serveurs dédiés par chaîne TV", "Garantie la plus longue du marché", "Interface la plus simple"]
+    "args": ["Le plus rapide pour le streaming HD", "Serveurs belges et suisses dédiés", "2 ans au prix le plus bas"]
   },
   {
     "name": "Surfshark",
