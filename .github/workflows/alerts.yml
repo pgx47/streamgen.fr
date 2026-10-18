@@ -2,7 +2,7 @@ name: Telegram alerts
 
 on:
   schedule:
-    - cron: '*/15 * * *' # horaire : alerte 1-2h avant le direct (quota Actions repo privé)
+    - cron: '0 * * * *' # horaire : alerte 1-2h avant le direct (quota Actions repo privé)
   workflow_dispatch:
 
 jobs:
