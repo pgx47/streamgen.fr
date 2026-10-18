@@ -30,13 +30,25 @@ API_KEY = os.environ.get("THESPORTSDB_KEY", "123")
 BASE = f"https://www.thesportsdb.com/api/v1/json/{API_KEY}"
 
 # Ligues TheSportsDB -> (sport, competition, matrice broadcasters.json, serveur VPN)
+# IDs a verifier : un ID invalide renvoie simplement 0 evenement.
 LEAGUES = {
     "4480": ("football", "Ligue des Champions", "ligue-des-champions", "Belgique"),
     "4334": ("football", "Ligue 1", "ligue-1", "Belgique"),
+    "4481": ("football", "Ligue Europa", "europa-league", "Autriche"),
+    "4896": ("football", "Ligue Europa Conference", "conference-league", "Autriche"),
     "4370": ("formule-1", "Formule 1", "formule-1", "Belgique"),
     "4407": ("motogp", "MotoGP", "motogp", "Belgique"),
     "4443": ("ufc", "UFC", "ufc", "Belgique"),
+    "4464": ("tennis", "Roland-Garros", "roland-garros", "France"),
+    "4461": ("tennis", "Wimbledon", "wimbledon", "Royaume-Uni"),
+    "4467": ("tennis", "Open d'Australie", "australian-open", "Autriche"),
+    "4551": ("rugby", "Tournoi des 6 Nations", "six-nations", "Royaume-Uni"),
+    "4435": ("rugby", "Champions Cup", "champions-cup", "France"),
 }
+
+LLM_URL = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com") + "/chat/completions"
+LLM_KEY = os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("OPENROUTER_API_KEY")
+LLM_MODEL = os.environ.get("LLM_MODEL", "deepseek-chat")
 
 FR_MONTHS = {
     "January": "janvier", "February": "fevrier", "March": "mars", "April": "avril",
@@ -124,6 +136,10 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tu
     lines.append(f'    a: {yaml_str(f"{title} est diffuse en clair sur {top}. Depuis la France, un VPN connecte a un serveur {vpn} permet d acceder au flux officiel gratuitement.")}')
     lines.append("---")
     lines.append("")
+    body = generate_analysis(title, competition, sport, date)
+    if body:
+        lines.append(body)
+        lines.append("")
     lines.append(f"## {title} : ou regarder le direct ?")
     lines.append("")
     lines.append(
@@ -137,6 +153,40 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str) -> tu
     )
     lines.append("")
     return slug, "\n".join(lines)
+
+
+def generate_analysis(title: str, competition: str, sport: str, date: str) -> str:
+    """~350 mots d'analyse avant-match via DeepSeek (anti thin-content).
+    Retourne '' si aucune cle LLM n'est configuree."""
+    if not LLM_KEY:
+        return ""
+    prompt = (
+        f"Tu es journaliste sportif francais. Redige 300 a 400 mots en Markdown "
+        f"(sous-titres ## et ###, gras) d'analyse avant-match pour : « {title} » "
+        f"({competition}, {sport}, le {date}). Couvre : l'enjeu de la rencontre "
+        f"(classement, qualification, dynamique), les forces en presence (joueurs "
+        f"cles, absents, etat de forme), l'historique recent, et les conditions "
+        f"(lieu, meteo, ambiance). Pas de cotes de paris, pas de lien, pas de "
+        f"conclusion commerciale. Texte factuel et neutre."
+    )
+    try:
+        r = requests.post(
+            LLM_URL,
+            headers={"Authorization": f"Bearer {LLM_KEY}", "Content-Type": "application/json"},
+            json={
+                "model": LLM_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.7,
+                "max_tokens": 900,
+            },
+            timeout=60,
+        )
+        r.raise_for_status()
+        text = r.json()["choices"][0]["message"]["content"].strip()
+        return text if len(text) > 200 else ""
+    except Exception as e:
+        print(f"    ! LLM ({title[:40]}): {e}")
+        return ""
 
 
 def update_statuses() -> None:

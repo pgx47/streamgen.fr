@@ -22,7 +22,7 @@ const matches = defineCollection({
     title: z.string(),
     seoTitle: z.string().optional(),
     description: z.string(),
-    sport: z.enum(['football', 'formule-1', 'ufc', 'motogp']),
+    sport: z.enum(['football', 'formule-1', 'ufc', 'motogp', 'tennis', 'rugby']),
     competition: z.string(),
     homeTeam: z.string().optional(),
     awayTeam: z.string().optional(),

@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EventCard from './EventCard.astro';
+import BroadcasterTable from './BroadcasterTable.astro';
+import VpnTutorial from './VpnTutorial.astro';
+import StickyVpnBar from './StickyVpnBar.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '../site.config';
+import broadcasters from '../data/broadcasters.json';
+
+interface Props {
+  title: string;         // H1 + title tag
+  intro: string;         // meta description + paragraphe d'intro
+  sport?: string;        // filtre par sport
+  competitionKey?: string; // filtre par clé broadcasters.json (ex: ligue-des-champions)
+  body: string[];        // paragraphes éditoriaux evergreen
+}
+const { title, intro, sport, competitionKey, body } = Astro.props;
+
+let events = (await getCollection('matches'))
+  .filter((m) => (!sport || m.data.sport === sport))
+  .sort((a, b) => a.data.eventDate.getTime() - b.data.eventDate.getTime());
+if (competitionKey) {
+  const label = (broadcasters as any)[competitionKey]?.label;
+  if (label) events = events.filter((m) => m.data.competition.toLowerCase().includes(label.toLowerCase()) || m.data.competition === label);
+}
+const upcoming = events.filter((e) => e.data.status !== 'finished');
+const next = upcoming[0];
+const matrix = competitionKey ? (broadcasters as any)[competitionKey] : null;
+const free = matrix?.free ?? next?.data.freeBroadcasters ?? [];
+const paid = matrix?.paid ?? next?.data.paidBroadcasters ?? [];
+const topFree = free[0];
+---
+<BaseLayout title={title} description={intro}>
+  <section class="py-8">
+    <h1 class="text-3xl font-black text-white sm:text-4xl">{title}</h1>
+    <p class="mt-3 max-w-3xl text-slate-400">{intro}</p>
+
+    {next && (
+      <a href={`/${next.data.sport}/${next.id}/`}
+         class="mt-8 block rounded-2xl border border-cyan-500/30 bg-gradient-to-b from-slate-900 to-slate-950 p-6 transition hover:border-cyan-400/60">
+        <p class="text-xs font-bold uppercase tracking-widest text-cyan-400">🔥 Prochain événement</p>
+        <h2 class="mt-2 text-2xl font-black text-white">{next.data.title}</h2>
+        <p class="mt-1 text-sm text-slate-400">
+          {next.data.competition} — {next.data.eventDate.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' })} à {next.data.eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+        </p>
+        <span class="mt-4 inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-2 text-sm font-black text-white">
+          Comment regarder le direct →
+        </span>
+      </a>
+    )}
+
+    {free.length > 0 && (
+      <div class="mt-8">
+        <BroadcasterTable free={free} paid={paid} />
+      </div>
+    )}
+
+    <div class="mt-8">
+      <VpnTutorial country={next?.data.vpnServer ?? 'Belgique'} channelName={topFree?.name ?? 'RTBF Auvio'} channelUrl={topFree?.url ?? 'https://auvio.rtbf.be/'} />
+    </div>
+
+    {upcoming.length > 1 && (
+      <div class="mt-10">
+        <h2 class="text-xl font-black text-white">📅 Prochaines diffusions</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {upcoming.slice(1, 7).map((e) => <EventCard entry={e} />)}
+        </div>
+      </div>
+    )}
+
+    <div class="prose-sport mt-10 max-w-3xl">
+      {body.map((p) => <p set:html={p} />)}
+    </div>
+
+    <p class="mt-10 rounded-xl border border-slate-800 bg-slate-900/50 p-4 text-xs leading-relaxed text-slate-500">
+      {SITE.disclaimer}
+    </p>
+  </section>
+  <StickyVpnBar />
+</BaseLayout>

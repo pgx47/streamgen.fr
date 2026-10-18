@@ -2,55 +2,341 @@
   "ligue-des-champions": {
     "label": "Ligue des Champions",
     "free": [
-      { "name": "RTL Play / Club RTL", "country": "Belgique", "lang": "FR", "url": "https://www.rtlplay.be/", "note": "1 match en clair par semaine" },
-      { "name": "ServusTV", "country": "Autriche", "lang": "DE", "url": "https://www.servustv.com/", "note": "Matchs en clair sélectionnés" },
-      { "name": "RTBF Auvio", "country": "Belgique", "lang": "FR", "url": "https://auvio.rtbf.be/", "note": "Finales et affiches belges" }
+      {
+        "name": "RTL Play / Club RTL",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://www.rtlplay.be/",
+        "note": "1 match en clair par semaine"
+      },
+      {
+        "name": "ServusTV",
+        "country": "Autriche",
+        "lang": "DE",
+        "url": "https://www.servustv.com/",
+        "note": "Matchs en clair sélectionnés"
+      },
+      {
+        "name": "RTBF Auvio",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://auvio.rtbf.be/",
+        "note": "Finales et affiches belges"
+      }
     ],
     "paid": [
-      { "name": "Canal+", "price": "~30 €/mois", "note": "Intégralité LDC en France" },
-      { "name": "beIN Sports", "price": "~15 €/mois", "note": "Matches européens" }
+      {
+        "name": "Canal+",
+        "price": "~30 €/mois",
+        "note": "Intégralité LDC en France"
+      },
+      {
+        "name": "beIN Sports",
+        "price": "~15 €/mois",
+        "note": "Matches européens"
+      }
     ]
   },
   "ligue-1": {
     "label": "Ligue 1",
     "free": [
-      { "name": "DAZN Belgique (extraits en clair)", "country": "Belgique", "lang": "FR", "url": "https://www.dazn.com/", "note": "Matches sélectionnés" }
+      {
+        "name": "DAZN Belgique (extraits en clair)",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://www.dazn.com/",
+        "note": "Matches sélectionnés"
+      }
     ],
     "paid": [
-      { "name": "Ligue 1+", "price": "~15 €/mois", "note": "Plateforme officielle LFP" },
-      { "name": "beIN Sports", "price": "~15 €/mois" }
+      {
+        "name": "Ligue 1+",
+        "price": "~15 €/mois",
+        "note": "Plateforme officielle LFP"
+      },
+      {
+        "name": "beIN Sports",
+        "price": "~15 €/mois"
+      }
     ]
   },
   "formule-1": {
     "label": "Formule 1",
     "free": [
-      { "name": "RTBF Auvio", "country": "Belgique", "lang": "FR", "url": "https://auvio.rtbf.be/", "note": "Tous les GP en clair, commentaires FR" },
-      { "name": "RTS", "country": "Suisse", "lang": "FR", "url": "https://www.rts.ch/", "note": "Tous les GP en clair" },
-      { "name": "ServusTV / ORF", "country": "Autriche", "lang": "DE", "url": "https://www.servustv.com/", "note": "Moitié de la saison en clair" }
+      {
+        "name": "RTBF Auvio",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://auvio.rtbf.be/",
+        "note": "Tous les GP en clair, commentaires FR"
+      },
+      {
+        "name": "RTS",
+        "country": "Suisse",
+        "lang": "FR",
+        "url": "https://www.rts.ch/",
+        "note": "Tous les GP en clair"
+      },
+      {
+        "name": "ServusTV / ORF",
+        "country": "Autriche",
+        "lang": "DE",
+        "url": "https://www.servustv.com/",
+        "note": "Moitié de la saison en clair"
+      }
     ],
     "paid": [
-      { "name": "Canal+", "price": "~30 €/mois", "note": "Diffuseur exclusif France" },
-      { "name": "F1 TV Pro", "price": "~8 €/mois", "note": "Non disponible en France" }
+      {
+        "name": "Canal+",
+        "price": "~30 €/mois",
+        "note": "Diffuseur exclusif France"
+      },
+      {
+        "name": "F1 TV Pro",
+        "price": "~8 €/mois",
+        "note": "Non disponible en France"
+      }
     ]
   },
   "motogp": {
     "label": "MotoGP",
     "free": [
-      { "name": "RTBF Auvio", "country": "Belgique", "lang": "FR", "url": "https://auvio.rtbf.be/", "note": "GP en clair" },
-      { "name": "ServusTV", "country": "Autriche", "lang": "DE", "url": "https://www.servustv.com/" }
+      {
+        "name": "RTBF Auvio",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://auvio.rtbf.be/",
+        "note": "GP en clair"
+      },
+      {
+        "name": "ServusTV",
+        "country": "Autriche",
+        "lang": "DE",
+        "url": "https://www.servustv.com/"
+      }
     ],
     "paid": [
-      { "name": "Canal+", "price": "~30 €/mois", "note": "Diffuseur exclusif France" }
+      {
+        "name": "Canal+",
+        "price": "~30 €/mois",
+        "note": "Diffuseur exclusif France"
+      }
     ]
   },
   "ufc": {
     "label": "UFC / MMA",
     "free": [
-      { "name": "Kanal 5 / TV3 (Viaplay en clair)", "country": "Scandinavie", "lang": "SV", "url": "https://www.tv3play.se/", "note": "Certaines cartes en clair" },
-      { "name": "RTL Play", "country": "Belgique", "lang": "FR", "url": "https://www.rtlplay.be/", "note": "Événements sélectionnés" }
+      {
+        "name": "Kanal 5 / TV3 (Viaplay en clair)",
+        "country": "Scandinavie",
+        "lang": "SV",
+        "url": "https://www.tv3play.se/",
+        "note": "Certaines cartes en clair"
+      },
+      {
+        "name": "RTL Play",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://www.rtlplay.be/",
+        "note": "Événements sélectionnés"
+      }
     ],
     "paid": [
-      { "name": "RMC Sport", "price": "~20 €/mois", "note": "Diffuseur officiel France" }
+      {
+        "name": "RMC Sport",
+        "price": "~20 €/mois",
+        "note": "Diffuseur officiel France"
+      }
+    ]
+  },
+  "europa-league": {
+    "label": "Ligue Europa",
+    "free": [
+      {
+        "name": "W9",
+        "country": "France",
+        "lang": "FR",
+        "url": "https://www.6play.fr/",
+        "note": "1 affiche en clair par semaine"
+      },
+      {
+        "name": "ServusTV",
+        "country": "Autriche",
+        "lang": "DE",
+        "url": "https://www.servustv.com/",
+        "note": "Matchs en clair"
+      },
+      {
+        "name": "RTS",
+        "country": "Suisse",
+        "lang": "FR",
+        "url": "https://www.rts.ch/",
+        "note": "Affiches sélectionnées"
+      }
+    ],
+    "paid": [
+      {
+        "name": "Canal+",
+        "price": "~30 €/mois",
+        "note": "Diffuseur principal France"
+      },
+      {
+        "name": "beIN Sports",
+        "price": "~15 €/mois"
+      }
+    ]
+  },
+  "conference-league": {
+    "label": "Ligue Europa Conférence",
+    "free": [
+      {
+        "name": "ServusTV",
+        "country": "Autriche",
+        "lang": "DE",
+        "url": "https://www.servustv.com/"
+      },
+      {
+        "name": "W9",
+        "country": "France",
+        "lang": "FR",
+        "url": "https://www.6play.fr/",
+        "note": "Affiches en clair"
+      }
+    ],
+    "paid": [
+      {
+        "name": "Canal+",
+        "price": "~30 €/mois"
+      },
+      {
+        "name": "beIN Sports",
+        "price": "~15 €/mois"
+      }
+    ]
+  },
+  "roland-garros": {
+    "label": "Roland-Garros",
+    "free": [
+      {
+        "name": "France TV",
+        "country": "France",
+        "lang": "FR",
+        "url": "https://www.france.tv/",
+        "note": "Gratuit, inscription requise"
+      },
+      {
+        "name": "RTBF Auvio",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://auvio.rtbf.be/",
+        "note": "Matchs en clair"
+      },
+      {
+        "name": "RTS Play",
+        "country": "Suisse",
+        "lang": "FR",
+        "url": "https://www.rts.ch/play",
+        "note": "Matchs en clair"
+      }
+    ],
+    "paid": [
+      {
+        "name": "Prime Video",
+        "price": "~7 €/mois",
+        "note": "Sessions de nuit"
+      }
+    ]
+  },
+  "wimbledon": {
+    "label": "Wimbledon",
+    "free": [
+      {
+        "name": "BBC iPlayer",
+        "country": "Royaume-Uni",
+        "lang": "EN",
+        "url": "https://www.bbc.co.uk/iplayer",
+        "note": "Intégralité en clair"
+      },
+      {
+        "name": "ServusTV",
+        "country": "Autriche",
+        "lang": "DE",
+        "url": "https://www.servustv.com/"
+      }
+    ],
+    "paid": [
+      {
+        "name": "beIN Sports",
+        "price": "~15 €/mois",
+        "note": "Diffuseur France"
+      }
+    ]
+  },
+  "australian-open": {
+    "label": "Open d'Australie",
+    "free": [
+      {
+        "name": "ServusTV",
+        "country": "Autriche",
+        "lang": "DE",
+        "url": "https://www.servustv.com/",
+        "note": "Intégralité en clair"
+      }
+    ],
+    "paid": [
+      {
+        "name": "Eurosport / Max",
+        "price": "~10 €/mois",
+        "note": "Diffuseur France"
+      }
+    ]
+  },
+  "six-nations": {
+    "label": "Tournoi des 6 Nations",
+    "free": [
+      {
+        "name": "France 2",
+        "country": "France",
+        "lang": "FR",
+        "url": "https://www.france.tv/",
+        "note": "Matchs de la France en clair"
+      },
+      {
+        "name": "BBC iPlayer / ITV",
+        "country": "Royaume-Uni",
+        "lang": "EN",
+        "url": "https://www.bbc.co.uk/iplayer",
+        "note": "Tous les matchs en clair"
+      }
+    ],
+    "paid": []
+  },
+  "champions-cup": {
+    "label": "Champions Cup (rugby)",
+    "free": [
+      {
+        "name": "France TV",
+        "country": "France",
+        "lang": "FR",
+        "url": "https://www.france.tv/",
+        "note": "Matchs sélectionnés"
+      },
+      {
+        "name": "RTBF Auvio",
+        "country": "Belgique",
+        "lang": "FR",
+        "url": "https://auvio.rtbf.be/"
+      }
+    ],
+    "paid": [
+      {
+        "name": "beIN Sports",
+        "price": "~15 €/mois"
+      },
+      {
+        "name": "Canal+",
+        "price": "~30 €/mois"
+      }
     ]
   }
 }

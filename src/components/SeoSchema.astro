@@ -11,6 +11,7 @@ interface Props {
     awayTeam?: string;
     venue?: string;
     eventDate: Date;
+    status?: 'upcoming' | 'live' | 'finished';
     url: string;
     faq?: { q: string; a: string }[];
   };
@@ -25,12 +26,20 @@ const competitors =
       ]
     : [];
 
+const eventStatus = {
+  upcoming: 'https://schema.org/EventScheduled',
+  live: 'https://schema.org/EventScheduled',
+  finished: 'https://schema.org/EventScheduled',
+}[event.status ?? 'upcoming'];
+
 const sportsEvent = {
   '@context': 'https://schema.org',
   '@type': 'SportsEvent',
   name: event.title,
   description: event.description,
   startDate: event.eventDate.toISOString(),
+  eventStatus,
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
   sport: event.sport,
   ...(competitors.length ? { competitor: competitors } : {}),
   ...(event.venue ? { location: { '@type': 'Place', name: event.venue } } : {}),
