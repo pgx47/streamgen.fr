@@ -1,0 +1,83 @@
+---
+interface Props {
+  title: string;
+  competition: string;
+  sport: string;
+  homeTeam?: string;
+  awayTeam?: string;
+  eventDate: Date;
+  status: 'upcoming' | 'live' | 'finished';
+  score?: string;
+  venue?: string;
+}
+const { title, competition, sport, homeTeam, awayTeam, eventDate, status, score, venue } = Astro.props;
+const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️' };
+const statusBadge = {
+  upcoming: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
+  live: 'bg-rose-500/15 text-rose-300 border-rose-500/30 animate-pulse',
+  finished: 'bg-slate-700/40 text-slate-300 border-slate-600',
+};
+const statusLabel = { upcoming: 'À venir', live: 'EN DIRECT', finished: 'Terminé' };
+---
+<div class="rounded-2xl border border-slate-800 bg-slate-900/90 p-6 sm:p-8 shadow-2xl shadow-black/40">
+  <div class="flex flex-wrap items-center gap-3 mb-5">
+    <span class="text-2xl">{icons[sport] ?? '🏆'}</span>
+    <span class="text-sm font-semibold uppercase tracking-wider text-slate-400">{competition}</span>
+    <span class={`ml-auto rounded-full border px-3 py-1 text-xs font-bold uppercase ${statusBadge[status]}`}>{statusLabel[status]}</span>
+  </div>
+
+  {homeTeam && awayTeam ? (
+    <div class="flex items-center justify-between gap-4 text-center">
+      <div class="flex-1">
+        <div class="mx-auto mb-2 flex h-14 w-14 items-center justify-center rounded-full bg-slate-800 text-2xl font-black text-white">{homeTeam.slice(0, 2).toUpperCase()}</div>
+        <p class="font-bold text-white">{homeTeam}</p>
+      </div>
+      <div class="px-4">
+        {status === 'finished' && score
+          ? <p class="text-4xl font-black text-white">{score}</p>
+          : <p class="text-3xl font-black text-slate-500">VS</p>}
+      </div>
+      <div class="flex-1">
+        <div class="mx-auto mb-2 flex h-14 w-14 items-center justify-center rounded-full bg-slate-800 text-2xl font-black text-white">{awayTeam.slice(0, 2).toUpperCase()}</div>
+        <p class="font-bold text-white">{awayTeam}</p>
+      </div>
+    </div>
+  ) : (
+    <h1 class="text-2xl sm:text-3xl font-black text-white">{title}</h1>
+  )}
+
+  <div class="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-400">
+    <span>📅 {eventDate.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}</span>
+    <span>🕒 {eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
+    {venue && <span>📍 {venue}</span>}
+  </div>
+
+  {status === 'upcoming' && (
+    <div id="countdown" data-date={eventDate.toISOString()} class="mt-5 grid grid-cols-4 gap-2 text-center">
+      {['Jours', 'Heures', 'Min', 'Sec'].map((l) => (
+        <div class="rounded-lg bg-slate-800/80 py-3">
+          <div class="cd-val text-2xl font-black text-cyan-400">--</div>
+          <div class="text-[10px] uppercase tracking-wider text-slate-500">{l}</div>
+        </div>
+      ))}
+    </div>
+  )}
+</div>
+
+<script>
+  const el = document.getElementById('countdown');
+  if (el) {
+    const target = new Date(el.dataset.date ?? '').getTime();
+    const vals = el.querySelectorAll('.cd-val');
+    const tick = () => {
+      let d = Math.max(0, target - Date.now());
+      const days = Math.floor(d / 86400000); d -= days * 86400000;
+      const h = Math.floor(d / 3600000); d -= h * 3600000;
+      const m = Math.floor(d / 60000); d -= m * 60000;
+      const s = Math.floor(d / 1000);
+      [days, h, m, s].forEach((v, i) => { vals[i].textContent = String(v).padStart(2, '0'); });
+    };
+    tick();
+    setInterval(tick, 1000);
+  }
+</script>

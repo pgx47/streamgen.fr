@@ -1,0 +1,46 @@
+---
+interface FreeB { name: string; country: string; lang: string; url: string; note?: string }
+interface PaidB { name: string; price: string; url?: string; note?: string }
+interface Props { free: FreeB[]; paid: PaidB[] }
+const { free, paid } = Astro.props;
+---
+<div class="overflow-hidden rounded-2xl border border-slate-800">
+  <div class="bg-slate-900 px-5 py-4 border-b border-slate-800">
+    <h2 class="text-lg font-black text-white">📺 Où regarder le direct ?</h2>
+    <p class="text-xs text-slate-400">Comparatif des diffuseurs officiels détenteurs de droits</p>
+  </div>
+  <div class="divide-y divide-slate-800 bg-slate-900/60">
+    {paid.map((b) => (
+      <div class="flex items-center gap-4 px-5 py-4">
+        <span class="rounded-md border border-rose-400/30 bg-rose-950/60 px-2 py-1 text-[11px] font-bold uppercase text-rose-300 whitespace-nowrap">Payant</span>
+        <div class="min-w-0 flex-1">
+          <p class="font-semibold text-slate-200">{b.name} <span class="text-slate-500 font-normal">· France</span></p>
+          {b.note && <p class="text-xs text-slate-500">{b.note}</p>}
+        </div>
+        <span class="text-sm font-bold text-rose-300 whitespace-nowrap">{b.price}</span>
+      </div>
+    ))}
+    {free.map((b, i) => (
+      <div class="flex items-center gap-4 px-5 py-4 bg-emerald-950/20">
+        <span class="rounded-md border border-emerald-400/30 bg-emerald-950 px-2 py-1 text-[11px] font-bold uppercase text-emerald-300 whitespace-nowrap">
+          {i === 0 ? '★ En clair' : 'Gratuit'}
+        </span>
+        <div class="min-w-0 flex-1">
+          <p class="font-semibold text-white">
+            {b.name}
+            <span class="text-emerald-400/80 font-normal">· {b.country} · {b.lang}</span>
+            {i === 0 && <span class="ml-2 rounded bg-emerald-400 px-1.5 py-0.5 text-[10px] font-black uppercase text-emerald-950">Recommandé</span>}
+          </p>
+          <p class="text-xs text-slate-400">{b.note ?? 'Chaîne publique officielle — 100 % gratuite'}</p>
+        </div>
+        <a href={b.url} rel="nofollow sponsored noopener" target="_blank"
+           class="rounded-lg border border-emerald-500/40 px-3 py-1.5 text-xs font-bold text-emerald-300 hover:bg-emerald-500/10 whitespace-nowrap">
+          Voir le direct →
+        </a>
+      </div>
+    ))}
+  </div>
+  <div class="bg-slate-900 px-5 py-3 border-t border-slate-800">
+    <p class="text-xs text-slate-500">🌍 Chaînes étrangères accessibles depuis la France via VPN — explications ci-dessous.</p>
+  </div>
+</div>

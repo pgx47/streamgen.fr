@@ -1,0 +1,32 @@
+name: Update fixtures
+
+on:
+  schedule:
+    - cron: '0 5 * * 2' # mardi 05h UTC
+  workflow_dispatch:
+
+jobs:
+  fixtures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r scripts/requirements.txt
+      - name: Fetch upcoming fixtures
+        run: python scripts/fetch_fixtures.py
+      - name: Update statuses
+        run: python scripts/fetch_fixtures.py --update-status
+      - name: Commit changes
+        run: |
+          git config user.name "streamgen-bot"
+          git config user.email "bot@streamgen.fr"
+          git add src/content/matches/
+          git diff --cached --quiet || git commit -m "chore: update fixtures [bot]"
+          git push
+  deploy:
+    needs: fixtures
+    if: always()
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

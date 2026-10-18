@@ -1,0 +1,65 @@
+---
+import deals from '../data/vpn_deals.json';
+import { SITE } from '../site.config';
+
+interface Props {
+  country?: string;
+  channelName?: string;
+  channelUrl?: string;
+}
+const { country = 'Belgique', channelName = 'RTBF Auvio', channelUrl = 'https://auvio.rtbf.be/' } = Astro.props;
+const best = deals.find((d) => d.recommended) ?? deals[0];
+const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? best.url;
+
+const steps = [
+  {
+    title: 'Installez le VPN',
+    text: `Profitez de l'offre ${best.name} ${best.discount} (${best.price}, ${best.guarantee}). Installation en 2 minutes sur PC, mobile ou TV.`,
+    cta: true,
+  },
+  {
+    title: `Connectez-vous à un serveur : ${country}`,
+    text: `Ouvrez l'appli et choisissez un serveur situé en ${country}. Votre connexion obtient une adresse IP locale.`,
+  },
+  {
+    title: `Lancez le direct sur ${channelName}`,
+    text: `Rendez-vous sur le site officiel de la chaîne : le flux en clair se lance gratuitement, en HD et en français.`,
+    link: channelUrl,
+  },
+];
+---
+<section class="rounded-2xl border border-cyan-500/20 bg-gradient-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
+  <div class="mb-6">
+    <h2 class="text-xl sm:text-2xl font-black text-white">🔓 Regarder gratuitement et légalement : le tutoriel en 3 étapes</h2>
+    <p class="mt-2 text-sm text-slate-400">
+      Ne payez pas 30–40 €/mois d'abonnement TV : les chaînes publiques étrangères diffusent le même événement
+      <strong class="text-emerald-400">en clair et gratuitement</strong>. Un VPN à {best.price} suffit pour y accéder.
+    </p>
+  </div>
+  <ol class="space-y-4">
+    {steps.map((s, i) => (
+      <li class="flex gap-4 rounded-xl border border-slate-800 bg-slate-900/80 p-4 sm:p-5">
+        <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-cyan-500 to-blue-600 text-base font-black text-white">{i + 1}</span>
+        <div class="flex-1">
+          <h3 class="font-bold text-white">{s.title}</h3>
+          <p class="mt-1 text-sm text-slate-400">{s.text}</p>
+          {s.cta && (
+            <a href={ctaUrl} rel="nofollow sponsored noopener" target="_blank"
+               class="mt-3 inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-5 py-2.5 text-sm font-black text-white shadow-lg shadow-cyan-500/25 transition hover:from-cyan-400 hover:to-blue-500">
+              Profiter de la promo {best.discount} {best.name} →
+            </a>
+          )}
+          {s.link && (
+            <a href={s.link} rel="nofollow sponsored noopener" target="_blank" class="mt-2 inline-block text-sm font-semibold text-cyan-400 underline underline-offset-2">
+              Ouvrir {channelName} ↗
+            </a>
+          )}
+        </div>
+      </li>
+    ))}
+  </ol>
+  <p class="mt-5 text-xs leading-relaxed text-slate-500">
+    ✅ Méthode 100 % légale : vous regardez le flux officiel de la chaîne, détentrice des droits dans son pays.
+    Le VPN ne fait que vous donner une adresse IP locale — la même qu'un habitant sur place.
+  </p>
+</section>

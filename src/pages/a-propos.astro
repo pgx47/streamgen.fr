@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../site.config';
+---
+<BaseLayout title="À propos de StreamGen" description="Qui sommes-nous ? Un comparateur indépendant des diffuseurs sportifs officiels.">
+  <article class="prose-sport max-w-3xl py-10">
+    <h1 class="text-3xl font-black text-white">À propos</h1>
+    <p>{SITE.name} est un comparateur d'information indépendant : nous répertorions, pour chaque événement sportif majeur, les chaînes officielles qui le diffusent — en France et à l'étranger.</p>
+    <p>Notre constat : beaucoup d'événements payants en France sont diffusés <strong>en clair</strong> par des chaînes publiques européennes (RTBF, RTS, ServusTV…). Nous expliquons comment y accéder légalement depuis la France.</p>
+    <h2>Neutralité & financement</h2>
+    <p>Le site est financé par des liens affiliés (notamment vers des fournisseurs VPN), sans surcoût pour vous. Cela ne change ni les chaînes listées ni l'ordre de présentation : l'option gratuite est toujours mise en avant.</p>
+    <h2>Ce que nous ne faisons pas</h2>
+    <p>{SITE.disclaimer}</p>
+  </article>
+</BaseLayout>

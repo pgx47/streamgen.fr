@@ -1,0 +1,20 @@
+---
+import deals from '../data/vpn_deals.json';
+const best = deals.find((d) => d.recommended) ?? deals[0];
+const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? best.url;
+---
+<div class="fixed inset-x-0 bottom-0 z-50 border-t border-slate-800 bg-slate-950/95 backdrop-blur">
+  <div class="mx-auto flex max-w-5xl items-center gap-3 px-4 py-2.5">
+    <p class="hidden text-sm text-slate-300 sm:block">
+      <span class="font-bold text-emerald-400">Gratuit en clair</span> avec {best.name}
+      <span class="font-bold text-cyan-400">{best.discount}</span> — {best.guarantee}
+    </p>
+    <p class="text-xs text-slate-300 sm:hidden"><span class="font-bold text-emerald-400">Direct gratuit</span> · {best.name} {best.discount}</p>
+    <a href={ctaUrl} rel="nofollow sponsored noopener" target="_blank"
+       class="ml-auto shrink-0 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-2 text-sm font-black text-white shadow-lg shadow-cyan-500/25 hover:from-cyan-400 hover:to-blue-500">
+      Voir l'offre →
+    </a>
+    <button onclick="this.parentElement.parentElement.remove()" aria-label="Fermer"
+            class="shrink-0 rounded p-1.5 text-slate-500 hover:bg-slate-800 hover:text-slate-300">✕</button>
+  </div>
+</div>
