@@ -1,6 +1,11 @@
 ---
 import '../styles/global.css';
 import { SITE, SPORTS } from '../site.config';
+import { getCollection } from 'astro:content';
+
+const liveSports = new Set(
+  (await getCollection('matches')).filter((m) => m.data.status === 'live').map((m) => m.data.sport)
+);
 
 interface Props {
   title: string;
@@ -41,19 +46,45 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
 </head>
 <body class="min-h-screen font-sans antialiased">
   <header class="sticky top-0 z-40 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
-    <div class="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
+    <div class="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
       <a href="/" class="flex items-center">
-        <img src="/logo.png" alt="StreamGen" class="h-12 w-auto" width="600" height="143" />
+        <img src="/logo.png" alt="StreamGen" class="h-11 w-auto" width="600" height="143" />
       </a>
-      <nav class="ml-auto flex items-center gap-1 text-sm font-semibold">
+      <nav class="ml-auto flex items-center gap-0.5 text-sm font-semibold">
         {SPORTS.map((s) => (
-          <a href={`/${s.slug}/`} class="hidden rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white md:inline-block">{s.label}</a>
+          <a href={`/${s.slug}/`} class="hidden items-center gap-1.5 rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-flex">
+            {s.label}
+            {liveSports.has(s.slug) && <span class="h-2 w-2 animate-pulse rounded-full bg-rose-500" title="En direct" />}
+          </a>
         ))}
-        <a href="/astuces/" class="rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white">Astuces</a>
+        <a href="/astuces/" class="hidden rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-block">Astuces</a>
+        <a href="/programme-tv-sport/" class="hidden rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white 2xl:inline-block">Programme TV</a>
         <a href="/tutoriel-vpn/" class="rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-3 py-2 font-bold text-white hover:from-cyan-400 hover:to-blue-500">Tuto VPN</a>
+        <button id="nav-toggle" aria-label="Menu" class="rounded-lg p-2 text-slate-300 hover:bg-slate-800 xl:hidden">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
       </nav>
     </div>
+    <div id="nav-menu" class="hidden border-t border-slate-800 px-4 pb-4 xl:hidden">
+      <div class="grid grid-cols-2 gap-1 pt-3 text-sm font-semibold">
+        {SPORTS.map((s) => (
+          <a href={`/${s.slug}/`} class="flex items-center gap-1.5 rounded-lg px-3 py-2.5 text-slate-300 hover:bg-slate-800">
+            {s.label}
+            {liveSports.has(s.slug) && <span class="h-2 w-2 animate-pulse rounded-full bg-rose-500" />}
+          </a>
+        ))}
+        <a href="/astuces/" class="rounded-lg px-3 py-2.5 text-slate-300 hover:bg-slate-800">Astuces</a>
+        <a href="/programme-tv-sport/" class="rounded-lg px-3 py-2.5 text-slate-300 hover:bg-slate-800">Programme TV</a>
+        <a href="/streaming-legal/" class="rounded-lg px-3 py-2.5 text-slate-300 hover:bg-slate-800">Streaming légal</a>
+        <a href="/a-propos/" class="rounded-lg px-3 py-2.5 text-slate-300 hover:bg-slate-800">À propos</a>
+      </div>
+    </div>
   </header>
+  <script>
+    document.getElementById('nav-toggle')?.addEventListener('click', () => {
+      document.getElementById('nav-menu')?.classList.toggle('hidden');
+    });
+  </script>
 
   <main class="mx-auto max-w-6xl px-4 pb-28">
     <slot />
