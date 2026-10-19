@@ -54,17 +54,30 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
       <a href="/" class="flex items-center">
         <img src="/logo.png" alt="StreamGen" class="h-11 w-auto" width="600" height="143" />
       </a>
-      <nav class="ml-auto flex items-center gap-0.5 text-sm font-semibold">
-        {SPORTS.map((s) => (
-          <a href={`/${s.slug}/`} class="hidden items-center gap-1.5 rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-flex">
+      <nav class="ml-auto flex items-center gap-0.5 whitespace-nowrap text-xs font-semibold">
+        {SPORTS.filter((s) => ['football','formule-1','ufc','motogp'].includes(s.slug)).map((s) => (
+          <a href={`/${s.slug}/`} class="hidden items-center gap-1.5 whitespace-nowrap rounded-lg px-2.5 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-flex">
             {s.label}
             {liveSports.has(s.slug) && <span class="h-2 w-2 animate-pulse rounded-full bg-rose-500" title="En direct" />}
           </a>
         ))}
-        <a href="/astuces/" class="hidden rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-block">Astuces</a>
-        <a href="/programme-tv-sport/" class="hidden rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white 2xl:inline-block">Programme TV</a>
+        <div class="group relative hidden xl:block">
+          <button class="flex items-center gap-1 whitespace-nowrap rounded-lg px-2.5 py-2 text-slate-300 hover:bg-slate-800 hover:text-white">
+            Sports ▾
+          </button>
+          <div class="invisible absolute right-0 top-full z-50 mt-1 w-44 rounded-xl border border-slate-800 bg-slate-900 py-2 opacity-0 shadow-2xl transition group-hover:visible group-hover:opacity-100">
+            {SPORTS.filter((s) => !['football','formule-1','ufc','motogp'].includes(s.slug)).map((s) => (
+              <a href={`/${s.slug}/`} class="flex items-center gap-2 whitespace-nowrap px-4 py-2 text-slate-300 hover:bg-slate-800 hover:text-white">
+                <span>{s.icon}</span>{s.label}
+                {liveSports.has(s.slug) && <span class="ml-auto h-1.5 w-1.5 animate-pulse rounded-full bg-rose-500" />}
+              </a>
+            ))}
+          </div>
+        </div>
+        <a href="/programme-tv-sport/" class="hidden whitespace-nowrap rounded-lg px-2.5 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-block">Programme TV</a>
+        <a href="/astuces/" class="hidden whitespace-nowrap rounded-lg px-2.5 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-block">Astuces</a>
         <SearchBox />
-        <a href="/tutoriel-vpn/" class="rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-3 py-2 font-bold text-white hover:from-cyan-400 hover:to-blue-500">Tuto VPN</a>
+        <a href="/tutoriel-vpn/" class="whitespace-nowrap rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-3 py-2 font-bold text-white hover:from-cyan-400 hover:to-blue-500">Tuto VPN</a>
         <button id="nav-toggle" aria-label="Menu" class="rounded-lg p-2 text-slate-300 hover:bg-slate-800 xl:hidden">
           <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
         </button>
