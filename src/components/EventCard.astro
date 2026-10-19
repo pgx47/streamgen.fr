@@ -23,7 +23,7 @@ const lblA = isFight ? (d.fighter2?.name || d.awayTeam) : d.awayTeam;
     <span>{icons[d.sport]}</span>
     <span class="font-semibold uppercase tracking-wide">{d.competition}</span>
     <span class={`ml-auto rounded-full border px-2 py-0.5 text-[10px] font-bold uppercase ${badge}`}>
-      {d.status === 'live' ? 'Direct' : d.status === 'finished' ? 'Terminé' : 'À venir'}
+      {d.status === 'live' ? 'Direct' : d.status === 'finished' ? (d.score ? `✓ ${d.score}` : 'Terminé') : 'À venir'}
     </span>
   </div>
 
@@ -57,7 +57,7 @@ const lblA = isFight ? (d.fighter2?.name || d.awayTeam) : d.awayTeam;
           class="h-4 w-4 rounded-sm bg-white/90" loading="lazy"
         />
       ))}
-      <span class="font-bold text-emerald-400">en clair</span>
+      <span class="font-bold text-emerald-400">{d.status === 'finished' ? 'replay' : 'en clair'}</span>
     </span>
   </div>
 </a>

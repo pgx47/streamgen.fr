@@ -1,5 +1,5 @@
 ---
-interface Fight { fight: string; category?: string; isMainCard: boolean }
+interface Fight { fight: string; category?: string; isMainCard: boolean; f1Flag?: string; f2Flag?: string; f1Photo?: string; f2Photo?: string }
 interface Props { fights: Fight[] }
 const { fights } = Astro.props;
 const main = fights.filter((f) => f.isMainCard);
@@ -23,8 +23,12 @@ const split = (f: string) => {
               {i === 0 && <span class="shrink-0 rounded bg-amber-400 px-1.5 py-0.5 text-[10px] font-black uppercase text-amber-950">Main</span>}
               {i === 1 && <span class="shrink-0 rounded bg-slate-700 px-1.5 py-0.5 text-[10px] font-black uppercase text-slate-300">Co-Main</span>}
               <span class="flex-1 text-sm">
+                {f.f1Photo && <img src={f.f1Photo} alt="" class="mr-1.5 inline-block h-6 w-6 rounded-full object-cover" loading="lazy" />}
+                {f.f1Flag && <span class="mr-1">{f.f1Flag}</span>}
                 <span class="font-bold text-white">{s.a}</span>
                 <span class="mx-2 text-xs text-slate-500">vs</span>
+                {f.f2Photo && <img src={f.f2Photo} alt="" class="mr-1.5 inline-block h-6 w-6 rounded-full object-cover" loading="lazy" />}
+                {f.f2Flag && <span class="mr-1">{f.f2Flag}</span>}
                 <span class="font-bold text-white">{s.b}</span>
               </span>
               {f.category && <span class="shrink-0 text-xs text-slate-500">{f.category}</span>}

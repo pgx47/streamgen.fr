@@ -211,6 +211,9 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
             if f.get("photo"): lines.append(f'  photo: {yaml_str(f["photo"])}')
     if venue:
         lines.append(f"venue: {yaml_str(venue)}")
+    s_h, s_a = ev.get("_score_home") or ev.get("intHomeScore"), ev.get("_score_away") or ev.get("intAwayScore")
+    if s_h is not None and s_a is not None and s_h != "" and s_a != "":
+        lines.append(f'score: "{s_h} - {s_a}"')
     if weight_class:
         lines.append(f"weightClass: {yaml_str(weight_class)}")
     lines.append(f"titleFight: {'true' if title_fight else 'false'}")
@@ -552,14 +555,16 @@ def update_statuses() -> None:
                 title_m = re.search(r'^title:\s*"(.+)"', txt, re.M)
                 if title_m:
                     ev_title = title_m.group(1)
+                    sc_m = re.search(r'^score:\s*"(.+)"', txt, re.M)
+                    sc = f"Resultat final {sc_m.group(1)}. " if sc_m else ""
                     txt = re.sub(
                         r"^description:.*$",
-                        f'description: "{ev_title} : comment regarder le replay integral gratuitement et legalement sur les chaines publiques etrangeres."',
+                        f'description: "{sc}{ev_title} : resultat, score et comment voir le replay integral gratuit sur les chaines publiques en clair."',
                         txt, count=1, flags=re.M)
                     if "seoTitle:" not in txt:
                         txt = txt.replace(
                             title_m.group(0),
-                            f'{title_m.group(0)}\nseoTitle: "{ev_title} : le replay integral en streaming gratuit"',
+                            f'{title_m.group(0)}\nseoTitle: "{ev_title} : resultat, score et replay integral gratuit"',
                             1)
             f.write_text(txt)
             print(f"  ~ {f.name} -> {new}")

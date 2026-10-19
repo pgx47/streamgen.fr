@@ -35,7 +35,7 @@ const matches = defineCollection({
     fighter2: z.object({ name: z.string(), country: z.string().default(''), flag: z.string().default(''), record: z.string().optional(), nickname: z.string().optional(), ranking: z.string().optional(), photo: z.string().url().optional() }).optional(),
     weightClass: z.string().optional(),
     titleFight: z.boolean().default(false),
-    fightCard: z.array(z.object({ fight: z.string(), category: z.string().default(''), isMainCard: z.boolean().default(true) })).default([]),
+    fightCard: z.array(z.object({ fight: z.string(), category: z.string().default(''), isMainCard: z.boolean().default(true), f1Flag: z.string().default(''), f2Flag: z.string().default(''), f1Photo: z.string().url().optional(), f2Photo: z.string().url().optional() })).default([]),
     homeLineup: z.object({ formation: z.string().optional(), starters: z.array(z.string()).default([]), subs: z.array(z.string()).default([]) }).optional(),
     awayLineup: z.object({ formation: z.string().optional(), starters: z.array(z.string()).default([]), subs: z.array(z.string()).default([]) }).optional(),
     eventDate: z.coerce.date(),

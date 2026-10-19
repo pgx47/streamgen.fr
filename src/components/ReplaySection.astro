@@ -1,0 +1,43 @@
+---
+interface B { name: string; country: string; url: string; lang: string; note?: string }
+interface Props { free: B[]; paid: { name: string; price: string }[]; score?: string; vpnServer: string }
+const { free, paid, score, vpnServer } = Astro.props;
+const top = free[0];
+const cta = '/go/vpn';
+---
+<section class="mb-8 rounded-2xl border border-emerald-500/30 bg-emerald-950/20 p-6">
+  <div class="flex items-center gap-3">
+    <span class="rounded-full border border-slate-500 bg-slate-800 px-3 py-1 text-xs font-black uppercase text-slate-300">Terminé</span>
+    <h2 class="text-xl font-black text-white">Replay intégral & résumé officiel en clair</h2>
+    {score && <span class="ml-auto text-2xl font-black text-emerald-300">{score}</span>}
+  </div>
+  <div class="mt-5 space-y-2">
+    {free.map((b, i) => (
+      <div class="flex items-center gap-4 rounded-lg border border-emerald-500/20 bg-emerald-950/30 px-4 py-3">
+        <span class="text-sm font-semibold text-white">Replay officiel — {b.name} ({b.country})</span>
+        <span class="ml-auto rounded bg-emerald-400 px-2 py-0.5 text-[10px] font-black uppercase text-emerald-950">
+          {i === 0 ? 'Replay dispo ~7 jours' : 'Gratuit'}
+        </span>
+        <a href={b.url} rel="nofollow sponsored noopener" target="_blank" class="text-xs font-bold text-cyan-400 hover:underline">Accéder ↗</a>
+      </div>
+    ))}
+    {paid.map((b) => (
+      <div class="flex items-center gap-4 rounded-lg border border-slate-800 bg-slate-900 px-4 py-3">
+        <span class="text-sm text-slate-300">Replay payant — {b.name}</span>
+        <span class="ml-auto text-xs text-rose-300">{b.price}</span>
+      </div>
+    ))}
+  </div>
+  <div class="mt-5 rounded-xl border border-slate-800 bg-slate-900/70 p-4">
+    <p class="text-sm font-bold text-white">Comment revoir le match en replay gratuit sur {top.name} depuis la France ?</p>
+    <ol class="mt-2 space-y-1 text-sm text-slate-400">
+      <li>1. Connecte ton VPN sur un serveur <strong class="text-white">{vpnServer}</strong>.</li>
+      <li>2. Ouvre la plateforme VOD officielle de {top.name} (compte gratuit).</li>
+      <li>3. Lance la vidéo intégrale — replays dispos ~7 jours.</li>
+    </ol>
+    <a href={cta} rel="nofollow sponsored noopener" target="_blank"
+       class="mt-3 inline-block rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-5 py-2.5 text-sm font-black text-white hover:from-cyan-400 hover:to-blue-500">
+      Débloquer le replay sur {top.name} →
+    </a>
+  </div>
+</section>
