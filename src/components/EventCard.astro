@@ -18,7 +18,7 @@ const lblH = isFight ? (d.fighter1?.name || d.homeTeam) : d.homeTeam;
 const lblA = isFight ? (d.fighter2?.name || d.awayTeam) : d.awayTeam;
 ---
 <a href={`/${d.sport}/${entry.id}/`}
-   class="group block rounded-xl border border-slate-800 bg-slate-900/80 p-5 transition hover:border-cyan-500/40 hover:bg-slate-900">
+   class="group block rounded-xl border border-slate-800 bg-slate-900/80 p-6 transition hover:border-cyan-500/40 hover:bg-slate-900">
   <div class="flex items-center gap-2 text-xs text-slate-400">
     <span>{icons[d.sport]}</span>
     <span class="font-semibold uppercase tracking-wide">{d.competition}</span>

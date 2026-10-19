@@ -22,7 +22,7 @@ const allGuides = await getCollection('guides');
     <h1 class="text-3xl font-black text-white sm:text-4xl">{title}</h1>
     <p class="mt-3 max-w-3xl text-slate-400">{intro}</p>
 
-    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {upcoming.map((e) => <EventCard entry={e} />)}
     </div>
     {upcoming.length === 0 && calendar.length > 0 && (
@@ -65,7 +65,7 @@ const allGuides = await getCollection('guides');
     {past.length > 0 && (
       <>
         <h2 class="mt-10 text-xl font-black text-slate-300">Résultats récents</h2>
-        <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {past.map((e) => <EventCard entry={e} />)}
         </div>
       </>

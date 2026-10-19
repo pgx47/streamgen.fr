@@ -52,19 +52,19 @@ const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
 
   <section id="evenements">
     <h2 class="text-2xl font-black text-white">À l'affiche cette semaine</h2>
-    <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {upcoming.slice(0, 9).map((e) => <EventCard entry={e} />)}
     </div>
   </section>
 
   <section>
     <h2 class="text-2xl font-black text-white">🔥 Prochains événements</h2>
-    <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {upcoming.slice(0, 9).map((e) => <EventCard entry={e} />)}
     </div>
   </section>
 
-  <section class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+  <section class="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
     {SPORTS.map((s) => (
       <a href={`/${s.slug}/`} class="rounded-xl border border-slate-800 bg-slate-900/80 p-5 text-center transition hover:border-cyan-500/40">
         <span class="text-3xl">{s.icon}</span>
@@ -75,16 +75,16 @@ const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
   </section>
 
   {finished7d.length > 0 && (
-    <section class="mt-12">
+    <section class="mt-14">
       <h2 class="text-2xl font-black text-white">Derniers résultats & replays</h2>
-      <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {finished7d.map((e) => <EventCard entry={e} />)}
       </div>
     </section>
   )}
 
   {newsItems.length > 0 && (
-    <section class="mt-12">
+    <section class="mt-14">
       <div class="flex items-baseline justify-between">
         <h2 class="text-2xl font-black text-white">Dernières actus droits TV</h2>
         <a href="/actualites/" class="text-sm font-semibold text-cyan-400 hover:text-cyan-300">Toutes les actus →</a>
@@ -100,11 +100,11 @@ const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
     </section>
   )}
 
-  <section class="mt-12">
+  <section class="mt-14">
     <SavingsCalculator />
   </section>
 
-  <section class="mt-12">
+  <section class="mt-14">
     <VpnTutorial />
   </section>
 
