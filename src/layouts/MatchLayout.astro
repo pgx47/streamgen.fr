@@ -16,6 +16,7 @@ import FightCard from '../components/FightCard.astro';
 import TrackWeather from '../components/TrackWeather.astro';
 import HardwareWidget from '../components/HardwareWidget.astro';
 import ReplaySection from '../components/ReplaySection.astro';
+import OddsWidget from '../components/OddsWidget.astro';
 import { SITE } from '../site.config';
 import type { CollectionEntry } from 'astro:content';
 
@@ -57,6 +58,11 @@ const topFree = free[0];
         weightClass={d.weightClass} titleFight={d.titleFight}
       />
     </div>
+
+    {d.status !== 'finished' && (
+      <OddsWidget odds={d.odds} homeTeam={d.homeTeam} awayTeam={d.awayTeam}
+                  fighter1={d.fighter1} fighter2={d.fighter2} />
+    )}
 
     <div class="mb-8"><WeekendSchedule schedule={d.schedule} channel={topFree.name} /></div>
     <div class="mb-8"><FightCard fights={d.fightCard} /></div>

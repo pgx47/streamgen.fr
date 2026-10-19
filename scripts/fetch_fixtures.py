@@ -217,6 +217,13 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
     if weight_class:
         lines.append(f"weightClass: {yaml_str(weight_class)}")
     lines.append(f"titleFight: {'true' if title_fight else 'false'}")
+    odds = enrich.get("odds") or {}
+    if odds and any(odds.get(k) for k in ("home", "away")):
+        lines.append("odds:")
+        for k in ("home", "draw", "away", "favorite"):
+            if odds.get(k): lines.append(f'  {k}: {yaml_str(odds[k])}')
+        for k in ("homeProb", "drawProb", "awayProb"):
+            if odds.get(k) is not None: lines.append(f"  {k}: {odds[k]}")
     if fight_card:
         lines.append("fightCard:")
         for fc in fight_card[:14]:
@@ -398,6 +405,12 @@ def enrich_llm(title: str, competition: str, sport: str, date: str) -> dict:
         "sports-hiver":'{"venue":"site","schedule":[{"label":"Course","date":"ISO"}]}',
     }
     spec = specs.get(sport)
+    odds_spec = ("odds" if spec else "")
+    if spec:
+        if sport in ("football", "rugby"):
+            spec += ',"odds":{"home":"1.75","draw":"3.60","away":"4.50","favorite":"nom","homeProb":55,"drawProb":25,"awayProb":20}'
+        else:
+            spec += ',"odds":{"home":"1.60","away":"2.30","favorite":"nom","homeProb":60,"awayProb":40}'
     if not spec:
         return {}
     prompt = (f"Evenement sportif : « {title} » ({competition}, le {date}). "
