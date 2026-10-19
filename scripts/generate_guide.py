@@ -60,7 +60,19 @@ Pas de markdown autour du JSON."""
     raw = r.json()["choices"][0]["message"]["content"].strip()
     raw = re.sub(r"^```(?:json|mdx|markdown)?\s*|```$", "", raw, flags=re.M).strip()
     m = re.search(r"\{.*\}", raw, re.S)
-    art = json.loads(m.group(0) if m else raw)
+    blob = m.group(0) if m else raw
+    try:
+        art = json.loads(blob)
+    except json.JSONDecodeError:
+        # LLM a echappe mal : on rescatte champ par champ
+        def field(k):
+            fm = re.search(rf'"{k}"\s*:\s*"(.*?)"\s*[,}}]', blob, re.S)
+            return fm.group(1).replace('\\"','"').replace('\n', chr(10)) if fm else ""
+        art = {"title": field("title") or t["topic"], "description": field("description"),
+               "steps": [], "faq": [],
+               "body": field("body") or re.sub(r'.*"body"\s*:\s*"', '', blob, flags=re.S).rstrip('"}')}
+        if not art["body"] or len(art["body"]) < 200:
+            print("JSON invalide et body introuvable — skip"); return
 
     lines = ["---",
         f"title: {yq(art['title'])}",
