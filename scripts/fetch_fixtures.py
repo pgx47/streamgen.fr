@@ -21,6 +21,7 @@ from pathlib import Path
 import time
 
 import requests
+import urllib.parse
 
 ROOT = Path(__file__).resolve().parent.parent
 MATCHES_DIR = ROOT / "src" / "content" / "matches"
@@ -182,6 +183,9 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
                     if isinstance(x, dict) and x.get("label")]
     fighter1 = ev.get("_f1") or enrich.get("fighter1")
     fighter2 = ev.get("_f2") or enrich.get("fighter2")
+    for f in (fighter1, fighter2):
+        if f and not f.get("photo"):
+            f["photo"] = get_fighter_photo(f.get("name", ""))
     fight_card = ([{"fight": f, "category": "", "isMainCard": True} for f in ev["_card_main"]]
                   + [{"fight": f, "category": "", "isMainCard": False} for f in ev.get("_card_prelims") or []]
                   if ev.get("_card_main") else enrich.get("fightCard"))
@@ -413,6 +417,37 @@ def espn_headshot(athlete_id: str) -> str:
         return ""
 
 
+def get_fighter_photo(name: str) -> str:
+    """Photo officielle du combattant : ESPN search, sinon Wikipedia pageimages."""
+    if not name or name.lower() in ("main event", "co-main event", "tbd"):
+        return ""
+    h = {"User-Agent": "Mozilla/5.0"}
+    try:
+        q = urllib.parse.quote(name)
+        r = requests.get(f"https://site.web.api.espn.com/apis/common/v3/search?query={q}&limit=3",
+                         headers=h, timeout=8)
+        if r.status_code == 200:
+            for item in r.json().get("items", []):
+                imgs = item.get("images") or []
+                if imgs and imgs[0].get("url"):
+                    return imgs[0]["url"]
+    except Exception:
+        pass
+    try:
+        q = urllib.parse.quote(name)
+        r = requests.get(
+            f"https://en.wikipedia.org/w/api.php?action=query&titles={q}"
+            "&prop=pageimages&format=json&pithumbsize=600&redirects=1", headers=h, timeout=8)
+        if r.status_code == 200:
+            for page in r.json().get("query", {}).get("pages", {}).values():
+                src = (page.get("thumbnail") or {}).get("source")
+                if src:
+                    return src
+    except Exception:
+        pass
+    return ""
+
+
 def fetch_espn(url: str, sport: str) -> list[dict]:
     """Normalise les events ESPN au format TheSportsDB utilise par build_mdx."""
     try:
@@ -448,7 +483,8 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
                         "country": (a.get("flag") or {}).get("alt", ""),
                         "flag": (a.get("flag") or {}).get("href", ""),
                         "record": rec or "",
-                        "photo": espn_headshot(c.get("id") or a.get("id", "")),
+                        "photo": espn_headshot(c.get("id") or a.get("id", ""))
+                                 or get_fighter_photo(a.get("displayName", "")),
                     }
                 ev["strHomeTeam"] = ev["_f1"]["name"]
                 ev["strAwayTeam"] = ev["_f2"]["name"]
