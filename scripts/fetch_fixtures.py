@@ -456,6 +456,11 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
                 ev["_awayLogo"] = ev["_f2"]["photo"]
         if sport == "football" and comps:
             teams = comps[0].get("competitors") or []
+            # convention europeenne : "Domicile vs Exterieur" (pas "X at Y")
+            hn = next((c.get("team",{}).get("displayName") for c in teams if c.get("homeAway")=="home"), None)
+            an = next((c.get("team",{}).get("displayName") for c in teams if c.get("homeAway")=="away"), None)
+            if hn and an:
+                ev["strEvent"] = f"{hn} vs {an}"
             for c in teams:
                 t = c.get("team") or {}
                 key = "strHomeTeam" if c.get("homeAway") == "home" else "strAwayTeam"

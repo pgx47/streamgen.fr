@@ -9,6 +9,13 @@ const badge = {
   live: 'text-rose-300 border-rose-500/30 bg-rose-500/10 animate-pulse',
   finished: 'text-slate-400 border-slate-600 bg-slate-800',
 }[d.status];
+const initials = (n?: string) => (n ?? icons[d.sport] ?? '?').replace(/[^A-Za-zÀ-ÿ ]/g, '').split(' ').filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase() || '?';
+// visuels : logos equipes | photos combattants | poster F1
+const isFight = ['ufc', 'combat'].includes(d.sport);
+const imgH = isFight ? (d.fighter1?.photo || d.homeTeamLogo) : d.homeTeamLogo;
+const imgA = isFight ? (d.fighter2?.photo || d.awayTeamLogo) : d.awayTeamLogo;
+const lblH = isFight ? (d.fighter1?.name || d.homeTeam) : d.homeTeam;
+const lblA = isFight ? (d.fighter2?.name || d.awayTeam) : d.awayTeam;
 ---
 <a href={`/${d.sport}/${entry.id}/`}
    class="group block rounded-xl border border-slate-800 bg-slate-900/80 p-5 transition hover:border-cyan-500/40 hover:bg-slate-900">
@@ -19,7 +26,27 @@ const badge = {
       {d.status === 'live' ? 'Direct' : d.status === 'finished' ? 'Terminé' : 'À venir'}
     </span>
   </div>
-  <h3 class="mt-3 font-bold text-white group-hover:text-cyan-300">{d.title}</h3>
+
+  {(lblH || lblA) && (
+    <div class="mt-3 flex items-center gap-3">
+      {[
+        { img: imgH, lbl: lblH, flag: d.fighter1?.flag },
+        { img: imgA, lbl: lblA, flag: d.fighter2?.flag },
+      ].map((t, i) => (
+        <>
+          <span class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-slate-700/60 bg-slate-800">
+            {t.img
+              ? <img src={t.img} alt={t.lbl} class="h-full w-full object-contain p-0.5" loading="lazy"
+                     onerror={`this.outerHTML='<span class="text-[10px] font-black text-slate-400">${initials(t.lbl)}</span>'`} />
+              : <span class="text-[10px] font-black text-slate-400">{t.flag ? '🏳️' : initials(t.lbl)}</span>}
+          </span>
+          {i === 0 && <span class="text-[10px] font-black text-slate-600">VS</span>}
+        </>
+      ))}
+    </div>
+  )}
+
+  <h3 class="mt-2 font-bold text-white group-hover:text-cyan-300">{d.title}</h3>
   <div class="mt-2 flex items-center gap-3 text-xs text-slate-500">
     <span>{d.eventDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })} · {d.eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
     <span class="flex items-center gap-1.5">
