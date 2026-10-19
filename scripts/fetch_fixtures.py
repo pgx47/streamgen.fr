@@ -483,7 +483,8 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
                         "country": (a.get("flag") or {}).get("alt", ""),
                         "flag": (a.get("flag") or {}).get("href", ""),
                         "record": rec or "",
-                        "photo": espn_headshot(c.get("id") or a.get("id", ""))
+                        "photo": (a.get("headshot") or {}).get("href", "")
+                                 or espn_headshot(c.get("id") or a.get("id", ""))
                                  or get_fighter_photo(a.get("displayName", "")),
                     }
                 ev["strHomeTeam"] = ev["_f1"]["name"]

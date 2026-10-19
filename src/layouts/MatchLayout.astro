@@ -55,8 +55,8 @@ const topFree = free[0];
       weightClass={d.weightClass} titleFight={d.titleFight}
     />
 
-    <WeekendSchedule schedule={d.schedule} channel={topFree.name} />
-    <FightCard fights={d.fightCard} />
+    <div class="mb-8"><WeekendSchedule schedule={d.schedule} channel={topFree.name} /></div>
+    <div class="mb-8"><FightCard fights={d.fightCard} /></div>
 
     {d.status !== 'finished' ? (
       <div class="mt-5">
