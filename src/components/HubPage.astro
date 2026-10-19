@@ -4,6 +4,7 @@ import EventCard from './EventCard.astro';
 import StickyVpnBar from './StickyVpnBar.astro';
 import { getCollection } from 'astro:content';
 import { SITE } from '../site.config';
+import seasonal from '../data/seasonal_sports.json';
 
 interface Props { sport: string; title: string; intro: string }
 const { sport, title, intro } = Astro.props;
@@ -12,6 +13,9 @@ const events = (await getCollection('matches'))
   .sort((a, b) => a.data.eventDate.getTime() - b.data.eventDate.getTime());
 const upcoming = events.filter((e) => e.data.status !== 'finished');
 const past = events.filter((e) => e.data.status === 'finished');
+const calendar = seasonal[sport]?.events ?? [];
+const guides = (await getCollection('guides')).slice(0, 0); // filled below
+const allGuides = await getCollection('guides');
 ---
 <BaseLayout title={title} description={intro}>
   <section class="py-8">
@@ -21,7 +25,42 @@ const past = events.filter((e) => e.data.status === 'finished');
     <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {upcoming.map((e) => <EventCard entry={e} />)}
     </div>
-    {upcoming.length === 0 && <p class="mt-8 text-slate-500">Aucun événement programmé pour le moment — revenez bientôt.</p>}
+    {upcoming.length === 0 && calendar.length > 0 && (
+      <>
+        <h2 class="mt-10 text-xl font-black text-white">Calendrier & diffuseurs officiels de la saison</h2>
+        <div class="mt-4 overflow-x-auto rounded-2xl border border-slate-800">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-slate-800/60 text-xs uppercase tracking-wider text-slate-400">
+              <tr><th class="px-4 py-3">Rendez-vous</th><th class="px-4 py-3">Période</th><th class="px-4 py-3">En clair sur</th><th class="px-4 py-3">Serveur VPN</th></tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800">
+              {calendar.map((e) => (
+                <tr class="hover:bg-slate-900/60">
+                  <td class="px-4 py-3 font-bold text-white">{e.name}</td>
+                  <td class="px-4 py-3 text-slate-400">{e.period}</td>
+                  <td class="px-4 py-3"><span class="rounded bg-emerald-950 px-2 py-0.5 text-xs font-bold text-emerald-300">{e.channels}</span></td>
+                  <td class="px-4 py-3 text-cyan-400">{e.country}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <h2 class="mt-10 text-xl font-black text-white">Guides & tutoriels associés</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+          {allGuides.filter((g) => {
+            const t = (g.data.title + ' ' + g.data.description).toLowerCase();
+            const keys = { tennis: 'tennis|wimbledon|roland|bbc', rugby: 'rugby|nations|bbc|france tv',
+              cyclisme: 'cyclisme|vélo|rtbf|giro|tour', combat: 'ufc|mma|combat|boxe|polsat' }[sport]?.split('|') ?? [sport];
+            return keys.some((k) => t.includes(k));
+          }).slice(0, 4).map((g) => (
+            <a href={`/astuces/${g.id}/`} class="rounded-xl border border-slate-800 bg-slate-900/80 p-4 transition hover:border-cyan-500/40">
+              <p class="text-sm font-bold text-white">{g.data.title}</p>
+              <p class="mt-1 text-xs text-slate-500">{g.data.description}</p>
+            </a>
+          ))}
+        </div>
+      </>
+    )}
 
     {past.length > 0 && (
       <>
