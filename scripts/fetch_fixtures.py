@@ -220,9 +220,19 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
     if fight_card:
         lines.append("fightCard:")
         for fc in fight_card[:14]:
-            lines.append(f'  - fight: {yaml_str(fc.get("fight",""))}')
+            fight = fc.get("fight", "")
+            lines.append(f'  - fight: {yaml_str(fight)}')
             if fc.get("category"): lines.append(f'    category: {yaml_str(fc["category"])}')
             lines.append(f'    isMainCard: {"true" if fc.get("isMainCard") else "false"}')
+            parts = re.split(r"\s+vs\s+", fight)
+            if len(parts) == 2:
+                for i, n in enumerate(parts, 1):
+                    n = n.strip()
+                    if fc.get(f"f{i}Flag"):
+                        lines.append(f'    f{i}Flag: "{fc[f"f{i}Flag"]}"')
+                    if not fc.get(f"f{i}Photo"):
+                        ph = get_fighter_photo(n)
+                        if ph: lines.append(f'    f{i}Photo: {yaml_str(ph)}')
     if home_lineup:
         lines.append("homeLineup:")
         if home_lineup.get("formation"): lines.append(f'  formation: {yaml_str(home_lineup["formation"])}')
@@ -420,6 +430,25 @@ def espn_headshot(athlete_id: str) -> str:
         return ""
 
 
+COUNTRY_EMOJI = {
+    "usa": "🇺🇸", "united states": "🇺🇸", "russia": "🇷🇺", "brazil": "🇧🇷", "france": "🇫🇷",
+    "australia": "🇦🇺", "united kingdom": "🇬🇧", "england": "🏴", "china": "🇨🇳",
+    "kyrgyzstan": "🇰🇬", "iran": "🇮🇷", "georgia": "🇬🇪", "italy": "🇮🇹", "poland": "🇵🇱",
+    "mexico": "🇲🇽", "canada": "🇨🇦", "spain": "🇪🇸", "germany": "🇩🇪", "ukraine": "🇺🇦",
+    "kazakhstan": "🇰🇿", "ireland": "🇮🇪", "new zealand": "🇳🇿", "ecuador": "🇪🇨",
+    "netherlands": "🇳🇱", "sweden": "🇸🇪", "nigeria": "🇳🇬", "south africa": "🇿🇦",
+    "argentina": "🇦🇷", "colombia": "🇨🇴", "turkey": "🇹🇷", "japan": "🇯🇵", "croatia": "🇭🇷",
+    "azerbaijan": "🇦🇿", "armenia": "🇦🇲", "belarus": "🇧🇾", "cuba": "🇨🇺", "portugal": "🇵🇹",
+    "belgium": "🇧🇪", "switzerland": "🇨🇭", "austria": "🇦🇹", "czech republic": "🇨🇿",
+    "senegal": "🇸🇳", "cameroon": "🇨🇲", "uzbekistan": "🇺🇿", "tajikistan": "🇹🇯",
+    "dagestan": "🇷🇺", "scotland": "🏴", "wales": "🏴", "northern ireland": "🏴",
+    "south korea": "🇰🇷", "thailand": "🇹🇭", "vietnam": "🇻🇳", "egypt": "🇪🇬", "morocco": "🇲🇦",
+}
+
+def country_emoji(name: str) -> str:
+    return COUNTRY_EMOJI.get((name or "").strip().lower(), "")
+
+
 def get_fighter_photo(name: str) -> str:
     """Photo officielle du combattant : ESPN search, sinon Wikipedia pageimages."""
     if not name or name.lower() in ("main event", "co-main event", "tbd"):
@@ -490,10 +519,12 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
                 for i, k in enumerate(("_f1", "_f2")):
                     c, a = fighters[i], fighters[i]["athlete"]
                     rec = next((r.get("summary") for r in (c.get("records") or []) if r.get("type") == "total"), "")
+                    alt = (a.get("flag") or {}).get("alt", "")
+                    ctry = alt.split(",")[-1].strip() if alt else ""
                     ev[k] = {
                         "name": a.get("displayName", ""),
-                        "country": (a.get("flag") or {}).get("alt", ""),
-                        "flag": (a.get("flag") or {}).get("href", ""),
+                        "country": ctry,
+                        "flag": (a.get("flag") or {}).get("href", "") or country_emoji(ctry),
                         "record": rec or "",
                         "photo": (a.get("headshot") or {}).get("href", "")
                                  or espn_headshot(c.get("id") or a.get("id", ""))
