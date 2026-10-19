@@ -76,8 +76,10 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
         </div>
         <a href="/programme-tv-sport/" class="hidden whitespace-nowrap rounded-lg px-2.5 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-block">Programme TV</a>
         <a href="/astuces/" class="hidden whitespace-nowrap rounded-lg px-2.5 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-block">Astuces</a>
-        <SearchBox />
-        <a href="/tutoriel-vpn/" class="whitespace-nowrap rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-3 py-2 font-bold text-white hover:from-cyan-400 hover:to-blue-500">Tuto VPN</a>
+        <div class="ml-3 flex items-center gap-3 border-l border-slate-800 pl-4">
+          <SearchBox />
+          <a href="/tutoriel-vpn/" class="whitespace-nowrap rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-2 text-xs font-extrabold text-white shadow-lg shadow-cyan-500/20 transition-all hover:from-cyan-400 hover:to-blue-500">Tuto VPN</a>
+        </div>
         <button id="nav-toggle" aria-label="Menu" class="rounded-lg p-2 text-slate-300 hover:bg-slate-800 xl:hidden">
           <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
         </button>
