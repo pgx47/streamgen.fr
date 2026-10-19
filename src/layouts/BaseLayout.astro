@@ -1,4 +1,5 @@
 ---
+import SearchBox from '../components/SearchBox.astro';
 import '../styles/global.css';
 import { SITE, SPORTS } from '../site.config';
 import { getCollection } from 'astro:content';
@@ -26,6 +27,9 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
   <meta name="mylead-verification" content="e591b24bd8eb3615a660ac93141718f7" />
   <!-- mylead-verification: e591b24bd8eb3615a660ac93141718f7 -->
   <link rel="canonical" href={canonicalUrl} />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
   {noindex && <meta name="robots" content="noindex,nofollow" />}
   <meta property="og:type" content="website" />
   <meta property="og:title" content={title} />
@@ -59,6 +63,7 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
         ))}
         <a href="/astuces/" class="hidden rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white xl:inline-block">Astuces</a>
         <a href="/programme-tv-sport/" class="hidden rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white 2xl:inline-block">Programme TV</a>
+        <SearchBox />
         <a href="/tutoriel-vpn/" class="rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 px-3 py-2 font-bold text-white hover:from-cyan-400 hover:to-blue-500">Tuto VPN</a>
         <button id="nav-toggle" aria-label="Menu" class="rounded-lg p-2 text-slate-300 hover:bg-slate-800 xl:hidden">
           <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>

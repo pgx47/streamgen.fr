@@ -17,6 +17,7 @@ import TrackWeather from '../components/TrackWeather.astro';
 import HardwareWidget from '../components/HardwareWidget.astro';
 import ReplaySection from '../components/ReplaySection.astro';
 import OddsWidget from '../components/OddsWidget.astro';
+import ShareButton from '../components/ShareButton.astro';
 import { SITE } from '../site.config';
 import type { CollectionEntry } from 'astro:content';
 
@@ -73,6 +74,7 @@ const topFree = free[0];
           title={d.title} eventDate={d.eventDate}
           channel={topFree.name} vpnServer={d.vpnServer} url={pageUrl}
         />
+        <ShareButton title={d.title} url={pageUrl} channel={topFree.name} />
       </div>
     ) : (
       <div class="mt-5 rounded-2xl border border-emerald-500/30 bg-emerald-950/30 p-5">

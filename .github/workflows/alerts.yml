@@ -2,11 +2,16 @@ name: Telegram alerts
 
 on:
   schedule:
-    - cron: '0 * * * *' # horaire : alerte 1-2h avant le direct (quota Actions repo privé)
+    - cron: '0 * * * *'        # alertes H-1 (horaire)
+    - cron: '0 16 * * 5'       # recap vendredi 16h UTC
   workflow_dispatch:
 
 permissions:
   contents: write
+
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
 jobs:
   alerts:
@@ -18,14 +23,16 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r scripts/requirements.txt
-      - run: python scripts/telegram_alerts.py
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Alertes H-1
+        if: github.event.schedule != '0 16 * * 5'
+        run: python scripts/telegram_alerts.py
+      - name: Recap vendredi
+        if: github.event.schedule == '0 16 * * 5' || github.event_name == 'workflow_dispatch'
+        run: python scripts/telegram_weekly.py
       - name: Persist alert state
         run: |
           git config user.name "streamgen-bot"
           git config user.email "bot@streamgen.fr"
           git add scripts/.alerts_sent.json
-          git diff --cached --quiet || git commit -m "chore: alerts state [skip ci]"
+          git diff --cached --quiet || git commit -m "chore: alert state"
           git push

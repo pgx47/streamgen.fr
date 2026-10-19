@@ -1,0 +1,15 @@
+---
+interface Props { title: string; url: string; channel?: string }
+const { title, url, channel } = Astro.props;
+const msg = `${title} passe en clair et gratuit${channel ? ` sur ${channel}` : ''} ! Voilà le tuto : ${url}`;
+---
+<div class="mt-4 flex gap-2">
+  <a href={`https://wa.me/?text=${encodeURIComponent(msg)}`} target="_blank" rel="noopener"
+     class="rounded-lg border border-emerald-600/40 bg-emerald-950/40 px-4 py-2.5 text-sm font-bold text-emerald-300 hover:bg-emerald-950">
+    📲 Partager sur WhatsApp
+  </a>
+  <a href={`https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(msg)}`} target="_blank" rel="noopener"
+     class="rounded-lg border border-sky-600/40 bg-sky-950/40 px-4 py-2.5 text-sm font-bold text-sky-300 hover:bg-sky-950">
+    ✈️ Telegram
+  </a>
+</div>
