@@ -11,6 +11,9 @@ import deals from '../data/vpn_deals.json';
 const events = (await getCollection('matches'))
   .sort((a, b) => a.data.eventDate.getTime() - b.data.eventDate.getTime());
 const upcoming = events.filter((e) => e.data.status !== 'finished');
+const finished7d = events.filter((e) => e.data.status === 'finished'
+  && Date.now() - e.data.eventDate.getTime() < 7 * 864e5)
+  .sort((a, b) => b.data.eventDate.getTime() - a.data.eventDate.getTime()).slice(0, 6);
 const newsItems = (await getCollection('news'))
   .sort((a, b) => b.data.publishDate.localeCompare(a.data.publishDate))
   .slice(0, 3);
@@ -70,6 +73,15 @@ const ctaUrl = import.meta.env.PUBLIC_VPN_AFFILIATE_URL ?? '/go/vpn';
       </a>
     ))}
   </section>
+
+  {finished7d.length > 0 && (
+    <section class="mt-12">
+      <h2 class="text-2xl font-black text-white">Derniers résultats & replays</h2>
+      <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {finished7d.map((e) => <EventCard entry={e} />)}
+      </div>
+    </section>
+  )}
 
   {newsItems.length > 0 && (
     <section class="mt-12">
