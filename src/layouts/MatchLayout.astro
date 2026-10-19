@@ -11,6 +11,8 @@ import GeoBlockDetector from '../components/GeoBlockDetector.astro';
 import VpnComparisonTable from '../components/VpnComparisonTable.astro';
 import RadioPlayer from '../components/RadioPlayer.astro';
 import Lineup from '../components/Lineup.astro';
+import WeekendSchedule from '../components/WeekendSchedule.astro';
+import FightCard from '../components/FightCard.astro';
 import TrackWeather from '../components/TrackWeather.astro';
 import HardwareWidget from '../components/HardwareWidget.astro';
 import { SITE } from '../site.config';
@@ -53,22 +55,8 @@ const topFree = free[0];
       weightClass={d.weightClass} titleFight={d.titleFight}
     />
 
-    {d.schedule.length > 1 && (
-      <div class="mt-6 rounded-2xl border border-slate-800 bg-slate-900/60 p-5">
-        <p class="text-sm font-bold uppercase tracking-wider text-slate-300">Programme du week-end</p>
-        <div class="mt-3 divide-y divide-slate-800">
-          {d.schedule.map((s) => (
-            <div class="flex items-center gap-3 py-2 text-sm">
-              <span class="w-40 font-semibold text-white">{s.label}</span>
-              <span class="text-slate-400">
-                {s.date.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' })} · {s.date.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
-              </span>
-              <span class="ml-auto rounded bg-emerald-950 px-2 py-0.5 text-xs font-bold text-emerald-300">{topFree.name}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    )}
+    <WeekendSchedule schedule={d.schedule} channel={topFree.name} />
+    <FightCard fights={d.fightCard} />
 
     {d.status !== 'finished' ? (
       <div class="mt-5">
@@ -103,7 +91,7 @@ const topFree = free[0];
 
       {!free.some((b) => b.lang === 'FR') && <RadioPlayer />}
 
-      {(d.sport === 'football' && (d.homeLineup || d.awayLineup)) && (
+      {(['football','rugby'].includes(d.sport) && (d.homeLineup || d.awayLineup)) && (
         <Lineup home={d.homeLineup} away={d.awayLineup} homeTeam={d.homeTeam} awayTeam={d.awayTeam} />
       )}
 

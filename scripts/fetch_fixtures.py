@@ -172,6 +172,22 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
     away_logo = ev.get("_awayLogo") or (team_badge(ev.get("idAwayTeam")) if ev.get("idAwayTeam") else "")
 
     lines = ["---"]
+
+    enrich = enrich_llm(title, competition, sport, date)
+    # merge frontmatter enrichi (les donnees API restent prioritaires)
+    home_lineup = enrich.get("homeLineup")
+    away_lineup = enrich.get("awayLineup")
+    if not schedule and enrich.get("schedule"):
+        schedule = [(x.get("label",""), x.get("date","")) for x in enrich["schedule"]
+                    if isinstance(x, dict) and x.get("label")]
+    fighter1 = ev.get("_f1") or enrich.get("fighter1")
+    fighter2 = ev.get("_f2") or enrich.get("fighter2")
+    fight_card = ([{"fight": f, "category": "", "isMainCard": True} for f in ev["_card_main"]]
+                  + [{"fight": f, "category": "", "isMainCard": False} for f in ev.get("_card_prelims") or []]
+                  if ev.get("_card_main") else enrich.get("fightCard"))
+    weight_class = enrich.get("weightClass")
+    title_fight = bool(enrich.get("titleFight"))
+    venue = venue or enrich.get("venue")
     lines.append(f"title: {yaml_str(title)}")
     lines.append(f'description: {yaml_str(f"{title} ({competition}) en direct : diffuseurs officiels et chaines en clair pour regarder le streaming legalement.")}')
     lines.append(f"sport: {sport}")
@@ -179,17 +195,39 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
     if home and away:
         lines.append(f"homeTeam: {yaml_str(home)}")
         lines.append(f"awayTeam: {yaml_str(away)}")
-    for fk, key in (("_f1", "fighter1"), ("_f2", "fighter2")):
-        f = ev.get(fk)
-        if f:
+    if fighter1 and fighter2:
+        for f, key in ((fighter1, "fighter1"), (fighter2, "fighter2")):
             lines.append(f"{key}:")
-            lines.append(f'  name: {yaml_str(f["name"])}')
+            lines.append(f'  name: {yaml_str(f.get("name",""))}')
             if f.get("country"): lines.append(f'  country: {yaml_str(f["country"])}')
             if f.get("flag"): lines.append(f'  flag: {yaml_str(f["flag"])}')
             if f.get("record"): lines.append(f'  record: {yaml_str(f["record"])}')
+            if f.get("nickname"): lines.append(f'  nickname: {yaml_str(f["nickname"])}')
+            if f.get("ranking"): lines.append(f'  ranking: {yaml_str(f["ranking"])}')
             if f.get("photo"): lines.append(f'  photo: {yaml_str(f["photo"])}')
     if venue:
         lines.append(f"venue: {yaml_str(venue)}")
+    if weight_class:
+        lines.append(f"weightClass: {yaml_str(weight_class)}")
+    lines.append(f"titleFight: {'true' if title_fight else 'false'}")
+    if fight_card:
+        lines.append("fightCard:")
+        for fc in fight_card[:14]:
+            lines.append(f'  - fight: {yaml_str(fc.get("fight",""))}')
+            if fc.get("category"): lines.append(f'    category: {yaml_str(fc["category"])}')
+            lines.append(f'    isMainCard: {"true" if fc.get("isMainCard") else "false"}')
+    if home_lineup:
+        lines.append("homeLineup:")
+        if home_lineup.get("formation"): lines.append(f'  formation: {yaml_str(home_lineup["formation"])}')
+        lines.append("  starters: [" + ",".join(yaml_str(x) for x in (home_lineup.get("starters") or [])[:15]) + "]")
+        if home_lineup.get("subs"):
+            lines.append("  subs: [" + ",".join(yaml_str(x) for x in home_lineup["subs"][:9]) + "]")
+    if away_lineup:
+        lines.append("awayLineup:")
+        if away_lineup.get("formation"): lines.append(f'  formation: {yaml_str(away_lineup["formation"])}')
+        lines.append("  starters: [" + ",".join(yaml_str(x) for x in (away_lineup.get("starters") or [])[:15]) + "]")
+        if away_lineup.get("subs"):
+            lines.append("  subs: [" + ",".join(yaml_str(x) for x in away_lineup["subs"][:9]) + "]")
     if poster:
         lines.append(f"eventPoster: {yaml_str(poster)}")
     if home_logo:
@@ -320,6 +358,47 @@ def generate_analysis(title: str, competition: str, sport: str, date: str) -> st
     except Exception as e:
         print(f"    ! LLM ({title[:40]}): {e}")
         return ""
+
+
+def enrich_llm(title: str, competition: str, sport: str, date: str) -> dict:
+    """DeepSeek remplit le frontmatter manquant par sport. Retourne {} sans cle."""
+    if not LLM_KEY:
+        return {}
+    specs = {
+        "football": '{"homeLineup":{"formation":"4-3-3","starters":["nom1",...11],"subs":["nom",...7]},'
+                    '"awayLineup":{...meme format},"venue":"stade","referee":"arbitre"}',
+        "rugby":    '{"homeLineup":{"formation":"","starters":["nom1",...15],"subs":["nom",...8]},'
+                    '"awayLineup":{...},"venue":"stade"}',
+        "formule-1":'{"schedule":[{"label":"Essais libres 1","date":"ISO"},...qualifs,course],"venue":"circuit"}',
+        "motogp":   '{"schedule":[{"label":"Essais libres","date":"ISO"},...qualifs,course],"venue":"circuit"}',
+        "ufc":      '{"fighter1":{"name":"","country":"","flag":"emoji","record":"25-2-0","ranking":""},'
+                    '"fighter2":{...},"weightClass":"","titleFight":false,'
+                    '"fightCard":[{"fight":"A vs B","category":"Poids...","isMainCard":true},...tous]}',
+        "combat":   '{"fighter1":{...meme format ufc},"fighter2":{...},"weightClass":"","titleFight":false,"fightCard":[...]}',
+        "tennis":   '{"fighter1":{"name":"","country":"","flag":"emoji","ranking":"ATP 12"},'
+                    '"fighter2":{...},"venue":"surface + tournoi"}',
+        "cyclisme": '{"venue":"parcours","schedule":[{"label":"Etape/Depart","date":"ISO"}]}',
+        "sports-hiver":'{"venue":"site","schedule":[{"label":"Course","date":"ISO"}]}',
+    }
+    spec = specs.get(sport)
+    if not spec:
+        return {}
+    prompt = (f"Evenement sportif : « {title} » ({competition}, le {date}). "
+              f"Complete le JSON suivant avec les donnees reelles de l'evenement "
+              f"(si inconnu, laisse vide/omets le champ — JAMAIS de valeurs inventees) :\n{spec}\n"
+              "Reponds en JSON strict, rien d'autre.")
+    try:
+        r = requests.post(LLM_URL,
+            headers={"Authorization": f"Bearer {LLM_KEY}", "Content-Type": "application/json"},
+            json={"model": LLM_MODEL, "messages": [{"role": "user", "content": prompt}],
+                  "temperature": 0.2, "max_tokens": 1600}, timeout=90)
+        r.raise_for_status()
+        raw = r.json()["choices"][0]["message"]["content"].strip()
+        m = re.search(r"\{.*\}", raw, re.S)
+        return json.loads(m.group(0) if m else raw)
+    except Exception as e:
+        print(f"    ! enrich ({title[:40]}): {e}")
+        return {}
 
 
 def espn_headshot(athlete_id: str) -> str:

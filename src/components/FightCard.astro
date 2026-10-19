@@ -1,0 +1,40 @@
+---
+interface Fight { fight: string; category?: string; isMainCard: boolean }
+interface Props { fights: Fight[] }
+const { fights } = Astro.props;
+const main = fights.filter((f) => f.isMainCard);
+const prelims = fights.filter((f) => !f.isMainCard);
+---
+{(main.length || prelims.length) > 0 && (
+  <section class="rounded-2xl border border-slate-800 bg-slate-900/60 p-5">
+    <h2 class="text-lg font-black text-white">Carte complète</h2>
+    {main.length > 0 && (
+      <div class="mt-4">
+        <p class="mb-2 text-xs font-bold uppercase tracking-wider text-amber-400">Main Card</p>
+        <ul class="space-y-2">
+          {main.map((f, i) => (
+            <li class="flex items-center gap-3 rounded-lg border border-slate-800 bg-slate-900 px-3 py-2 text-sm">
+              {i === 0 && <span class="rounded bg-amber-400 px-1.5 py-0.5 text-[10px] font-black uppercase text-amber-950">Main</span>}
+              {i === 1 && <span class="rounded bg-slate-700 px-1.5 py-0.5 text-[10px] font-black uppercase text-slate-300">Co-Main</span>}
+              <span class="font-semibold text-white">{f.fight}</span>
+              {f.category && <span class="ml-auto text-xs text-slate-500">{f.category}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+    {prelims.length > 0 && (
+      <div class="mt-4">
+        <p class="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">Préliminaires</p>
+        <ul class="space-y-1.5">
+          {prelims.map((f) => (
+            <li class="flex items-center gap-3 rounded-lg bg-slate-900/50 px-3 py-1.5 text-sm text-slate-300">
+              <span>{f.fight}</span>
+              {f.category && <span class="ml-auto text-xs text-slate-500">{f.category}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </section>
+)}
