@@ -25,7 +25,27 @@ def main():
     existing = {p.stem for p in GUIDES.glob("*.mdx")}
     todo = [t for t in topics if slugify(t["topic"]) not in existing]
     if not todo:
-        print("file de sujets vide — rien a faire"); return
+        # file vide -> le LLM regenere 10 sujets et on les refile
+        existing_titles = ", ".join(sorted(existing)[:40])
+        tp = ("Genere 10 nouveaux sujets de guides pour streamgen.fr (streaming sportif legal : "
+              "chaines etrangeres en clair, tutoriels VPN par appareil, economies SVOD). "
+              f"Evite les doublons avec: {existing_titles}. "
+              'JSON strict: {"topics":[{"topic":"...","category":"chaines-etrangeres|economies|tutoriels-vpn|svod-cinema","vpnCountry":""}]}')
+        try:
+            rr = requests.post(LLM_URL, headers={"Authorization": f"Bearer {LLM_KEY}", "Content-Type": "application/json"},
+                json={"model": LLM_MODEL, "messages": [{"role": "user", "content": tp}],
+                      "temperature": 0.8, "max_tokens": 900}, timeout=60)
+            raw = rr.json()["choices"][0]["message"]["content"]
+            m = re.search(r"\{.*\}", raw, re.S)
+            new = json.loads(m.group(0) if m else raw).get("topics", [])
+            topics.extend(new)
+            TOPICS.write_text(json.dumps(topics, ensure_ascii=False, indent=2))
+            todo = [t for t in new if slugify(t["topic"]) not in existing]
+            print(f"file regeneree: {len(new)} sujets")
+        except Exception as e:
+            print(f"regen KO: {e}")
+    if not todo:
+        print("rien a faire"); return
     t = todo[0]
     today = dt.date.today().isoformat()
     prompt = f"""Tu es redacteur SEO pour streamgen.fr (streaming sportif legal : chaines etrangeres en clair + VPN).

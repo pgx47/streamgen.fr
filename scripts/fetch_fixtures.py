@@ -434,6 +434,15 @@ def get_fighter_photo(name: str) -> str:
     except Exception:
         pass
     try:
+        slug_n = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        r = requests.get(f"https://www.ufc.com/athlete/{slug_n}", headers=h, timeout=8)
+        if r.status_code == 200:
+            m = re.search(r'og:image" content="([^"]+)"', r.text)
+            if m and "images" in m.group(1):
+                return m.group(1)
+    except Exception:
+        pass
+    try:
         q = urllib.parse.quote(name)
         r = requests.get(
             f"https://en.wikipedia.org/w/api.php?action=query&titles={q}"
