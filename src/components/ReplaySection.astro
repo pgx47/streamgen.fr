@@ -9,7 +9,9 @@ const cta = '/go/vpn';
   <div class="flex items-center gap-3">
     <span class="rounded-full border border-slate-500 bg-slate-800 px-3 py-1 text-xs font-black uppercase text-slate-300">Terminé</span>
     <h2 class="text-xl font-black text-white">Replay intégral & résumé officiel en clair</h2>
-    {score && <span class="ml-auto text-2xl font-black text-emerald-300">{score}</span>}
+    {score
+      ? <span class="ml-auto text-2xl font-black text-emerald-300">{score}</span>
+      : <span class="ml-auto rounded-full border border-emerald-500/30 bg-emerald-950/60 px-3 py-1 text-[11px] font-bold text-emerald-300">🔒 Garanti sans spoiler</span>}
   </div>
   <div class="mt-5 space-y-2">
     {free.map((b, i) => (

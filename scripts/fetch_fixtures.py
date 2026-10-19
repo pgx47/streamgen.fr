@@ -559,6 +559,32 @@ def fetch_espn(url: str, sport: str) -> list[dict]:
     return out
 
 
+def fetch_result(title: str, sport: str) -> str:
+    """DeepSeek renvoie le resultat (vainqueur/methode ou score/podium), '' sinon."""
+    if not LLM_KEY:
+        return ""
+    ask = {"ufc": "vainqueur + methode + round du Main Event (ex: Makhachev par Soumission R2)",
+           "combat": "vainqueur + methode + round du Main Event",
+           "formule-1": "podium : 1er, 2e, 3e de la course",
+           "motogp": "podium : 1er, 2e, 3e de la course",
+           "football": "score final (ex: 3 - 1)", "rugby": "score final",
+           "tennis": "vainqueur + score des sets"}
+    q = ask.get(sport)
+    if not q:
+        return ""
+    try:
+        r = requests.post(LLM_URL,
+            headers={"Authorization": f"Bearer {LLM_KEY}", "Content-Type": "application/json"},
+            json={"model": LLM_MODEL, "messages": [{"role": "user", "content":
+                f"Evenement sportif : « {title} » ({sport}). Donne UNIQUEMENT le {q}. "
+                "Si pas encore dispute ou inconnu, reponds NONE."}],
+                  "temperature": 0.0, "max_tokens": 60}, timeout=45)
+        out = r.json()["choices"][0]["message"]["content"].strip().strip('"')
+        return "" if out.upper().startswith("NONE") or len(out) > 80 else out
+    except Exception:
+        return ""
+
+
 def update_statuses() -> None:
     """Passe les fiches en 'live' le jour J, 'finished' apres +4h."""
     now = dt.datetime.now(dt.timezone.utc)
@@ -582,6 +608,13 @@ def update_statuses() -> None:
         if new and new != sm.group(1):
             txt = txt.replace(sm.group(0), f"status: {new}", 1)
             if new == "finished":
+                # Score/vainqueur via LLM pour les sports sans API de resultats
+                sport_m = re.search(r'^sport:\s*(\w[\w-]*)', txt, re.M)
+                title0 = re.search(r'^title:\s*"(.+)"', txt, re.M)
+                if sport_m and title0 and "score:" not in txt.split("---")[1]:
+                    res = fetch_result(title0.group(1), sport_m.group(1))
+                    if res:
+                        txt = txt.replace(sm.group(0), f'status: {new}\nscore: "{res.replace(chr(34), chr(39))}"', 1)
                 # Bascule SEO en mode "replay" : la page reste rentable 48-72h.
                 title_m = re.search(r'^title:\s*"(.+)"', txt, re.M)
                 if title_m:
