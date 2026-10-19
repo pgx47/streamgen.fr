@@ -428,5 +428,31 @@
         "price": "~15 €/mois"
       }
     ]
+  },
+  "top-14": {
+    "label": "Top 14",
+    "free": [
+      {
+        "name": "France TV (résumés)",
+        "country": "France",
+        "lang": "FR",
+        "url": "https://www.france.tv/sport/",
+        "note": "Résumés en clair"
+      },
+      {
+        "name": "Rugby+ / Canal Sport",
+        "country": "France",
+        "lang": "FR",
+        "url": "https://www.canalplus.com/sport/",
+        "note": "Extraits gratuits"
+      }
+    ],
+    "paid": [
+      {
+        "name": "Canal+",
+        "price": "~30 €/mois",
+        "note": "Diffuseur exclusif Top 14"
+      }
+    ]
   }
 }
