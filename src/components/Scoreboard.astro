@@ -67,12 +67,12 @@ const statusLabel = { upcoming: 'À venir', live: 'EN DIRECT', finished: 'Termin
     ) : homeTeam && awayTeam ? (
       <div class="flex items-center justify-between gap-4 text-center">
         <div class="flex-1">
-          <div class="mx-auto mb-2 flex h-20 w-20 items-center justify-center overflow-hidden rounded-3xl border border-slate-700/50 bg-slate-800/80 p-3 shadow-xl sm:h-28 sm:w-28">
+          <div class="mx-auto mb-2 flex h-24 w-24 items-center justify-center sm:h-36 sm:w-36">
             {homeTeamLogo
-              ? <img src={homeTeamLogo} alt={homeTeam} class="h-full w-full object-contain" loading="lazy" />
+              ? <img src={homeTeamLogo} alt={homeTeam} class="h-full w-full object-contain drop-shadow-[0_8px_24px_rgba(0,0,0,0.6)]" loading="lazy" />
               : <span class="text-4xl sm:text-5xl">{icons[sport] ?? '🏆'}</span>}
           </div>
-          <p class="font-bold text-white">{homeTeam}</p>
+          <p class="font-black text-white sm:text-lg">{homeTeam}</p>
         </div>
         <div class="px-4">
           {status === 'finished' && score
@@ -80,12 +80,12 @@ const statusLabel = { upcoming: 'À venir', live: 'EN DIRECT', finished: 'Termin
             : <p class="text-3xl font-black text-slate-500">VS</p>}
         </div>
         <div class="flex-1">
-          <div class="mx-auto mb-2 flex h-20 w-20 items-center justify-center overflow-hidden rounded-3xl border border-slate-700/50 bg-slate-800/80 p-3 shadow-xl sm:h-28 sm:w-28">
+          <div class="mx-auto mb-2 flex h-24 w-24 items-center justify-center sm:h-36 sm:w-36">
             {awayTeamLogo
-              ? <img src={awayTeamLogo} alt={awayTeam} class="h-full w-full object-contain" loading="lazy" />
+              ? <img src={awayTeamLogo} alt={awayTeam} class="h-full w-full object-contain drop-shadow-[0_8px_24px_rgba(0,0,0,0.6)]" loading="lazy" />
               : <span class="text-4xl sm:text-5xl">{icons[sport] ?? '🏆'}</span>}
           </div>
-          <p class="font-bold text-white">{awayTeam}</p>
+          <p class="font-black text-white sm:text-lg">{awayTeam}</p>
         </div>
       </div>
     ) : (
