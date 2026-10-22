@@ -9,6 +9,7 @@ const now = new Date();
 const events = (await getCollection('matches')).sort((a, b) => a.data.eventDate.getTime() - b.data.eventDate.getTime());
 const sameDay = (d: Date, ref: Date) => d.toDateString() === ref.toDateString();
 const tomorrow = new Date(now.getTime() + 864e5);
+const comps = [...new Set(events.map((e) => e.data.competition))];
 const groups = [
   { label: `Aujourd'hui — ${now.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' })}`,
     items: events.filter((e) => sameDay(e.data.eventDate, now)) },
@@ -31,12 +32,19 @@ const badge = { upcoming: 'À venir', live: '🔴 Direct', finished: 'Terminé' 
       <span class="text-sm font-bold text-emerald-300">En clair uniquement</span>
     </label>
 
+    <div class="mt-4 flex flex-wrap gap-2" id="pills">
+      <button data-c="" class="pill rounded-lg border border-cyan-500/50 bg-cyan-500/15 px-3 py-1.5 text-xs font-bold text-cyan-300">Tous</button>
+      {comps.map((c) => (
+        <button data-c={c} class="pill rounded-lg border border-slate-700 bg-slate-900/70 px-3 py-1.5 text-xs font-bold text-slate-300 transition hover:border-cyan-500/40">{c}</button>
+      ))}
+    </div>
+
     {groups.map((g) => g.items.length > 0 && (
       <>
         <h2 class="mt-8 text-xl font-black text-white">{g.label}</h2>
         <div class="mt-3 space-y-2.5">
           {g.items.map((e) => { const d = e.data; const hLogo = d.homeTeamLogo || d.fighter1?.photo; const aLogo = d.awayTeamLogo || d.fighter2?.photo; return (
-            <a href={`/${d.sport}/${e.id}/`} class={`ev block rounded-xl border p-4 transition hover:border-cyan-500/40 ${d.status === 'finished' ? 'border-slate-800/60 bg-slate-900/40 opacity-70' : 'border-slate-800 bg-slate-900/80'}`}>
+            <a href={`/${d.sport}/${e.id}/`} data-comp={d.competition} class={`ev block rounded-xl border p-4 transition hover:border-cyan-500/40 ${d.status === 'finished' ? 'border-slate-800/60 bg-slate-900/40 opacity-70' : 'border-slate-800 bg-slate-900/80'}`}>
               <div class="flex items-center gap-3">
                 <span class="text-lg">{icons[d.sport] ?? '🏆'}</span>
                 {(hLogo || aLogo) && (
@@ -76,6 +84,12 @@ const badge = { upcoming: 'À venir', live: '🔴 Direct', finished: 'Terminé' 
 </BaseLayout>
 
 <script>
+  document.querySelectorAll('.pill').forEach((b) => b.addEventListener('click', () => {
+    const c = b.dataset.c;
+    document.querySelectorAll('.pill').forEach((x) => x.className = x.className.replace('border-cyan-500/50 bg-cyan-500/15 text-cyan-300','border-slate-700 bg-slate-900/70 text-slate-300'));
+    b.className = b.className.replace('border-slate-700 bg-slate-900/70 text-slate-300','border-cyan-500/50 bg-cyan-500/15 text-cyan-300');
+    document.querySelectorAll('.ev').forEach((el) => el.classList.toggle('hidden', !!c && el.dataset.comp !== c));
+  }));
   document.getElementById('freeOnly')?.addEventListener('change', (e) => {
     const on = (e.target as HTMLInputElement).checked;
     document.querySelectorAll('.paid').forEach((el) => el.classList.toggle('hidden', on));
