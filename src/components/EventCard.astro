@@ -23,9 +23,7 @@ const favicon = (u: string) => `https://www.google.com/s2/favicons?domain=${new 
     <span class="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-zinc-400">
       {icons[d.sport]} {d.competition}
     </span>
-    <span class={`rounded px-2 py-0.5 text-[10px] font-bold ${badge}`}>
-      {d.status === 'live' ? '🔴 Direct' : d.eventDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' }).toUpperCase()} · {d.eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
-    </span>
+    <span class="ev-date rounded px-2 py-0.5 text-[10px] font-bold" data-iso={d.eventDate.toISOString()} data-status={d.status}></span>
   </div>
 
   <div class="flex items-center justify-between px-4 py-6">
@@ -68,3 +66,20 @@ const favicon = (u: string) => `https://www.google.com/s2/favicons?domain=${new 
     </div>
   )}
 </a>
+<script is:inline>
+  document.querySelectorAll('.ev-date:not([data-run])').forEach((el) => {
+    el.dataset.run = '1';
+    const t = new Date(el.dataset.iso).getTime(), st = el.dataset.status;
+    const fmt = new Date(el.dataset.iso);
+    const tick = () => {
+      const ms = t - Date.now();
+      if (st === 'finished') { el.textContent = 'Terminé'; el.className += ' bg-slate-800/60 text-slate-500'; return; }
+      if (ms <= 0 && ms > -3*36e5) { el.innerHTML = '🔴 Direct'; el.className = el.className.replace(/bg-\S+|text-\S+/g,'').trim() + ' rounded px-2 py-0.5 text-[10px] font-bold bg-rose-950 text-rose-300 animate-pulse'; return; }
+      const lbl = fmt.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}).toUpperCase() + ' · ' + fmt.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
+      el.textContent = ms <= 0 ? lbl : lbl;
+      el.className += ' bg-slate-800 text-slate-300';
+      setTimeout(tick, 60000);
+    };
+    tick();
+  });
+</script>
