@@ -1,0 +1,39 @@
+---
+// Scores live ESPN (soccer) — poll 60s, met à jour les cartes par titre.
+---
+<script is:inline>
+  (async () => {
+    const FEEDS = ['uefa.champions', 'uefa.europa', 'uefa.europa.conf', 'fra.1', 'eng.1'];
+    const norm = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+    const matches = {};
+    for (const lg of FEEDS) {
+      try {
+        const d = await (await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${lg}/scoreboard`)).json();
+        for (const e of d.events || []) {
+          const c = e.competitions?.[0];
+          const st = e.status?.type || {};
+          for (const t of c?.competitors || []) {
+            const key = norm(t.team?.displayName);
+            matches[key] = matches[key] || {};
+            if (t.homeAway === 'home') { matches[key].h = t.score; } else { matches[key].a = t.score; }
+            matches[key].min = st.shortDetail || st.detail || '';
+            matches[key].live = st.state === 'in';
+            matches[key].opp = norm((c?.competitors || []).find((x) => x !== t)?.team?.displayName);
+          }
+        }
+      } catch (e) {}
+    }
+    document.querySelectorAll('a[href*="/football/"]').forEach((card) => {
+      const title = card.querySelectorAll('span.font-bold.text-white, .font-bold.text-white');
+      // team names are in the two column labels
+      const names = [...card.querySelectorAll('.line-clamp-2')].map((x) => norm(x.textContent));
+      for (const n of names) {
+        const m = matches[n];
+        if (m && m.live && matches[m.opp]) {
+          const b = card.querySelector('.rounded.px-2');
+          if (b) { b.innerHTML = `🔴 ${m.h ?? 0} - ${matches[m.opp].h ?? 0} · ${m.min}`; b.classList.add('bg-rose-950', 'text-rose-300'); }
+        }
+      }
+    });
+  })();
+</script>
