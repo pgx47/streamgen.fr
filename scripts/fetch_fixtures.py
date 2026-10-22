@@ -11,7 +11,8 @@ Usage:
 Env optionnel: THESPORTSDB_KEY (defaut: "3", cle publique v1).
 """
 import argparse
-import datetime as dt
+import datetime
+import datetime as dtmod as dt
 import json
 import os
 import re
@@ -157,7 +158,10 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
     time = ev.get("strTime") or "20:00:00"
     if not title or not date:
         return None
-    iso = f"{date}T{time}+02:00"
+    from zoneinfo import ZoneInfo
+    dt = dtmod.datetime.fromisoformat(f"{date}T{time}").replace(tzinfo=dtmod.timezone.utc).astimezone(ZoneInfo("Europe/Paris"))
+    iso = dt.strftime("%Y-%m-%dT%H:%M:%S%z")
+    iso = iso[:-2] + ":" + iso[-2:]
     slug = slugify(f"{title}-{date}")
 
     matrix = BROADCASTERS.get(bkey, {})
