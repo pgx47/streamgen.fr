@@ -2,7 +2,7 @@ name: Update fixtures
 
 on:
   schedule:
-    - cron: '0 4 * * *' # quotidien 04h UTC
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 permissions:
