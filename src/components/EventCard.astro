@@ -5,59 +5,66 @@ const { entry } = Astro.props;
 const d = entry.data;
 const icons: Record<string, string> = { football: '⚽', 'formule-1': '🏎️', ufc: '🥊', motogp: '🏍️', tennis: '🎾', rugby: '🏉', cyclisme: '🚴', 'sports-hiver': '⛷️', combat: '🥊' };
 const badge = {
-  upcoming: 'text-cyan-300 border-cyan-500/30 bg-cyan-500/10',
-  live: 'text-rose-300 border-rose-500/30 bg-rose-500/10 animate-pulse',
-  finished: 'text-slate-400 border-slate-600 bg-slate-800',
+  upcoming: 'bg-slate-800 text-slate-300',
+  live: 'bg-rose-950 text-rose-300 animate-pulse',
+  finished: 'bg-slate-800/60 text-slate-500',
 }[d.status];
-const initials = (n?: string) => (n ?? icons[d.sport] ?? '?').replace(/[^A-Za-zÀ-ÿ ]/g, '').split(' ').filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase() || '?';
-// visuels : logos equipes | photos combattants | poster F1
 const isFight = ['ufc', 'combat'].includes(d.sport);
-const imgH = isFight ? (d.fighter1?.photo || d.homeTeamLogo) : d.homeTeamLogo;
-const imgA = isFight ? (d.fighter2?.photo || d.awayTeamLogo) : d.awayTeamLogo;
-const lblH = isFight ? (d.fighter1?.name || d.homeTeam) : d.homeTeam;
-const lblA = isFight ? (d.fighter2?.name || d.awayTeam) : d.awayTeam;
+const t1 = { img: isFight ? (d.fighter1?.photo || d.homeTeamLogo) : d.homeTeamLogo, name: isFight ? (d.fighter1?.name || d.homeTeam) : d.homeTeam, flag: d.fighter1?.flag };
+const t2 = { img: isFight ? (d.fighter2?.photo || d.awayTeamLogo) : d.awayTeamLogo, name: isFight ? (d.fighter2?.name || d.awayTeam) : d.awayTeam, flag: d.fighter2?.flag };
+const initials = (n?: string) => (n ?? '?').split(' ').filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
+const free = [...new Map(d.freeBroadcasters.map((b) => [new URL(b.url).hostname, b])).values()];
+const top = free[0];
+const favicon = (u: string) => `https://www.google.com/s2/favicons?domain=${new URL(u).hostname}&sz=64`;
 ---
 <a href={`/${d.sport}/${entry.id}/`}
-   class="group block rounded-xl border border-slate-800 bg-slate-900/80 p-6 transition hover:border-cyan-500/40 hover:bg-slate-900">
-  <div class="flex items-center gap-2 text-xs text-slate-400">
-    <span>{icons[d.sport]}</span>
-    <span class="font-semibold uppercase tracking-wide">{d.competition}</span>
-    <span class={`ml-auto rounded-full border px-2 py-0.5 text-[10px] font-bold uppercase ${badge}`}>
-      {d.status === 'live' ? 'Direct' : d.status === 'finished' ? (d.score ? `✓ ${d.score}` : 'Terminé') : 'À venir'}
+   class="group flex flex-col overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900 shadow-lg transition-all hover:border-cyan-500/50">
+  <div class="flex items-center justify-between border-b border-zinc-800/80 px-4 py-2.5">
+    <span class="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-zinc-400">
+      {icons[d.sport]} {d.competition}
+    </span>
+    <span class={`rounded px-2 py-0.5 text-[10px] font-bold ${badge}`}>
+      {d.status === 'live' ? '🔴 Direct' : d.eventDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' }).toUpperCase()} · {d.eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
     </span>
   </div>
 
-  {(lblH || lblA) && (
-    <div class="mt-3 flex items-center gap-3">
-      {[
-        { img: imgH, lbl: lblH, flag: d.fighter1?.flag },
-        { img: imgA, lbl: lblA, flag: d.fighter2?.flag },
-      ].map((t, i) => (
-        <>
-          <span class="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-700/60 bg-slate-800">
-            {t.img
-              ? <img src={t.img} alt={t.lbl} class="h-full w-full object-contain p-1" loading="lazy"
-                     onerror={`this.outerHTML='<span class="text-[10px] font-black text-slate-400">${initials(t.lbl)}</span>'`} />
-              : <span class="text-[10px] font-black text-slate-400">{t.flag ? '🏳️' : initials(t.lbl)}</span>}
-          </span>
-          {i === 0 && <span class="text-xs font-black text-slate-500">VS</span>}
-        </>
-      ))}
+  <div class="flex items-center justify-between px-4 py-6">
+    {[t1, t2].map((t) => (
+      <div class="flex w-[38%] flex-col items-center gap-3">
+        <div class="flex h-16 w-16 items-center justify-center">
+          {t.img
+            ? <img src={t.img} alt={t.name} class="h-16 w-16 object-contain drop-shadow-md" loading="lazy" />
+            : <span class="flex h-14 w-14 items-center justify-center rounded-2xl border border-zinc-700 bg-zinc-800 text-sm font-black text-zinc-400">{t.flag || initials(t.name)}</span>}
+        </div>
+        {t.name && <span class="line-clamp-2 text-center text-sm font-bold leading-tight text-white">{t.name}</span>}
+      </div>
+    )).slice(0, 1)}
+    <div class="flex w-[24%] items-center justify-center">
+      <span class="text-xl font-black italic text-zinc-600">VS</span>
+    </div>
+    {[t1, t2].slice(1).map((t) => (
+      <div class="flex w-[38%] flex-col items-center gap-3">
+        <div class="flex h-16 w-16 items-center justify-center">
+          {t.img
+            ? <img src={t.img} alt={t.name} class="h-16 w-16 object-contain drop-shadow-md" loading="lazy" />
+            : <span class="flex h-14 w-14 items-center justify-center rounded-2xl border border-zinc-700 bg-zinc-800 text-sm font-black text-zinc-400">{t.flag || initials(t.name)}</span>}
+        </div>
+        {t.name && <span class="line-clamp-2 text-center text-sm font-bold leading-tight text-white">{t.name}</span>}
+      </div>
+    ))}
+  </div>
+
+  {top && (
+    <div class="mt-auto flex items-center justify-between border-t border-zinc-800 bg-zinc-950/50 px-4 py-3">
+      <div class="flex items-center gap-2">
+        <img src={favicon(top.url)} alt={top.name} class="h-5 w-auto rounded-sm bg-white/90 object-contain" loading="lazy" />
+        <span class="text-xs font-semibold text-white">{top.name}</span>
+        <span class="flex items-center gap-1 text-xs font-medium text-emerald-400">
+          <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+          {d.status === 'finished' ? 'Replay' : 'En clair'}
+        </span>
+      </div>
+      <span class="text-xs text-zinc-400 transition group-hover:text-cyan-300">Voir ↗</span>
     </div>
   )}
-
-  <h3 class="mt-2 font-bold text-white group-hover:text-cyan-300">{d.title}</h3>
-  <div class="mt-2 flex items-center gap-3 text-xs text-slate-500">
-    <span>{d.eventDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })} · {d.eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</span>
-    <span class="flex items-center gap-1.5">
-      {d.freeBroadcasters.slice(0, 3).map((b) => (
-        <img
-          src={`https://www.google.com/s2/favicons?domain=${new URL(b.url).hostname}&sz=64`}
-          alt={b.name} title={`${b.name} — en clair`}
-          class="h-4 w-4 rounded-sm bg-white/90" loading="lazy"
-        />
-      ))}
-      <span class="font-bold text-emerald-400">{d.status === 'finished' ? 'replay' : 'en clair'}</span>
-    </span>
-  </div>
 </a>
