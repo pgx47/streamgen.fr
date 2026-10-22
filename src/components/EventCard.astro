@@ -34,13 +34,13 @@ const lblA = isFight ? (d.fighter2?.name || d.awayTeam) : d.awayTeam;
         { img: imgA, lbl: lblA, flag: d.fighter2?.flag },
       ].map((t, i) => (
         <>
-          <span class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-slate-700/60 bg-slate-800">
+          <span class="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-700/60 bg-slate-800">
             {t.img
-              ? <img src={t.img} alt={t.lbl} class="h-full w-full object-contain p-0.5" loading="lazy"
+              ? <img src={t.img} alt={t.lbl} class="h-full w-full object-contain p-1" loading="lazy"
                      onerror={`this.outerHTML='<span class="text-[10px] font-black text-slate-400">${initials(t.lbl)}</span>'`} />
               : <span class="text-[10px] font-black text-slate-400">{t.flag ? '🏳️' : initials(t.lbl)}</span>}
           </span>
-          {i === 0 && <span class="text-[10px] font-black text-slate-600">VS</span>}
+          {i === 0 && <span class="text-xs font-black text-slate-500">VS</span>}
         </>
       ))}
     </div>
