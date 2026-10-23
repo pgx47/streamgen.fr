@@ -12,7 +12,7 @@ Env optionnel: THESPORTSDB_KEY (defaut: "3", cle publique v1).
 """
 import argparse
 import datetime
-import datetime as dtmod as dt
+import datetime as dt
 import json
 import os
 import re
@@ -159,8 +159,8 @@ def build_mdx(ev: dict, sport: str, competition: str, bkey: str, vpn: str,
     if not title or not date:
         return None
     from zoneinfo import ZoneInfo
-    dt = dtmod.datetime.fromisoformat(f"{date}T{time}").replace(tzinfo=dtmod.timezone.utc).astimezone(ZoneInfo("Europe/Paris"))
-    iso = dt.strftime("%Y-%m-%dT%H:%M:%S%z")
+    ev_dt = dt.datetime.fromisoformat(f"{date}T{time}").replace(tzinfo=dt.timezone.utc).astimezone(ZoneInfo("Europe/Paris"))
+    iso = ev_dt.strftime("%Y-%m-%dT%H:%M:%S%z")
     iso = iso[:-2] + ":" + iso[-2:]
     slug = slugify(f"{title}-{date}")
 
