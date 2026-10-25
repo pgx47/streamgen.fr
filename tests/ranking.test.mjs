@@ -51,3 +51,12 @@ test('PGW is a special gaming event with imagery, not a routine creator slot',as
  const cooking=event('cooking','ZeratoR — Cuisine',{category:'créateurs',subcategory:'Cooking Simulator'});
  assert.notEqual(eventVisual(cooking)?.src,'/assets/esport-hero.webp');
 });
+test('every discipline and newly discovered unknown events receive an attributable illustration',async()=>{
+ const {eventVisual}=await import('../public/event-utils.mjs');
+ const {readFile,access}=await import('node:fs/promises');
+ const events=JSON.parse(await readFile('public/events.json','utf8')).events;
+ for(const e of [...events,{id:'unknown',title:'Nouvelle découverte',category:'autres',subcategory:'Nouveau thème'}]){
+  const v=eventVisual(e);assert.ok(v?.src,e.subcategory);assert.ok(v.label);assert.ok(v.creditKey);await access('public'+v.src);
+ }
+ const badminton=eventVisual({subcategory:'Badminton'});assert.match(badminton.label,/badminton/i);assert.ok(badminton.author&&badminton.license&&badminton.sourceUrl);
+});

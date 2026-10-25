@@ -64,13 +64,173 @@ export function rankHighlights(events,now=new Date(),limit=3){
  return chosen;
 }
 
-export function eventVisual(e){
- if(/paris games week|\bpgw\b/i.test(e.title||''))return {src:'/assets/esport-hero.webp',label:'Illustration IA · univers du jeu vidéo'};
- if(e.subcategory==='Formule 1')return {src:'/assets/racing-hero.webp',label:'Illustration IA · sports mécaniques'};
- if(e.subcategory==='Football américain')return {src:'/assets/stadium-hero.webp',label:'Illustration IA · football américain'};
- if(e.category==='esport')return {src:'/assets/esport-hero.webp',label:'Illustration IA · univers du jeu vidéo'};
- if(e.subcategory==='Tennis de table')return {src:'/assets/ping-hero.png',label:'Illustration IA · tennis de table'};
- return null;
+export const IMAGE_LIBRARY={
+  "badminton": {
+    "creditKey": "badminton",
+    "src": "/assets/library/badminton.webp",
+    "label": "Illustration · badminton",
+    "title": "Badminton Racket.jpg",
+    "author": "hvshop",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Badminton_Racket.jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "gymnastics": {
+    "creditKey": "gymnastics",
+    "src": "/assets/library/gymnastics.webp",
+    "label": "Illustration · gymnastique",
+    "title": "2024 US Classic Uneven Bars 22.jpg",
+    "author": "FloweringDagwood",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_US_Classic_Uneven_Bars_22.jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "swimming": {
+    "creditKey": "swimming",
+    "src": "/assets/library/swimming.webp",
+    "label": "Illustration · sports aquatiques",
+    "title": "Swimming Pool lanes and starting blocks.jpg",
+    "author": "KeepActive Australia from Melbourne, VIC, Australia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swimming_Pool_lanes_and_starting_blocks.jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "sailing": {
+    "creditKey": "sailing",
+    "src": "/assets/library/sailing.webp",
+    "label": "Illustration · voile",
+    "title": "Sailing boat at sunset, Ionian Sea, Albania.jpg",
+    "author": "Liridon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sailing_boat_at_sunset,_Ionian_Sea,_Albania.jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "judo": {
+    "creditKey": "judo",
+    "src": "/assets/library/judo.webp",
+    "label": "Illustration · judo",
+    "title": "Interior de un Dojo de Judo con Tatamis en la Asociacion Departamental de Judo ,La Paz-Bolivia.jpg",
+    "author": "Norkiña",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_de_un_Dojo_de_Judo_con_Tatamis_en_la_Asociacion_Departamental_de_Judo_,La_Paz-Bolivia.jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "space": {
+    "creditKey": "space",
+    "src": "/assets/library/space.webp",
+    "label": "Illustration · espace",
+    "title": "ISS March 2009.jpg",
+    "author": "National Aeronautics and Space Administration (Q23548)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS_March_2009.jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "cooking": {
+    "creditKey": "cooking",
+    "src": "/assets/library/cooking.webp",
+    "label": "Illustration · cuisine",
+    "title": "The spiralizer in action! (4617278380).jpg",
+    "author": "jessica mullen from austin, tx",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_spiralizer_in_action!_(4617278380).jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "creator": {
+    "creditKey": "creator",
+    "src": "/assets/library/creator.webp",
+    "label": "Illustration · créateurs et studio",
+    "title": "Headphone Microphone Madrid (Unsplash).jpg",
+    "author": "WillSpirit SBLN willspirit",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Headphone_Microphone_Madrid_(Unsplash).jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "generic": {
+    "creditKey": "generic",
+    "src": "/assets/library/generic.webp",
+    "label": "Illustration · ambiance de spectacle",
+    "title": "Beach-Please-2022-crowd-stage-lights-night-performance.jpg",
+    "author": "PinkBeachPlanet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach-Please-2022-crowd-stage-lights-night-performance.jpg",
+    "type": "photo",
+    "changes": "Conversion en WebP et redimensionnement, recadrage visuel par le navigateur."
+  },
+  "racing": {
+    "creditKey": "racing",
+    "src": "/assets/racing-hero.webp",
+    "label": "Illustration IA · sports mécaniques",
+    "title": "sports mécaniques",
+    "author": "Illustration générée pour StreamGen",
+    "license": "Image générée par IA",
+    "licenseUrl": null,
+    "sourceUrl": null,
+    "type": "ai",
+    "changes": "Illustration générique de discipline ; aucune scène ou personne réelle revendiquée."
+  },
+  "stadium": {
+    "creditKey": "stadium",
+    "src": "/assets/stadium-hero.webp",
+    "label": "Illustration IA · football américain",
+    "title": "football américain",
+    "author": "Illustration générée pour StreamGen",
+    "license": "Image générée par IA",
+    "licenseUrl": null,
+    "sourceUrl": null,
+    "type": "ai",
+    "changes": "Illustration générique de discipline ; aucune scène ou personne réelle revendiquée."
+  },
+  "esport": {
+    "creditKey": "esport",
+    "src": "/assets/esport-hero.webp",
+    "label": "Illustration IA · univers du jeu vidéo",
+    "title": "univers du jeu vidéo",
+    "author": "Illustration générée pour StreamGen",
+    "license": "Image générée par IA",
+    "licenseUrl": null,
+    "sourceUrl": null,
+    "type": "ai",
+    "changes": "Illustration générique de discipline ; aucune scène ou personne réelle revendiquée."
+  },
+  "ping": {
+    "creditKey": "ping",
+    "src": "/assets/ping-hero.png",
+    "label": "Illustration IA · tennis de table",
+    "title": "tennis de table",
+    "author": "Illustration générée pour StreamGen",
+    "license": "Image générée par IA",
+    "licenseUrl": null,
+    "sourceUrl": null,
+    "type": "ai",
+    "changes": "Illustration générique de discipline ; aucune scène ou personne réelle revendiquée."
+  }
+};
+export function eventVisual(e={}){
+ const topic=String(e.subcategory||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
+ const title=String(e.title||'').toLowerCase();
+ let key=topic==='formule 1'?'racing':topic==='football americain'?'stadium':topic==='tennis de table'?'ping':/badminton/.test(topic)?'badminton':/gymnast/.test(topic)?'gymnastics':/aquatic|natation|swimming/.test(topic)?'swimming':/voile|sailing/.test(topic)?'sailing':/judo/.test(topic)?'judo':/espace|space/.test(topic)?'space':/cooking|cuisine/.test(topic)?'cooking':/paris games week|\bpgw\b/.test(title)||e.category==='esport'||/fortnite|league of legends|we were here/.test(topic)?'esport':e.category==='créateurs'?'creator':'generic';
+ return IMAGE_LIBRARY[key];
+}
+export function imageCredit(e){
+ const v=eventVisual(e),safe=t=>String(t??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ return `<a href="/credits-images/#${v.creditKey}" class="image-credit-link">${safe(v.label)} · crédits</a>`;
 }
 
 // Local official favicons; never ask visitors' browsers to contact an icon provider.

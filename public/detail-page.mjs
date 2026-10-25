@@ -10,3 +10,11 @@ if(data){
  document.querySelector('#page-status').textContent=statusAt(e);
  if(Date.now()-new Date(e.lastVerified)>48*3600000)document.querySelector('#freshness').textContent='Informations à revérifier — dernière consultation le '+new Intl.DateTimeFormat('fr-FR',{dateStyle:'long',timeZone:'Europe/Paris'}).format(new Date(e.lastVerified));
 }
+
+document.addEventListener('error',ev=>{
+ const img=ev.target;
+ if(img instanceof HTMLImageElement&&img.closest('.event-cover')&&!img.src.endsWith('/assets/library/generic.webp')){
+  img.src='/assets/library/generic.webp';const credit=img.closest('.event-cover').querySelector('.image-credit-link');
+  if(credit){credit.href='/credits-images/#generic';credit.textContent='Illustration d’ambiance · crédits'}
+ }
+},true);
