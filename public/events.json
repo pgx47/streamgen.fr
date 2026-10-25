@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-25T15:26:00.856Z",
+  "updatedAt": "2026-10-25T15:27:28.219Z",
   "coverage": "Sélection non exhaustive. Collecte automatique WTT, Eurovision Sport et NASA+. Les autres événements restent issus de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -2174,7 +2174,7 @@
     {
       "id": "nasa-plus-71adc9a95eb655e9",
       "slug": "nasa-plus-71adc9a95eb655e9",
-      "title": "U.S. Spacewalk 101",
+      "title": "Sortie dans l'espace américaine 101",
       "summary": "Un rendez-vous spatial annoncé par NASA+. Consultez la diffusion officielle et l’horaire en heure de Paris.",
       "category": "autres",
       "subcategory": "Espace",
@@ -2206,11 +2206,11 @@
           "label": "NASA+ · programme officiel",
           "url": "https://plus.nasa.gov/",
           "sourceId": "nasa-plus",
-          "collectedAt": "2026-10-25T15:26:00.856Z"
+          "collectedAt": "2026-10-25T15:27:28.219Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:26:00.856Z",
+      "lastVerified": "2026-10-25T15:27:28.219Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [

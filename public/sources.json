@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T15:26:00.856Z",
+  "updatedAt": "2026-10-25T15:27:28.219Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -215,7 +215,7 @@
       "url": "https://plus.nasa.gov/",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-25T15:26:00.856Z",
+      "checkedAt": "2026-10-25T15:27:28.219Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     }
   ]

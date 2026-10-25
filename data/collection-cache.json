@@ -5,7 +5,7 @@
       "checkedDay": "2026-10-25"
     },
     "monitor:wtt-french": {
-      "hash": "536fb1c271d4324e73248d47b199ff792de27bdc369bade436b94626bd19b04b",
+      "hash": "1185c6ee7ca8c101801ceafee45163e27814d70df6fdabcec23de4b6e9cc1edc",
       "checkedDay": "2026-10-25"
     },
     "monitor:f1-us": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-25"
     },
     "monitor:f1-mx": {
-      "hash": "555177b9bddbb7d644b5dd2055ea9e9d31ba5c8c9a0af0faf3f3cc51fdbcc57d",
+      "hash": "08e7439658ea2dbf838a7ee4c599246b8f0975af32be2d89c4eb5842f014a7ed",
       "checkedDay": "2026-10-25"
     },
     "monitor:nfl-tv": {
@@ -70,7 +70,9 @@
     },
     "nasa-plus-71adc9a95eb655e9": {
       "hash": "96f9848f2593633b90e298f78f8329091c1736018b597c74078c7538958df1db",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-25",
+      "editorialDone": true
     }
-  }
+  },
+  "llmAttemptDay": "2026-10-25"
 }
