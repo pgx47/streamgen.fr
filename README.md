@@ -42,3 +42,11 @@ Aucune collecte DeepSeek, X, scraping récurrent ou publication sociale n’est 
 ## Visuel
 
 `public/assets/ping-hero.png` est une illustration générée avec l’outil intégré ImageGen. Elle ne représente pas un participant réel. Prompt : photographie éditoriale cinématographique d’un pongiste fictif, maillot bleu, coup droit, athlète à droite, salle bleu nuit, lumière de stade et reflets vert chartreuse, espace sombre à gauche, sans texte ni logo. Les polices Google Fonts sont facultatives avec repli système.
+
+## Première collecte automatique
+
+`node scripts/collect.mjs` découvre les pages datées du calendrier officiel WTT Montpellier et vérifie les deux sessions de chaque journée déjà publiée. Les éditions nouvelles deviennent des candidats dans le rapport Actions, sans héritage automatique des droits TV. Le workflow `Collect official calendars` est planifié toutes les quatre heures à la minute 17 UTC, avec une publication au maximum quotidienne en l’absence de changement horaire. Les déclenchements GitHub peuvent être retardés.
+
+Une panne conserve le catalogue précédent et fait échouer le job. Les collectes partielles préservent les autres fiches. `scheduleVerifiedAt` ne concerne que les horaires ; `lastVerified` et les conditions de diffusion ne sont pas rajeunis artificiellement. Les résultats sont accessibles dans les artefacts Actions `collection-report` et dans `collection-status.json` après une publication réussie. Ni les flux live ni les autres catégories ne sont contrôlés par ce premier connecteur.
+
+Le bot pousse les données puis appelle explicitement le workflow réutilisable de déploiement : les commits du GITHUB_TOKEN ne déclenchent pas eux-mêmes les workflows push. Chaque déploiement contrôle ensuite la version publique et le chargement du catalogue.
