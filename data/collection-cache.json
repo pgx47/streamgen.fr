@@ -5,11 +5,11 @@
       "checkedDay": "2026-10-25"
     },
     "monitor:wtt-french": {
-      "hash": "1185c6ee7ca8c101801ceafee45163e27814d70df6fdabcec23de4b6e9cc1edc",
+      "hash": "dce38e80a8a688519abfc3c93d256d34dcf5560981c6bbf1bc9bb7095f2380c4",
       "checkedDay": "2026-10-25"
     },
     "monitor:f1-us": {
-      "hash": "51bbab3d1e4049dc92fdb1d2cc4c4805c01d8eff5c1c729fdd03f5825c6e16f7",
+      "hash": "47ddf4a50584dc8a3499d411575a2a6ada3f3832197fdcf4b8989abfb46630d4",
       "checkedDay": "2026-10-25"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-25"
     },
     "monitor:f1-mx": {
-      "hash": "08e7439658ea2dbf838a7ee4c599246b8f0975af32be2d89c4eb5842f014a7ed",
+      "hash": "a8700982741bd6ad51447fb7381924967566152ec5255788f981513de135aacd",
       "checkedDay": "2026-10-25"
     },
     "monitor:nfl-tv": {
@@ -54,19 +54,23 @@
     },
     "eurovision-sport-e8c078ef397e3d1d": {
       "hash": "6a2efdea3212fbaf95ae1aacc3d58a26049dbd9251aef1218c594dee66a16756",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
     },
     "eurovision-sport-62628376ae9c9d0d": {
       "hash": "e223cba6a52d9a6d6bb2e0d5d2f2434ee6b05309dbd5ad3fd784fc209cdacfea",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
     },
     "eurovision-sport-41a2976de0b1c614": {
       "hash": "856f31415b8bba58fd6ff26b0357b501d986ca65b4715f482da68b7c1f8cb5ea",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
     },
     "eurovision-sport-47c4cc052aded72a": {
       "hash": "186b8090cd274ece3bf2a4577f87fe268a17c79e026e50b14b4496c782ed6c9e",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
     },
     "nasa-plus-71adc9a95eb655e9": {
       "hash": "96f9848f2593633b90e298f78f8329091c1736018b597c74078c7538958df1db",
