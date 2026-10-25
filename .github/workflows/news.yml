@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -34,7 +36,14 @@ jobs:
           git config user.email "bot@streamgen.fr"
           git add src/content/news/ scripts/.news_seen.json
           git diff --cached --quiet || git commit -m "news: droits TV [bot]"
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase origin main || exit 1
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          echo "::error::Unable to push generated content after 3 attempts"
+          exit 1
   deploy:
     needs: news
     uses: ./.github/workflows/deploy.yml
