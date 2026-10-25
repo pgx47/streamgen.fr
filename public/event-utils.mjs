@@ -2,12 +2,12 @@ export const ZONE='Europe/Paris';
 export function dateKey(date){return new Intl.DateTimeFormat('en-CA',{timeZone:ZONE,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(date));}
 export function eventOnDay(e,key){return (e.date||dateKey(e.start))===key;}
 export function statusAt(e,now=new Date()){
- if(['En direct confirmé','Terminé','Reporté','Annulé'].includes(e.status))return e.status;
+ if(['En direct confirmé','Terminé','Reporté','Annulé','Programmation à revérifier'].includes(e.status))return e.status;
  if(!e.start)return 'Horaire à confirmer';
  return new Date(e.start)<=now?'Début prévu':'À venir';
 }
 export function countdownAt(e,now=new Date()){
- if(['Reporté','Annulé','Terminé'].includes(e.status))return e.status;
+ if(['Reporté','Annulé','Terminé','Programmation à revérifier'].includes(e.status))return e.status;
  if(!e.start)return 'Horaire à confirmer';
  const m=Math.ceil((new Date(e.start)-now)/60000);
  if(m<=0)return 'Direct non vérifié';

@@ -27,5 +27,5 @@ test('Twitch validates channel identity, Paris DST, cancellations and off-stream
  assert.equal(parseTwitch(html,'ZeratoR','zerator')[0].start,'2026-10-29T18:00:00.000Z');
  assert.equal(parseTwitch(html.replace('Suite du jeu','[HORS STREAM] LAN'),'ZeratoR','zerator').length,0);
  assert.throws(()=>parseTwitch(html,'Kameto','kamet0'));
- assert.equal(parseTwitch(html.replace('SUMMARY:', 'STATUS:CANCELLED\nSUMMARY:'),'ZeratoR','zerator').length,0);
+ assert.equal(parseTwitch(html.replace('SUMMARY:', 'STATUS:CANCELLED\nSUMMARY:'),'ZeratoR','zerator')[0].cancelled,true);
 });
