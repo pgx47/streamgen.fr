@@ -1,0 +1,1523 @@
+{
+  "schemaVersion": 1,
+  "demo": true,
+  "events": [
+    {
+      "id": "sg-001",
+      "title": "La relève française entre en jeu",
+      "summary": "Une nouvelle génération française défie les favoris. La petite balle, les grandes émotions.",
+      "category": "sport",
+      "subcategory": "Tennis de table",
+      "demoSchedule": {
+        "dayOffset": 0,
+        "time": "20:30",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Les Bleus",
+        "Open des Rives"
+      ],
+      "frenchPresence": true,
+      "organizer": "Open des Rives",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "Chaîne TV démo",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        },
+        {
+          "platform": "YouTube",
+          "label": "YouTube · chaîne organisateur démo",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "PING",
+      "major": false,
+      "featured": true,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-002",
+      "title": "Hexagone vs Northern Lights",
+      "summary": "Une place en finale et un collectif français qui n’a plus rien à perdre.",
+      "category": "esport",
+      "subcategory": "Valorant",
+      "demoSchedule": {
+        "dayOffset": 0,
+        "time": "19:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Hexagone",
+        "Northern Lights"
+      ],
+      "frenchPresence": true,
+      "organizer": "Northern Lights",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "VS",
+      "major": false,
+      "featured": true,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-003",
+      "title": "Le grand relais des créateurs",
+      "summary": "24 heures de défis, des rencontres inattendues et une aventure collective.",
+      "category": "créateurs",
+      "subcategory": "Événement exceptionnel",
+      "demoSchedule": {
+        "dayOffset": 0,
+        "time": "21:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Collectif Horizon",
+        "12 créateurs"
+      ],
+      "frenchPresence": false,
+      "organizer": "12 créateurs",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "24H",
+      "major": false,
+      "featured": true,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-004",
+      "title": "Au sommet, sans filet",
+      "summary": "Quatre blocs, un dernier essai : découvrez la précision du bloc.",
+      "category": "sport",
+      "subcategory": "Escalade",
+      "demoSchedule": {
+        "dayOffset": 0,
+        "time": "12:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Léa Martin",
+        "Coupe des Falaises"
+      ],
+      "frenchPresence": true,
+      "organizer": "Coupe des Falaises",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "Début prévu",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "BLOC",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-005",
+      "title": "La traversée des étoiles",
+      "summary": "Le ciel expliqué en direct par des passionnés, accessible à tous.",
+      "category": "autres",
+      "subcategory": "Astronomie",
+      "demoSchedule": {
+        "dayOffset": 0,
+        "time": "23:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Observatoire des Collines"
+      ],
+      "frenchPresence": false,
+      "organizer": "Observatoire des Collines",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "NUIT",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-006",
+      "title": "La finale des docks",
+      "summary": "Un format court, de l’intensité et une finale à hauteur de panier.",
+      "category": "sport",
+      "subcategory": "Basket 3×3",
+      "demoSchedule": {
+        "dayOffset": 0,
+        "time": "13:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Paris Rive",
+        "Lyon Sud"
+      ],
+      "frenchPresence": true,
+      "organizer": "Lyon Sud",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "Chaîne TV démo",
+          "url": null,
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "En direct confirmé",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "3×3",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-007",
+      "title": "La course des lumières",
+      "summary": "Des sprints tactiques et une jeune poursuite française à suivre.",
+      "category": "sport",
+      "subcategory": "Cyclisme sur piste",
+      "demoSchedule": {
+        "dayOffset": 0,
+        "time": "10:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Vélodrome des Lumières"
+      ],
+      "frenchPresence": true,
+      "organizer": "Vélodrome des Lumières",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "Chaîne TV démo",
+          "url": null,
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "Terminé",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "PISTE",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-008",
+      "title": "Les pionnières du volant",
+      "summary": "Une demi-finale où chaque échange peut faire basculer le match.",
+      "category": "sport",
+      "subcategory": "Badminton",
+      "demoSchedule": {
+        "dayOffset": 1,
+        "time": "17:30",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Camille Robert",
+        "Open Boréal"
+      ],
+      "frenchPresence": true,
+      "organizer": "Open Boréal",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "BAD",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-009",
+      "title": "Pixel Cup : dernier carré",
+      "summary": "Trois voitures, des envolées et une équipe française ambitieuse.",
+      "category": "esport",
+      "subcategory": "Rocket League",
+      "demoSchedule": {
+        "dayOffset": 1,
+        "time": "20:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Équipe Mistral",
+        "Pixel Cup"
+      ],
+      "frenchPresence": true,
+      "organizer": "Pixel Cup",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "PIXEL",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-010",
+      "title": "Une nuit pour tout créer",
+      "summary": "Une fresque imaginée et dessinée en une seule soirée.",
+      "category": "créateurs",
+      "subcategory": "Création",
+      "demoSchedule": {
+        "dayOffset": 1,
+        "time": "21:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Studio Minuit"
+      ],
+      "frenchPresence": false,
+      "organizer": "Studio Minuit",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "ART",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-011",
+      "title": "Le duel des épéistes",
+      "summary": "Un duel tactique pour découvrir la tension d’une dernière touche.",
+      "category": "sport",
+      "subcategory": "Escrime",
+      "demoSchedule": {
+        "dayOffset": 2,
+        "time": "18:30",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Julien Morel",
+        "Circuit des Lames"
+      ],
+      "frenchPresence": true,
+      "organizer": "Circuit des Lames",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "Chaîne TV démo",
+          "url": null,
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "ÉPÉE",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-012",
+      "title": "Arena des légendes",
+      "summary": "Des choix audacieux et un derby au sommet du circuit fictif.",
+      "category": "esport",
+      "subcategory": "League of Legends",
+      "demoSchedule": {
+        "dayOffset": 2,
+        "time": "20:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Aurore Gaming",
+        "Nova"
+      ],
+      "frenchPresence": true,
+      "organizer": "Nova",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "ARENA",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-013",
+      "title": "La cuisine en partage",
+      "summary": "Deux brigades inventent un dîner avec les idées du public.",
+      "category": "créateurs",
+      "subcategory": "Cuisine",
+      "demoSchedule": {
+        "dayOffset": 2,
+        "time": "19:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "La Table Ouverte"
+      ],
+      "frenchPresence": false,
+      "organizer": "La Table Ouverte",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "CHEF",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-014",
+      "title": "Les ailes du large",
+      "summary": "Suivez les choix de navigation d’un équipage français au large.",
+      "category": "sport",
+      "subcategory": "Voile",
+      "demoSchedule": {
+        "dayOffset": 3,
+        "time": "15:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Équipage Océane"
+      ],
+      "frenchPresence": true,
+      "organizer": "Équipage Océane",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "VOILE",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-015",
+      "title": "Speedrun solidaire",
+      "summary": "Un marathon de précision et de découvertes, à une date à reconfirmer.",
+      "category": "créateurs",
+      "subcategory": "Jeux vidéo",
+      "demoSchedule": {
+        "dayOffset": 3,
+        "time": "20:30",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Collectif Checkpoint"
+      ],
+      "frenchPresence": true,
+      "organizer": "Collectif Checkpoint",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "Reporté",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": {
+        "reason": "Nouvelle date à confirmer"
+      },
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "RUN",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-016",
+      "title": "Au fil de l’eau",
+      "summary": "Une descente, vingt portes et une trajectoire à inventer.",
+      "category": "sport",
+      "subcategory": "Canoë slalom",
+      "demoSchedule": {
+        "dayOffset": 4,
+        "time": "16:30",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Élise Dupont",
+        "Challenge des Eaux"
+      ],
+      "frenchPresence": true,
+      "organizer": "Challenge des Eaux",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "Chaîne TV démo",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "SLALOM",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-017",
+      "title": "Duel sur le damier",
+      "summary": "Un match rapide commenté pour comprendre les idées derrière les coups.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "demoSchedule": {
+        "dayOffset": 4,
+        "time": "19:30",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Cercle du Cavalier"
+      ],
+      "frenchPresence": true,
+      "organizer": "Cercle du Cavalier",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Diffuseur à confirmer",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "ÉCHECS",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-018",
+      "title": "La nuit des indépendants",
+      "summary": "De nouveaux visages et des duels qui se jouent à une frame.",
+      "category": "esport",
+      "subcategory": "Jeux de combat",
+      "demoSchedule": {
+        "dayOffset": 5,
+        "time": "20:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Circuit Arcade Libre"
+      ],
+      "frenchPresence": true,
+      "organizer": "Circuit Arcade Libre",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch",
+          "url": null,
+          "access": "free",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "FIGHT",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-019",
+      "title": "Les voix de demain",
+      "summary": "Quatre artistes émergents se rencontrent pour une session unique.",
+      "category": "créateurs",
+      "subcategory": "Musique",
+      "demoSchedule": {
+        "dayOffset": 5,
+        "time": "21:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Scène Commune"
+      ],
+      "frenchPresence": false,
+      "organizer": "Scène Commune",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "LIVE",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-020",
+      "title": "Le grand saut",
+      "summary": "Dix figures pour mêler hauteur, maîtrise et audace.",
+      "category": "sport",
+      "subcategory": "Trampoline",
+      "demoSchedule": {
+        "dayOffset": 6,
+        "time": "14:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Manon Petit",
+        "Rencontre aérienne"
+      ],
+      "frenchPresence": true,
+      "organizer": "Rencontre aérienne",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "Chaîne TV démo",
+          "url": null,
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "SAUT",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-021",
+      "title": "Sous la surface",
+      "summary": "Une plongée commentée dans un écosystème encore méconnu.",
+      "category": "autres",
+      "subcategory": "Sciences",
+      "demoSchedule": {
+        "dayOffset": 6,
+        "time": "18:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Laboratoire Bleu"
+      ],
+      "frenchPresence": false,
+      "organizer": "Laboratoire Bleu",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "OCÉAN",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-022",
+      "title": "Endurance collective",
+      "summary": "Les relais s’enchaînent, la stratégie fait la différence.",
+      "category": "esport",
+      "subcategory": "Sim racing",
+      "demoSchedule": {
+        "dayOffset": 7,
+        "time": "17:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Team Tricolore",
+        "6 heures virtuelles"
+      ],
+      "frenchPresence": true,
+      "organizer": "6 heures virtuelles",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "6H",
+      "major": false,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-023",
+      "title": "Finale des petits terrains",
+      "summary": "Des espaces serrés et une finale pleine de créativité.",
+      "category": "sport",
+      "subcategory": "Futsal",
+      "demoSchedule": {
+        "dayOffset": 8,
+        "time": "19:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Roubaix Métropole",
+        "Nice Est"
+      ],
+      "frenchPresence": true,
+      "organizer": "Nice Est",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "Chaîne TV démo",
+          "url": null,
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "FUTSAL",
+      "major": true,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-024",
+      "title": "Le rendez-vous des sommets",
+      "summary": "Une aventure d’endurance sur les lignes de crête.",
+      "category": "sport",
+      "subcategory": "Trail",
+      "demoSchedule": {
+        "dayOffset": 14,
+        "time": "08:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Équipe des Crêtes"
+      ],
+      "frenchPresence": true,
+      "organizer": "Équipe des Crêtes",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": null,
+      "popularity": {
+        "label": "Très attendu",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "TRAIL",
+      "major": true,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    },
+    {
+      "id": "sg-025",
+      "title": "L’odyssée des studios",
+      "summary": "Une rencontre de studios indépendants, annulée dans cette démonstration.",
+      "category": "créateurs",
+      "subcategory": "Création collective",
+      "demoSchedule": {
+        "dayOffset": 21,
+        "time": "18:00",
+        "durationMinutes": 120
+      },
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Collectif Horizon"
+      ],
+      "frenchPresence": false,
+      "organizer": "Collectif Horizon",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "YouTube",
+          "url": null,
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
+          "confirmed": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Annonce fictive de démonstration",
+          "url": null,
+          "collectedAt": null
+        }
+      ],
+      "status": "Annulé",
+      "lastVerified": null,
+      "confirmation": "Annonce simulée",
+      "postponement": null,
+      "cancellation": {
+        "reason": "Annulation fictive"
+      },
+      "popularity": {
+        "label": "Forte progression",
+        "simulated": true,
+        "measuredAt": null
+      },
+      "art": "ODYSÉE",
+      "major": true,
+      "featured": false,
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null
+    }
+  ]
+}

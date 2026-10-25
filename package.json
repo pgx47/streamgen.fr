@@ -1,25 +1,13 @@
 {
   "name": "streamgen",
-  "version": "0.1.0",
-  "description": "StreamGen.fr — le comparateur de retransmission sportive legale",
-  "type": "module",
+  "version": "0.2.0",
   "private": true,
+  "type": "module",
+  "description": "StreamGen — radar des directs, prototype statique français",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "postbuild": "pagefind --site dist --output-subdir pagefind"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "8.0.3",
-    "@astrojs/sitemap": "3.7.4",
-    "@fontsource-variable/inter": "^5.2.5",
-    "@tailwindcss/vite": "4.3.3",
-    "astro": "7.3.8",
-    "tailwindcss": "4.3.3"
-  },
-  "devDependencies": {
-    "pagefind": "^1.5.2",
-    "wrangler": "^4.151.1"
+    "build": "node scripts/build.mjs",
+    "dev": "python3 -m http.server 4173 --directory public",
+    "preview": "python3 -m http.server 4173 --directory dist",
+    "check": "node --check public/app.js"
   }
 }
