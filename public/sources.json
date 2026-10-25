@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T15:33:20.558Z",
+  "updatedAt": "2026-10-25T19:04:15.274Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -215,7 +215,7 @@
       "url": "https://plus.nasa.gov/",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-25T15:33:20.558Z",
+      "checkedAt": "2026-10-25T19:04:15.274Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -224,7 +224,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-25T15:33:20.558Z",
+      "checkedAt": "2026-10-25T19:04:15.274Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -233,7 +233,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-25T15:33:20.558Z",
+      "checkedAt": "2026-10-25T19:04:15.274Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -242,7 +242,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-25T15:33:20.558Z",
+      "checkedAt": "2026-10-25T19:04:15.274Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     }
   ]
