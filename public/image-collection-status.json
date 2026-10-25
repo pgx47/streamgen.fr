@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-25T23:52:10.653Z",
+  "mode": "scheduled",
+  "subjectsChecked": 0,
+  "assignedEvents": 0,
+  "storedAssets": 3,
+  "newAssetsToday": 3,
+  "pending": [],
+  "results": [
+    {
+      "subject": "Paris Games Week",
+      "status": "curated",
+      "reason": "Visuel spécifique déjà validé"
+    },
+    {
+      "subject": "ZeratoR",
+      "status": "curated",
+      "reason": "Visuel spécifique déjà validé"
+    }
+  ]
+}

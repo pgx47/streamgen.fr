@@ -237,6 +237,15 @@
       "status": "skipped",
       "checkedAt": "2026-10-25T22:34:42.913Z",
       "reason": "Limite quotidienne atteinte"
+    },
+    {
+      "id": "automatic-images",
+      "status": "ok",
+      "checkedAt": "2026-10-25T23:52:10.653Z",
+      "assignedEvents": 0,
+      "storedAssets": 3,
+      "pending": 0,
+      "reportUrl": "/image-collection-status.json"
     }
   ]
 }

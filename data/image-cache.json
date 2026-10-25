@@ -1,0 +1,44 @@
+{
+  "subjects": {
+    "c21f9c3793ca0c8deccc5117": {
+      "checkedDay": "2026-10-25",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    },
+    "e2751868a7bdd129ab86355a": {
+      "checkedDay": "2026-10-25",
+      "assetKey": "auto-38612edd15b7136185186da3",
+      "lastSuccessfulCheck": "2026-10-25T23:45:03.931Z"
+    },
+    "b1e6657af37593ef864edb42": {
+      "checkedDay": "2026-10-25",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    },
+    "eefdd325fba4db7cf9706ac8": {
+      "checkedDay": "2026-10-25",
+      "assetKey": "auto-adc57a57165c4d378837bb7f",
+      "lastSuccessfulCheck": "2026-10-25T23:45:03.931Z"
+    },
+    "c1f4d5fb27cb9a8d65823eb8": {
+      "checkedDay": "2026-10-25",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    },
+    "57e32d0ec64280e2d8a3228a": {
+      "checkedDay": "2026-10-25",
+      "assetKey": "auto-b9749dea66dfae8fe834e569",
+      "lastSuccessfulCheck": "2026-10-25T23:47:54.750Z"
+    },
+    "8eed07b9b70a45e8bea68d3e": {
+      "checkedDay": "2026-10-25",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    }
+  },
+  "days": {
+    "2026-10-25": {
+      "newAssets": 3
+    }
+  }
+}

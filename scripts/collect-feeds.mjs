@@ -25,6 +25,7 @@ for(const feed of feeds){
    const event=toEvent(item,feed,now),old=catalog.events.find(e=>e.id===event.id);
    const hash=createHash('sha256').update(JSON.stringify(item)).digest('hex');
    const previous=cache.items[event.id];
+   if(old?.sourceImage)event.sourceImage=old.sourceImage;
    if(previous?.hash===hash&&previous?.checkedDay===day&&(!process.env.DEEPSEEK_API_KEY||previous.editorialDone))continue;
    // Preserve cached editorial text only when the underlying facts are unchanged.
    if(previous?.hash===hash&&old){event.title=old.title;event.summary=old.summary}

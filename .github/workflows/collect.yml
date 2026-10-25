@@ -52,13 +52,15 @@ jobs:
           LLM_BUDGET_ALLOWED: ${{ steps.llm_budget.outputs.cache-hit != 'true' && steps.verify_reservation.outputs.cache-hit == 'true' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+      - name: Discover and validate event images
+        run: node scripts/collect-images.mjs
       - run: npm run build
       - name: Commit validated data
         id: commit
         run: |
           git config user.name streamgen-bot
           git config user.email bot@streamgen.fr
-          git add public/events.json public/sources.json public/collection-status.json data/collection-cache.json
+          git add public/events.json public/sources.json public/collection-status.json data/collection-cache.json public/automatic-images.json public/image-collection-status.json data/image-cache.json public/assets/auto-images
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
           else
@@ -74,6 +76,7 @@ jobs:
           path: |
             work/collection-run.json
             work/feeds-run.json
+            work/images-run.json
           retention-days: 14
   deploy:
     needs: collect
