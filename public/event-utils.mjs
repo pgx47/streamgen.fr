@@ -72,3 +72,17 @@ export function eventVisual(e){
  if(e.subcategory==='Tennis de table')return {src:'/assets/ping-hero.png',label:'Illustration IA · tennis de table'};
  return null;
 }
+
+// Local official favicons; never ask visitors' browsers to contact an icon provider.
+export function serviceIcon(service={}){
+ const input=typeof service==='string'?{platform:service}:service||{};
+ const label=String(input.label||input.name||input.platform||'').toLowerCase();
+ let host='';try{host=new URL(input.url).hostname.replace(/^www\./,'')}catch{}
+ const icons=['canalplus.com','capcomfrance.fr','formula1.com','france.tv','ijf.org','lequipe.fr','plus.nasa.gov','twitch.tv','youtube.com'];
+ const aliases={'francetvpub.fr':'france.tv','francetvpro.fr':'france.tv','api.twitch.tv':'twitch.tv'};
+ host=aliases[host]||host;
+ if(!icons.includes(host))host=label.includes('twitch')?'twitch.tv':label.includes('youtube')?'youtube.com':label.includes('canal+')?'canalplus.com':/france [23]|france.tv/.test(label)?'france.tv':label.includes('équipe')?'lequipe.fr':label.includes('nasa')?'plus.nasa.gov':label.includes('formula 1')?'formula1.com':'';
+ if(host)return `<img class="service-icon" src="/assets/services/${host}.ico" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async">`;
+ const tv=input.platform==='TV';
+ return `<svg class="service-icon service-icon-fallback" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">${tv?'<rect x="3" y="5" width="18" height="13" rx="2"/><path d="M8 21h8M12 18v3M8 2l4 3 4-3"/>':'<circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/>'}</svg>`;
+}
