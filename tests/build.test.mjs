@@ -18,3 +18,8 @@ test('les contenus réels possèdent dates absolues, sources et conditions sans 
  const seen=new Set();
  for(const e of d.events){assert.ok(!seen.has(e.id));seen.add(e.id);assert.match(e.date,/^2026-\d\d-\d\d$/);assert.ok(!e.demoSchedule);assert.ok(e.sources.length>0);for(const s of e.sources){assert.match(s.url,/^https:\/\//);assert.ok(s.collectedAt)}assert.equal(e.popularity,null);assert.notEqual(e.status,'En direct confirmé');}
 });
+test('les feuilles CSS sont versionnées sur l’accueil et les fiches pour éviter un cache périmé',async()=>{
+ const home=await readFile('dist/index.html','utf8');
+ const detail=await readFile('dist/evenements/wtt-montpellier-2026-10-27/index.html','utf8');
+ for(const html of [home,detail]){assert.match(html,/href="\/?wow\.css\?v=[a-f0-9]{12}"/);assert.match(html,/href="\/?style\.css\?v=[a-f0-9]{12}"/);}
+});
