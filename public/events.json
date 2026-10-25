@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-25T14:58:20.281Z",
-  "coverage": "Sélection non exhaustive. Horaires WTT contrôlés automatiquement ; autres sources vérifiées manuellement.",
+  "updatedAt": "2026-10-25T15:26:00.856Z",
+  "coverage": "Sélection non exhaustive. Collecte automatique WTT, Eurovision Sport et NASA+. Les autres événements restent issus de sources officielles avec vérification manuelle.",
   "events": [
     {
       "id": "wtt-montpellier-2026-10-27",
@@ -1867,6 +1867,360 @@
       "major": false,
       "featured": false,
       "art": "OG",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "eurovision-sport-df9d65682c759740",
+      "slug": "eurovision-sport-df9d65682c759740",
+      "title": "Rotterdam | Apparatus Finals - Day 2",
+      "summary": "Gymnastics : rendez-vous annoncé par Eurovision Sport. Consultez le programme et les conditions de diffusion sur la page officielle.",
+      "category": "sport",
+      "subcategory": "Gymnastics",
+      "date": "2026-10-25",
+      "start": "2026-10-25T12:55:20.000Z",
+      "end": "2026-10-25T18:00:20.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Eurovision Sport",
+      "broadcastOptions": [
+        {
+          "platform": "Eurovision Sport",
+          "label": "Eurovision Sport",
+          "url": "https://eurovisionsport.com/en/mediacard/gymnastics/EVS_261025_20261017FIGRotterdam_42_event",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Eurovision Sport · programme officiel",
+          "url": "https://eurovisionsport.com/en/home",
+          "sourceId": "eurovision-sport",
+          "collectedAt": "2026-10-25T15:26:00.856Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:26:00.856Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "eurovision-sport-e8c078ef397e3d1d",
+      "slug": "eurovision-sport-e8c078ef397e3d1d",
+      "title": "Cancun | Men's 10km",
+      "summary": "Aquatics : rendez-vous annoncé par Eurovision Sport. Consultez le programme et les conditions de diffusion sur la page officielle.",
+      "category": "sport",
+      "subcategory": "Aquatics",
+      "date": "2026-11-06",
+      "start": "2026-11-06T04:00:20.000Z",
+      "end": "2026-11-06T06:00:20.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Eurovision Sport",
+      "broadcastOptions": [
+        {
+          "platform": "Eurovision Sport",
+          "label": "Eurovision Sport",
+          "url": "https://eurovisionsport.com/en/mediacard/aquatics/EVS_261106_20261106AQUACancun_1_event",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Eurovision Sport · programme officiel",
+          "url": "https://eurovisionsport.com/en/home",
+          "sourceId": "eurovision-sport",
+          "collectedAt": "2026-10-25T15:26:00.856Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:26:00.856Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "eurovision-sport-62628376ae9c9d0d",
+      "slug": "eurovision-sport-62628376ae9c9d0d",
+      "title": "Cancun| Women's 10km",
+      "summary": "Aquatics : rendez-vous annoncé par Eurovision Sport. Consultez le programme et les conditions de diffusion sur la page officielle.",
+      "category": "sport",
+      "subcategory": "Aquatics",
+      "date": "2026-11-06",
+      "start": "2026-11-06T07:00:20.000Z",
+      "end": "2026-11-06T09:00:20.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Eurovision Sport",
+      "broadcastOptions": [
+        {
+          "platform": "Eurovision Sport",
+          "label": "Eurovision Sport",
+          "url": "https://eurovisionsport.com/en/mediacard/aquatics/EVS_261106_20261106AQUACancun_2_event",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Eurovision Sport · programme officiel",
+          "url": "https://eurovisionsport.com/en/home",
+          "sourceId": "eurovision-sport",
+          "collectedAt": "2026-10-25T15:26:00.856Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:26:00.856Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "eurovision-sport-41a2976de0b1c614",
+      "slug": "eurovision-sport-41a2976de0b1c614",
+      "title": "Cancun | Men's 3km Knockout Sprint",
+      "summary": "Aquatics : rendez-vous annoncé par Eurovision Sport. Consultez le programme et les conditions de diffusion sur la page officielle.",
+      "category": "sport",
+      "subcategory": "Aquatics",
+      "date": "2026-11-07",
+      "start": "2026-11-07T04:30:20.000Z",
+      "end": "2026-11-07T05:00:20.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Eurovision Sport",
+      "broadcastOptions": [
+        {
+          "platform": "Eurovision Sport",
+          "label": "Eurovision Sport",
+          "url": "https://eurovisionsport.com/en/mediacard/aquatics/EVS_261107_20261106AQUACancun_3_event",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Eurovision Sport · programme officiel",
+          "url": "https://eurovisionsport.com/en/home",
+          "sourceId": "eurovision-sport",
+          "collectedAt": "2026-10-25T15:26:00.856Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:26:00.856Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "eurovision-sport-47c4cc052aded72a",
+      "slug": "eurovision-sport-47c4cc052aded72a",
+      "title": "Cancun | Women's 3km Knockout Sprint",
+      "summary": "Aquatics : rendez-vous annoncé par Eurovision Sport. Consultez le programme et les conditions de diffusion sur la page officielle.",
+      "category": "sport",
+      "subcategory": "Aquatics",
+      "date": "2026-11-07",
+      "start": "2026-11-07T06:00:20.000Z",
+      "end": "2026-11-07T07:00:20.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Eurovision Sport",
+      "broadcastOptions": [
+        {
+          "platform": "Eurovision Sport",
+          "label": "Eurovision Sport",
+          "url": "https://eurovisionsport.com/en/mediacard/aquatics/EVS_261107_20261106AQUACancun_4_event",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Eurovision Sport · programme officiel",
+          "url": "https://eurovisionsport.com/en/home",
+          "sourceId": "eurovision-sport",
+          "collectedAt": "2026-10-25T15:26:00.856Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:26:00.856Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "nasa-plus-71adc9a95eb655e9",
+      "slug": "nasa-plus-71adc9a95eb655e9",
+      "title": "U.S. Spacewalk 101",
+      "summary": "Un rendez-vous spatial annoncé par NASA+. Consultez la diffusion officielle et l’horaire en heure de Paris.",
+      "category": "autres",
+      "subcategory": "Espace",
+      "date": "2026-11-05",
+      "start": "2026-11-05T11:45:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "NASA+",
+      "broadcastOptions": [
+        {
+          "platform": "NASA+",
+          "label": "NASA+",
+          "url": "https://plus.nasa.gov/scheduled-video/u-s-spacewalk-101/",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NASA+ · programme officiel",
+          "url": "https://plus.nasa.gov/",
+          "sourceId": "nasa-plus",
+          "collectedAt": "2026-10-25T15:26:00.856Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:26:00.856Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPACE",
       "commercial": {
         "affiliateUrl": null,
         "sponsor": null,

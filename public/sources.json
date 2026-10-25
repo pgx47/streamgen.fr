@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25T13:53:59Z",
-  "mode": "curation manuelle",
+  "updatedAt": "2026-10-25T15:26:00.856Z",
+  "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
       "id": "riot-primer",
@@ -199,6 +199,24 @@
       "kind": "official",
       "checkedAt": "2026-10-25T13:53:59Z",
       "notes": "Événement passé : présence en archives, aucun replay ni résultat présumé."
+    },
+    {
+      "id": "eurovision-sport",
+      "name": "Eurovision Sport",
+      "url": "https://eurovisionsport.com/en/home",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-25T15:26:00.856Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "nasa-plus",
+      "name": "NASA+",
+      "url": "https://plus.nasa.gov/",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-25T15:26:00.856Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     }
   ]
 }

@@ -1,0 +1,76 @@
+{
+  "items": {
+    "monitor:riot-primer": {
+      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:wtt-french": {
+      "hash": "536fb1c271d4324e73248d47b199ff792de27bdc369bade436b94626bd19b04b",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:f1-us": {
+      "hash": "51bbab3d1e4049dc92fdb1d2cc4c4805c01d8eff5c1c729fdd03f5825c6e16f7",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:nfl-time": {
+      "hash": "ad054fe44aaa68d58f18b6398ea3ed31529f463e0952d96af853b0961f84c677",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:f1-mx": {
+      "hash": "555177b9bddbb7d644b5dd2055ea9e9d31ba5c8c9a0af0faf3f3cc51fdbcc57d",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:nfl-tv": {
+      "hash": "a1cf7403815fb72290294aefb11cea199ead8b4dd4e051f3aa27094461175825",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:ifb-tv": {
+      "hash": "495e0ccd487dca85bd57f2cd32d6a8f5f5f9e5f216669f8510edded63340a125",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:capcom": {
+      "hash": "bb49ca1322ccfe3c4413edbba91a369e0c66b76818d67a9bbe627403cba443b5",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:ijf": {
+      "hash": "a013772b56a5b8bacda7ff175af276a48b208128e6baebef4eebef18352aaf88",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:pgw": {
+      "hash": "6e4bf0fa9f98e0ed845352e8c888749755a015c2644b56ad770da619131046f0",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:rhum-tv": {
+      "hash": "7d207c83603524e41eee05c50a1981d31bd6fa69c7f0291295dfff908c47e924",
+      "checkedDay": "2026-10-25"
+    },
+    "monitor:inoxtag": {
+      "hash": "035d4e816743182abcc53bc8c4833c37e5c885138d5ee73605c7642ff37e9068",
+      "checkedDay": "2026-10-25"
+    },
+    "eurovision-sport-df9d65682c759740": {
+      "hash": "d40810a26dfed6a57c2e4dc2a7fffd2fbbd4fb19445e8e71652af23ad04525de",
+      "checkedDay": "2026-10-25"
+    },
+    "eurovision-sport-e8c078ef397e3d1d": {
+      "hash": "6a2efdea3212fbaf95ae1aacc3d58a26049dbd9251aef1218c594dee66a16756",
+      "checkedDay": "2026-10-25"
+    },
+    "eurovision-sport-62628376ae9c9d0d": {
+      "hash": "e223cba6a52d9a6d6bb2e0d5d2f2434ee6b05309dbd5ad3fd784fc209cdacfea",
+      "checkedDay": "2026-10-25"
+    },
+    "eurovision-sport-41a2976de0b1c614": {
+      "hash": "856f31415b8bba58fd6ff26b0357b501d986ca65b4715f482da68b7c1f8cb5ea",
+      "checkedDay": "2026-10-25"
+    },
+    "eurovision-sport-47c4cc052aded72a": {
+      "hash": "186b8090cd274ece3bf2a4577f87fe268a17c79e026e50b14b4496c782ed6c9e",
+      "checkedDay": "2026-10-25"
+    },
+    "nasa-plus-71adc9a95eb655e9": {
+      "hash": "96f9848f2593633b90e298f78f8329091c1736018b597c74078c7538958df1db",
+      "checkedDay": "2026-10-25"
+    }
+  }
+}

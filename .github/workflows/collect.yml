@@ -21,13 +21,18 @@ jobs:
           node-version: 22
       - run: npm test
       - run: node scripts/collect.mjs
+        continue-on-error: true
+      - run: node scripts/collect-feeds.mjs
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
       - run: npm run build
       - name: Commit validated data
         id: commit
         run: |
           git config user.name streamgen-bot
           git config user.email bot@streamgen.fr
-          git add public/events.json public/sources.json public/collection-status.json
+          git add public/events.json public/sources.json public/collection-status.json data/collection-cache.json
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
           else
@@ -39,7 +44,9 @@ jobs:
         if: always()
         with:
           name: collection-report
-          path: work/collection-run.json
+          path: |
+            work/collection-run.json
+            work/feeds-run.json
           retention-days: 14
   deploy:
     needs: collect
