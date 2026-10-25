@@ -5,11 +5,11 @@
       "checkedDay": "2026-10-25"
     },
     "monitor:wtt-french": {
-      "hash": "dce38e80a8a688519abfc3c93d256d34dcf5560981c6bbf1bc9bb7095f2380c4",
+      "hash": "5fbd4b08da28ffbe0dc61a1fdf75c0bb4592556529697f4289128dce612d7b4c",
       "checkedDay": "2026-10-25"
     },
     "monitor:f1-us": {
-      "hash": "47ddf4a50584dc8a3499d411575a2a6ada3f3832197fdcf4b8989abfb46630d4",
+      "hash": "c7ae4f96341f5f5720af689bffb8cf93580457e838bac390de5059527b3138f1",
       "checkedDay": "2026-10-25"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-25"
     },
     "monitor:f1-mx": {
-      "hash": "a8700982741bd6ad51447fb7381924967566152ec5255788f981513de135aacd",
+      "hash": "0a6060cb8f5f0ab8e039b770a8ca0f8d4e8fa7f3945ce02f3094be9705482600",
       "checkedDay": "2026-10-25"
     },
     "monitor:nfl-tv": {
@@ -78,27 +78,27 @@
       "editorialDone": true
     },
     "twitch-zerator-3c2d9e947c1536c2": {
-      "hash": "617742a4ae92c08ac395f210d740dce25720fb5fb596198701ff5a0b4d4e5181",
+      "hash": "dfd1b0d01034723fe72581aaefc40fd3603ed5d679117849e02b8c6d9361df6e",
       "checkedDay": "2026-10-25",
       "editorialDone": false
     },
     "twitch-zerator-8232dd889c56ff09": {
-      "hash": "bb854580baaa59874c491ef07b286ad780ec5e740e241842ebdea7c095020a0e",
+      "hash": "e881e2c04ed90150240dbc2053bc4f68c5dde4e4d96938d4d3f66fd5d27ede2c",
       "checkedDay": "2026-10-25",
       "editorialDone": false
     },
     "twitch-zerator-15762d8b7b93b069": {
-      "hash": "03f42f689c104301b80c3a6c70011b2e61f01675fa241850aa798ab2f1a7390c",
+      "hash": "c8d095bff02c35b6c59909e2920839b7da8babf5a2753bb3ec5f138d65116669",
       "checkedDay": "2026-10-25",
       "editorialDone": false
     },
     "twitch-zerator-b9e25d5bdebd9c8e": {
-      "hash": "aff5b8eed2e6b2fa290e382d22c2697a9de779f56b71136ec6fb8a59643d66a6",
+      "hash": "59f6670a7aed99bb64e42a30d1f12fd77e35fef52a8cb9dcffa1fdfb6c768492",
       "checkedDay": "2026-10-25",
       "editorialDone": false
     },
     "twitch-zerator-2ffb12cedee57bf8": {
-      "hash": "427a4d5d4b710316c9f358737c87b00e8546be06c1426b4a8584c6efabfd1460",
+      "hash": "d07f70c8e21abb5b56e0567eaf687b4c4293c37518149bbe993cec9097d72d37",
       "checkedDay": "2026-10-25",
       "editorialDone": false
     }
