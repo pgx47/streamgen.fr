@@ -11,3 +11,11 @@ Les métadonnées ont été lues via l’API officielle Commons (imageinfo/extme
 Une image illustre une discipline ou une ambiance ; elle n’annonce pas qu’une personne photographiée participe à l’événement. Ne pas utiliser les visuels comme preuve de participants, de lieu exact ou de diffusion.
 
 Pour ajouter une discipline : choisir un fichier réutilisable, vérifier sa page et sa licence, stocker localement l’image, compléter son entrée de registre avec l’attribution, puis ajouter sa règle de correspondance. En attendant, le fallback conserve une illustration et son crédit. Les erreurs de chargement des cartes utilisent ce même fallback avec un crédit adapté.
+
+## Visuels directement liés aux événements
+
+Priorité aux entrées documentées d’événement : affiche officielle PGW 2026 et capture réelle Worlds 2025. L’affiche provient de la rubrique « Les affiches officielles » de l’espace presse PGW (https://www.parisgamesweek.com/fr/espace-presse), document horizontal public https://drive.google.com/file/d/1_dUHzXmd-pofl0pMeag8q1z-Wx2qcrcK/view. Sa mise à disposition presse est utilisée pour une présentation éditoriale de la PGW ; ce support protégé n’est pas qualifié de libre de droits. Le PDF a été rendu en WebP, sans modification du contenu. Il n’est associé qu’aux fiches PGW de 2026, pas aux éditions futures.
+
+La capture IG vs T1 — Worlds 2025 Play-in est de Fomos Esports, sous CC BY 3.0 selon https://commons.wikimedia.org/wiki/File:IG_vs_T1_-_2025_Worlds_Play-in.jpg. Elle est affichée comme archive 2025 ; ni les équipes ni la scène ne sont présentées comme celles du rendez-vous 2026. Titre, auteur, licence, source Commons et publication d’origine sont conservés dans les crédits.
+
+Pour les autres événements, la bibliothèque de discipline reste le recours. Aucun scraper ne considère une image Open Graph comme une autorisation de republication. De nouveaux supports officiels demandent une provenance et des conditions documentées avant ajout au registre. Une clé visualKey permet ensuite de les associer aux données d’un événement, sans modifier le rendu du site.

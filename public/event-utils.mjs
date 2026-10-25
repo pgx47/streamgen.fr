@@ -222,9 +222,45 @@ export const IMAGE_LIBRARY={
     "changes": "Illustration générique de discipline ; aucune scène ou personne réelle revendiquée."
   }
 };
+Object.assign(IMAGE_LIBRARY, {
+  "pgw-2026": {
+    "creditKey": "pgw-2026",
+    "src": "/assets/events/pgw-2026-official.webp",
+    "label": "Affiche officielle · PGW 2026",
+    "title": "Affiche officielle horizontale Paris Games Week 2026",
+    "author": "Paris Games Week / organisateurs et ayants droit indiqués sur l’affiche",
+    "license": "Support officiel de l’espace presse · usage éditorial relatif à la PGW, pas une licence libre",
+    "licenseUrl": "https://www.parisgamesweek.com/fr/espace-presse",
+    "sourceUrl": "https://www.parisgamesweek.com/fr/espace-presse",
+    "originalUrl": "https://drive.google.com/file/d/1_dUHzXmd-pofl0pMeag8q1z-Wx2qcrcK/view",
+    "type": "press",
+    "scope": "event",
+    "eventYear": 2026,
+    "fit": "contain",
+    "changes": "Première page de l’affiche officielle horizontale, conversion en WebP pour présentation éditoriale. Aucun partenariat ni validation de StreamGen par les organisateurs."
+  },
+  "worlds-2025": {
+    "creditKey": "worlds-2025",
+    "src": "/assets/events/worlds-2025-archive.webp",
+    "label": "Capture vidéo · Worlds 2025 (archive)",
+    "title": "IG vs T1 — Worlds 2025 Play-in",
+    "author": "Fomos Esports",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IG_vs_T1_-_2025_Worlds_Play-in.jpg",
+    "originalUrl": "https://www.youtube.com/watch?v=n6K6eWAHruQ",
+    "type": "photo",
+    "scope": "archive",
+    "eventYear": 2025,
+    "changes": "Conversion en WebP et redimensionnement. Capture de l’édition 2025 : ne représente ni la scène, ni les affiches ni les participants confirmés de l’édition 2026."
+  }
+});
 export function eventVisual(e={}){
  const topic=String(e.subcategory||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
  const title=String(e.title||'').toLowerCase();
+ if(/paris games week|\bpgw\b/.test(title)&&(!e.date||e.date.startsWith('2026-')))return IMAGE_LIBRARY['pgw-2026'];
+ if(/worlds/.test(title)&&(/lol|league/.test(title)||topic==='league of legends'))return IMAGE_LIBRARY['worlds-2025'];
+ if(e.visualKey&&IMAGE_LIBRARY[e.visualKey])return IMAGE_LIBRARY[e.visualKey];
  let key=topic==='formule 1'?'racing':topic==='football americain'?'stadium':topic==='tennis de table'?'ping':/badminton/.test(topic)?'badminton':/gymnast/.test(topic)?'gymnastics':/aquatic|natation|swimming/.test(topic)?'swimming':/voile|sailing/.test(topic)?'sailing':/judo/.test(topic)?'judo':/espace|space/.test(topic)?'space':/cooking|cuisine/.test(topic)?'cooking':/paris games week|\bpgw\b/.test(title)||e.category==='esport'||/fortnite|league of legends|we were here/.test(topic)?'esport':e.category==='créateurs'?'creator':'generic';
  return IMAGE_LIBRARY[key];
 }
