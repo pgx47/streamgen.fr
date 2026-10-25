@@ -32,7 +32,7 @@ for(const feed of feeds){
   }
   if(feed.platform==='Twitch'){
    const present=new Set(items.map(item=>toEvent(item,feed,now).id));
-   for(const old of catalog.events.filter(e=>e.id.startsWith(feed.id+'-')&&Date.parse(e.start)>Date.now()&&!present.has(e.id)&&e.status!=='Programmation à revérifier')){updates.push({event:{...old,status:'Programmation à revérifier',confirmation:'Créneau absent du dernier calendrier officiel',broadcastOptions:[],lastVerified:now,notes:[...old.notes,'Ce créneau a disparu du calendrier officiel ; maintien et diffusion à revérifier.']},hash:'missing',needsWriting:false})}
+   for(const old of catalog.events.filter(e=>e.id.startsWith(feed.id+'-')&&Date.parse(e.start)>Date.now()&&!present.has(e.id)&&!['Programmation à revérifier','Annulé'].includes(e.status))){updates.push({event:{...old,status:'Programmation à revérifier',confirmation:'Créneau absent du dernier calendrier officiel',broadcastOptions:[],lastVerified:now,notes:[...old.notes,'Ce créneau a disparu du calendrier officiel ; maintien et diffusion à revérifier.']},hash:'missing',needsWriting:false})}
   }
   const entry={id:feed.id,name:feed.name,url:feed.url,kind:'official',purpose:'Programme de diffusion collecté automatiquement',checkedAt:now,notes:'Données du diffuseur. Territoires et disponibilité du flux à vérifier.'};
   const idx=registry.sources.findIndex(s=>s.id===feed.id);if(idx<0)registry.sources.push(entry);else registry.sources[idx]=entry;

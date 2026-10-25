@@ -41,9 +41,15 @@ jobs:
         with:
           path: work/llm-budget
           key: deepseek-daily-${{ steps.budget.outputs.day }}
+      - uses: actions/cache/restore@v4
+        id: verify_reservation
+        if: steps.llm_budget.outputs.cache-hit != 'true'
+        with:
+          path: work/llm-budget
+          key: deepseek-daily-${{ steps.budget.outputs.day }}
       - run: node scripts/collect-feeds.mjs
         env:
-          LLM_BUDGET_ALLOWED: ${{ steps.llm_budget.outputs.cache-hit != 'true' && steps.reserve.outcome == 'success' }}
+          LLM_BUDGET_ALLOWED: ${{ steps.llm_budget.outputs.cache-hit != 'true' && steps.verify_reservation.outputs.cache-hit == 'true' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
       - run: npm run build
