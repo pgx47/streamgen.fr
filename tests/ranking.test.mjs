@@ -36,3 +36,11 @@ test('qualification wording never receives a final bonus',()=>{
  const p=editorialPriority(event('q','Worlds LoL — qualifications pour la finale'),now);
  assert.ok(p.reasons.includes('Qualifications'));assert.ok(!p.reasons.includes('Finale annoncée'));
 });
+test('highlights retire unknown-duration slots after a clearly editorial three-hour window; archive input stays untouched',()=>{
+ const old=event('old','Worlds LoL',{start:'2026-10-25T06:00:00Z'});
+ const current=event('current','Course',{start:'2026-10-25T09:00:00Z'});
+ const confirmed=event('live','Confirmed live',{start:'2026-10-25T05:00:00Z',status:'En direct confirmé',subcategory:'Other'});
+ const source=[old,current,confirmed];
+ assert.deepEqual(new Set(rankHighlights(source,now,6).map(e=>e.id)),new Set(['current','live']));
+ assert.equal(source.length,3);assert.equal(old.status,'À venir');
+});

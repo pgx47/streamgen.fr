@@ -57,9 +57,17 @@ export function editorialPriority(e,now=new Date()){
 export function rankHighlights(events,now=new Date(),limit=3){
  const today=dateKey(now),latest=new Date(Date.parse(today+'T12:00:00Z')+30*86400000).toISOString().slice(0,10);
  const weekEnd=new Date(Date.parse(today+'T12:00:00Z')+7*86400000).toISOString().slice(0,10);
- const ranked=events.filter(e=>e.date>=today&&e.date<=latest&&!['Annulé','Reporté','Terminé','Programmation à revérifier'].includes(e.status)&&(!e.end||Date.parse(e.end)>now.getTime()))
+ const ranked=events.filter(e=>e.date>=today&&e.date<=latest&&!['Annulé','Reporté','Terminé','Programmation à revérifier'].includes(e.status)&&(!e.end||Date.parse(e.end)>now.getTime())&&(e.end||!e.start||e.status==='En direct confirmé'||Date.parse(e.start)>now.getTime()-3*3600000))
  .map(e=>({event:e,priority:editorialPriority(e,now)})).filter(({event,priority})=>event.date<=weekEnd||priority.importance>=60||event.major===true).sort((a,b)=>Number(b.event.date===today)-Number(a.event.date===today)||b.priority.score-a.priority.score||a.event.date.localeCompare(b.event.date)||String(a.event.start||'~').localeCompare(String(b.event.start||'~'))||a.event.id.localeCompare(b.event.id));
  const seen=new Set(),chosen=[];
  for(const {event,priority} of ranked){if(seen.has(priority.series))continue;seen.add(priority.series);chosen.push(event);if(chosen.length>=limit)break}
  return chosen;
+}
+
+export function eventVisual(e){
+ if(e.subcategory==='Formule 1')return {src:'/assets/racing-hero.webp',label:'Illustration IA · sports mécaniques'};
+ if(e.subcategory==='Football américain')return {src:'/assets/stadium-hero.webp',label:'Illustration IA · football américain'};
+ if(e.category==='esport')return {src:'/assets/esport-hero.webp',label:'Illustration IA · univers du jeu vidéo'};
+ if(e.subcategory==='Tennis de table')return {src:'/assets/ping-hero.png',label:'Illustration IA · tennis de table'};
+ return null;
 }
