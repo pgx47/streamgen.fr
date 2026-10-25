@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
+      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
       "checkedDay": "2026-10-25"
     },
     "monitor:wtt-french": {
-      "hash": "5fbd4b08da28ffbe0dc61a1fdf75c0bb4592556529697f4289128dce612d7b4c",
+      "hash": "536fb1c271d4324e73248d47b199ff792de27bdc369bade436b94626bd19b04b",
       "checkedDay": "2026-10-25"
     },
     "monitor:f1-us": {
-      "hash": "c7ae4f96341f5f5720af689bffb8cf93580457e838bac390de5059527b3138f1",
+      "hash": "47ddf4a50584dc8a3499d411575a2a6ada3f3832197fdcf4b8989abfb46630d4",
       "checkedDay": "2026-10-25"
     },
     "monitor:nfl-time": {
@@ -17,11 +17,11 @@
       "checkedDay": "2026-10-25"
     },
     "monitor:f1-mx": {
-      "hash": "0a6060cb8f5f0ab8e039b770a8ca0f8d4e8fa7f3945ce02f3094be9705482600",
+      "hash": "555177b9bddbb7d644b5dd2055ea9e9d31ba5c8c9a0af0faf3f3cc51fdbcc57d",
       "checkedDay": "2026-10-25"
     },
     "monitor:nfl-tv": {
-      "hash": "a1cf7403815fb72290294aefb11cea199ead8b4dd4e051f3aa27094461175825",
+      "hash": "87aa1902cf551eb7669b04048eb45070326627851d991b9b3fb50c439c5c52bb",
       "checkedDay": "2026-10-25"
     },
     "monitor:ifb-tv": {

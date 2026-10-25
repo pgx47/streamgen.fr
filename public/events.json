@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-25T15:32:09.130Z",
+  "updatedAt": "2026-10-25T15:33:20.558Z",
   "coverage": "Sélection non exhaustive. Collecte automatique WTT, Eurovision Sport, NASA+ et calendriers Twitch. Les autres événements restent issus de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -2265,11 +2265,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-25T15:32:09.130Z"
+          "collectedAt": "2026-10-25T15:33:20.558Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:32:09.130Z",
+      "lastVerified": "2026-10-25T15:33:20.558Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2324,11 +2324,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-25T15:32:09.130Z"
+          "collectedAt": "2026-10-25T15:33:20.558Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:32:09.130Z",
+      "lastVerified": "2026-10-25T15:33:20.558Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2383,11 +2383,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-25T15:32:09.130Z"
+          "collectedAt": "2026-10-25T15:33:20.558Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:32:09.130Z",
+      "lastVerified": "2026-10-25T15:33:20.558Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2442,11 +2442,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-25T15:32:09.130Z"
+          "collectedAt": "2026-10-25T15:33:20.558Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:32:09.130Z",
+      "lastVerified": "2026-10-25T15:33:20.558Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2501,11 +2501,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-25T15:32:09.130Z"
+          "collectedAt": "2026-10-25T15:33:20.558Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:32:09.130Z",
+      "lastVerified": "2026-10-25T15:33:20.558Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
