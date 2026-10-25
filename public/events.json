@@ -1,1523 +1,1874 @@
 {
-  "schemaVersion": 1,
-  "demo": true,
+  "schemaVersion": 2,
+  "demo": false,
+  "updatedAt": "2026-10-25T13:53:59Z",
+  "coverage": "Première sélection éditoriale non exhaustive. Mise à jour manuelle ; vérifier le programme du diffuseur.",
   "events": [
     {
-      "id": "sg-001",
-      "title": "La relève française entre en jeu",
-      "summary": "Une nouvelle génération française défie les favoris. La petite balle, les grandes émotions.",
+      "id": "wtt-montpellier-2026-10-27",
+      "slug": "wtt-montpellier-2026-10-27",
+      "title": "WTT Montpellier — 27 octobre : premiers tours",
+      "summary": "À Montpellier, découvrez la tension du tennis de table mondial, point après point. Les affiches et les passages français de cette journée restent à vérifier.",
       "category": "sport",
       "subcategory": "Tennis de table",
-      "demoSchedule": {
-        "dayOffset": 0,
-        "time": "20:30",
-        "durationMinutes": 120
-      },
-      "start": null,
+      "date": "2026-10-27",
+      "start": "2026-10-27T12:00:00+01:00",
       "end": null,
       "sourceTimezone": "Europe/Paris",
       "participants": [
-        "Les Bleus",
-        "Open des Rives"
+        "Tableaux masculins et féminins"
       ],
       "frenchPresence": true,
-      "organizer": "Open des Rives",
+      "frenchNote": "Frères Lebrun annoncés au tournoi ; présence dans les matchs de cette journée à confirmer",
+      "organizer": "World Table Tennis",
       "broadcastOptions": [
         {
           "platform": "TV",
-          "label": "Chaîne TV démo",
-          "url": null,
+          "label": "La chaîne L’Équipe / plateformes L’Équipe",
+          "url": "https://www.lequipe.fr/tv/chaine-lequipe/",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Droits WTT annoncés. Diffusion sur la chaîne en clair ou sur les plateformes selon la programmation ; couverture de la session et conditions en ligne à vérifier.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WTT Montpellier · programme officiel 27",
+          "url": "https://tickets.wttmontpellier.com/fr/mardi_27_octobre_2026",
+          "sourceId": "wtt-27",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "L’Équipe · droits WTT 2026",
+          "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+          "sourceId": "wtt-rights",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "Ville de Montpellier · Français annoncés",
+          "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
+          "sourceId": "wtt-french",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Sessions annoncées · couverture TV à vérifier",
+      "schedule": [
+        {
+          "label": "Session de journée",
+          "start": "2026-10-27T12:00:00+01:00"
+        },
+        {
+          "label": "Session suivante",
+          "start": "2026-10-27T18:30:00+01:00"
+        }
+      ],
+      "notes": [
+        "Horaires des sessions sportives. Ils ne garantissent pas une prise d’antenne intégrale."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": true,
+      "art": "PING",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "featureTitle": "Le ping mondial.<br><em>À Montpellier.</em>",
+      "shortTitle": "WTT Montpellier — le ping mondial",
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "wtt-montpellier-2026-10-28",
+      "slug": "wtt-montpellier-2026-10-28",
+      "title": "WTT Montpellier — 28 octobre : premiers tours",
+      "summary": "À Montpellier, découvrez la tension du tennis de table mondial, point après point. Les affiches et les passages français de cette journée restent à vérifier.",
+      "category": "sport",
+      "subcategory": "Tennis de table",
+      "date": "2026-10-28",
+      "start": "2026-10-28T12:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Tableaux masculins et féminins"
+      ],
+      "frenchPresence": true,
+      "frenchNote": "Frères Lebrun annoncés au tournoi ; présence dans les matchs de cette journée à confirmer",
+      "organizer": "World Table Tennis",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "La chaîne L’Équipe / plateformes L’Équipe",
+          "url": "https://www.lequipe.fr/tv/chaine-lequipe/",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Droits WTT annoncés. Diffusion sur la chaîne en clair ou sur les plateformes selon la programmation ; couverture de la session et conditions en ligne à vérifier.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WTT Montpellier · programme officiel 28",
+          "url": "https://tickets.wttmontpellier.com/fr/mercredi_28_octobre_2026",
+          "sourceId": "wtt-28",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "L’Équipe · droits WTT 2026",
+          "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+          "sourceId": "wtt-rights",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "Ville de Montpellier · Français annoncés",
+          "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
+          "sourceId": "wtt-french",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Sessions annoncées · couverture TV à vérifier",
+      "schedule": [
+        {
+          "label": "Session de journée",
+          "start": "2026-10-28T12:00:00+01:00"
+        },
+        {
+          "label": "Session suivante",
+          "start": "2026-10-28T18:30:00+01:00"
+        }
+      ],
+      "notes": [
+        "Horaires des sessions sportives. Ils ne garantissent pas une prise d’antenne intégrale."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "PING",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "featureTitle": "Le ping mondial.<br><em>À Montpellier.</em>",
+      "shortTitle": "WTT Montpellier — 28 octobre : premiers tours",
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "wtt-montpellier-2026-10-29",
+      "slug": "wtt-montpellier-2026-10-29",
+      "title": "WTT Montpellier — 29 octobre : 16es et 8es de finale",
+      "summary": "À Montpellier, découvrez la tension du tennis de table mondial, point après point. Les affiches et les passages français de cette journée restent à vérifier.",
+      "category": "sport",
+      "subcategory": "Tennis de table",
+      "date": "2026-10-29",
+      "start": "2026-10-29T12:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Tableaux masculins et féminins"
+      ],
+      "frenchPresence": true,
+      "frenchNote": "Frères Lebrun annoncés au tournoi ; présence dans les matchs de cette journée à confirmer",
+      "organizer": "World Table Tennis",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "La chaîne L’Équipe / plateformes L’Équipe",
+          "url": "https://www.lequipe.fr/tv/chaine-lequipe/",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Droits WTT annoncés. Diffusion sur la chaîne en clair ou sur les plateformes selon la programmation ; couverture de la session et conditions en ligne à vérifier.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WTT Montpellier · programme officiel 29",
+          "url": "https://tickets.wttmontpellier.com/fr/jeudi_29_octobre_2026",
+          "sourceId": "wtt-29",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "L’Équipe · droits WTT 2026",
+          "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+          "sourceId": "wtt-rights",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "Ville de Montpellier · Français annoncés",
+          "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
+          "sourceId": "wtt-french",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Sessions annoncées · couverture TV à vérifier",
+      "schedule": [
+        {
+          "label": "Session de journée",
+          "start": "2026-10-29T12:00:00+01:00"
+        },
+        {
+          "label": "Session suivante",
+          "start": "2026-10-29T18:30:00+01:00"
+        }
+      ],
+      "notes": [
+        "Horaires des sessions sportives. Ils ne garantissent pas une prise d’antenne intégrale."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "PING",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "featureTitle": "Le ping mondial.<br><em>À Montpellier.</em>",
+      "shortTitle": "WTT Montpellier — 29 octobre : 16es et 8es de finale",
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "wtt-montpellier-2026-10-30",
+      "slug": "wtt-montpellier-2026-10-30",
+      "title": "WTT Montpellier — 30 octobre : 8es de finale",
+      "summary": "À Montpellier, découvrez la tension du tennis de table mondial, point après point. Les affiches et les passages français de cette journée restent à vérifier.",
+      "category": "sport",
+      "subcategory": "Tennis de table",
+      "date": "2026-10-30",
+      "start": "2026-10-30T12:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Tableaux masculins et féminins"
+      ],
+      "frenchPresence": true,
+      "frenchNote": "Frères Lebrun annoncés au tournoi ; présence dans les matchs de cette journée à confirmer",
+      "organizer": "World Table Tennis",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "La chaîne L’Équipe / plateformes L’Équipe",
+          "url": "https://www.lequipe.fr/tv/chaine-lequipe/",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Droits WTT annoncés. Diffusion sur la chaîne en clair ou sur les plateformes selon la programmation ; couverture de la session et conditions en ligne à vérifier.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WTT Montpellier · programme officiel 30",
+          "url": "https://tickets.wttmontpellier.com/fr/vendredi_30_octobre_2026",
+          "sourceId": "wtt-30",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "L’Équipe · droits WTT 2026",
+          "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+          "sourceId": "wtt-rights",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "Ville de Montpellier · Français annoncés",
+          "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
+          "sourceId": "wtt-french",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Sessions annoncées · couverture TV à vérifier",
+      "schedule": [
+        {
+          "label": "Session de journée",
+          "start": "2026-10-30T12:00:00+01:00"
+        },
+        {
+          "label": "Session suivante",
+          "start": "2026-10-30T18:30:00+01:00"
+        }
+      ],
+      "notes": [
+        "Horaires des sessions sportives. Ils ne garantissent pas une prise d’antenne intégrale."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "PING",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "featureTitle": "Le ping mondial.<br><em>À Montpellier.</em>",
+      "shortTitle": "WTT Montpellier — 30 octobre : 8es de finale",
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "wtt-montpellier-2026-10-31",
+      "slug": "wtt-montpellier-2026-10-31",
+      "title": "WTT Montpellier — 31 octobre : quarts de finale",
+      "summary": "À Montpellier, découvrez la tension du tennis de table mondial, point après point. Les affiches et les passages français de cette journée restent à vérifier.",
+      "category": "sport",
+      "subcategory": "Tennis de table",
+      "date": "2026-10-31",
+      "start": "2026-10-31T12:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Tableaux masculins et féminins"
+      ],
+      "frenchPresence": true,
+      "frenchNote": "Frères Lebrun annoncés au tournoi ; présence dans les matchs de cette journée à confirmer",
+      "organizer": "World Table Tennis",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "La chaîne L’Équipe / plateformes L’Équipe",
+          "url": "https://www.lequipe.fr/tv/chaine-lequipe/",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Droits WTT annoncés. Diffusion sur la chaîne en clair ou sur les plateformes selon la programmation ; couverture de la session et conditions en ligne à vérifier.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WTT Montpellier · programme officiel 31",
+          "url": "https://tickets.wttmontpellier.com/fr/samedi_31_octobre_2026",
+          "sourceId": "wtt-31",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "L’Équipe · droits WTT 2026",
+          "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+          "sourceId": "wtt-rights",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "Ville de Montpellier · Français annoncés",
+          "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
+          "sourceId": "wtt-french",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Sessions annoncées · couverture TV à vérifier",
+      "schedule": [
+        {
+          "label": "Session de journée",
+          "start": "2026-10-31T12:00:00+01:00"
+        },
+        {
+          "label": "Session suivante",
+          "start": "2026-10-31T18:00:00+01:00"
+        }
+      ],
+      "notes": [
+        "Horaires des sessions sportives. Ils ne garantissent pas une prise d’antenne intégrale."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "PING",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "featureTitle": "Le ping mondial.<br><em>À Montpellier.</em>",
+      "shortTitle": "WTT Montpellier — 31 octobre : quarts de finale",
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "wtt-montpellier-2026-11-01",
+      "slug": "wtt-montpellier-2026-11-01",
+      "title": "WTT Montpellier — 1 novembre : dernière journée",
+      "summary": "À Montpellier, découvrez la tension du tennis de table mondial, point après point. Les affiches et les passages français de cette journée restent à vérifier.",
+      "category": "sport",
+      "subcategory": "Tennis de table",
+      "date": "2026-11-01",
+      "start": "2026-11-01T11:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Tableaux masculins et féminins"
+      ],
+      "frenchPresence": true,
+      "frenchNote": "Frères Lebrun annoncés au tournoi ; présence dans les matchs de cette journée à confirmer",
+      "organizer": "World Table Tennis",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "La chaîne L’Équipe / plateformes L’Équipe",
+          "url": "https://www.lequipe.fr/tv/chaine-lequipe/",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Droits WTT annoncés. Diffusion sur la chaîne en clair ou sur les plateformes selon la programmation ; couverture de la session et conditions en ligne à vérifier.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WTT Montpellier · programme officiel 1",
+          "url": "https://tickets.wttmontpellier.com/fr/dimanche_01_novembre_2026",
+          "sourceId": "wtt-1",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "L’Équipe · droits WTT 2026",
+          "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+          "sourceId": "wtt-rights",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "Ville de Montpellier · Français annoncés",
+          "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
+          "sourceId": "wtt-french",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Sessions annoncées · couverture TV à vérifier",
+      "schedule": [
+        {
+          "label": "Session de journée",
+          "start": "2026-11-01T11:00:00+01:00"
+        },
+        {
+          "label": "Session suivante",
+          "start": "2026-11-01T17:30:00+01:00"
+        }
+      ],
+      "notes": [
+        "Horaires des sessions sportives. Ils ne garantissent pas une prise d’antenne intégrale."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": true,
+      "featured": false,
+      "art": "PING",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "featureTitle": "Le ping mondial.<br><em>À Montpellier.</em>",
+      "shortTitle": "WTT Montpellier — 1 novembre : dernière journée",
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "worlds-lol-2026-10-25",
+      "slug": "worlds-lol-2026-10-25",
+      "title": "Worlds LoL — phase suisse du 25 octobre",
+      "summary": "Un rendez-vous pour suivre les équipes internationales dans la course aux phases finales. Consultez le programme officiel pour connaître les affiches du jour.",
+      "category": "esport",
+      "subcategory": "League of Legends",
+      "date": "2026-10-25",
+      "start": "2026-10-25T18:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "America/Chicago",
+      "participants": [
+        "Affiches selon le tirage officiel"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Riot Games · canal officiel",
+          "url": "https://www.twitch.tv/riotgames",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Anglais",
+          "countries": [],
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Canal officiel cité par Riot. Conditions de connexion, restrictions locales et disponibilité à vérifier sur Twitch. Aucun co-stream français présumé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · Worlds 2026",
+          "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+          "sourceId": "riot-primer",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Journée et canal officiel annoncés",
+      "schedule": [],
+      "notes": [
+        "L’horaire concerne le début de la journée, pas chaque match. Aucune affiche déduite des sites secondaires contradictoires."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": true,
+      "art": "WORLDS",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "worlds-lol-2026-10-26",
+      "slug": "worlds-lol-2026-10-26",
+      "title": "Worlds LoL — phase suisse du 26 octobre",
+      "summary": "Un rendez-vous pour suivre les équipes internationales dans la course aux phases finales. Consultez le programme officiel pour connaître les affiches du jour.",
+      "category": "esport",
+      "subcategory": "League of Legends",
+      "date": "2026-10-26",
+      "start": "2026-10-26T18:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "America/Chicago",
+      "participants": [
+        "Affiches selon le tirage officiel"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Riot Games · canal officiel",
+          "url": "https://www.twitch.tv/riotgames",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Anglais",
+          "countries": [],
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Canal officiel cité par Riot. Conditions de connexion, restrictions locales et disponibilité à vérifier sur Twitch. Aucun co-stream français présumé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · Worlds 2026",
+          "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+          "sourceId": "riot-primer",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Journée et canal officiel annoncés",
+      "schedule": [],
+      "notes": [
+        "L’horaire concerne le début de la journée, pas chaque match. Aucune affiche déduite des sites secondaires contradictoires."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "WORLDS",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "worlds-lol-2026-10-28",
+      "slug": "worlds-lol-2026-10-28",
+      "title": "Worlds LoL — phase suisse du 28 octobre",
+      "summary": "Un rendez-vous pour suivre les équipes internationales dans la course aux phases finales. Consultez le programme officiel pour connaître les affiches du jour.",
+      "category": "esport",
+      "subcategory": "League of Legends",
+      "date": "2026-10-28",
+      "start": "2026-10-28T21:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "America/Chicago",
+      "participants": [
+        "Affiches selon le tirage officiel"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Riot Games · canal officiel",
+          "url": "https://www.twitch.tv/riotgames",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Anglais",
+          "countries": [],
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Canal officiel cité par Riot. Conditions de connexion, restrictions locales et disponibilité à vérifier sur Twitch. Aucun co-stream français présumé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · Worlds 2026",
+          "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+          "sourceId": "riot-primer",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Journée et canal officiel annoncés",
+      "schedule": [],
+      "notes": [
+        "L’horaire concerne le début de la journée, pas chaque match. Aucune affiche déduite des sites secondaires contradictoires."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "WORLDS",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "worlds-lol-2026-10-29",
+      "slug": "worlds-lol-2026-10-29",
+      "title": "Worlds LoL — phase suisse du 29 octobre",
+      "summary": "Un rendez-vous pour suivre les équipes internationales dans la course aux phases finales. Consultez le programme officiel pour connaître les affiches du jour.",
+      "category": "esport",
+      "subcategory": "League of Legends",
+      "date": "2026-10-29",
+      "start": "2026-10-29T21:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "America/Chicago",
+      "participants": [
+        "Affiches selon le tirage officiel"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Riot Games · canal officiel",
+          "url": "https://www.twitch.tv/riotgames",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Anglais",
+          "countries": [],
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Canal officiel cité par Riot. Conditions de connexion, restrictions locales et disponibilité à vérifier sur Twitch. Aucun co-stream français présumé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · Worlds 2026",
+          "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+          "sourceId": "riot-primer",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Journée et canal officiel annoncés",
+      "schedule": [],
+      "notes": [
+        "L’horaire concerne le début de la journée, pas chaque match. Aucune affiche déduite des sites secondaires contradictoires."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "WORLDS",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "worlds-lol-2026-10-30",
+      "slug": "worlds-lol-2026-10-30",
+      "title": "Worlds LoL — phase suisse du 30 octobre",
+      "summary": "Un rendez-vous pour suivre les équipes internationales dans la course aux phases finales. Consultez le programme officiel pour connaître les affiches du jour.",
+      "category": "esport",
+      "subcategory": "League of Legends",
+      "date": "2026-10-30",
+      "start": "2026-10-30T21:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "America/Chicago",
+      "participants": [
+        "Affiches selon le tirage officiel"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Riot Games · canal officiel",
+          "url": "https://www.twitch.tv/riotgames",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Anglais",
+          "countries": [],
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Canal officiel cité par Riot. Conditions de connexion, restrictions locales et disponibilité à vérifier sur Twitch. Aucun co-stream français présumé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · Worlds 2026",
+          "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+          "sourceId": "riot-primer",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Journée et canal officiel annoncés",
+      "schedule": [],
+      "notes": [
+        "L’horaire concerne le début de la journée, pas chaque match. Aucune affiche déduite des sites secondaires contradictoires."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "WORLDS",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "worlds-lol-2026-10-31",
+      "slug": "worlds-lol-2026-10-31",
+      "title": "Worlds LoL — phase suisse du 31 octobre",
+      "summary": "Un rendez-vous pour suivre les équipes internationales dans la course aux phases finales. Consultez le programme officiel pour connaître les affiches du jour.",
+      "category": "esport",
+      "subcategory": "League of Legends",
+      "date": "2026-10-31",
+      "start": "2026-10-31T18:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "America/Chicago",
+      "participants": [
+        "Affiches selon le tirage officiel"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Riot Games · canal officiel",
+          "url": "https://www.twitch.tv/riotgames",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Anglais",
+          "countries": [],
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Canal officiel cité par Riot. Conditions de connexion, restrictions locales et disponibilité à vérifier sur Twitch. Aucun co-stream français présumé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · Worlds 2026",
+          "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+          "sourceId": "riot-primer",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Journée et canal officiel annoncés",
+      "schedule": [],
+      "notes": [
+        "L’horaire concerne le début de la journée, pas chaque match. Aucune affiche déduite des sites secondaires contradictoires."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "WORLDS",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "worlds-lol-finale-2026",
+      "slug": "worlds-lol-finale-2026",
+      "title": "Worlds LoL — la finale",
+      "summary": "Le rendez-vous décisif du championnat mondial de League of Legends. Les équipes seront connues après les phases éliminatoires.",
+      "category": "esport",
+      "subcategory": "League of Legends",
+      "date": "2026-11-14",
+      "start": "2026-11-14T20:00:00+01:00",
+      "end": null,
+      "sourceTimezone": "America/New_York",
+      "participants": [
+        "Finalistes à déterminer"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Riot Games · canal officiel",
+          "url": "https://www.twitch.tv/riotgames",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Anglais",
+          "countries": [],
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Canal officiel cité par Riot. Conditions de connexion, restrictions locales et disponibilité à vérifier sur Twitch. Aucun co-stream français présumé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · Worlds 2026",
+          "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+          "sourceId": "riot-primer",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [],
+      "popularity": null,
+      "discovery": true,
+      "major": true,
+      "featured": false,
+      "art": "FINALE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "f1-austin-course-2026",
+      "slug": "f1-austin-course-2026",
+      "title": "GP des États-Unis — course",
+      "summary": "Un dimanche de course sur le circuit d’Austin : retrouvez le Grand Prix sur le diffuseur français officiel.",
+      "category": "sport",
+      "subcategory": "Formule 1",
+      "date": "2026-10-25",
+      "start": "2026-10-25T15:00:00-05:00",
+      "end": null,
+      "sourceTimezone": "America/Chicago",
+      "participants": [
+        "Plateau du championnat de Formule 1"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Formula 1",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "CANAL+ · Formule 1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Abonnement incluant la session nécessaire. Les essais et qualifications ne sont pas compris dans toutes les formules. Page du diffuseur, pas un lecteur dédié à la session.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Formula 1 · horaires locaux Austin",
+          "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+          "sourceId": "f1-us",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "CANAL+ · diffusion F1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "sourceId": "canal-f1",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [
+        "15:00 à Austin correspond à 21:00 à Paris après le changement d’heure européen."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "AUSTIN",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "f1-mexico-essais-libres-1-2026",
+      "slug": "f1-mexico-essais-libres-1-2026",
+      "title": "GP du Mexique — essais libres 1",
+      "summary": "Le week-end de Mexico se construit session après session. Retrouvez les horaires officiels et les conditions de diffusion françaises.",
+      "category": "sport",
+      "subcategory": "Formule 1",
+      "date": "2026-10-30",
+      "start": "2026-10-30T12:30:00-06:00",
+      "end": "2026-10-30T13:30:00-06:00",
+      "sourceTimezone": "America/Mexico_City",
+      "participants": [
+        "Plateau du championnat de Formule 1"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Formula 1",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "CANAL+ · Formule 1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Abonnement incluant la session nécessaire. Les essais et qualifications ne sont pas compris dans toutes les formules. Page du diffuseur, pas un lecteur dédié à la session.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Formula 1 · horaires locaux Mexico",
+          "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+          "sourceId": "f1-mx",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "CANAL+ · diffusion F1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "sourceId": "canal-f1",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "MEXICO",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "f1-mexico-essais-libres-2-2026",
+      "slug": "f1-mexico-essais-libres-2-2026",
+      "title": "GP du Mexique — essais libres 2",
+      "summary": "Le week-end de Mexico se construit session après session. Retrouvez les horaires officiels et les conditions de diffusion françaises.",
+      "category": "sport",
+      "subcategory": "Formule 1",
+      "date": "2026-10-30",
+      "start": "2026-10-30T16:00:00-06:00",
+      "end": "2026-10-30T17:00:00-06:00",
+      "sourceTimezone": "America/Mexico_City",
+      "participants": [
+        "Plateau du championnat de Formule 1"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Formula 1",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "CANAL+ · Formule 1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Abonnement incluant la session nécessaire. Les essais et qualifications ne sont pas compris dans toutes les formules. Page du diffuseur, pas un lecteur dédié à la session.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Formula 1 · horaires locaux Mexico",
+          "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+          "sourceId": "f1-mx",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "CANAL+ · diffusion F1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "sourceId": "canal-f1",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "MEXICO",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "f1-mexico-essais-libres-3-2026",
+      "slug": "f1-mexico-essais-libres-3-2026",
+      "title": "GP du Mexique — essais libres 3",
+      "summary": "Le week-end de Mexico se construit session après session. Retrouvez les horaires officiels et les conditions de diffusion françaises.",
+      "category": "sport",
+      "subcategory": "Formule 1",
+      "date": "2026-10-31",
+      "start": "2026-10-31T11:30:00-06:00",
+      "end": "2026-10-31T12:30:00-06:00",
+      "sourceTimezone": "America/Mexico_City",
+      "participants": [
+        "Plateau du championnat de Formule 1"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Formula 1",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "CANAL+ · Formule 1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Abonnement incluant la session nécessaire. Les essais et qualifications ne sont pas compris dans toutes les formules. Page du diffuseur, pas un lecteur dédié à la session.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Formula 1 · horaires locaux Mexico",
+          "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+          "sourceId": "f1-mx",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "CANAL+ · diffusion F1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "sourceId": "canal-f1",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "MEXICO",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "f1-mexico-qualifications-2026",
+      "slug": "f1-mexico-qualifications-2026",
+      "title": "GP du Mexique — qualifications",
+      "summary": "Le week-end de Mexico se construit session après session. Retrouvez les horaires officiels et les conditions de diffusion françaises.",
+      "category": "sport",
+      "subcategory": "Formule 1",
+      "date": "2026-10-31",
+      "start": "2026-10-31T15:00:00-06:00",
+      "end": "2026-10-31T16:00:00-06:00",
+      "sourceTimezone": "America/Mexico_City",
+      "participants": [
+        "Plateau du championnat de Formule 1"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Formula 1",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "CANAL+ · Formule 1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Abonnement incluant la session nécessaire. Les essais et qualifications ne sont pas compris dans toutes les formules. Page du diffuseur, pas un lecteur dédié à la session.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Formula 1 · horaires locaux Mexico",
+          "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+          "sourceId": "f1-mx",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "CANAL+ · diffusion F1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "sourceId": "canal-f1",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "MEXICO",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "f1-mexico-course-2026",
+      "slug": "f1-mexico-course-2026",
+      "title": "GP du Mexique — course",
+      "summary": "Le week-end de Mexico se construit session après session. Retrouvez les horaires officiels et les conditions de diffusion françaises.",
+      "category": "sport",
+      "subcategory": "Formule 1",
+      "date": "2026-11-01",
+      "start": "2026-11-01T14:00:00-06:00",
+      "end": null,
+      "sourceTimezone": "America/Mexico_City",
+      "participants": [
+        "Plateau du championnat de Formule 1"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Formula 1",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "CANAL+ · Formule 1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "access": "subscription",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Abonnement incluant la session nécessaire. Les essais et qualifications ne sont pas compris dans toutes les formules. Page du diffuseur, pas un lecteur dédié à la session.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Formula 1 · horaires locaux Mexico",
+          "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+          "sourceId": "f1-mx",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "CANAL+ · diffusion F1",
+          "url": "https://www.canalplus.com/sport/formule-1/",
+          "sourceId": "canal-f1",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [],
+      "popularity": null,
+      "discovery": true,
+      "major": true,
+      "featured": false,
+      "art": "MEXICO",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "nfl-paris-game-2026",
+      "slug": "nfl-paris-game-2026",
+      "title": "NFL à Paris — Steelers vs Saints",
+      "summary": "Le Stade de France accueille le football américain : un match accessible en clair pour découvrir ses phases de jeu et son ambiance.",
+      "category": "sport",
+      "subcategory": "Football américain",
+      "date": "2026-10-25",
+      "start": "2026-10-25T14:30:00+01:00",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Pittsburgh Steelers",
+        "New Orleans Saints"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "NFL",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "France 2 · TNT en clair",
+          "url": "https://www.france.tv/france-2/",
           "access": "free",
           "accountRequired": false,
           "language": "Français",
           "countries": [
             "France"
           ],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Réception TV en clair sans compte. Le lien ouvre la page de la chaîne ; le lecteur en ligne peut demander un compte.",
+          "linkKind": "information"
+        },
+        {
+          "platform": "TV",
+          "label": "france.tv · France 2",
+          "url": "https://www.france.tv/france-2/direct.html",
+          "access": "free",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Compte gratuit et restrictions territoriales susceptibles de s’appliquer. La page est celle du direct de la chaîne, sans garantie que l’émission a commencé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Stade de France · NFL Paris Game",
+          "url": "https://www.stadefrance.com/fr/billetterie/pittsburgh-steelers-vs-new-orleans-saints-nfl-paris-game-2026",
+          "sourceId": "nfl-time",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "France Télévisions · NFL Paris Game",
+          "url": "https://www.francetvpub.fr/la-newsletter-169/",
+          "sourceId": "nfl-tv",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [
+        "Coup d’envoi annoncé à 14:30. L’antenne France 2 commence à 14:10 ; aucun statut live inféré de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "NFL",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "yonex-ifb-finales-2026",
+      "slug": "yonex-ifb-finales-2026",
+      "title": "Yonex IFB — journée des finales",
+      "summary": "Cinq tableaux, une journée de finales : un bon point d’entrée pour apprécier la vitesse et la variété du badminton.",
+      "category": "sport",
+      "subcategory": "Badminton",
+      "date": "2026-10-25",
+      "start": "2026-10-25T11:00:00+01:00",
+      "end": "2026-10-25T17:30:00+01:00",
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Finalistes selon le programme BWF"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Fédération Française de Badminton",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "La chaîne L’Équipe · à partir de 13 h",
+          "url": "https://www.lequipe.fr/tv/chaine-lequipe/",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Diffusion de la chaîne annoncée dimanche à partir de 13:00. Début sportif à 11:00. Les modalités du lecteur et la couverture exacte restent celles du diffuseur.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Yonex IFB · billetterie officielle",
+          "url": "https://tickets.yonexifb.com/fr/product/200/tremblay_arena_grand_paris/arena_grand_paris_yonex_ifb_2026",
+          "sourceId": "ifb-time",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "FFBaD · où suivre les IFB",
+          "url": "https://www.ffbad.org/en/actualites/actualites/2026/yonex-ifb-comment-suivre-l-edition-2026",
+          "sourceId": "ifb-tv",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [
+        "Fin de créneau annoncée par la billetterie, pas une confirmation de fin de compétition. Aucun finaliste nommé sans recoupement officiel."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "BAD",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "route-du-rhum-antenne-2026",
+      "slug": "route-du-rhum-antenne-2026",
+      "title": "Route du Rhum — le départ sur France 3",
+      "summary": "Suivez les préparatifs et les premières images de la traversée : l’antenne France 3 est annoncée avant le départ au large de Saint-Malo.",
+      "category": "sport",
+      "subcategory": "Voile",
+      "date": "2026-11-01",
+      "start": "2026-11-01T12:50:00+01:00",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Flotte de la Route du Rhum"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "OC Sport Pen Duick",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "France 3 · TNT en clair",
+          "url": "https://www.france.tv/france-3/",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Réception TV en clair sans compte. Le lien ouvre la page de la chaîne ; le lecteur en ligne peut demander un compte.",
+          "linkKind": "information"
+        },
+        {
+          "platform": "TV",
+          "label": "france.tv · France 3",
+          "url": "https://www.france.tv/france-3/direct.html",
+          "access": "free",
+          "accountRequired": true,
+          "language": "Français",
+          "countries": [
+            "France"
+          ],
+          "territoryNote": "Accès en France ; conditions du diffuseur applicables",
+          "confirmed": true,
+          "restrictions": "Compte gratuit et restrictions territoriales susceptibles de s’appliquer. La page est celle du direct de la chaîne, sans garantie que l’émission a commencé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "France Télévisions · Route du Rhum",
+          "url": "https://www.francetvpro.fr/contenu-de-presse/78939582",
+          "sourceId": "rhum-tv",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "Route du Rhum · organisateur",
+          "url": "https://hospitalites.routedurhum.com/faq/",
+          "sourceId": "rhum-time",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [
+        "12:50 est la prise d’antenne annoncée par France Télévisions. L’organisateur indique un départ sportif à 13:02. Une formulation du dossier TV est ambiguë : revérifier l’horaire de départ."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": true,
+      "featured": false,
+      "art": "RHUM",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "judo-abu-dhabi-2026-10-29",
+      "slug": "judo-abu-dhabi-2026-10-29",
+      "title": "Grand Slam d’Abu Dhabi — journée 1",
+      "summary": "Une occasion de suivre le judo international au plus près des catégories de poids. Le programme horaire et les diffuseurs ne sont pas encore renseignés dans la fiche IJF consultée.",
+      "category": "sport",
+      "subcategory": "Judo",
+      "date": "2026-10-29",
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Asia/Dubai",
+      "participants": [
+        "Hommes −60/−66 kg ; femmes −48/−52/−57 kg"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Fédération internationale de judo",
+      "broadcastOptions": [],
+      "sources": [
+        {
+          "label": "IJF · Abu Dhabi Grand Slam",
+          "url": "https://www.ijf.org/competition/3157",
+          "sourceId": "ijf",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Dates officielles · horaire et diffusion à confirmer",
+      "schedule": [],
+      "notes": [
+        "Aucune option de diffusion publiée ici tant qu’elle n’est pas confirmée."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JUDO",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "judo-abu-dhabi-2026-10-30",
+      "slug": "judo-abu-dhabi-2026-10-30",
+      "title": "Grand Slam d’Abu Dhabi — journée 2",
+      "summary": "Une occasion de suivre le judo international au plus près des catégories de poids. Le programme horaire et les diffuseurs ne sont pas encore renseignés dans la fiche IJF consultée.",
+      "category": "sport",
+      "subcategory": "Judo",
+      "date": "2026-10-30",
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Asia/Dubai",
+      "participants": [
+        "Hommes −73/−81 kg ; femmes −63/−70 kg"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Fédération internationale de judo",
+      "broadcastOptions": [],
+      "sources": [
+        {
+          "label": "IJF · Abu Dhabi Grand Slam",
+          "url": "https://www.ijf.org/competition/3157",
+          "sourceId": "ijf",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Dates officielles · horaire et diffusion à confirmer",
+      "schedule": [],
+      "notes": [
+        "Aucune option de diffusion publiée ici tant qu’elle n’est pas confirmée."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JUDO",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "judo-abu-dhabi-2026-10-31",
+      "slug": "judo-abu-dhabi-2026-10-31",
+      "title": "Grand Slam d’Abu Dhabi — journée 3",
+      "summary": "Une occasion de suivre le judo international au plus près des catégories de poids. Le programme horaire et les diffuseurs ne sont pas encore renseignés dans la fiche IJF consultée.",
+      "category": "sport",
+      "subcategory": "Judo",
+      "date": "2026-10-31",
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Asia/Dubai",
+      "participants": [
+        "Hommes −90/−100/+100 kg ; femmes −78/+78 kg"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Fédération internationale de judo",
+      "broadcastOptions": [],
+      "sources": [
+        {
+          "label": "IJF · Abu Dhabi Grand Slam",
+          "url": "https://www.ijf.org/competition/3157",
+          "sourceId": "ijf",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Dates officielles · horaire et diffusion à confirmer",
+      "schedule": [],
+      "notes": [
+        "Aucune option de diffusion publiée ici tant qu’elle n’est pas confirmée."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JUDO",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "capcom-pgw-2026-10-25",
+      "slug": "capcom-pgw-2026-10-25",
+      "title": "Paris Games Week — la scène Capcom",
+      "summary": "Développeurs, jeux de combat et animations de scène : découvrez les coulisses du jeu vidéo à travers les canaux annoncés par Capcom.",
+      "category": "créateurs",
+      "subcategory": "Jeux et rencontres",
+      "date": "2026-10-25",
+      "start": null,
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Animations de la scène Capcom"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Présence française non établie pour ce rendez-vous",
+      "organizer": "Capcom France",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Capcom France",
+          "url": "https://www.twitch.tv/capcomfrance",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Capcom annonce la retransmission des animations de scène. Les horaires et le contenu du 25 sont à consulter dans le planning du stand.",
+          "linkKind": "channel"
         },
         {
           "platform": "YouTube",
-          "label": "YouTube · chaîne organisateur démo",
-          "url": null,
+          "label": "Capcom France",
+          "url": "https://www.youtube.com/capcomfrance",
           "access": "free",
-          "accountRequired": false,
+          "accountRequired": null,
           "language": "Français",
           "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle annoncée. Un direct peut ne pas être actif au moment de l’ouverture.",
+          "linkKind": "channel"
         }
       ],
       "sources": [
         {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
+          "label": "Capcom France · scène PGW",
+          "url": "https://www.capcomfrance.fr/paris-games-week-2026-le-planning-du-stand-capcom/",
+          "sourceId": "capcom",
+          "collectedAt": "2026-10-25T13:53:59Z"
+        },
+        {
+          "label": "Paris Games Week · dates",
+          "url": "https://www.parisgamesweek.com/fr",
+          "sourceId": "pgw",
+          "collectedAt": "2026-10-25T13:53:59Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "PING",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Canaux annoncés · horaire à consulter",
+      "schedule": [],
+      "notes": [
+        "La journée est datée ; aucun horaire de début de diffusion n’est inventé."
+      ],
+      "popularity": null,
+      "discovery": true,
       "major": false,
       "featured": true,
+      "art": "PGW",
       "commercial": {
         "affiliateUrl": null,
         "sponsor": null,
         "sponsored": false
       },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-002",
-      "title": "Hexagone vs Northern Lights",
-      "summary": "Une place en finale et un collectif français qui n’a plus rien à perdre.",
-      "category": "esport",
-      "subcategory": "Valorant",
-      "demoSchedule": {
-        "dayOffset": 0,
-        "time": "19:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Hexagone",
-        "Northern Lights"
-      ],
-      "frenchPresence": true,
-      "organizer": "Northern Lights",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
+      "vpnContext": null,
       "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "VS",
-      "major": false,
-      "featured": true,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
+      "cancellation": null
     },
     {
-      "id": "sg-003",
-      "title": "Le grand relais des créateurs",
-      "summary": "24 heures de défis, des rencontres inattendues et une aventure collective.",
+      "id": "inoxtag-back-to-og-2026",
+      "slug": "inoxtag-back-to-og-2026",
+      "title": "Inoxtag × PGW — Back to OG",
+      "summary": "Un rendez-vous de créateurs autour de Fortnite, annoncé au Dôme de Paris. Cette annonce est conservée en archives ; elle n’est pas présentée comme un prochain direct.",
       "category": "créateurs",
-      "subcategory": "Événement exceptionnel",
-      "demoSchedule": {
-        "dayOffset": 0,
-        "time": "21:00",
-        "durationMinutes": 120
-      },
-      "start": null,
+      "subcategory": "Fortnite",
+      "date": "2026-10-24",
+      "start": "2026-10-24T20:00:00+02:00",
       "end": null,
       "sourceTimezone": "Europe/Paris",
       "participants": [
-        "Collectif Horizon",
-        "12 créateurs"
-      ],
-      "frenchPresence": false,
-      "organizer": "12 créateurs",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "24H",
-      "major": false,
-      "featured": true,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-004",
-      "title": "Au sommet, sans filet",
-      "summary": "Quatre blocs, un dernier essai : découvrez la précision du bloc.",
-      "category": "sport",
-      "subcategory": "Escalade",
-      "demoSchedule": {
-        "dayOffset": 0,
-        "time": "12:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Léa Martin",
-        "Coupe des Falaises"
+        "Inoxtag",
+        "Duos de créateurs annoncés"
       ],
       "frenchPresence": true,
-      "organizer": "Coupe des Falaises",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "Début prévu",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "BLOC",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-005",
-      "title": "La traversée des étoiles",
-      "summary": "Le ciel expliqué en direct par des passionnés, accessible à tous.",
-      "category": "autres",
-      "subcategory": "Astronomie",
-      "demoSchedule": {
-        "dayOffset": 0,
-        "time": "23:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Observatoire des Collines"
-      ],
-      "frenchPresence": false,
-      "organizer": "Observatoire des Collines",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "NUIT",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-006",
-      "title": "La finale des docks",
-      "summary": "Un format court, de l’intensité et une finale à hauteur de panier.",
-      "category": "sport",
-      "subcategory": "Basket 3×3",
-      "demoSchedule": {
-        "dayOffset": 0,
-        "time": "13:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Paris Rive",
-        "Lyon Sud"
-      ],
-      "frenchPresence": true,
-      "organizer": "Lyon Sud",
-      "broadcastOptions": [
-        {
-          "platform": "TV",
-          "label": "Chaîne TV démo",
-          "url": null,
-          "access": "subscription",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [
-            "France"
-          ],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "En direct confirmé",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "3×3",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-007",
-      "title": "La course des lumières",
-      "summary": "Des sprints tactiques et une jeune poursuite française à suivre.",
-      "category": "sport",
-      "subcategory": "Cyclisme sur piste",
-      "demoSchedule": {
-        "dayOffset": 0,
-        "time": "10:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Vélodrome des Lumières"
-      ],
-      "frenchPresence": true,
-      "organizer": "Vélodrome des Lumières",
-      "broadcastOptions": [
-        {
-          "platform": "TV",
-          "label": "Chaîne TV démo",
-          "url": null,
-          "access": "subscription",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [
-            "France"
-          ],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "Terminé",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "PISTE",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-008",
-      "title": "Les pionnières du volant",
-      "summary": "Une demi-finale où chaque échange peut faire basculer le match.",
-      "category": "sport",
-      "subcategory": "Badminton",
-      "demoSchedule": {
-        "dayOffset": 1,
-        "time": "17:30",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Camille Robert",
-        "Open Boréal"
-      ],
-      "frenchPresence": true,
-      "organizer": "Open Boréal",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "BAD",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-009",
-      "title": "Pixel Cup : dernier carré",
-      "summary": "Trois voitures, des envolées et une équipe française ambitieuse.",
-      "category": "esport",
-      "subcategory": "Rocket League",
-      "demoSchedule": {
-        "dayOffset": 1,
-        "time": "20:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Équipe Mistral",
-        "Pixel Cup"
-      ],
-      "frenchPresence": true,
-      "organizer": "Pixel Cup",
+      "frenchNote": "Événement du créateur français Inoxtag",
+      "organizer": "Paris Games Week / Inoxtag",
       "broadcastOptions": [
         {
           "platform": "Twitch",
-          "label": "Twitch",
-          "url": null,
+          "label": "Inoxtag · chaîne annoncée",
+          "url": "https://www.twitch.tv/inoxtag",
           "access": "free",
-          "accountRequired": false,
+          "accountRequired": null,
           "language": "Français",
           "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
+          "territoryNote": "Disponibilité territoriale non vérifiée",
+          "confirmed": true,
+          "restrictions": "Événement du 24 octobre passé. Disponibilité du replay non vérifiée ; ce lien ouvre uniquement la chaîne officielle.",
+          "linkKind": "channel"
         }
       ],
       "sources": [
         {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
+          "label": "Paris Games Week · Inoxtag",
+          "url": "https://www.parisgamesweek.com/fr/news/inoxtag-paris-games-week",
+          "sourceId": "inoxtag",
+          "collectedAt": "2026-10-25T13:53:59Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "PIXEL",
+      "lastVerified": "2026-10-25T13:53:59Z",
+      "confirmation": "Calendrier officiel consulté",
+      "schedule": [],
+      "notes": [
+        "Résultat, durée effective et existence d’un replay non vérifiés."
+      ],
+      "popularity": null,
+      "discovery": true,
       "major": false,
       "featured": false,
+      "art": "OG",
       "commercial": {
         "affiliateUrl": null,
         "sponsor": null,
         "sponsored": false
       },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-010",
-      "title": "Une nuit pour tout créer",
-      "summary": "Une fresque imaginée et dessinée en une seule soirée.",
-      "category": "créateurs",
-      "subcategory": "Création",
-      "demoSchedule": {
-        "dayOffset": 1,
-        "time": "21:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Studio Minuit"
-      ],
-      "frenchPresence": false,
-      "organizer": "Studio Minuit",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
+      "vpnContext": null,
       "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "ART",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-011",
-      "title": "Le duel des épéistes",
-      "summary": "Un duel tactique pour découvrir la tension d’une dernière touche.",
-      "category": "sport",
-      "subcategory": "Escrime",
-      "demoSchedule": {
-        "dayOffset": 2,
-        "time": "18:30",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Julien Morel",
-        "Circuit des Lames"
-      ],
-      "frenchPresence": true,
-      "organizer": "Circuit des Lames",
-      "broadcastOptions": [
-        {
-          "platform": "TV",
-          "label": "Chaîne TV démo",
-          "url": null,
-          "access": "subscription",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [
-            "France"
-          ],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "ÉPÉE",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-012",
-      "title": "Arena des légendes",
-      "summary": "Des choix audacieux et un derby au sommet du circuit fictif.",
-      "category": "esport",
-      "subcategory": "League of Legends",
-      "demoSchedule": {
-        "dayOffset": 2,
-        "time": "20:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Aurore Gaming",
-        "Nova"
-      ],
-      "frenchPresence": true,
-      "organizer": "Nova",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "ARENA",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-013",
-      "title": "La cuisine en partage",
-      "summary": "Deux brigades inventent un dîner avec les idées du public.",
-      "category": "créateurs",
-      "subcategory": "Cuisine",
-      "demoSchedule": {
-        "dayOffset": 2,
-        "time": "19:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "La Table Ouverte"
-      ],
-      "frenchPresence": false,
-      "organizer": "La Table Ouverte",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "CHEF",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-014",
-      "title": "Les ailes du large",
-      "summary": "Suivez les choix de navigation d’un équipage français au large.",
-      "category": "sport",
-      "subcategory": "Voile",
-      "demoSchedule": {
-        "dayOffset": 3,
-        "time": "15:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Équipage Océane"
-      ],
-      "frenchPresence": true,
-      "organizer": "Équipage Océane",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "VOILE",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-015",
-      "title": "Speedrun solidaire",
-      "summary": "Un marathon de précision et de découvertes, à une date à reconfirmer.",
-      "category": "créateurs",
-      "subcategory": "Jeux vidéo",
-      "demoSchedule": {
-        "dayOffset": 3,
-        "time": "20:30",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Collectif Checkpoint"
-      ],
-      "frenchPresence": true,
-      "organizer": "Collectif Checkpoint",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "Reporté",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": {
-        "reason": "Nouvelle date à confirmer"
-      },
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "RUN",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-016",
-      "title": "Au fil de l’eau",
-      "summary": "Une descente, vingt portes et une trajectoire à inventer.",
-      "category": "sport",
-      "subcategory": "Canoë slalom",
-      "demoSchedule": {
-        "dayOffset": 4,
-        "time": "16:30",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Élise Dupont",
-        "Challenge des Eaux"
-      ],
-      "frenchPresence": true,
-      "organizer": "Challenge des Eaux",
-      "broadcastOptions": [
-        {
-          "platform": "TV",
-          "label": "Chaîne TV démo",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [
-            "France"
-          ],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "SLALOM",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-017",
-      "title": "Duel sur le damier",
-      "summary": "Un match rapide commenté pour comprendre les idées derrière les coups.",
-      "category": "autres",
-      "subcategory": "Échecs",
-      "demoSchedule": {
-        "dayOffset": 4,
-        "time": "19:30",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Cercle du Cavalier"
-      ],
-      "frenchPresence": true,
-      "organizer": "Cercle du Cavalier",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": false
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Diffuseur à confirmer",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "ÉCHECS",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-018",
-      "title": "La nuit des indépendants",
-      "summary": "De nouveaux visages et des duels qui se jouent à une frame.",
-      "category": "esport",
-      "subcategory": "Jeux de combat",
-      "demoSchedule": {
-        "dayOffset": 5,
-        "time": "20:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Circuit Arcade Libre"
-      ],
-      "frenchPresence": true,
-      "organizer": "Circuit Arcade Libre",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch",
-          "url": null,
-          "access": "free",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "FIGHT",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-019",
-      "title": "Les voix de demain",
-      "summary": "Quatre artistes émergents se rencontrent pour une session unique.",
-      "category": "créateurs",
-      "subcategory": "Musique",
-      "demoSchedule": {
-        "dayOffset": 5,
-        "time": "21:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Scène Commune"
-      ],
-      "frenchPresence": false,
-      "organizer": "Scène Commune",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "LIVE",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-020",
-      "title": "Le grand saut",
-      "summary": "Dix figures pour mêler hauteur, maîtrise et audace.",
-      "category": "sport",
-      "subcategory": "Trampoline",
-      "demoSchedule": {
-        "dayOffset": 6,
-        "time": "14:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Manon Petit",
-        "Rencontre aérienne"
-      ],
-      "frenchPresence": true,
-      "organizer": "Rencontre aérienne",
-      "broadcastOptions": [
-        {
-          "platform": "TV",
-          "label": "Chaîne TV démo",
-          "url": null,
-          "access": "subscription",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [
-            "France"
-          ],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "SAUT",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-021",
-      "title": "Sous la surface",
-      "summary": "Une plongée commentée dans un écosystème encore méconnu.",
-      "category": "autres",
-      "subcategory": "Sciences",
-      "demoSchedule": {
-        "dayOffset": 6,
-        "time": "18:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Laboratoire Bleu"
-      ],
-      "frenchPresence": false,
-      "organizer": "Laboratoire Bleu",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "OCÉAN",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-022",
-      "title": "Endurance collective",
-      "summary": "Les relais s’enchaînent, la stratégie fait la différence.",
-      "category": "esport",
-      "subcategory": "Sim racing",
-      "demoSchedule": {
-        "dayOffset": 7,
-        "time": "17:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Team Tricolore",
-        "6 heures virtuelles"
-      ],
-      "frenchPresence": true,
-      "organizer": "6 heures virtuelles",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "6H",
-      "major": false,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-023",
-      "title": "Finale des petits terrains",
-      "summary": "Des espaces serrés et une finale pleine de créativité.",
-      "category": "sport",
-      "subcategory": "Futsal",
-      "demoSchedule": {
-        "dayOffset": 8,
-        "time": "19:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Roubaix Métropole",
-        "Nice Est"
-      ],
-      "frenchPresence": true,
-      "organizer": "Nice Est",
-      "broadcastOptions": [
-        {
-          "platform": "TV",
-          "label": "Chaîne TV démo",
-          "url": null,
-          "access": "subscription",
-          "accountRequired": true,
-          "language": "Français",
-          "countries": [
-            "France"
-          ],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "FUTSAL",
-      "major": true,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-024",
-      "title": "Le rendez-vous des sommets",
-      "summary": "Une aventure d’endurance sur les lignes de crête.",
-      "category": "sport",
-      "subcategory": "Trail",
-      "demoSchedule": {
-        "dayOffset": 14,
-        "time": "08:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Équipe des Crêtes"
-      ],
-      "frenchPresence": true,
-      "organizer": "Équipe des Crêtes",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": null,
-      "popularity": {
-        "label": "Très attendu",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "TRAIL",
-      "major": true,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
-    },
-    {
-      "id": "sg-025",
-      "title": "L’odyssée des studios",
-      "summary": "Une rencontre de studios indépendants, annulée dans cette démonstration.",
-      "category": "créateurs",
-      "subcategory": "Création collective",
-      "demoSchedule": {
-        "dayOffset": 21,
-        "time": "18:00",
-        "durationMinutes": 120
-      },
-      "start": null,
-      "end": null,
-      "sourceTimezone": "Europe/Paris",
-      "participants": [
-        "Collectif Horizon"
-      ],
-      "frenchPresence": false,
-      "organizer": "Collectif Horizon",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "YouTube",
-          "url": null,
-          "access": "free",
-          "accountRequired": false,
-          "language": "Français",
-          "countries": [],
-          "restrictions": "Disponibilité fictive, à vérifier auprès du diffuseur.",
-          "confirmed": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Annonce fictive de démonstration",
-          "url": null,
-          "collectedAt": null
-        }
-      ],
-      "status": "Annulé",
-      "lastVerified": null,
-      "confirmation": "Annonce simulée",
-      "postponement": null,
-      "cancellation": {
-        "reason": "Annulation fictive"
-      },
-      "popularity": {
-        "label": "Forte progression",
-        "simulated": true,
-        "measuredAt": null
-      },
-      "art": "ODYSÉE",
-      "major": true,
-      "featured": false,
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null
+      "cancellation": null
     }
   ]
 }

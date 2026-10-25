@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { statusAt, dateKey, countdownAt, matchesOptions, calendarText, eventOnDay } from '../public/event-utils.mjs';
+const now=new Date('2026-10-25T14:00:00Z');
+test('un horaire dépassé ne confirme jamais un direct ou une fin',()=>{assert.equal(statusAt({start:'2026-10-25T12:00:00Z',end:'2026-10-25T13:00:00Z',status:'À venir'},now),'Début prévu');});
+test('la date française respecte le changement d’heure',()=>{assert.equal(dateKey('2026-10-24T22:30:00Z'),'2026-10-25');assert.equal(dateKey('2026-10-25T23:30:00Z'),'2026-10-26');});
+test('une journée sans heure reste navigable sans créer minuit',()=>{const e={date:'2026-10-29',start:null};assert.equal(eventOnDay(e,'2026-10-29'),true);assert.equal(statusAt(e,now),'Horaire à confirmer');assert.equal(countdownAt(e,now),'Horaire à confirmer');});
+test('les conditions inconnues ne passent pas pour sans compte ou gratuit',()=>{assert.equal(matchesOptions([{platform:'TV',access:'unknown',accountRequired:null}],{access:['free'],platform:[],noAccount:false}),false);assert.equal(matchesOptions([{platform:'TV',access:'free',accountRequired:null}],{access:[],platform:[],noAccount:true}),false);});
+test('les filtres combinés doivent correspondre à la même option',()=>{const bs=[{platform:'TV',access:'subscription',accountRequired:true},{platform:'YouTube',access:'free',accountRequired:false}];assert.equal(matchesOptions(bs,{access:['free'],platform:['TV'],noAccount:false}),false);assert.equal(matchesOptions(bs,{access:['free'],platform:['YouTube'],noAccount:true}),true);});
+test('le calendrier réel garde un UID stable, aucune fin inventée',()=>{const e={id:'wtt-2026',title:'WTT, Montpellier',summary:'Résumé',start:'2026-10-27T11:00:00Z',end:null,status:'À venir'};const a=calendarText(e,now),b=calendarText(e,new Date('2026-10-26T14:00:00Z'));assert.match(a,/UID:wtt-2026@streamgen.fr/);assert.match(b,/UID:wtt-2026@streamgen.fr/);assert.match(a,/DTSTART:20261027T110000Z/);assert.doesNotMatch(a,/DTEND|DÉMO|FICTIF/);assert.match(a,/SUMMARY:WTT\\, Montpellier/);});
+test('un calendrier date seule utilise VALUE=DATE',()=>{assert.match(calendarText({id:'judo',title:'Judo',date:'2026-10-29',start:null,status:'À venir',summary:'Heure inconnue'},now),/DTSTART;VALUE=DATE:20261029/);});
+test('un événement réparti sur deux sessions reste dans son jour',()=>{assert.equal(eventOnDay({start:'2026-10-27T11:00:00Z',date:'2026-10-27'},'2026-10-28'),false);});

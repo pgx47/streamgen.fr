@@ -1,30 +1,44 @@
-# StreamGen
+# StreamGen — agenda sourcé des directs
 
-Prototype français indépendant, entièrement statique : `public/index.html`, `style.css`, `wow.css`, `app.js` et `events.json`. Aucun serveur applicatif, base, clé API, flux vidéo ou service Sites n’est nécessaire à son fonctionnement. 25 événements fictifs. Les polices Google Fonts sont facultatives et disposent de polices de repli système.
+Site statique en français : HTML, CSS et JavaScript, sans serveur applicatif ni clé API publique. Les données réelles sont éditées dans `public/events.json`, les références dans `public/sources.json`. Aucun lien affilié, faux résultat, flux vidéo ou score de popularité n’est intégré.
 
-## Prévisualiser
-Depuis ce dossier : `npm run dev` (ou `python3 -m http.server 4173 --directory public`), puis ouvrir http://localhost:4173. Utiliser HTTP plutôt qu’un double clic : le chargement du JSON utilise fetch.
+## Prévisualiser et vérifier
 
-## Données
-Remplacer `public/events.json`. Les identifiants `id` doivent rester stables (favoris et URL `#event=sg-001`). Le modèle conserve catégories, participants, organisateur, présence française, horaires source, options de diffusion, restrictions, sources, collecte, vérification, confirmation, report/annulation et popularité simulée. `demoSchedule.dayOffset` et `time` génèrent des dates relatives au jour de consultation à Paris, y compris les changements d’heure. Les statuts sont explicitement simulés ; l’heure ne confirme jamais un direct. Un onglet ouvert à minuit doit être rechargé pour actualiser les jours de démonstration.
+Node 22+ pour générer les pages, Python 3 pour la prévisualisation. Aucune installation de paquet nécessaire.
 
-Pour des données réelles, remplacer la résolution `demoSchedule` dans app.js par les champs ISO `start` et `end` issus de votre collecte, valider les URL officielles et adapter les mentions de démonstration et les options de diffusion. Ne pas simplement masquer le bandeau : le prototype n’effectue aucune vérification réelle. Les URL de source et de diffusion sont actuellement nulles pour éviter des faux liens. Le bouton de diffusion explique cette absence. Les exports ICS sont marqués fictifs ; les reports et annulations sont exportés avec STATUS:CANCELLED pour ne pas proposer l’ancien horaire comme confirmé.
+- `npm run dev` : génère le site puis sert `dist/` sur http://localhost:4173.
+- `npm run check` : vérification de syntaxe.
+- `npm test` : règles de dates, statuts, filtres, calendrier et pages HTML générées.
+- `npm run build` : valide les données puis génère le site complet dans `dist/`.
 
-## Hébergement GitHub + Cloudflare Pages
-Placer les sources dans un dépôt GitHub, connecter ce dépôt à Cloudflare Pages, choisir le preset « None », utiliser la commande de build `npm run build` et indiquer `dist` comme dossier publié. Aucun secret ni variable d’environnement. Ce dépôt ne contient aucune dépendance à Sites. Une autre solution consiste à téléverser directement le contenu de dist dans un projet Pages. Les routes de fiches utilisent un hash et ne nécessitent aucune réécriture.
+Ne pas servir `public/` directement : les pages SEO sont générées au build. Un hébergement par simple double clic ne permet pas le chargement JSON.
 
-## Fonctions
-Recherche sur tous les jours ; filtres OR dans chaque famille et AND entre familles ; agenda de J à J+8 ; favoris localStorage sur tous les jours ; détails accessibles via dialog natif et URL partageable ; copie du lien ; calendrier ICS ; comptes à rebours réactualisés toutes les 30 secondes. Les favoris sont propres au navigateur et à l’origine du site. Aucune synchronisation inter-appareils.
+## Contenus réels et mise à jour
 
-## Connexions à développer
-Un pipeline externe devra collecter les sources autorisées, éventuellement utiliser DeepSeek pour extraire les annonces, vérifier les diffuseurs puis publier le JSON. Aucun appel DeepSeek, X ou autre API n’est implémenté. Aucun faux état d’IA connectée. Aucun partenaire, prix, score numérique, affiliation ou VPN actif. Le modèle pourra être étendu par des champs `commercial` pour une affiliation ou une sélection sponsorisée explicitement étiquetée, et `vpnContext` uniquement avec justification documentée (sans garantie d’accès).
+Première sélection manuelle : 27 rendez-vous, dont une annonce passée conservée en archives, et 22 références officielles consultées le 25 octobre 2026. La sélection n’est pas exhaustive et n’est pas actualisée automatiquement.
 
-## Direction visuelle — édition 02
-Affiche photographique de tennis de table générée avec l’outil intégré ImageGen : `public/assets/ping-hero.png`. L’image illustre un sportif fictif. Le fichier `wow.css` contient la nouvelle direction éditoriale et les adaptations mobiles.
+Les dates `start`/`end` sont des dates ISO absolues avec fuseau. `date` est la date française du rendez-vous. Pour une date sans heure, `start` vaut null : l’affichage dit « horaire à confirmer » et le calendrier utilise une journée entière. `end` reste null sans information explicite ; aucune durée standard n’est créée. `schedule` contient les différentes sessions d’une même journée. L’horaire d’une session sportive n’implique pas sa diffusion intégrale.
 
-Prompt utilisé (outil intégré, sans API externe) : « Wide cinematic editorial sports magazine photograph for StreamGen. Fictional male table-tennis athlete in a dark blue jersey, powerful forehand, body on right half, table entering bottom right, tiny white ball frozen, overhead stadium spotlights, atmospheric haze, deep ink navy arena, muted chartreuse rim lighting, orange-red racket. Left 45 percent dark negative space. Authentic skin and textile detail, fine film grain. No text, logos, watermark, real person or video player. »
+Chaque source fournit une URL, une portée et une date réelle de consultation. Les options de diffusion portent leurs propres restrictions, accès (`free`, `subscription`, `unknown`) et nécessité de compte (`true`, `false`, `null` si inconnue). Une donnée inconnue ne passe pas les filtres « Gratuit » ou « Sans compte ». Les liens `information` ouvrent le programme du diffuseur, pas un faux lecteur de l’événement.
 
-## Dépôt GitHub et production
-Le code éditable est dans `public/`. `npm run build` le copie vers `dist/` sans dépendance. Le workflow `.github/workflows/deploy.yml` déploie ce dossier sur le projet Cloudflare Pages existant `streamgen`, branche `main`, avec les secrets existants `CLOUDFLARE_API_TOKEN` et `CLOUDFLARE_ACCOUNT_ID`. Le domaine reste géré dans Cloudflare.
+`frenchPresence` est true uniquement lorsqu’une présence française est annoncée. Lire `frenchNote` : pour le WTT, les frères Lebrun sont annoncés au tournoi ; leur présence à chaque session n’est pas affirmée. Les finalistes, adversaires et résultats ne sont jamais déduits des tirages supposés. Aucun flux n’est surveillé : un horaire dépassé affiche « Début prévu », pas « En direct confirmé » ou « Terminé ». Un contrôle manuel explicite est nécessaire pour ces statuts.
 
-Cette version remplace l’ancien site Astro et ses automations (collecte, guides, actualités, alertes et tweets). Aucun appel externe de collecte ou de publication sociale n’est actif. L’ancien code reste dans l’historique Git, notamment le commit `5a5d514`. Pour le restaurer, créer un commit de retour avec Git plutôt que de réécrire l’historique.
+Mettre à jour les données et les sources ensemble, en conservant les identifiants et slugs stables. Ne pas modifier `lastVerified` ou `checkedAt` sans nouvelle consultation. Après 48 h, les fiches signalent que les informations sont à revérifier. L’agenda vide reste honnête : pas de déplacement artificiel des dates.
+
+## Pages et SEO
+
+Le build génère `/evenements/<slug>/index.html`, l’index `/evenements/`, `/sources/`, `sitemap.xml`, `robots.txt` et une véritable page 404. Chaque fiche contient son contenu dans le HTML initial, un H1, un titre, une description, une URL canonique et ses liens de source. Les liens de fiches sont de vrais `<a href>`. L’aperçu modal reste disponible mais les liens copiés mènent à la page complète. Les anciens liens hash fonctionnent pour les identifiants réels ; les favoris fictifs ne sont pas réattribués aux vrais événements.
+
+Les données structurées sont `Article` et `BreadcrumbList` : ces pages sont des guides de diffusion, pas une billetterie, une fiche VideoObject ou la preuve d’un direct. Aucun résultat enrichi Google ni positionnement n’est promis. La canonique est `https://streamgen.fr`, y compris sur les copies de prévisualisation. Les anciennes routes Astro ne sont pas redirigées arbitrairement vers l’accueil : une URL sans équivalent reçoit une 404. La mise à jour des fiches et de leur contenu éditorial reste indispensable au référencement.
+
+## Déploiement
+
+Le workflow GitHub vérifie les tests et génère `dist/`, puis déploie vers le projet Cloudflare Pages existant `streamgen` avec `CLOUDFLARE_API_TOKEN` et `CLOUDFLARE_ACCOUNT_ID`. Aucun de ces secrets n’est copié dans les fichiers publics. Pour un autre projet Pages connecté à GitHub : preset None, commande `npm run build`, sortie `dist`. Pour un téléversement direct, publier le contenu de `dist/`. Le site ne dépend pas de l’hébergement Sites.
+
+## Ce qui reste externe
+
+Aucune collecte DeepSeek, X, scraping récurrent ou publication sociale n’est connectée. Une future collecte devra être exécutée hors du navigateur, à partir de sources autorisées, avec validation éditoriale avant publication des JSON. Le registre de sources constitue un point de départ, pas un engagement de disponibilité des API. Le pipeline historique Astro et ses automatisations restent dans l’historique Git, antérieur au commit `f2c1159`.
+
+## Visuel
+
+`public/assets/ping-hero.png` est une illustration générée avec l’outil intégré ImageGen. Elle ne représente pas un participant réel. Prompt : photographie éditoriale cinématographique d’un pongiste fictif, maillot bleu, coup droit, athlète à droite, salle bleu nuit, lumière de stade et reflets vert chartreuse, espace sombre à gauche, sans texte ni logo. Les polices Google Fonts sont facultatives avec repli système.

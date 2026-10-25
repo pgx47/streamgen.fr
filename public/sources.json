@@ -1,0 +1,204 @@
+{
+  "updatedAt": "2026-10-25T13:53:59Z",
+  "mode": "curation manuelle",
+  "sources": [
+    {
+      "id": "riot-primer",
+      "name": "Riot Games · Worlds 2026",
+      "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+      "purpose": "Calendrier des journées et canal Twitch officiel",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Les affiches de chaque journée dépendent des tirages. Les heures sont converties depuis America/Chicago, sans reprendre les coquilles de fuseau dans les traductions."
+    },
+    {
+      "id": "wtt-rights",
+      "name": "L’Équipe · droits WTT 2026",
+      "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+      "purpose": "Diffuseur français du circuit WTT",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Les droits ne garantissent pas la diffusion TV de chaque session. Vérifier la grille du diffuseur."
+    },
+    {
+      "id": "wtt-french",
+      "name": "Ville de Montpellier · Français annoncés",
+      "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
+      "purpose": "Présence annoncée des frères Lebrun au tournoi",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "La présence à une journée ou un match précis reste à confirmer."
+    },
+    {
+      "id": "wtt-27",
+      "name": "WTT Montpellier · programme officiel 27",
+      "url": "https://tickets.wttmontpellier.com/fr/mardi_27_octobre_2026",
+      "purpose": "Horaires des deux sessions de la journée",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Le titre technique de certaines pages conserve 2024 ; le contenu et les horaires de billetterie indiquent explicitement 2026. Programme prévisionnel."
+    },
+    {
+      "id": "wtt-28",
+      "name": "WTT Montpellier · programme officiel 28",
+      "url": "https://tickets.wttmontpellier.com/fr/mercredi_28_octobre_2026",
+      "purpose": "Horaires des deux sessions de la journée",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Le titre technique de certaines pages conserve 2024 ; le contenu et les horaires de billetterie indiquent explicitement 2026. Programme prévisionnel."
+    },
+    {
+      "id": "wtt-29",
+      "name": "WTT Montpellier · programme officiel 29",
+      "url": "https://tickets.wttmontpellier.com/fr/jeudi_29_octobre_2026",
+      "purpose": "Horaires des deux sessions de la journée",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Le titre technique de certaines pages conserve 2024 ; le contenu et les horaires de billetterie indiquent explicitement 2026. Programme prévisionnel."
+    },
+    {
+      "id": "wtt-30",
+      "name": "WTT Montpellier · programme officiel 30",
+      "url": "https://tickets.wttmontpellier.com/fr/vendredi_30_octobre_2026",
+      "purpose": "Horaires des deux sessions de la journée",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Le titre technique de certaines pages conserve 2024 ; le contenu et les horaires de billetterie indiquent explicitement 2026. Programme prévisionnel."
+    },
+    {
+      "id": "wtt-31",
+      "name": "WTT Montpellier · programme officiel 31",
+      "url": "https://tickets.wttmontpellier.com/fr/samedi_31_octobre_2026",
+      "purpose": "Horaires des deux sessions de la journée",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Le titre technique de certaines pages conserve 2024 ; le contenu et les horaires de billetterie indiquent explicitement 2026. Programme prévisionnel."
+    },
+    {
+      "id": "wtt-1",
+      "name": "WTT Montpellier · programme officiel 1",
+      "url": "https://tickets.wttmontpellier.com/fr/dimanche_01_novembre_2026",
+      "purpose": "Horaires des deux sessions de la journée",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Le titre technique de certaines pages conserve 2024 ; le contenu et les horaires de billetterie indiquent explicitement 2026. Programme prévisionnel."
+    },
+    {
+      "id": "f1-us",
+      "name": "Formula 1 · horaires locaux Austin",
+      "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+      "purpose": "Horaire de la course",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "15:00 à Austin (UTC−5) = 21:00 à Paris (UTC+1), le 25 octobre."
+    },
+    {
+      "id": "f1-mx",
+      "name": "Formula 1 · horaires locaux Mexico",
+      "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+      "purpose": "Essais, qualifications et course",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Heure locale de Mexico UTC−6. Ne pas lire la vue « My time » du site comme une heure française."
+    },
+    {
+      "id": "canal-f1",
+      "name": "CANAL+ · diffusion F1",
+      "url": "https://www.canalplus.com/sport/formule-1/",
+      "purpose": "Droits et offres donnant accès aux sessions",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Essais et qualifications nécessitent une formule incluant les chaînes sport. Aucun prix commercial repris."
+    },
+    {
+      "id": "nfl-time",
+      "name": "Stade de France · NFL Paris Game",
+      "url": "https://www.stadefrance.com/fr/billetterie/pittsburgh-steelers-vs-new-orleans-saints-nfl-paris-game-2026",
+      "purpose": "Coup d’envoi à 14:30",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": ""
+    },
+    {
+      "id": "nfl-tv",
+      "name": "France Télévisions · NFL Paris Game",
+      "url": "https://www.francetvpub.fr/la-newsletter-169/",
+      "purpose": "Diffusion sur France 2 et france.tv sport",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Antenne annoncée dès 14:10 par la grille France 2 ; début du match à 14:30."
+    },
+    {
+      "id": "ifb-time",
+      "name": "Yonex IFB · billetterie officielle",
+      "url": "https://tickets.yonexifb.com/fr/product/200/tremblay_arena_grand_paris/arena_grand_paris_yonex_ifb_2026",
+      "purpose": "Session des finales du 25 octobre, 11:00–17:30",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "L’heure de fin est un créneau annoncé, pas un résultat confirmé."
+    },
+    {
+      "id": "ifb-tv",
+      "name": "FFBaD · où suivre les IFB",
+      "url": "https://www.ffbad.org/en/actualites/actualites/2026/yonex-ifb-comment-suivre-l-edition-2026",
+      "purpose": "Diffusion L’Équipe",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "La chaîne diffuse à partir de 13:00 dimanche ; les plateformes couvrent la journée. Ne pas confondre début sportif à 11:00 et prise d’antenne."
+    },
+    {
+      "id": "rhum-time",
+      "name": "Route du Rhum · organisateur",
+      "url": "https://hospitalites.routedurhum.com/faq/",
+      "purpose": "Date et horaire de départ annoncés",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "L’organisateur indique 13:02. L’antenne France 3 est annoncée à 12:50. Horaire de départ à revérifier, une formulation du dossier TV est ambiguë."
+    },
+    {
+      "id": "rhum-tv",
+      "name": "France Télévisions · Route du Rhum",
+      "url": "https://www.francetvpro.fr/contenu-de-presse/78939582",
+      "purpose": "Prise d’antenne France 3 le 1er novembre à 12:50",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "La fiche porte sur la prise d’antenne. Ne pas interpréter cet horaire comme un départ sportif garanti."
+    },
+    {
+      "id": "ijf",
+      "name": "IJF · Abu Dhabi Grand Slam",
+      "url": "https://www.ijf.org/competition/3157",
+      "purpose": "Dates et catégories par journée",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Horaires TBD et aucune information TV dans la fiche consultée. Aucun diffuseur, gratuité ou engagement français supposé."
+    },
+    {
+      "id": "capcom",
+      "name": "Capcom France · scène PGW",
+      "url": "https://www.capcomfrance.fr/paris-games-week-2026-le-planning-du-stand-capcom/",
+      "purpose": "Animations du 22 au 25 octobre et canaux de diffusion officiels",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "La fiche décrit la journée du 25 sans inventer un créneau d’animation ou une liste d’invités."
+    },
+    {
+      "id": "pgw",
+      "name": "Paris Games Week · dates",
+      "url": "https://www.parisgamesweek.com/fr",
+      "purpose": "Dernière journée du salon le 25 octobre",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": ""
+    },
+    {
+      "id": "inoxtag",
+      "name": "Paris Games Week · Inoxtag",
+      "url": "https://www.parisgamesweek.com/fr/news/inoxtag-paris-games-week",
+      "purpose": "Annonce et diffusion Twitch/YouTube de la soirée du 24 octobre",
+      "kind": "official",
+      "checkedAt": "2026-10-25T13:53:59Z",
+      "notes": "Événement passé : présence en archives, aucun replay ni résultat présumé."
+    }
+  ]
+}

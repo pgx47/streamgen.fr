@@ -6,8 +6,9 @@
   "description": "StreamGen — radar des directs, prototype statique français",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "dev": "python3 -m http.server 4173 --directory public",
+    "dev": "npm run build && python3 -m http.server 4173 --directory dist",
     "preview": "python3 -m http.server 4173 --directory dist",
-    "check": "node --check public/app.js"
+    "check": "node --check public/app.js && node --check public/detail-page.mjs && node --check public/event-utils.mjs",
+    "test": "node --test tests/*.test.mjs"
   }
 }
