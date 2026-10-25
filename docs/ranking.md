@@ -16,3 +16,11 @@ La bannière alterne les six premières séries éligibles toutes les huit secon
 Sans heure de fin ni direct confirmé, un rendez-vous sort de la bannière trois heures après son début prévu. Cette durée est une règle de fraîcheur éditoriale, jamais une fin supposée de l’événement. Les pages, données et URLs sont conservées ; un événement retiré reste dans son agenda et ses archives.
 
 Les images locales WebP d’esport, de sports mécaniques et de football américain sont des illustrations générées par IA. Elles sont signalées sur les bannières et n’identifient aucun participant réel. Le tennis de table conserve son illustration dédiée. Les autres disciplines gardent leur traitement graphique, sans image empruntée à un sport différent.
+
+## Streams habituels : visibles mais hors une
+
+Les rendez-vous habituels de créateurs sont exclus de toute la réserve du carrousel, pas seulement de sa première position. Leur présence aujourd’hui, leur ancien featured ou la notoriété du créateur ne suffisent pas à les faire entrer. S’il n’y a aucun rendez-vous éligible, la une reste vide avec un renvoi vers l’agenda plutôt que de prendre un stream régulier pour remplir.
+
+Le filtre ne supprime aucune donnée : l’agenda reste exhaustif sur les fiches collectées et chronologique. Les découvertes peuvent garder les streams habituels avec includeRoutine, mais les placent après les rendez-vous marquants. La rubrique des grands rendez-vous les exclut aussi.
+
+Un événement spécial de créateur identifié (PGW, ZEvent, Speedons, GP Explorer, marathon caritatif, showmatch, concert ou festival) reste éligible. Le nom d’un grand tournoi mentionné dans un stream de créateur ne transforme pas à lui seul cette émission en événement principal.

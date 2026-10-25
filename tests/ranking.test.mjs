@@ -25,7 +25,7 @@ test('editorial scores ignore unmeasured popularity, reliability and personal fa
  assert.ok(editorialPriority(e,now).reasons.length);
 });
 test('today comes before future hype; one week is covered, only major events beyond it',()=>{
- const ordinary=event('today','ZeratoR — Stream',{category:'créateurs',subcategory:'Just Chatting'});
+ const ordinary=event('today','Rencontre culturelle',{category:'autres',subcategory:'Culture du jour'});
  const big=event('big','Worlds LoL — finale',{date:'2026-11-14',start:'2026-11-14T19:00:00Z'});
  const nextWeek=event('week','Autre rendez-vous',{category:'autres',subcategory:'Culture',date:'2026-11-01',start:'2026-11-01T19:00:00Z'});
  const distant=event('distant','Stream normal',{category:'créateurs',subcategory:'Autre',date:'2026-11-04',start:'2026-11-04T19:00:00Z'});
@@ -74,4 +74,15 @@ test('creator identity and announced subject beat unrelated sport or arena image
  assert.equal(eventVisual({...live,title:'ZeratoR — Cuisine !',subcategory:'Just Chatting'}).creditKey,'cooking');
  assert.notEqual(eventVisual({...live,title:'ZeratoR — Suite de We Were Here',subcategory:'We Were Here Tomorrow'}).creditKey,'esport');
  assert.notEqual(eventVisual({...live,title:'Autre créateur — Stream',organizer:'Autre créateur'}).creditKey,'zerator');
+});
+test('ordinary creator streams never enter any rotating highlight slot, but stay available in discovery and agenda',()=>{
+ const ordinary=event('routine','ZeratoR — Stream',{category:'créateurs',subcategory:'Just Chatting'});
+ const special=event('special','Speedons — marathon caritatif',{category:'créateurs',subcategory:'Speedrun',date:'2026-10-26',start:'2026-10-26T18:00:00Z'});
+ const worlds=event('worlds','Worlds LoL');
+ const catalog=[ordinary,special,worlds];
+ assert.ok(!rankHighlights(catalog,now,6).some(e=>e.id==='routine'));
+ assert.deepEqual(rankHighlights([ordinary],now,6),[],'no routine filler when there are no major events');
+ const discovery=rankHighlights(catalog,now,6,{includeRoutine:true});
+ assert.ok(discovery.some(e=>e.id==='routine'));assert.equal(discovery.at(-1).id,'routine');
+ assert.equal(catalog.length,3);assert.ok(rankHighlights(catalog,now,6).some(e=>e.id==='special'));
 });
