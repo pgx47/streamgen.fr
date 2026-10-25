@@ -118,8 +118,8 @@ def main() -> None:
             "## L'alternative en clair\n\n"
             "Consultez nos [guides des chaînes étrangères en clair](/astuces/) pour suivre le sport légalement et gratuitement.\n")
 
-    mdx = "---\n".join([
-        "",
+    mdx = "\n".join([
+        "---",
         f"title: {yaml_str(it['title'])}",
         f"description: {yaml_str(desc)}",
         f'publishDate: "{today}"',
@@ -130,7 +130,8 @@ def main() -> None:
     if args.dry_run:
         print(f"[dry] {slug}.mdx\n{mdx[:300]}…")
     else:
-        (NEWS_DIR / f"{slug}.mdx").write_text(mdx)
+        NEWS_DIR.mkdir(parents=True, exist_ok=True)
+        (NEWS_DIR / f"{slug}.mdx").write_text(mdx, encoding="utf-8")
         print(f"  + {slug}.mdx")
     seen.add(it["link"])
     if not args.dry_run:
