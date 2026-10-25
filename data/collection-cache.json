@@ -72,6 +72,31 @@
       "hash": "96f9848f2593633b90e298f78f8329091c1736018b597c74078c7538958df1db",
       "checkedDay": "2026-10-25",
       "editorialDone": true
+    },
+    "twitch-zerator-3c2d9e947c1536c2": {
+      "hash": "617742a4ae92c08ac395f210d740dce25720fb5fb596198701ff5a0b4d4e5181",
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
+    },
+    "twitch-zerator-8232dd889c56ff09": {
+      "hash": "bb854580baaa59874c491ef07b286ad780ec5e740e241842ebdea7c095020a0e",
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
+    },
+    "twitch-zerator-15762d8b7b93b069": {
+      "hash": "03f42f689c104301b80c3a6c70011b2e61f01675fa241850aa798ab2f1a7390c",
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
+    },
+    "twitch-zerator-b9e25d5bdebd9c8e": {
+      "hash": "aff5b8eed2e6b2fa290e382d22c2697a9de779f56b71136ec6fb8a59643d66a6",
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
+    },
+    "twitch-zerator-2ffb12cedee57bf8": {
+      "hash": "427a4d5d4b710316c9f358737c87b00e8546be06c1426b4a8584c6efabfd1460",
+      "checkedDay": "2026-10-25",
+      "editorialDone": false
     }
   },
   "llmAttemptDay": "2026-10-25"

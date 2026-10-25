@@ -2229,6 +2229,301 @@
       "vpnContext": null,
       "postponement": null,
       "cancellation": null
+    },
+    {
+      "id": "twitch-zerator-3c2d9e947c1536c2",
+      "slug": "twitch-zerator-3c2d9e947c1536c2",
+      "title": "ZeratoR — Stream",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de ZeratoR. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Just Chatting",
+      "date": "2026-10-29",
+      "start": "2026-10-29T18:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "ZeratoR",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "ZeratoR",
+          "url": "https://www.twitch.tv/zerator",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ZeratoR · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
+          "sourceId": "twitch-zerator",
+          "collectedAt": "2026-10-25T15:28:04.699Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:28:04.699Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-zerator-8232dd889c56ff09",
+      "slug": "twitch-zerator-8232dd889c56ff09",
+      "title": "ZeratoR — Suite de We Were Here",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de ZeratoR. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "We Were Here Tomorrow",
+      "date": "2026-10-28",
+      "start": "2026-10-28T20:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "ZeratoR",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "ZeratoR",
+          "url": "https://www.twitch.tv/zerator",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ZeratoR · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
+          "sourceId": "twitch-zerator",
+          "collectedAt": "2026-10-25T15:28:04.699Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:28:04.699Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-zerator-15762d8b7b93b069",
+      "slug": "twitch-zerator-15762d8b7b93b069",
+      "title": "ZeratoR — [Sur la chaine ULTIA] Cuisine !",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de ZeratoR. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Cooking Simulator",
+      "date": "2026-10-27",
+      "start": "2026-10-27T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "ZeratoR",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "ZeratoR",
+          "url": "https://www.twitch.tv/zerator",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ZeratoR · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
+          "sourceId": "twitch-zerator",
+          "collectedAt": "2026-10-25T15:28:04.699Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:28:04.699Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-zerator-b9e25d5bdebd9c8e",
+      "slug": "twitch-zerator-b9e25d5bdebd9c8e",
+      "title": "ZeratoR — Stream",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de ZeratoR. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Just Chatting",
+      "date": "2026-10-25",
+      "start": "2026-10-25T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "ZeratoR",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "ZeratoR",
+          "url": "https://www.twitch.tv/zerator",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ZeratoR · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
+          "sourceId": "twitch-zerator",
+          "collectedAt": "2026-10-25T15:28:04.699Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:28:04.699Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-zerator-2ffb12cedee57bf8",
+      "slug": "twitch-zerator-2ffb12cedee57bf8",
+      "title": "ZeratoR — Stream",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de ZeratoR. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Just Chatting",
+      "date": "2026-10-26",
+      "start": "2026-10-26T17:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "ZeratoR",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "ZeratoR",
+          "url": "https://www.twitch.tv/zerator",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ZeratoR · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
+          "sourceId": "twitch-zerator",
+          "collectedAt": "2026-10-25T15:28:04.699Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-25T15:28:04.699Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
     }
   ]
 }

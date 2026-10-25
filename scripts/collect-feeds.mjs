@@ -1,12 +1,12 @@
 import {readFile,writeFile,mkdir,rename} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {parseEurovision,parseNasa,toEvent} from './collectors/feeds.mjs';
+import {parseEurovision,parseNasa,parseTwitch,toEvent} from './collectors/feeds.mjs';
 const now=new Date().toISOString(),day=now.slice(0,10);
 const read=async p=>JSON.parse(await readFile(p,'utf8'));
 const save=async(p,v)=>{await writeFile(p+'.tmp',JSON.stringify(v,null,2)+'\n');await rename(p+'.tmp',p)};
 const catalog=await read('public/events.json'),registry=await read('public/sources.json');
 let cache={items:{}};try{cache=await read('data/collection-cache.json')}catch{}
-const feeds=[{id:'eurovision-sport',name:'Eurovision Sport',url:'https://eurovisionsport.com/en/home',category:'sport',parse:parseEurovision},{id:'nasa-plus',name:'NASA+',url:'https://plus.nasa.gov/',category:'autres',parse:parseNasa}];
+const feeds=[{id:'eurovision-sport',name:'Eurovision Sport',url:'https://eurovisionsport.com/en/home',category:'sport',parse:parseEurovision},{id:'nasa-plus',name:'NASA+',url:'https://plus.nasa.gov/',category:'autres',parse:parseNasa},...[["41719107","ZeratoR","zerator"],["28575692","mistermv","mistermv"],["24147592","Gotaga","gotaga"]].map(([id,name,login])=>({id:'twitch-'+login,name,platform:'Twitch',url:'https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id='+id,category:'créateurs',allowEmpty:true,parse:html=>parseTwitch(html,name,login)}))];
 const report=[],updates=[];
 async function get(url){
  const response=await fetch(url,{signal:AbortSignal.timeout(25000),redirect:'error',headers:{'User-Agent':'StreamGen/1.0 (+https://streamgen.fr/sources/)'}});
@@ -17,7 +17,7 @@ async function get(url){
 for(const feed of feeds){
  try{
   const html=await get(feed.url),items=feed.parse(html);
-  if(!items.length)throw Error('Aucun programme structuré : catalogue précédent conservé');
+  if(!items.length&&!feed.allowEmpty)throw Error('Aucun programme structuré : catalogue précédent conservé');
   let published=0;
   for(const item of items){
    if(Date.parse(item.start)<Date.now()-86400000||Date.parse(item.start)>Date.now()+120*86400000)continue;
@@ -60,10 +60,10 @@ if(writing.length&&process.env.DEEPSEEK_API_KEY&&cache.llmAttemptDay!==day){
  }catch(e){report.push({id:'deepseek',status:'error',checkedAt:now,error:e.message})}
 }else report.push({id:'deepseek',status:'skipped',checkedAt:now,reason:!process.env.DEEPSEEK_API_KEY?'Clé absente de cette exécution':cache.llmAttemptDay===day?'Limite quotidienne atteinte':'Aucun nouveau titre'});
 for(const {event,hash,editorialDone} of updates){const idx=catalog.events.findIndex(e=>e.id===event.id);if(idx<0)catalog.events.push(event);else catalog.events[idx]=event;cache.items[event.id]={hash,checkedDay:day,editorialDone:editorialDone||cache.items[event.id]?.editorialDone||false}}
-if(updates.length){catalog.updatedAt=now;catalog.coverage='Sélection non exhaustive. Collecte automatique WTT, Eurovision Sport et NASA+. Les autres événements restent issus de sources officielles avec vérification manuelle.';registry.updatedAt=now;registry.mode='Collecte automatique et curation manuelle';await save('public/events.json',catalog);await save('public/sources.json',registry)}
+if(updates.length){catalog.updatedAt=now;catalog.coverage='Sélection non exhaustive. Collecte automatique WTT, Eurovision Sport, NASA+ et calendriers Twitch. Les autres événements restent issus de sources officielles avec vérification manuelle.';registry.updatedAt=now;registry.mode='Collecte automatique et curation manuelle';await save('public/events.json',catalog);await save('public/sources.json',registry)}
 await mkdir('data',{recursive:true});await save('data/collection-cache.json',cache);
 let previous={sources:[]};try{previous=await read('public/collection-status.json')}catch{}
-const status={mode:'scheduled',checkedAt:now,scope:'Calendriers WTT, diffusions structurées Eurovision Sport et NASA+. Autres sources surveillées pour accessibilité et changements. Aucun contrôle des flux actifs.',sources:[...previous.sources.filter(s=>!report.some(r=>r.id===s.id)),...report]};
+const status={mode:'scheduled',checkedAt:now,scope:'Calendriers WTT et Twitch, diffusions structurées Eurovision Sport et NASA+. Autres sources surveillées pour accessibilité et changements. Aucun contrôle des flux actifs.',sources:[...previous.sources.filter(s=>!report.some(r=>r.id===s.id)),...report]};
 await save('public/collection-status.json',status);await mkdir('work',{recursive:true});await save('work/feeds-run.json',{checkedAt:now,report,newOrUpdated:updates.map(u=>u.event.id)});
 console.log(JSON.stringify({updatedEvents:updates.length,feeds:report.filter(r=>r.status==='ok'),monitored:report.filter(r=>r.status==='monitored').length,errors:report.filter(r=>r.status==='error')}));
 if(!report.some(r=>feeds.some(f=>f.id===r.id)&&r.status==='ok'))process.exitCode=1;

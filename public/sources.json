@@ -217,6 +217,33 @@
       "purpose": "Programme de diffusion collecté automatiquement",
       "checkedAt": "2026-10-25T15:27:28.219Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-zerator",
+      "name": "ZeratoR",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-25T15:28:04.699Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-mistermv",
+      "name": "mistermv",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-25T15:28:04.699Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-gotaga",
+      "name": "Gotaga",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-25T15:28:04.699Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     }
   ]
 }

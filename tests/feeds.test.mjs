@@ -20,3 +20,12 @@ test('normalization computes Paris date across midnight and leaves uncertain rig
  assert.equal(event.date,'2026-10-30');assert.equal(event.popularity,null);assert.equal(event.end,null);assert.equal(event.broadcastOptions[0].accountRequired,null);
  assert.equal(event.id,toEvent({...event,url:'https://plus.nasa.gov/scheduled-video/walk/'},{id:'nasa-plus',name:'NASA+',url:'https://plus.nasa.gov/',category:'autres'},'2026-10-26T00:00:00Z').id);
 });
+test('Twitch validates channel identity, Paris DST, cancellations and off-stream events',async()=>{
+ const {parseTwitch}=await import('../scripts/collectors/feeds.mjs');
+ const event='BEGIN:VEVENT\nUID:one\nDTSTART;TZID=/Europe/Paris:20261029T190000\nSUMMARY:Suite du jeu\nEND:VEVENT';
+ const html='BEGIN:VCALENDAR\nNAME:ZeratoR\n'+event+'\nEND:VCALENDAR';
+ assert.equal(parseTwitch(html,'ZeratoR','zerator')[0].start,'2026-10-29T18:00:00.000Z');
+ assert.equal(parseTwitch(html.replace('Suite du jeu','[HORS STREAM] LAN'),'ZeratoR','zerator').length,0);
+ assert.throws(()=>parseTwitch(html,'Kameto','kamet0'));
+ assert.equal(parseTwitch(html.replace('SUMMARY:', 'STATUS:CANCELLED\nSUMMARY:'),'ZeratoR','zerator').length,0);
+});

@@ -224,6 +224,30 @@
         "prompt_cache_hit_tokens": 0,
         "prompt_cache_miss_tokens": 138
       }
+    },
+    {
+      "id": "twitch-zerator",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
+      "status": "ok",
+      "checkedAt": "2026-10-25T15:28:04.699Z",
+      "detectedEvents": 18,
+      "publishedEvents": 5
+    },
+    {
+      "id": "twitch-mistermv",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
+      "status": "ok",
+      "checkedAt": "2026-10-25T15:28:04.699Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-gotaga",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
+      "status": "ok",
+      "checkedAt": "2026-10-25T15:28:04.699Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
     }
   ]
 }
