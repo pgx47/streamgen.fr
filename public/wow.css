@@ -13,3 +13,5 @@
 .feature:not(:first-child) .feature-content{position:relative;inset:auto;min-height:280px}
 .feature:not(:first-child) .feature-content>*{flex-shrink:0}
 @media(max-width:700px){.featured{grid-template-rows:500px auto auto}}
+
+.priority-hint{font-size:.76rem!important;line-height:1.5!important;color:#a9b5c3!important;margin:.5rem 0!important}.priority-hint strong{color:#c5ff60;font-weight:650}.ranking-method{max-width:850px;font-size:.82rem;line-height:1.65;margin:-.3rem 0 1.2rem}.ranking-method a{color:#c5ff60}.feature .priority-hint{max-width:95%}
