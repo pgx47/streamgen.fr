@@ -34,12 +34,12 @@ export function calendarText(e,now=new Date()){
 export function editorialPriority(e,now=new Date()){
  const title=String(e.title||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
  let score=8,series=[e.organizer||'',e.subcategory||'',e.category||''].join('|'),reasons=[];
- const rules=[[/\bworlds\b.*\b(lol|league)\b|\b(lol|league)\b.*\bworlds\b/,65,'Worlds LoL','worlds-lol'],[/world championships?|championnats? du monde|coupe du monde/,60,'Compétition mondiale','world-'+e.subcategory],[/\b(formule 1|formula 1)\b/,50,'Championnat de Formule 1','f1'],[/\bwtt\b/,42,'Circuit international WTT','wtt'],[/\bnfl\b/,48,'Rendez-vous NFL','nfl'],[/grand slam|yonex ifb|route du rhum/,44,'Grand rendez-vous sportif',e.subcategory],[/sortie dans l.espace|spacewalk|lancement|launch|artemis/,40,'Rendez-vous spatial exceptionnel','space-'+e.id],[/z ?event|gp explorer|speedons/,48,'Événement spécial de créateurs','special-'+e.id]];
+ const rules=[[/paris games week|\bpgw\b/,44,'Salon du jeu vidéo','paris-games-week'],[/\bworlds\b.*\b(lol|league)\b|\b(lol|league)\b.*\bworlds\b/,65,'Worlds LoL','worlds-lol'],[/world championships?|championnats? du monde|coupe du monde/,60,'Compétition mondiale','world-'+e.subcategory],[/\b(formule 1|formula 1)\b/,50,'Championnat de Formule 1','f1'],[/\bwtt\b/,42,'Circuit international WTT','wtt'],[/\bnfl\b/,48,'Rendez-vous NFL','nfl'],[/grand slam|yonex ifb|route du rhum/,44,'Grand rendez-vous sportif',e.subcategory],[/sortie dans l.espace|spacewalk|lancement|launch|artemis/,40,'Rendez-vous spatial exceptionnel','space-'+e.id],[/z ?event|gp explorer|speedons/,48,'Événement spécial de créateurs','special-'+e.id]];
  const identity=title+' '+String(e.subcategory||'').toLowerCase();
  const rule=rules.find(([pattern])=>pattern.test(identity));
  if(rule){score=rule[1];reasons.push(rule[2]);series=rule[3]}
  else if(e.major===true){score=38;reasons.push('Grand rendez-vous sélectionné')}
- else reasons.push(e.category==='créateurs'?'Créneau régulier de créateur':'Rendez-vous du programme');
+ else reasons.push(e.category==='créateurs'?(/(?:—|-)\s*(?:stream|suite de\b)/.test(title)?'Créneau régulier de créateur':'Rendez-vous de créateur'):'Rendez-vous du programme');
  if(['sport','esport'].includes(e.category)){
   if(/qualifications?/.test(title)){score+=4;reasons.push('Qualifications')}
   else if(/demi[- ]final|semi[- ]final/.test(title)){score+=14;reasons.push('Demi-finale')}
@@ -65,6 +65,7 @@ export function rankHighlights(events,now=new Date(),limit=3){
 }
 
 export function eventVisual(e){
+ if(/paris games week|\bpgw\b/i.test(e.title||''))return {src:'/assets/esport-hero.webp',label:'Illustration IA · univers du jeu vidéo'};
  if(e.subcategory==='Formule 1')return {src:'/assets/racing-hero.webp',label:'Illustration IA · sports mécaniques'};
  if(e.subcategory==='Football américain')return {src:'/assets/stadium-hero.webp',label:'Illustration IA · football américain'};
  if(e.category==='esport')return {src:'/assets/esport-hero.webp',label:'Illustration IA · univers du jeu vidéo'};

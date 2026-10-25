@@ -44,3 +44,10 @@ test('highlights retire unknown-duration slots after a clearly editorial three-h
  assert.deepEqual(new Set(rankHighlights(source,now,6).map(e=>e.id)),new Set(['current','live']));
  assert.equal(source.length,3);assert.equal(old.status,'À venir');
 });
+test('PGW is a special gaming event with imagery, not a routine creator slot',async()=>{
+ const {eventVisual}=await import('../public/event-utils.mjs');
+ const pgw=event('pgw','Paris Games Week — la scène Capcom',{category:'créateurs',subcategory:'Jeux et rencontres'});
+ assert.ok(eventVisual(pgw)?.src);assert.ok(!editorialPriority(pgw,now).reasons.includes('Créneau régulier de créateur'));
+ const cooking=event('cooking','ZeratoR — Cuisine',{category:'créateurs',subcategory:'Cooking Simulator'});
+ assert.notEqual(eventVisual(cooking)?.src,'/assets/esport-hero.webp');
+});
