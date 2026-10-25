@@ -67,3 +67,11 @@ test('event artwork outranks generic art and archival photos explicitly state th
  const worlds=eventVisual({title:'Worlds LoL — phase suisse',subcategory:'League of Legends',category:'esport'});
  assert.equal(worlds.scope,'archive');assert.equal(worlds.eventYear,2025);assert.match(worlds.label,/2025/);assert.notEqual(worlds.src,'/assets/esport-hero.webp');
 });
+test('creator identity and announced subject beat unrelated sport or arena imagery',async()=>{
+ const {eventVisual}=await import('../public/event-utils.mjs');
+ const live={title:'ZeratoR — Stream',organizer:'ZeratoR',category:'créateurs',subcategory:'Just Chatting'};
+ assert.equal(eventVisual(live).scope,'creator');assert.equal(eventVisual(live).creditKey,'zerator');
+ assert.equal(eventVisual({...live,title:'ZeratoR — Cuisine !',subcategory:'Just Chatting'}).creditKey,'cooking');
+ assert.notEqual(eventVisual({...live,title:'ZeratoR — Suite de We Were Here',subcategory:'We Were Here Tomorrow'}).creditKey,'esport');
+ assert.notEqual(eventVisual({...live,title:'Autre créateur — Stream',organizer:'Autre créateur'}).creditKey,'zerator');
+});

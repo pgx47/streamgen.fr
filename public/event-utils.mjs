@@ -255,13 +255,31 @@ Object.assign(IMAGE_LIBRARY, {
     "changes": "Conversion en WebP et redimensionnement. Capture de l’édition 2025 : ne représente ni la scène, ni les affiches ni les participants confirmés de l’édition 2026."
   }
 });
+Object.assign(IMAGE_LIBRARY, {
+  "zerator": {
+    "creditKey": "zerator",
+    "src": "/assets/creators/zerator.webp",
+    "label": "ZeratoR · portrait au ZEVENT 2025",
+    "title": "ZeratoR lors du ZEVENT 2025 - 06.jpg",
+    "author": "Mickaël Schauli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZeratoR_lors_du_ZEVENT_2025_-_06.jpg",
+    "type": "photo",
+    "scope": "creator",
+    "eventYear": 2025,
+    "changes": "Portrait du créateur photographié au ZEVENT 2025. Illustration de son identité, pas une photographie du stream annoncé. Conversion WebP et redimensionnement ; aucun partenariat revendiqué."
+  }
+});
 export function eventVisual(e={}){
  const topic=String(e.subcategory||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
  const title=String(e.title||'').toLowerCase();
  if(/paris games week|\bpgw\b/.test(title)&&(!e.date||e.date.startsWith('2026-')))return IMAGE_LIBRARY['pgw-2026'];
  if(/worlds/.test(title)&&(/lol|league/.test(title)||topic==='league of legends'))return IMAGE_LIBRARY['worlds-2025'];
  if(e.visualKey&&IMAGE_LIBRARY[e.visualKey])return IMAGE_LIBRARY[e.visualKey];
- let key=topic==='formule 1'?'racing':topic==='football americain'?'stadium':topic==='tennis de table'?'ping':/badminton/.test(topic)?'badminton':/gymnast/.test(topic)?'gymnastics':/aquatic|natation|swimming/.test(topic)?'swimming':/voile|sailing/.test(topic)?'sailing':/judo/.test(topic)?'judo':/espace|space/.test(topic)?'space':/cooking|cuisine/.test(topic)?'cooking':/paris games week|\bpgw\b/.test(title)||e.category==='esport'||/fortnite|league of legends|we were here/.test(topic)?'esport':e.category==='créateurs'?'creator':'generic';
+ if(e.category==='créateurs'&&/cooking|cuisine/.test(topic+' '+title))return IMAGE_LIBRARY.cooking;
+ if(e.category==='créateurs'&&(/^(zerator)$/i.test(e.organizer||'')||/^zerator\s*[—-]/.test(title)))return IMAGE_LIBRARY.zerator;
+ let key=topic==='formule 1'?'racing':topic==='football americain'?'stadium':topic==='tennis de table'?'ping':/badminton/.test(topic)?'badminton':/gymnast/.test(topic)?'gymnastics':/aquatic|natation|swimming/.test(topic)?'swimming':/voile|sailing/.test(topic)?'sailing':/judo/.test(topic)?'judo':/espace|space/.test(topic)?'space':/cooking|cuisine/.test(topic)?'cooking':/paris games week|\bpgw\b/.test(title)||e.category==='esport'||(e.category!=='créateurs'&&/fortnite|league of legends/.test(topic))?'esport':e.category==='créateurs'?'creator':'generic';
  return IMAGE_LIBRARY[key];
 }
 export function imageCredit(e){

@@ -29,3 +29,8 @@ test('Twitch validates channel identity, Paris DST, cancellations and off-stream
  assert.throws(()=>parseTwitch(html,'Kameto','kamet0'));
  assert.equal(parseTwitch(html.replace('SUMMARY:', 'STATUS:CANCELLED\nSUMMARY:'),'ZeratoR','zerator')[0].cancelled,true);
 });
+test('creator collection never assigns the generic SPORT label',async()=>{
+ const {toEvent}=await import('../scripts/collectors/feeds.mjs');
+ const e=toEvent({key:'live',title:'ZeratoR — Stream',start:'2026-10-26T17:30:00Z',end:null,url:'https://www.twitch.tv/zerator',genre:'Just Chatting',free:true},{id:'twitch-zerator',name:'ZeratoR',platform:'Twitch',url:'https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107',category:'créateurs'},'2026-10-26T00:00:00Z');
+ assert.notEqual(e.art,'SPORT');
+});
