@@ -283,6 +283,7 @@ export function automaticEventVisual(e={}){
  try{if(new URL(v.sourceUrl).protocol!=='https:')return null;const license=new URL(v.licenseUrl);if(!['creativecommons.org','commons.wikimedia.org'].includes(license.hostname)||!['https:','http:'].includes(license.protocol)||license.port||license.username||license.password)return null}catch{return null}
  return v;
 }
+for(const [key,title]of Object.entries({dota:'Dota 2',counterstrike:'Counter-Strike 2',valorant:'VALORANT',chess:'Échecs'}))IMAGE_LIBRARY['graphic-'+key]={creditKey:'graphic-'+key,src:'/assets/library/'+key+'.svg',label:'Illustration graphique · '+title,title:'Illustration de '+title,author:'StreamGen',license:'Création graphique StreamGen',scope:'illustration',changes:'Visuel graphique de la discipline, sans prétendre représenter l’événement.'};
 export function eventVisual(e={}){
  const topic=String(e.subcategory||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
  const title=String(e.title||'').toLowerCase();
@@ -295,6 +296,8 @@ export function eventVisual(e={}){
  if(e.category==='créateurs'&&/cooking|cuisine/.test(topic+' '+title))return IMAGE_LIBRARY.cooking;
  if(automatic?.scope==='creator'&&(!IMAGE_LIBRARY.zerator.eventYear||automatic.eventYear>=IMAGE_LIBRARY.zerator.eventYear||!/^zerator$/i.test(e.organizer||'')))return automatic;
  if(e.category==='créateurs'&&(/^(zerator)$/i.test(e.organizer||'')||/^zerator\s*[—-]/.test(title)))return IMAGE_LIBRARY.zerator;
+ const game=/dota/.test(topic)?'dota':/counter.?strike/.test(topic)?'counterstrike':/valorant/.test(topic)?'valorant':/echecs|chess/.test(topic)?'chess':null;
+ if(game&&(!automatic||automatic.scope==='illustration'))return IMAGE_LIBRARY['graphic-'+game];
  if(automatic)return automatic;
  let key=topic==='formule 1'?'racing':topic==='football americain'?'stadium':topic==='tennis de table'?'ping':/badminton/.test(topic)?'badminton':/gymnast/.test(topic)?'gymnastics':/aquatic|natation|swimming/.test(topic)?'swimming':/voile|sailing/.test(topic)?'sailing':/judo/.test(topic)?'judo':/espace|space/.test(topic)?'space':/cooking|cuisine/.test(topic)?'cooking':/paris games week|\bpgw\b/.test(title)||e.category==='esport'||(e.category!=='créateurs'&&/fortnite|league of legends/.test(topic))?'esport':e.category==='créateurs'?'creator':'generic';
  return IMAGE_LIBRARY[key];
@@ -312,8 +315,10 @@ export function serviceIcon(service={}){
  const icons=['canalplus.com','capcomfrance.fr','formula1.com','france.tv','ijf.org','lequipe.fr','plus.nasa.gov','twitch.tv','youtube.com'];
  const aliases={'francetvpub.fr':'france.tv','francetvpro.fr':'france.tv','api.twitch.tv':'twitch.tv'};
  host=aliases[host]||host;
- if(!icons.includes(host))host=label.includes('twitch')?'twitch.tv':label.includes('youtube')?'youtube.com':label.includes('canal+')?'canalplus.com':/france [23]|france.tv/.test(label)?'france.tv':label.includes('équipe')?'lequipe.fr':label.includes('nasa')?'plus.nasa.gov':label.includes('formula 1')?'formula1.com':'';
- if(host)return `<img class="service-icon" src="/assets/services/${host}.ico" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async">`;
+ if(!host)host=label.includes('twitch')?'twitch.tv':label.includes('youtube')?'youtube.com':label.includes('canal+')?'canalplus.com':/france [23]|france.tv/.test(label)?'france.tv':label.includes('équipe')?'lequipe.fr':label.includes('nasa')?'plus.nasa.gov':label.includes('formula 1')?'formula1.com':'';
+ if(!host){host=label.includes('kick')?'kick.com':label.includes('lichess')?'lichess.org':label.includes('chess.com')?'chess.com':''}
+ if(host&&/^[a-z0-9.-]+\.[a-z]{2,}$/i.test(host))return `<img class="service-icon" src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&amp;sz=64" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
+
  const tv=input.platform==='TV';
  return `<svg class="service-icon service-icon-fallback" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">${tv?'<rect x="3" y="5" width="18" height="13" rx="2"/><path d="M8 21h8M12 18v3M8 2l4 3 4-3"/>':'<circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/>'}</svg>`;
 }
