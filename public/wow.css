@@ -77,3 +77,68 @@ main{width:100%;max-width:none;margin-inline:0;padding-inline:clamp(16px,2vw,40p
 header{padding-inline:clamp(16px,2vw,40px)}
 
 @media(min-width:701px) and (max-width:1100px){.selection-panel{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Densité demandée sur ordinateur ; les mobiles gardent leur échelle native. */
+@media(min-width:1101px){body{zoom:.8}}
+
+/* Fiches : visuel et informations essentielles côte à côte. */
+main.detail-page.event-detail{width:100%;max-width:none;padding-top:24px}
+.event-sheet .crumb{margin-bottom:20px;align-items:center}
+.event-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:36px;align-items:center;background:#121c28;border:1px solid #2e3c4d;border-radius:12px;padding:24px}
+.event-sheet .event-cover{margin:0;min-width:0;max-width:none;position:relative;align-self:stretch;display:flex;flex-direction:column}
+.event-sheet .event-cover img{display:block;width:100%;height:100%;min-height:320px;max-height:440px;object-fit:cover;border-radius:8px;flex:1}
+.event-sheet .event-cover figcaption{position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:5px 9px;background:#080e18dc;border-radius:4px;font-size:16px;line-height:1.4}
+.event-overview{min-width:0;padding:6px 8px}
+.detail-page .event-overview .eyebrow{font-size:16px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 12px;color:#c3fa62}
+.detail-page .event-overview h1{font-size:clamp(32px,3vw,54px);line-height:1.08;max-width:28ch;margin:0 0 16px}
+.event-overview .hero-badges{margin:0 0 20px;display:flex;flex-wrap:wrap;gap:8px}
+.event-overview .chip{font-size:16px;padding:5px 10px;background:#233326;border:1px solid #456035;color:#d8f3bb;border-radius:5px}
+.detail-page dl.event-keyfacts{display:grid;grid-template-columns:1.5fr 1fr;gap:16px;margin:0 0 20px;font-size:16px}
+.event-keyfacts>div:last-child{grid-column:1/-1}
+.event-sheet dt{font-size:16px;color:#9eafc2;line-height:1.5;margin:0 0 4px}
+.event-sheet dd{margin:0;font-size:16px;line-height:1.55;color:#eff4fa}
+.event-keyfacts .service-name{display:inline-flex;align-items:center;gap:7px;margin:0 16px 4px 0}
+.detail-page .event-overview .lead{font-size:16px;line-height:1.65;max-width:75ch;margin:0 0 20px;color:#c4d0de}
+.event-watch-action{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.event-watch-action .primary{font-size:16px;min-height:44px;padding:10px 18px}
+.detail-page a.event-more-options{font-size:16px;color:#c1d0e1}
+.detail-page p.event-timezone{font-size:16px;color:#91a3b8;margin:12px 0 0}
+.event-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:18px 0;border-bottom:1px solid #2d394a;margin-bottom:28px}
+.event-toolbar>button,.event-toolbar .calendar-menu>summary{font-size:16px;min-height:40px;padding:9px 14px}
+.event-toolbar .source-badge{margin-left:auto;font-size:16px;color:#9eb08d}
+.event-toolbar #page-toast{flex-basis:100%;margin:0;font-size:16px;color:#c3fa62}
+.event-toolbar #page-toast:empty{display:none}
+.event-detail-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;align-items:start}
+.event-section{background:#111a25;border:1px solid #2a384a;border-radius:9px;padding:24px;margin-bottom:24px;min-width:0}
+.detail-page .event-section h2,.detail-page .event-related h2{font-size:25px;line-height:1.2;margin:0 0 16px}
+.detail-page .event-section h3{font-size:18px;margin:0 0 12px}
+.detail-page .event-section p,.detail-page .event-section li{font-size:16px;line-height:1.65}
+.detail-page .event-info-list{display:block;margin:0}
+.event-info-list>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;padding:13px 0;border-bottom:1px solid #253345}
+.event-info-list>div:last-child{border-bottom:0}
+.event-info-list dd{overflow-wrap:anywhere}
+.event-sessions{list-style:none;padding:0!important;margin:0 0 16px;max-height:420px;overflow-y:auto}
+.event-sessions li{display:grid;grid-template-columns:65px minmax(0,1fr);gap:16px;padding:12px 0;border-bottom:1px solid #2a384a}
+.event-sessions time{color:#c3fa62;font-weight:700;font-variant-numeric:tabular-nums}
+.event-broadcasts>.muted{margin-top:-6px;color:#9eafc2}
+.event-broadcast-list{display:grid;gap:14px}
+.event-broadcast-list .detail-box{margin:0;padding:20px;background:#182331;border:1px solid #344256;border-radius:7px}
+.event-broadcast-list .detail-box .button-link{font-size:16px;min-height:40px;margin-top:8px}
+.event-source-list{list-style:none;padding:0!important;display:grid;gap:8px}
+.event-source-list a{display:flex;align-items:center;gap:9px;font-size:16px;overflow-wrap:anywhere}
+.event-sources .verification-details{margin-top:18px;padding-top:14px;border-top:1px solid #2a384a}
+.event-related{margin:8px 0 32px}
+.event-related .section-heading{align-items:center}
+.event-related .section-heading>a{font-size:16px}
+.event-related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.detail-page a.event-related-card{display:grid;grid-template-columns:130px minmax(0,1fr);background:#121c28;border:1px solid #2d3c4e;border-radius:8px;overflow:hidden;text-decoration:none;color:#f0f5fa}
+.event-related-card img{width:130px;height:100%;min-height:140px;object-fit:cover}
+.event-related-card>div{padding:16px}
+.event-related-card span{font-size:16px;color:#b5c695}
+.detail-page .event-related-card h3{font-size:19px;line-height:1.2;margin:8px 0}
+.detail-page .event-related-card p{font-size:16px;line-height:1.5;margin:0;color:#a5b7ca}
+@media(max-width:1100px){.event-hero{gap:24px;padding:20px}.event-sheet .event-cover img{min-height:300px}.event-related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.event-related-card:last-child{grid-column:1/-1}}
+@media(max-width:760px){.event-hero,.event-detail-grid{grid-template-columns:minmax(0,1fr)}.event-hero{padding:14px;gap:20px}.event-sheet .event-cover img{height:220px;min-height:0;max-height:220px}.event-overview{padding:0 4px 6px}.detail-page .event-overview h1{font-size:34px}.event-section{padding:20px}.event-toolbar .source-badge{margin-left:0;flex-basis:100%}.event-info-list>div{grid-template-columns:minmax(0,1fr);gap:4px}.event-related-grid{grid-template-columns:minmax(0,1fr)}.event-related-card:last-child{grid-column:auto}.event-watch-action{gap:12px}.event-detail-grid{gap:0}}
+
+.event-toolbar .calendar-menu{padding:0}.event-toolbar .calendar-menu[open]{padding:0 14px 14px}.event-toolbar .calendar-menu summary{list-style-position:inside}.event-toolbar .calendar-menu[open] summary{padding-inline:0}
+@media(min-width:761px){.event-sheet .event-cover{align-self:center}.event-sheet .event-cover img{height:clamp(320px,24vw,440px);flex:none}}

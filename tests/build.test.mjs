@@ -35,3 +35,11 @@ test('le JavaScript, son module et les données appartiennent à la même versio
 });
 
 test('the built site exposes subscriptions, thematic hubs, sharing images and no AI fallback for published events',async()=>{const{readFile}=await import('node:fs/promises');const{eventVisual}=await import('../public/event-utils.mjs');const d=JSON.parse(await readFile('dist/events.json','utf8'));for(const e of d.events){assert.notEqual(eventVisual(e).type,'ai');const h=await readFile('dist/evenements/'+e.slug+'/index.html','utf8');assert.match(h,/property="og:image"/);assert.match(h,/calendar.google.com/);assert.match(h,/outlook.live.com/)}for(const path of ['sport','esport','espace-sciences','francais','calendriers'])assert.match(await readFile('dist/'+path+'/index.html','utf8'),/rel="canonical"/);assert.match(await readFile('dist/feed.xml','utf8'),/<rss version="2.0">/);assert.match(await readFile('dist/calendars/tout.ics','utf8'),/BEGIN:VCALENDAR/);const sw=await readFile('dist/sw.js','utf8');assert.doesNotMatch(sw,/__BUILD_VERSION__|__PRECACHE__/);assert.match(sw,/app.js\?v=/)});
+test('event pages group time and watch actions in the opening panel without repeating their introduction',async()=>{
+ const d=JSON.parse(await readFile('dist/events.json','utf8')),e=d.events[0];
+ const page=await readFile('dist/evenements/'+e.slug+'/index.html','utf8');
+ assert.match(page,/class="event-hero"/);assert.match(page,/class="event-keyfacts"/);
+ assert.ok(page.indexOf('event-keyfacts')<page.indexOf('id="diffusion"'));
+ assert.match(page,/id="page-favorite"/);assert.match(page,/id="page-calendar"/);
+ assert.doesNotMatch(page,/class="stakes"/);
+});
