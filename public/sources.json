@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T00:38:26.641Z",
+  "updatedAt": "2026-10-26T00:47:12.833Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -251,7 +251,7 @@
       "url": "https://www.arte.tv/fr/guide/20261026/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -260,7 +260,7 @@
       "url": "https://www.arte.tv/fr/guide/20261027/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -269,7 +269,7 @@
       "url": "https://www.arte.tv/fr/guide/20261028/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -278,7 +278,7 @@
       "url": "https://www.arte.tv/fr/guide/20261029/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -287,7 +287,7 @@
       "url": "https://www.arte.tv/fr/guide/20261030/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -296,7 +296,7 @@
       "url": "https://www.arte.tv/fr/guide/20261031/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -305,7 +305,7 @@
       "url": "https://www.arte.tv/fr/guide/20261101/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -314,7 +314,7 @@
       "url": "https://www.arte.tv/fr/guide/20261102/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -433,6 +433,60 @@
       "kind": "official",
       "checkedAt": "2026-10-26T00:38:26.641Z",
       "notes": "La date générale de compétition ne devient jamais une heure de diffusion. Les restrictions non renseignées restent inconnues."
+    },
+    {
+      "id": "arte-concert-live",
+      "name": "ARTE Concert · agenda des directs",
+      "url": "https://www.arte.tv/fr/arte-concert/agenda/",
+      "kind": "official",
+      "purpose": "Concerts explicitement annoncés en livestream",
+      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "notes": "Seul le type LIVESTREAM_WEB est collecté ; les dates de mise en replay sont exclues."
+    },
+    {
+      "id": "cern-webcast",
+      "name": "CERN · conférences publiques à venir",
+      "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
+      "kind": "official",
+      "purpose": "Horaires, intervenants et accès public des webcasts",
+      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "notes": "Seuls les événements restricted=false sont retenus. Aucune réunion de collaborateurs ni URL privée de flux n’est publiée."
+    },
+    {
+      "id": "cern-indico-1743465",
+      "name": "CERN Indico · The FASER experiment: recent results and future prospects",
+      "url": "https://indico.cern.ch/event/1743465/",
+      "kind": "official",
+      "purpose": "Recoupement du programme scientifique et de l’horaire",
+      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
+    },
+    {
+      "id": "cern-indico-1743445",
+      "name": "CERN Indico · What extreme expeditions reveal about human evolutionary physiology",
+      "url": "https://indico.cern.ch/event/1743445/",
+      "kind": "official",
+      "purpose": "Recoupement du programme scientifique et de l’horaire",
+      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
+    },
+    {
+      "id": "cern-indico-1745596",
+      "name": "CERN Indico · LHCb",
+      "url": "https://indico.cern.ch/event/1745596/",
+      "kind": "official",
+      "purpose": "Recoupement du programme scientifique et de l’horaire",
+      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
+    },
+    {
+      "id": "cern-indico-1745114",
+      "name": "CERN Indico · The physics potential at FCC-ee",
+      "url": "https://indico.cern.ch/event/1745114/",
+      "kind": "official",
+      "purpose": "Recoupement du programme scientifique et de l’horaire",
+      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     }
   ]
 }

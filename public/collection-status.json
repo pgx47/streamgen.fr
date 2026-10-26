@@ -64,62 +64,6 @@
       "date": "2026-11-01"
     },
     {
-      "id": "arte-guide-2026-10-26",
-      "status": "ok",
-      "url": "https://www.arte.tv/fr/guide/20261026/",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
-      "programmes": 24
-    },
-    {
-      "id": "arte-guide-2026-10-27",
-      "status": "ok",
-      "url": "https://www.arte.tv/fr/guide/20261027/",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
-      "programmes": 23
-    },
-    {
-      "id": "arte-guide-2026-10-28",
-      "status": "ok",
-      "url": "https://www.arte.tv/fr/guide/20261028/",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
-      "programmes": 24
-    },
-    {
-      "id": "arte-guide-2026-10-29",
-      "status": "ok",
-      "url": "https://www.arte.tv/fr/guide/20261029/",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
-      "programmes": 25
-    },
-    {
-      "id": "arte-guide-2026-10-30",
-      "status": "ok",
-      "url": "https://www.arte.tv/fr/guide/20261030/",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
-      "programmes": 25
-    },
-    {
-      "id": "arte-guide-2026-10-31",
-      "status": "ok",
-      "url": "https://www.arte.tv/fr/guide/20261031/",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
-      "programmes": 26
-    },
-    {
-      "id": "arte-guide-2026-11-01",
-      "status": "ok",
-      "url": "https://www.arte.tv/fr/guide/20261101/",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
-      "programmes": 20
-    },
-    {
-      "id": "arte-guide-2026-11-02",
-      "status": "ok",
-      "url": "https://www.arte.tv/fr/guide/20261102/",
-      "checkedAt": "2026-10-26T00:28:31.404Z",
-      "programmes": 23
-    },
-    {
       "id": "automatic-images",
       "status": "ok",
       "checkedAt": "2026-10-26T00:28:36.774Z",
@@ -445,6 +389,77 @@
       "detectedStreams": 0,
       "added": 0,
       "updated": 0
+    },
+    {
+      "id": "arte-guide-2026-10-26",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/guide/20261026/",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "programmes": 24
+    },
+    {
+      "id": "arte-guide-2026-10-27",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/guide/20261027/",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "programmes": 23
+    },
+    {
+      "id": "arte-guide-2026-10-28",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/guide/20261028/",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "programmes": 24
+    },
+    {
+      "id": "arte-guide-2026-10-29",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/guide/20261029/",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "programmes": 25
+    },
+    {
+      "id": "arte-guide-2026-10-30",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/guide/20261030/",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "programmes": 25
+    },
+    {
+      "id": "arte-guide-2026-10-31",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/guide/20261031/",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "programmes": 26
+    },
+    {
+      "id": "arte-guide-2026-11-01",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/guide/20261101/",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "programmes": 20
+    },
+    {
+      "id": "arte-guide-2026-11-02",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/guide/20261102/",
+      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "programmes": 23
+    },
+    {
+      "id": "cern-webcast",
+      "status": "ok",
+      "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
+      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "listed": 6,
+      "publicProgrammes": 4
+    },
+    {
+      "id": "arte-concert-live",
+      "status": "ok",
+      "url": "https://www.arte.tv/fr/arte-concert/agenda/",
+      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "livestreams": 2
     }
   ]
 }

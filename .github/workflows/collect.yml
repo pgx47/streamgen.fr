@@ -56,6 +56,8 @@ jobs:
         run: node scripts/collect-riot.mjs
       - name: Discover Red Bull TV livestreams
         run: node scripts/collect-redbull.mjs
+      - name: Collect public science conferences and live concerts
+        run: node scripts/collect-discoveries.mjs
       - name: Collect ARTE weekly TV guide
         run: node scripts/collect-arte.mjs
       - name: Discover and validate event images
@@ -86,6 +88,7 @@ jobs:
             work/arte-run.json
             work/riot-run.json
             work/redbull-run.json
+            work/discoveries-run.json
           retention-days: 14
   deploy:
     needs: collect
