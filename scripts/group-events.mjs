@@ -1,10 +1,11 @@
+import{publishableEvent}from'./editorial-policy.mjs';
 const norm=s=>String(s||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const aliases={dendelecs:'dendele',auroragaming:'aurora',nemigagaming:'nemiga',teamvitality:'vitality','9zteam':'9z','9zglobant':'9z',teamliquid:'liquid',teamspirit:'spirit',g2esports:'g2',betboomteam:'betboom'};
 const team=s=>aliases[norm(s)]||norm(s);
 const unique=(xs,key)=>[...new Map(xs.map(x=>[key(x),x])).values()];
 export function groupEvents(input){
  const groups=new Map();
- for(const e of input){let key='id:'+e.id;
+ for(const e of input.filter(publishableEvent)){let key='id:'+e.id;
   if(/PGL.*(?:2026.*Masters|Masters.*2026)/i.test(e.title)&&/counter.?strike/i.test(e.subcategory)&&e.participants?.length===2&&e.start)key='pgl-masters-2026|'+e.start+'|'+e.participants.map(team).sort().join('|');
   if(e.sources.some(s=>s.sourceId==='lichess')&&/^English Chess Championships 2026\s*\|/i.test(e.title))key='english-chess-2026|'+e.date+'|'+norm(e.title.split('|').at(-1));
   if(e.category==='esport'&&e.date&&(e.id.startsWith('lp-')||e.externalTournamentUrl||e.id.startsWith('pgl-'))){const tournament=/PGL.*(?:2026.*Masters|Masters.*2026)/i.test(e.title)?'PGL Masters Bucharest 2026':e.title.split(' · ')[0];if(tournament!==e.title||e.externalTournamentUrl)key='esport-day|'+norm(tournament)+'|'+e.date}
