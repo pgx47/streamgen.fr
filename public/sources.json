@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T01:01:34.206Z",
+  "updatedAt": "2026-10-26T01:04:16.572Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -215,7 +215,7 @@
       "url": "https://plus.nasa.gov/",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -224,7 +224,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -233,7 +233,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -242,7 +242,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -251,7 +251,7 @@
       "url": "https://www.arte.tv/fr/guide/20261026/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "checkedAt": "2026-10-26T01:04:16.572Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -260,7 +260,7 @@
       "url": "https://www.arte.tv/fr/guide/20261027/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "checkedAt": "2026-10-26T01:04:16.572Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -269,7 +269,7 @@
       "url": "https://www.arte.tv/fr/guide/20261028/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "checkedAt": "2026-10-26T01:04:16.572Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -278,7 +278,7 @@
       "url": "https://www.arte.tv/fr/guide/20261029/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "checkedAt": "2026-10-26T01:04:16.572Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -287,7 +287,7 @@
       "url": "https://www.arte.tv/fr/guide/20261030/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "checkedAt": "2026-10-26T01:04:16.572Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -296,7 +296,7 @@
       "url": "https://www.arte.tv/fr/guide/20261031/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "checkedAt": "2026-10-26T01:04:16.572Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -305,7 +305,7 @@
       "url": "https://www.arte.tv/fr/guide/20261101/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "checkedAt": "2026-10-26T01:04:16.572Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -314,7 +314,7 @@
       "url": "https://www.arte.tv/fr/guide/20261102/",
       "purpose": "Horaires des programmes télévisés",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:45:57.397Z",
+      "checkedAt": "2026-10-26T01:04:16.572Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     },
     {
@@ -323,7 +323,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -332,7 +332,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -341,7 +341,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=100744948",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -350,7 +350,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=68594999",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -359,7 +359,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=27115917",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -368,7 +368,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=174955366",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -377,7 +377,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=71852533",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -386,7 +386,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=57781936",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -395,7 +395,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=7601562",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -404,7 +404,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=31239503",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-26T01:03:48.357Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -413,7 +413,7 @@
       "url": "https://valorantesports.com/en-US/matches",
       "purpose": "Participants et horaires officiels",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:33:42.577Z",
+      "checkedAt": "2026-10-26T01:04:04.996Z",
       "notes": "Riot Games. Affiches non connues conservées comme inconnues."
     },
     {
@@ -422,7 +422,7 @@
       "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
       "purpose": "Canaux annoncés pour cette édition",
       "kind": "official",
-      "checkedAt": "2026-10-26T00:33:42.577Z",
+      "checkedAt": "2026-10-26T01:04:04.996Z",
       "notes": "Confirmation éditoriale des canaux ; ne prouve pas un flux actif ni une absence de restriction territoriale."
     },
     {
@@ -440,7 +440,7 @@
       "url": "https://www.arte.tv/fr/arte-concert/agenda/",
       "kind": "official",
       "purpose": "Concerts explicitement annoncés en livestream",
-      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "checkedAt": "2026-10-26T01:04:09.616Z",
       "notes": "Seul le type LIVESTREAM_WEB est collecté ; les dates de mise en replay sont exclues."
     },
     {
@@ -449,7 +449,7 @@
       "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
       "kind": "official",
       "purpose": "Horaires, intervenants et accès public des webcasts",
-      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "checkedAt": "2026-10-26T01:04:09.616Z",
       "notes": "Seuls les événements restricted=false sont retenus. Aucune réunion de collaborateurs ni URL privée de flux n’est publiée."
     },
     {
@@ -458,7 +458,7 @@
       "url": "https://indico.cern.ch/event/1743465/",
       "kind": "official",
       "purpose": "Recoupement du programme scientifique et de l’horaire",
-      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "checkedAt": "2026-10-26T01:04:09.616Z",
       "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     },
     {
@@ -467,7 +467,7 @@
       "url": "https://indico.cern.ch/event/1743445/",
       "kind": "official",
       "purpose": "Recoupement du programme scientifique et de l’horaire",
-      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "checkedAt": "2026-10-26T01:04:09.616Z",
       "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     },
     {
@@ -476,7 +476,7 @@
       "url": "https://indico.cern.ch/event/1745596/",
       "kind": "official",
       "purpose": "Recoupement du programme scientifique et de l’horaire",
-      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "checkedAt": "2026-10-26T01:04:09.616Z",
       "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     },
     {
@@ -485,7 +485,7 @@
       "url": "https://indico.cern.ch/event/1745114/",
       "kind": "official",
       "purpose": "Recoupement du programme scientifique et de l’horaire",
-      "checkedAt": "2026-10-26T00:47:12.833Z",
+      "checkedAt": "2026-10-26T01:04:09.616Z",
       "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     },
     {
@@ -494,7 +494,7 @@
       "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
       "kind": "official",
       "purpose": "Identité des missions annoncées",
-      "checkedAt": "2026-10-26T00:54:06.455Z"
+      "checkedAt": "2026-10-26T01:04:14.230Z"
     },
     {
       "id": "spacex-timings",
@@ -502,7 +502,7 @@
       "url": "https://content.spacex.com/cms-assets/future_missions.json",
       "kind": "official",
       "purpose": "Ouverture et fermeture des fenêtres de lancement",
-      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "checkedAt": "2026-10-26T01:04:14.230Z",
       "notes": "Une date sans fenêtre horaire n’est pas publiée à minuit. La fermeture de fenêtre ne représente pas la fin du direct."
     },
     {
@@ -511,7 +511,7 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
       "kind": "specialist",
       "purpose": "Recoupement indépendant de l’horaire et de l’identité de mission",
-      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "checkedAt": "2026-10-26T01:04:14.230Z",
       "notes": "La correspondance exige le lien exact de la mission officielle. Les heures de vidéos tierces ne déterminent jamais le programme publié."
     },
     {
@@ -520,7 +520,7 @@
       "url": "https://www.spacex.com/launches/sl-15-16",
       "kind": "official",
       "purpose": "Mission et liens de retransmission officiels",
-      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "checkedAt": "2026-10-26T01:04:14.230Z",
       "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/sl-15-16"
     },
     {
@@ -529,7 +529,7 @@
       "url": "https://www.spacex.com/launches/sl-15-18",
       "kind": "official",
       "purpose": "Mission et liens de retransmission officiels",
-      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "checkedAt": "2026-10-26T01:04:14.230Z",
       "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/sl-15-18"
     },
     {
@@ -538,7 +538,7 @@
       "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
       "kind": "official",
       "purpose": "Créneaux datés de diffusion sur la chaîne sport",
-      "checkedAt": "2026-10-26T01:01:34.206Z",
+      "checkedAt": "2026-10-26T01:04:15.186Z",
       "notes": "Article découvert depuis la rubrique sport, semaine et jours contrôlés avec l’année explicite. Les programmes nocturnes en boucle et les replays ne sont pas déduits du lecteur permanent."
     }
   ]
