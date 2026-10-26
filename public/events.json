@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T03:00:57.368Z",
+  "updatedAt": "2026-10-26T03:03:09.028Z",
   "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -19226,6 +19226,453 @@
       "notes": [
         "Horaires fournis par l’API start.gg en timestamp Unix. Les brackets et participants ne sont pas déduits.",
         "Un tournoi sans chaîne déclarée reste « Diffuseur à confirmer »."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "ps-1765301",
+      "slug": "ps-1765301",
+      "title": "Upper bracket quarterfinal 1: JDG vs TTG",
+      "summary": "Match Honor of Kings programmé selon le calendrier PandaScore (Grand Finals 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Honor of Kings",
+      "date": "2026-10-27",
+      "start": "2026-10-27T10:00:00Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "JD Gaming",
+        "Talent Gaming"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Grand Finals 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Web · officiel",
+          "url": "https://live.bilibili.com/21144080",
+          "access": "free",
+          "accountRequired": null,
+          "language": "zh",
+          "countries": [],
+          "territoryNote": "Diffusion officielle référencée par PandaScore",
+          "confirmed": true,
+          "restrictions": "Stream officiel du match déclaré dans le calendrier PandaScore.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "YouTube",
+          "label": "YouTube · community",
+          "url": "https://www.youtube.com/@Hok_KPL/streams",
+          "access": "free",
+          "accountRequired": null,
+          "language": "zh",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PandaScore · calendrier des matchs",
+          "url": "https://pandascore.co/",
+          "sourceId": "pandascore",
+          "collectedAt": "2026-10-26T03:03:09.028Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:03:09.028Z",
+      "confirmation": "Match daté dans le calendrier PandaScore",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "ps-1764461",
+      "slug": "ps-1764461",
+      "title": "ByuN vs Lambo",
+      "summary": "Match StarCraft II programmé selon le calendrier PandaScore (Premier 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "StarCraft II",
+      "date": "2026-10-27",
+      "start": "2026-10-27T11:00:00Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "ByuN",
+        "Lambo"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Premier 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Web · officiel",
+          "url": "https://www.sooplive.com/station/zodiactv",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ko",
+          "countries": [],
+          "territoryNote": "Diffusion officielle référencée par PandaScore",
+          "confirmed": true,
+          "restrictions": "Stream officiel du match déclaré dans le calendrier PandaScore.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "Twitch",
+          "label": "Twitch · community",
+          "url": "https://www.twitch.tv/wardiii",
+          "access": "free",
+          "accountRequired": null,
+          "language": "en",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PandaScore · calendrier des matchs",
+          "url": "https://pandascore.co/",
+          "sourceId": "pandascore",
+          "collectedAt": "2026-10-26T03:03:09.028Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:03:09.028Z",
+      "confirmation": "Match daté dans le calendrier PandaScore",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "ps-1764462",
+      "slug": "ps-1764462",
+      "title": "MaxPax vs Bunny",
+      "summary": "Match StarCraft II programmé selon le calendrier PandaScore (Premier 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "StarCraft II",
+      "date": "2026-10-27",
+      "start": "2026-10-27T11:40:00Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "MaxPax",
+        "Bunny"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Premier 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Web · officiel",
+          "url": "https://www.sooplive.com/station/zodiactv",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ko",
+          "countries": [],
+          "territoryNote": "Diffusion officielle référencée par PandaScore",
+          "confirmed": true,
+          "restrictions": "Stream officiel du match déclaré dans le calendrier PandaScore.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "Twitch",
+          "label": "Twitch · community",
+          "url": "https://www.twitch.tv/wardiii",
+          "access": "free",
+          "accountRequired": null,
+          "language": "en",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PandaScore · calendrier des matchs",
+          "url": "https://pandascore.co/",
+          "sourceId": "pandascore",
+          "collectedAt": "2026-10-26T03:03:09.028Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:03:09.028Z",
+      "confirmation": "Match daté dans le calendrier PandaScore",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "ps-1764463",
+      "slug": "ps-1764463",
+      "title": "Winners Match: TBD vs TBD",
+      "summary": "Match StarCraft II programmé selon le calendrier PandaScore (Premier 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "StarCraft II",
+      "date": "2026-10-27",
+      "start": "2026-10-27T12:20:00Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Premier 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Web · officiel",
+          "url": "https://www.sooplive.com/station/zodiactv",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ko",
+          "countries": [],
+          "territoryNote": "Diffusion officielle référencée par PandaScore",
+          "confirmed": true,
+          "restrictions": "Stream officiel du match déclaré dans le calendrier PandaScore.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "Twitch",
+          "label": "Twitch · community",
+          "url": "https://www.twitch.tv/wardiii",
+          "access": "free",
+          "accountRequired": null,
+          "language": "en",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PandaScore · calendrier des matchs",
+          "url": "https://pandascore.co/",
+          "sourceId": "pandascore",
+          "collectedAt": "2026-10-26T03:03:09.028Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:03:09.028Z",
+      "confirmation": "Match daté dans le calendrier PandaScore",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "ps-1764464",
+      "slug": "ps-1764464",
+      "title": "Elimination Match: TBD vs TBD",
+      "summary": "Match StarCraft II programmé selon le calendrier PandaScore (Premier 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "StarCraft II",
+      "date": "2026-10-27",
+      "start": "2026-10-27T13:00:00Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Premier 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Web · officiel",
+          "url": "https://www.sooplive.com/station/zodiactv",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ko",
+          "countries": [],
+          "territoryNote": "Diffusion officielle référencée par PandaScore",
+          "confirmed": true,
+          "restrictions": "Stream officiel du match déclaré dans le calendrier PandaScore.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "Twitch",
+          "label": "Twitch · community",
+          "url": "https://www.twitch.tv/wardiii",
+          "access": "free",
+          "accountRequired": null,
+          "language": "en",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PandaScore · calendrier des matchs",
+          "url": "https://pandascore.co/",
+          "sourceId": "pandascore",
+          "collectedAt": "2026-10-26T03:03:09.028Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:03:09.028Z",
+      "confirmation": "Match daté dans le calendrier PandaScore",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "ps-1764465",
+      "slug": "ps-1764465",
+      "title": "Decider Match: TBD vs TBD",
+      "summary": "Match StarCraft II programmé selon le calendrier PandaScore (Premier 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "StarCraft II",
+      "date": "2026-10-27",
+      "start": "2026-10-27T13:40:00Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Premier 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Web · officiel",
+          "url": "https://www.sooplive.com/station/zodiactv",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ko",
+          "countries": [],
+          "territoryNote": "Diffusion officielle référencée par PandaScore",
+          "confirmed": true,
+          "restrictions": "Stream officiel du match déclaré dans le calendrier PandaScore.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "Twitch",
+          "label": "Twitch · community",
+          "url": "https://www.twitch.tv/wardiii",
+          "access": "free",
+          "accountRequired": null,
+          "language": "en",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PandaScore · calendrier des matchs",
+          "url": "https://pandascore.co/",
+          "sourceId": "pandascore",
+          "collectedAt": "2026-10-26T03:03:09.028Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:03:09.028Z",
+      "confirmation": "Match daté dans le calendrier PandaScore",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
       ],
       "popularity": null,
       "discovery": true,

@@ -600,6 +600,14 @@
       "checkedAt": "2026-10-26T03:00:57.368Z",
       "tournaments": 50,
       "observed": 40
+    },
+    {
+      "id": "pandascore",
+      "status": "ok",
+      "url": "https://pandascore.co/",
+      "checkedAt": "2026-10-26T03:03:09.028Z",
+      "matches": 6,
+      "observed": 6
     }
   ]
 }

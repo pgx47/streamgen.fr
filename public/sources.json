@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T03:00:57.368Z",
+  "updatedAt": "2026-10-26T03:03:09.028Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -576,6 +576,15 @@
       "purpose": "Tournois esport à venir avec horaires et chaînes déclarées",
       "checkedAt": "2026-10-26T03:00:57.368Z",
       "notes": "API GraphQL officielle, filtre pays France. Les chaînes sont celles déclarées par l’organisateur ; les tournois sans stream restent sans diffuseur supposé."
+    },
+    {
+      "id": "pandascore",
+      "name": "PandaScore · calendrier esport",
+      "url": "https://pandascore.co/",
+      "kind": "official",
+      "purpose": "Matchs datés et streams officiels pour les jeux non couverts ailleurs",
+      "checkedAt": "2026-10-26T03:03:09.028Z",
+      "notes": "API REST gratuite. Les jeux couverts par Liquipedia (CS2, Dota 2, Rocket League) et Riot (LoL, Valorant) sont exclus pour éviter les doublons."
     }
   ]
 }
