@@ -341,3 +341,19 @@ export function dayTimeline(e,day=dateKey(new Date()),now=new Date()){
 CONTEXT_PHOTOS.dota=IMAGE_LIBRARY["photo-dota"]={"creditKey":"photo-dota","src":"/assets/library/dota-arena.jpg","title":"File:The International at KeyArena.jpg","label":"Photo d’archive · The International 2014","author":"Dota 2 The International","license":"CC BY 2.0","licenseUrl":"https://creativecommons.org/licenses/by/2.0","sourceUrl":"https://commons.wikimedia.org/wiki/File:The_International_at_KeyArena.jpg","scope":"illustration","changes":"Archive de la discipline ; ne représente pas l’événement annoncé. Recadrage d’affichage.","eventYear":2014};
 
 CONTEXT_PHOTOS.chess=IMAGE_LIBRARY["photo-chess"]={"creditKey":"photo-chess","src":"/assets/library/chess-arena.jpg","title":"File:Match Carlsen-Caruana, London 2018.jpg","label":"Photo d’archive · championnat du monde 2018","author":"Pablo Martínez Rodríguez","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0","sourceUrl":"https://commons.wikimedia.org/wiki/File:Match_Carlsen-Caruana,_London_2018.jpg","scope":"illustration","changes":"Archive de la discipline ; ne représente pas l’événement annoncé. Recadrage d’affichage.","eventYear":2018};
+
+export function agendaPlacement(e,day=dateKey(new Date()),now=new Date()){
+ const state=dayTimeline(e,day,now).state;
+ if(state==='inactive')return {rank:8,key:'inactive',label:'Reports, annulations et programmes à revérifier'};
+ if(state==='ended')return {rank:6,key:'ended',label:'Événements terminés · selon les horaires annoncés'};
+ if(e.date<dateKey(now)&&!eventOnDay(e,dateKey(now)))return {rank:7,key:'past',label:'Événements passés · fin non confirmée'};
+ if(state==='live')return {rank:0,key:'live',label:'En direct confirmé'};
+ if(state==='scheduled-now')return {rank:1,key:'current',label:'En cours · créneau annoncé'};
+ if(state==='day-programme')return {rank:2,key:'sessions',label:'Programmes de la journée · sessions à venir'};
+ if(state==='started-unknown')return {rank:5,key:'unknown-end',label:'Début annoncé passé · diffusion à vérifier'};
+ if(!e.start)return {rank:4,key:'unknown-time',label:'Horaires à confirmer'};
+ return {rank:3,key:'upcoming',label:'À venir'};
+}
+export function sortAgenda(events,day=dateKey(new Date()),now=new Date()){
+ return events.map(event=>({event,rank:agendaPlacement(event,day,now).rank,time:event.start?Date.parse(event.start):Infinity})).sort((a,b)=>a.rank-b.rank||a.event.date.localeCompare(b.event.date)||a.time-b.time||a.event.id.localeCompare(b.event.id)).map(item=>item.event);
+}
