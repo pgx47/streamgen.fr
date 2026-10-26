@@ -48,7 +48,7 @@ export function parseTwitch(input,name,login,now=new Date()){
  for(const m of ics.matchAll(/BEGIN:VEVENT\n([\s\S]*?)\nEND:VEVENT/g)){
   const lines=m[1].split('\n'),value=key=>lines.find(l=>l.startsWith(key+':'))?.slice(key.length+1);
   const title=value('SUMMARY'),uid=value('UID');let start;try{start=icsDate(lines.find(l=>l.startsWith('DTSTART')))}catch{continue}
-  if(!title||!uid||!start||/HORS STREAM|OFFLINE|OFF STREAM/i.test(title))continue;
+  if(!title||!uid||!start||/HORS STREAM|OFFLINE|OFF STREAM|hebdo|chill\b|react\b|discussion|session\b|on joue|découverte|vendredi|live du|farm\b/i.test(title))continue;
   const recurrence=value('RRULE');let instances=[{start,key:uid}];
   if(recurrence){
    const rule=Object.fromEntries(recurrence.split(';').map(v=>v.split('=')));

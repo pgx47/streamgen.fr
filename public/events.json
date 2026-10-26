@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T03:07:31.853Z",
+  "updatedAt": "2026-10-26T03:17:52.305Z",
   "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -3712,124 +3712,6 @@
         "pageCount": 2,
         "independent": false
       }
-    },
-    {
-      "id": "twitch-domingo-0f72d3756e00a94b",
-      "slug": "twitch-domingo-0f72d3756e00a94b",
-      "title": "Domingo — REACT KOH LANTA",
-      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Domingo. Le programme peut changer ; consultez sa chaîne au moment prévu.",
-      "category": "créateurs",
-      "subcategory": "Just Chatting",
-      "date": "2026-10-29",
-      "start": "2026-10-29T19:30:00.000Z",
-      "end": null,
-      "sourceTimezone": "UTC",
-      "participants": [],
-      "frenchPresence": null,
-      "frenchNote": "Non renseignée par la source",
-      "organizer": "Domingo",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Domingo",
-          "url": "https://www.twitch.tv/domingo",
-          "access": "free",
-          "accountRequired": null,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
-          "confirmed": true,
-          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
-          "linkKind": "information"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Domingo · programme officiel",
-          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
-          "sourceId": "twitch-domingo",
-          "collectedAt": "2026-10-26T01:03:48.357Z"
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": "2026-10-26T01:03:48.357Z",
-      "confirmation": "Diffusion programmée par le diffuseur",
-      "schedule": [],
-      "notes": [
-        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
-      ],
-      "popularity": null,
-      "discovery": true,
-      "major": false,
-      "featured": false,
-      "art": "LIVE",
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null,
-      "postponement": null,
-      "cancellation": null
-    },
-    {
-      "id": "twitch-domingo-4a8ebd77828c74c9",
-      "slug": "twitch-domingo-4a8ebd77828c74c9",
-      "title": "Domingo — REACT KOH LANTA",
-      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Domingo. Le programme peut changer ; consultez sa chaîne au moment prévu.",
-      "category": "créateurs",
-      "subcategory": "Just Chatting",
-      "date": "2026-11-05",
-      "start": "2026-11-05T19:30:00.000Z",
-      "end": null,
-      "sourceTimezone": "UTC",
-      "participants": [],
-      "frenchPresence": null,
-      "frenchNote": "Non renseignée par la source",
-      "organizer": "Domingo",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Domingo",
-          "url": "https://www.twitch.tv/domingo",
-          "access": "free",
-          "accountRequired": null,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
-          "confirmed": true,
-          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
-          "linkKind": "information"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Domingo · programme officiel",
-          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
-          "sourceId": "twitch-domingo",
-          "collectedAt": "2026-10-26T01:03:48.357Z"
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": "2026-10-26T01:03:48.357Z",
-      "confirmation": "Diffusion programmée par le diffuseur",
-      "schedule": [],
-      "notes": [
-        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
-      ],
-      "popularity": null,
-      "discovery": true,
-      "major": false,
-      "featured": false,
-      "art": "LIVE",
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null,
-      "postponement": null,
-      "cancellation": null
     },
     {
       "id": "twitch-ponce-0724c9254d360757",
