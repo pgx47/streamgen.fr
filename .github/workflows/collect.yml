@@ -62,8 +62,6 @@ jobs:
         run: node scripts/collect-space.mjs
       - name: Discover france.tv weekly sports broadcasts
         run: node scripts/collect-france-sport.mjs
-      - name: Collect ARTE weekly TV guide
-        run: node scripts/collect-arte.mjs
       - name: Discover and validate event images
         run: node scripts/collect-images.mjs
       - run: npm run build
@@ -89,7 +87,6 @@ jobs:
             work/collection-run.json
             work/feeds-run.json
             work/images-run.json
-            work/arte-run.json
             work/riot-run.json
             work/redbull-run.json
             work/discoveries-run.json
