@@ -145,6 +145,6 @@ main.detail-page.event-detail{width:100%;max-width:none;padding-top:24px}
 
 /* Largeur centrée demandée sur ordinateur. */
 @media(min-width:1101px){
- main,main.detail-page.event-detail{width:80%;max-width:none;margin-inline:auto;padding-inline:0}
+ main,main.detail-page,main.detail-page.event-detail{width:80%;max-width:none;margin-inline:auto;padding-inline:0}
  header{padding-inline:10%}
 }
