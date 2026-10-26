@@ -71,3 +71,7 @@ body{font-size:16px;line-height:1.5}p,li,dd{font-size:16px;line-height:1.6}main{
 .event-brand{width:100px;height:52px;padding:0;background:none;border:0;border-radius:0;box-shadow:none;backdrop-filter:none}
 .event-brand img{filter:drop-shadow(0 2px 3px #000) drop-shadow(0 0 8px #000a)}
 @media(max-width:700px){.event-brand{width:82px;height:46px;padding:0}}
+
+/* Pleine largeur : même gouttière pour l'en-tête et toutes les pages. */
+main{width:100%;max-width:none;margin-inline:0;padding-inline:clamp(16px,2vw,40px)}
+header{padding-inline:clamp(16px,2vw,40px)}
