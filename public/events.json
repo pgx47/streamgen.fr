@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T00:28:31.404Z",
+  "updatedAt": "2026-10-26T00:33:42.577Z",
   "coverage": "Sélection non exhaustive. Collecte automatique WTT, Eurovision Sport, NASA+ et calendriers Twitch. Les autres événements restent issus de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -2217,11 +2217,11 @@
           "label": "Eurovision Sport · programme officiel",
           "url": "https://eurovisionsport.com/en/home",
           "sourceId": "eurovision-sport",
-          "collectedAt": "2026-10-25T15:29:11.780Z"
+          "collectedAt": "2026-10-26T00:31:44.513Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:29:11.780Z",
+      "lastVerified": "2026-10-26T00:31:44.513Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2276,11 +2276,11 @@
           "label": "Eurovision Sport · programme officiel",
           "url": "https://eurovisionsport.com/en/home",
           "sourceId": "eurovision-sport",
-          "collectedAt": "2026-10-25T15:29:11.780Z"
+          "collectedAt": "2026-10-26T00:31:44.513Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:29:11.780Z",
+      "lastVerified": "2026-10-26T00:31:44.513Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2335,11 +2335,11 @@
           "label": "Eurovision Sport · programme officiel",
           "url": "https://eurovisionsport.com/en/home",
           "sourceId": "eurovision-sport",
-          "collectedAt": "2026-10-25T15:29:11.780Z"
+          "collectedAt": "2026-10-26T00:31:44.513Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:29:11.780Z",
+      "lastVerified": "2026-10-26T00:31:44.513Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2394,11 +2394,11 @@
           "label": "Eurovision Sport · programme officiel",
           "url": "https://eurovisionsport.com/en/home",
           "sourceId": "eurovision-sport",
-          "collectedAt": "2026-10-25T15:29:11.780Z"
+          "collectedAt": "2026-10-26T00:31:44.513Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-25T15:29:11.780Z",
+      "lastVerified": "2026-10-26T00:31:44.513Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2512,11 +2512,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-26T00:28:25.061Z"
+          "collectedAt": "2026-10-26T00:33:33.797Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T00:28:25.061Z",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2571,11 +2571,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-26T00:28:25.061Z"
+          "collectedAt": "2026-10-26T00:33:33.797Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T00:28:25.061Z",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2630,11 +2630,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-26T00:28:25.061Z"
+          "collectedAt": "2026-10-26T00:33:33.797Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T00:28:25.061Z",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2689,11 +2689,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-26T00:28:25.061Z"
+          "collectedAt": "2026-10-26T00:33:33.797Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T00:28:25.061Z",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -2748,11 +2748,11 @@
           "label": "ZeratoR · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
           "sourceId": "twitch-zerator",
-          "collectedAt": "2026-10-26T00:28:25.061Z"
+          "collectedAt": "2026-10-26T00:33:33.797Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T00:28:25.061Z",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -17401,6 +17401,1537 @@
           "value": true
         }
       }
+    },
+    {
+      "id": "twitch-domingo-ce1be7de65fcb6ec",
+      "slug": "twitch-domingo-ce1be7de65fcb6ec",
+      "title": "Domingo — MATCH DE NFL FT. FREEMAN, RIVENZI & LEO SARTEEL",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Domingo. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Sports",
+      "date": "2026-10-25",
+      "start": "2026-10-25T12:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Domingo",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Domingo",
+          "url": "https://www.twitch.tv/domingo",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Domingo · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
+          "sourceId": "twitch-domingo",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "riot-valorant-ad0d182e395990b2",
+      "slug": "riot-valorant-ad0d182e395990b2",
+      "title": "VALORANT · Game Changers Championship — FENNEL HOTELAVA vs SK Nebula",
+      "summary": "Game Changers Championship : FENNEL HOTELAVA face à SK Nebula. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-26",
+      "start": "2026-10-26T18:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "FENNEL HOTELAVA",
+        "SK Nebula"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-3703b31103a29e1b",
+      "slug": "riot-valorant-3703b31103a29e1b",
+      "title": "VALORANT · Game Changers Championship — Team Liquid VISA vs G2 Gozen",
+      "summary": "Game Changers Championship : Team Liquid VISA face à G2 Gozen. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-26",
+      "start": "2026-10-26T21:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Team Liquid VISA",
+        "G2 Gozen"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-0ec6ddad1a8a2b82",
+      "slug": "riot-valorant-0ec6ddad1a8a2b82",
+      "title": "VALORANT · Game Changers Championship — Gentle Mates vs Made In Brazil",
+      "summary": "Game Changers Championship : Gentle Mates face à Made In Brazil. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-27",
+      "start": "2026-10-27T18:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Gentle Mates",
+        "Made In Brazil"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-cd1a367e8218a728",
+      "slug": "riot-valorant-cd1a367e8218a728",
+      "title": "VALORANT · Game Changers Championship — VISA KRÜ Blaze vs Shopify Rebellion Gold",
+      "summary": "Game Changers Championship : VISA KRÜ Blaze face à Shopify Rebellion Gold. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-27",
+      "start": "2026-10-27T21:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "VISA KRÜ Blaze",
+        "Shopify Rebellion Gold"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-d08726553403f295",
+      "slug": "riot-valorant-d08726553403f295",
+      "title": "VALORANT · Game Changers Championship — Knockouts",
+      "summary": "Game Changers Championship : affiche encore à confirmer. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-28",
+      "start": "2026-10-28T18:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-299a53649517c771",
+      "slug": "riot-valorant-299a53649517c771",
+      "title": "VALORANT · Game Changers Championship — Knockouts",
+      "summary": "Game Changers Championship : affiche encore à confirmer. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-28",
+      "start": "2026-10-28T21:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-227300ad069590d6",
+      "slug": "riot-valorant-227300ad069590d6",
+      "title": "VALORANT · Game Changers Championship — Knockouts",
+      "summary": "Game Changers Championship : affiche encore à confirmer. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-30",
+      "start": "2026-10-30T18:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-71181740f543b60c",
+      "slug": "riot-valorant-71181740f543b60c",
+      "title": "VALORANT · Game Changers Championship — Knockouts",
+      "summary": "Game Changers Championship : affiche encore à confirmer. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-30",
+      "start": "2026-10-30T21:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-7a17ce1ca5dc9451",
+      "slug": "riot-valorant-7a17ce1ca5dc9451",
+      "title": "VALORANT · Game Changers Championship — Knockouts",
+      "summary": "Game Changers Championship : affiche encore à confirmer. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-10-31",
+      "start": "2026-10-31T18:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "riot-valorant-dcab79ec04d13b5e",
+      "slug": "riot-valorant-dcab79ec04d13b5e",
+      "title": "VALORANT · Game Changers Championship — Finals",
+      "summary": "Game Changers Championship : affiche encore à confirmer. Consultez le calendrier officiel pour les changements de programme.",
+      "category": "esport",
+      "subcategory": "VALORANT",
+      "date": "2026-11-01",
+      "start": "2026-11-01T18:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Riot Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "VALORANT · chaîne officielle",
+          "url": "https://www.twitch.tv/valorant",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité selon le diffuseur et votre territoire",
+          "confirmed": true,
+          "restrictions": "Canal annoncé dans le guide officiel Game Changers 2026. Aucun flux actif déduit de l’horaire.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Riot Games · programme officiel",
+          "url": "https://valorantesports.com/en-US/matches",
+          "sourceId": "riot-valorant-schedule",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        },
+        {
+          "label": "Riot · canaux Game Changers 2026",
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "sourceId": "riot-valorant-broadcast",
+          "collectedAt": "2026-10-26T00:33:42.577Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:42.577Z",
+      "confirmation": "Horaire et canal recoupés dans deux pages Riot",
+      "schedule": [],
+      "notes": [
+        "Le calendrier confirme le match et son heure ; le guide de l’édition confirme le diffuseur. Les deux preuves proviennent de Riot et ne sont pas deux sources indépendantes."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.startTime",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "participants": {
+          "url": "https://valorantesports.com/en-US/matches",
+          "field": "EventMatch.matchTeams",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        },
+        "broadcast": {
+          "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+          "scope": "Game Changers Championship 2026",
+          "observedAt": "2026-10-26T00:33:42.577Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 2,
+        "independent": false
+      }
+    },
+    {
+      "id": "twitch-domingo-0f72d3756e00a94b",
+      "slug": "twitch-domingo-0f72d3756e00a94b",
+      "title": "Domingo — REACT KOH LANTA",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Domingo. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Just Chatting",
+      "date": "2026-10-29",
+      "start": "2026-10-29T19:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Domingo",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Domingo",
+          "url": "https://www.twitch.tv/domingo",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Domingo · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
+          "sourceId": "twitch-domingo",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-domingo-4a8ebd77828c74c9",
+      "slug": "twitch-domingo-4a8ebd77828c74c9",
+      "title": "Domingo — REACT KOH LANTA",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Domingo. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Just Chatting",
+      "date": "2026-11-05",
+      "start": "2026-11-05T19:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Domingo",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Domingo",
+          "url": "https://www.twitch.tv/domingo",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Domingo · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
+          "sourceId": "twitch-domingo",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-ponce-0724c9254d360757",
+      "slug": "twitch-ponce-0724c9254d360757",
+      "title": "Ponce — OMG SWITCH SPORT ????",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Ponce. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Nintendo Switch Sports Resort",
+      "date": "2026-10-29",
+      "start": "2026-10-29T14:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Ponce",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Ponce",
+          "url": "https://www.twitch.tv/ponce",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ponce · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+          "sourceId": "twitch-ponce",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-ponce-cec0eb4c7cfbcc4d",
+      "slug": "twitch-ponce-cec0eb4c7cfbcc4d",
+      "title": "Ponce — OMG SWITCH SPORT ????",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Ponce. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Nintendo Switch Sports Resort",
+      "date": "2026-11-05",
+      "start": "2026-11-05T14:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Ponce",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Ponce",
+          "url": "https://www.twitch.tv/ponce",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ponce · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+          "sourceId": "twitch-ponce",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-ponce-dc52f569f8be605b",
+      "slug": "twitch-ponce-dc52f569f8be605b",
+      "title": "Ponce — Le lundi c'est culture !",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Ponce. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Maitre des Fleurs",
+      "date": "2026-10-26",
+      "start": "2026-10-26T12:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Ponce",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Ponce",
+          "url": "https://www.twitch.tv/ponce",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ponce · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+          "sourceId": "twitch-ponce",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-ponce-67eb1ffc53bb9e95",
+      "slug": "twitch-ponce-67eb1ffc53bb9e95",
+      "title": "Ponce — Le lundi c'est culture !",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Ponce. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Maitre des Fleurs",
+      "date": "2026-11-02",
+      "start": "2026-11-02T12:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Ponce",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Ponce",
+          "url": "https://www.twitch.tv/ponce",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ponce · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+          "sourceId": "twitch-ponce",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-ponce-7399dddb449d0735",
+      "slug": "twitch-ponce-7399dddb449d0735",
+      "title": "Ponce — Lycans",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Ponce. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Lycans",
+      "date": "2026-10-27",
+      "start": "2026-10-27T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Ponce",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Ponce",
+          "url": "https://www.twitch.tv/ponce",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ponce · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+          "sourceId": "twitch-ponce",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-ponce-75220ed9957e7e67",
+      "slug": "twitch-ponce-75220ed9957e7e67",
+      "title": "Ponce — Lycans",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Ponce. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Lycans",
+      "date": "2026-11-03",
+      "start": "2026-11-03T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Ponce",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Ponce",
+          "url": "https://www.twitch.tv/ponce",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ponce · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+          "sourceId": "twitch-ponce",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-ponce-e7a36eaef5d9a6b7",
+      "slug": "twitch-ponce-e7a36eaef5d9a6b7",
+      "title": "Ponce — ROUE DES DÉFIS !",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Ponce. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Créateurs",
+      "date": "2026-10-28",
+      "start": "2026-10-28T12:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Ponce",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Ponce",
+          "url": "https://www.twitch.tv/ponce",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ponce · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+          "sourceId": "twitch-ponce",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
+    },
+    {
+      "id": "twitch-ponce-676ada05e8fd0e73",
+      "slug": "twitch-ponce-676ada05e8fd0e73",
+      "title": "Ponce — ROUE DES DÉFIS !",
+      "summary": "Créneau annoncé dans le calendrier Twitch officiel de Ponce. Le programme peut changer ; consultez sa chaîne au moment prévu.",
+      "category": "créateurs",
+      "subcategory": "Créateurs",
+      "date": "2026-11-04",
+      "start": "2026-11-04T12:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Ponce",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Ponce",
+          "url": "https://www.twitch.tv/ponce",
+          "access": "free",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Disponibilité géographique à vérifier auprès du diffuseur",
+          "confirmed": true,
+          "restrictions": "Programme annoncé ; accès et restrictions du diffuseur applicables.",
+          "linkKind": "information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ponce · programme officiel",
+          "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+          "sourceId": "twitch-ponce",
+          "collectedAt": "2026-10-26T00:33:33.797Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:33:33.797Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Horaire de diffusion annoncé, susceptible d’être modifié. Le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null
     }
   ]
 }

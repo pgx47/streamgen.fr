@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseEurovision,parseNasa} from '../scripts/collectors/feeds.mjs';
+import {parseEurovision,parseNasa,parseTwitch} from '../scripts/collectors/feeds.mjs';
 test('Eurovision accepts scheduled broadcasts, deduplicates and rejects replay/foreign URL',()=>{
  const obj={ '@type':'VideoObject',name:'Final',contentUrl:'https://eurovisionsport.com/en/mediacard/final',publication:{'@type':'BroadcastEvent',startDate:'2026-10-25T12:00:00Z'}};
  const tag=o=>`<script type="application/ld+json">${JSON.stringify(o)}</script>`;
@@ -33,4 +33,9 @@ test('creator collection never assigns the generic SPORT label',async()=>{
  const {toEvent}=await import('../scripts/collectors/feeds.mjs');
  const e=toEvent({key:'live',title:'ZeratoR — Stream',start:'2026-10-26T17:30:00Z',end:null,url:'https://www.twitch.tv/zerator',genre:'Just Chatting',free:true},{id:'twitch-zerator',name:'ZeratoR',platform:'Twitch',url:'https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107',category:'créateurs'},'2026-10-26T00:00:00Z');
  assert.notEqual(e.art,'SPORT');
+});
+test('explicit weekly Twitch schedules expand a bounded fortnight in their timezone and respect EXDATE',()=>{
+ const ics='BEGIN:VCALENDAR\nNAME:Ponce\nBEGIN:VEVENT\nUID:weekly\nDTSTART;TZID=/Europe/Paris:20261019T130000\nSUMMARY:Stream\nRRULE:FREQ=WEEKLY;BYDAY=MO\nEXDATE;TZID=/Europe/Paris:20261026T130000\nEND:VEVENT\nEND:VCALENDAR';
+ const a=parseTwitch(ics,'Ponce','ponce',new Date('2026-10-26T00:00:00Z'));
+ assert.equal(a.length,1);assert.equal(a[0].start,'2026-11-02T12:00:00.000Z');assert.match(a[0].key,/20261102/);
 });

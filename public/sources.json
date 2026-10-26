@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T00:28:31.404Z",
+  "updatedAt": "2026-10-26T00:33:42.577Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -206,7 +206,7 @@
       "url": "https://eurovisionsport.com/en/home",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-25T15:29:11.780Z",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -215,7 +215,7 @@
       "url": "https://plus.nasa.gov/",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -224,7 +224,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -233,7 +233,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -242,7 +242,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -316,6 +316,114 @@
       "kind": "official",
       "checkedAt": "2026-10-26T00:28:31.404Z",
       "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
+    },
+    {
+      "id": "twitch-domingo",
+      "name": "Domingo",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-ponce",
+      "name": "Ponce",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-bagherajones",
+      "name": "BagheraJones",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=100744948",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-ultia",
+      "name": "Ultia",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=68594999",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-kamet0",
+      "name": "Kamet0",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=27115917",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-solary",
+      "name": "Solary",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=174955366",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-ogaminglol",
+      "name": "OgamingLoL",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=71852533",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-rocketleague",
+      "name": "RocketLeague",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=57781936",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-chess",
+      "name": "Chess",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=7601562",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "twitch-eslcs",
+      "name": "ESLCS",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=31239503",
+      "kind": "official",
+      "purpose": "Programme de diffusion collecté automatiquement",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "riot-valorant-schedule",
+      "name": "VALORANT Esports · calendrier des matchs",
+      "url": "https://valorantesports.com/en-US/matches",
+      "purpose": "Participants et horaires officiels",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:33:42.577Z",
+      "notes": "Riot Games. Affiches non connues conservées comme inconnues."
+    },
+    {
+      "id": "riot-valorant-broadcast",
+      "name": "Riot · Game Changers 2026 : diffusion officielle",
+      "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+      "purpose": "Canaux annoncés pour cette édition",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:33:42.577Z",
+      "notes": "Confirmation éditoriale des canaux ; ne prouve pas un flux actif ni une absence de restriction territoriale."
     }
   ]
 }

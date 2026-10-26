@@ -6,7 +6,11 @@ const read=async p=>JSON.parse(await readFile(p,'utf8'));
 const save=async(p,v)=>{await writeFile(p+'.tmp',JSON.stringify(v,null,2)+'\n');await rename(p+'.tmp',p)};
 const catalog=await read('public/events.json'),registry=await read('public/sources.json');
 let cache={items:{}};try{cache=await read('data/collection-cache.json')}catch{}
-const feeds=[{id:'eurovision-sport',name:'Eurovision Sport',url:'https://eurovisionsport.com/en/home',fallback:'https://eurovisionsport.com/en/schedule',category:'sport',parse:parseEurovision},{id:'nasa-plus',name:'NASA+',url:'https://plus.nasa.gov/',category:'autres',parse:parseNasa},...[["41719107","ZeratoR","zerator"],["28575692","mistermv","mistermv"],["24147592","Gotaga","gotaga"]].map(([id,name,login])=>({id:'twitch-'+login,name,platform:'Twitch',url:'https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id='+id,category:'créateurs',allowEmpty:true,parse:html=>parseTwitch(html,name,login)}))];
+const feeds=[{id:'eurovision-sport',name:'Eurovision Sport',url:'https://eurovisionsport.com/en/home',fallback:'https://eurovisionsport.com/en/schedule',category:'sport',parse:parseEurovision},{id:'nasa-plus',name:'NASA+',url:'https://plus.nasa.gov/',category:'autres',parse:parseNasa},...[
+["41719107","ZeratoR","zerator","créateurs"],["28575692","mistermv","mistermv","créateurs"],["24147592","Gotaga","gotaga","créateurs"],
+["40063341","Domingo","domingo","créateurs"],["50597026","Ponce","ponce","créateurs"],["100744948","BagheraJones","bagherajones","créateurs"],["68594999","Ultia","ultia","créateurs"],["27115917","Kamet0","kamet0","créateurs"],
+["174955366","Solary","solary","esport"],["71852533","OgamingLoL","ogaminglol","esport"],["57781936","RocketLeague","rocketleague","esport"],["7601562","Chess","chess","esport"],["31239503","ESLCS","eslcs","esport"]
+].map(([id,name,login,category])=>({id:'twitch-'+login,name,platform:'Twitch',url:'https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id='+id,category,allowEmpty:true,parse:html=>parseTwitch(html,name,login)}))];
 const report=[],updates=[];
 async function get(url){
  const response=await fetch(url,{signal:AbortSignal.timeout(25000),redirect:'error',headers:{'User-Agent':'StreamGen/1.0 (+https://streamgen.fr/sources/)'}});

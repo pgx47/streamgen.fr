@@ -1,6 +1,6 @@
 {
   "mode": "scheduled",
-  "checkedAt": "2026-10-26T00:28:25.061Z",
+  "checkedAt": "2026-10-26T00:33:33.797Z",
   "scope": "Calendriers WTT et Twitch, diffusions structurées Eurovision Sport et NASA+. Autres sources surveillées pour accessibilité et changements. Aucun contrôle des flux actifs.",
   "sources": [
     {
@@ -62,182 +62,6 @@
       "lastSuccessfulCheck": "2026-10-26T00:28:21.725Z",
       "contentHash": "c0147dc8f47a580edb0bc1913aba9e12fe8be875d768aaf87589ec02024630ae",
       "date": "2026-11-01"
-    },
-    {
-      "id": "eurovision-sport",
-      "url": "https://eurovisionsport.com/en/home",
-      "status": "error",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "error": "Aucun programme structuré : catalogue précédent conservé"
-    },
-    {
-      "id": "nasa-plus",
-      "url": "https://plus.nasa.gov/",
-      "status": "ok",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "detectedEvents": 1,
-      "publishedEvents": 1
-    },
-    {
-      "id": "twitch-zerator",
-      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
-      "status": "ok",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "detectedEvents": 18,
-      "publishedEvents": 5
-    },
-    {
-      "id": "twitch-mistermv",
-      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
-      "status": "ok",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "detectedEvents": 0,
-      "publishedEvents": 0
-    },
-    {
-      "id": "twitch-gotaga",
-      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
-      "status": "ok",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "detectedEvents": 0,
-      "publishedEvents": 0
-    },
-    {
-      "id": "riot-primer",
-      "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": true,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "wtt-rights",
-      "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
-      "status": "error",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "esa-webtv",
-      "url": "https://www.esa.int/ESA_Multimedia/ESA_Web_TV",
-      "status": "error",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "error": "fetch failed"
-    },
-    {
-      "id": "wtt-french",
-      "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": true,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "f1-mx",
-      "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": true,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "f1-us",
-      "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": true,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "canal-f1",
-      "url": "https://www.canalplus.com/sport/formule-1/",
-      "status": "error",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "nfl-time",
-      "url": "https://www.stadefrance.com/fr/billetterie/pittsburgh-steelers-vs-new-orleans-saints-nfl-paris-game-2026",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "rhum-time",
-      "url": "https://hospitalites.routedurhum.com/faq/",
-      "status": "error",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "ifb-tv",
-      "url": "https://www.ffbad.org/en/actualites/actualites/2026/yonex-ifb-comment-suivre-l-edition-2026",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "nfl-tv",
-      "url": "https://www.francetvpub.fr/la-newsletter-169/",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "ifb-time",
-      "url": "https://tickets.yonexifb.com/fr/product/200/tremblay_arena_grand_paris/arena_grand_paris_yonex_ifb_2026",
-      "status": "error",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "pgw",
-      "url": "https://www.parisgamesweek.com/fr",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "ijf",
-      "url": "https://www.ijf.org/competition/3157",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": true,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "capcom",
-      "url": "https://www.capcomfrance.fr/paris-games-week-2026-le-planning-du-stand-capcom/",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "rhum-tv",
-      "url": "https://www.francetvpro.fr/contenu-de-presse/78939582",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "inoxtag",
-      "url": "https://www.parisgamesweek.com/fr/news/inoxtag-paris-games-week",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "deepseek",
-      "status": "skipped",
-      "checkedAt": "2026-10-26T00:28:25.061Z",
-      "reason": "Aucun nouveau titre"
     },
     {
       "id": "arte-guide-2026-10-26",
@@ -303,6 +127,281 @@
       "storedAssets": 3,
       "pending": 4,
       "reportUrl": "/image-collection-status.json"
+    },
+    {
+      "id": "eurovision-sport",
+      "url": "https://eurovisionsport.com/en/home",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 4,
+      "publishedEvents": 0
+    },
+    {
+      "id": "nasa-plus",
+      "url": "https://plus.nasa.gov/",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 1,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-zerator",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 18,
+      "publishedEvents": 5
+    },
+    {
+      "id": "twitch-mistermv",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-gotaga",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-domingo",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 68,
+      "publishedEvents": 3
+    },
+    {
+      "id": "twitch-ponce",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 12,
+      "publishedEvents": 8
+    },
+    {
+      "id": "twitch-bagherajones",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=100744948",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-ultia",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=68594999",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 37,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-kamet0",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=27115917",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-solary",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=174955366",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-ogaminglol",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=71852533",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-rocketleague",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=57781936",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 6,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-chess",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=7601562",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "twitch-eslcs",
+      "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=31239503",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "detectedEvents": 0,
+      "publishedEvents": 0
+    },
+    {
+      "id": "esa-webtv",
+      "url": "https://www.esa.int/ESA_Multimedia/ESA_Web_TV",
+      "status": "error",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "error": "fetch failed"
+    },
+    {
+      "id": "wtt-rights",
+      "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+      "status": "error",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "riot-primer",
+      "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "wtt-french",
+      "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": true,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "canal-f1",
+      "url": "https://www.canalplus.com/sport/formule-1/",
+      "status": "error",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "nfl-time",
+      "url": "https://www.stadefrance.com/fr/billetterie/pittsburgh-steelers-vs-new-orleans-saints-nfl-paris-game-2026",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "f1-us",
+      "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "f1-mx",
+      "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "rhum-time",
+      "url": "https://hospitalites.routedurhum.com/faq/",
+      "status": "error",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "nfl-tv",
+      "url": "https://www.francetvpub.fr/la-newsletter-169/",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "ifb-time",
+      "url": "https://tickets.yonexifb.com/fr/product/200/tremblay_arena_grand_paris/arena_grand_paris_yonex_ifb_2026",
+      "status": "error",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "ifb-tv",
+      "url": "https://www.ffbad.org/en/actualites/actualites/2026/yonex-ifb-comment-suivre-l-edition-2026",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "pgw",
+      "url": "https://www.parisgamesweek.com/fr",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "capcom",
+      "url": "https://www.capcomfrance.fr/paris-games-week-2026-le-planning-du-stand-capcom/",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "rhum-tv",
+      "url": "https://www.francetvpro.fr/contenu-de-presse/78939582",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "ijf",
+      "url": "https://www.ijf.org/competition/3157",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "inoxtag",
+      "url": "https://www.parisgamesweek.com/fr/news/inoxtag-paris-games-week",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "riot-valorant-broadcast",
+      "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "deepseek",
+      "status": "skipped",
+      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "reason": "Clé absente de cette exécution"
+    },
+    {
+      "id": "riot-valorant-schedule",
+      "status": "ok",
+      "url": "https://valorantesports.com/en-US/matches",
+      "checkedAt": "2026-10-26T00:33:42.577Z",
+      "detectedMatches": 10,
+      "added": 0,
+      "updated": 10,
+      "broadcastGuideVerified": true
     }
   ]
 }

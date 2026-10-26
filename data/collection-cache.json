@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
+      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
       "checkedDay": "2026-10-26"
     },
     "monitor:wtt-french": {
-      "hash": "f27bdd304c728a794e3537aa72be4f21c5fdf861e4f9d93c015bafcb78f4a1d4",
+      "hash": "7645d7bbc965503b97fa2c6cc2dad1b289937be3b4bfd2cd69a0f8940f8265a5",
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-us": {
-      "hash": "92b23c844d57bd726383c6d221fd2d4680e691947c9da290061c30c039515f82",
+      "hash": "73cbdcd430f0296bf805eeda68a85f302ce7380fa4bed7fd2d13aeffb6fc8da2",
       "checkedDay": "2026-10-26"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "93e0472cc8bb3dda3bdd71fbdf4da742dad37f031a074f45de7849b08c2c5fb2",
+      "hash": "68864a0509708eabbaa2310f03770d6c60b6dcff109091a2a20b228a20e6b637",
       "checkedDay": "2026-10-26"
     },
     "monitor:nfl-tv": {
@@ -54,22 +54,22 @@
     },
     "eurovision-sport-e8c078ef397e3d1d": {
       "hash": "6a2efdea3212fbaf95ae1aacc3d58a26049dbd9251aef1218c594dee66a16756",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "eurovision-sport-62628376ae9c9d0d": {
       "hash": "e223cba6a52d9a6d6bb2e0d5d2f2434ee6b05309dbd5ad3fd784fc209cdacfea",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "eurovision-sport-41a2976de0b1c614": {
       "hash": "856f31415b8bba58fd6ff26b0357b501d986ca65b4715f482da68b7c1f8cb5ea",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "eurovision-sport-47c4cc052aded72a": {
       "hash": "186b8090cd274ece3bf2a4577f87fe268a17c79e026e50b14b4496c782ed6c9e",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "nasa-plus-71adc9a95eb655e9": {
@@ -78,27 +78,90 @@
       "editorialDone": true
     },
     "twitch-zerator-3c2d9e947c1536c2": {
-      "hash": "dfd1b0d01034723fe72581aaefc40fd3603ed5d679117849e02b8c6d9361df6e",
+      "hash": "a56f4ba048d12ea0d23d56ca944714eeb76afd355347e38bd0d32127fa62cbac",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-zerator-8232dd889c56ff09": {
-      "hash": "e881e2c04ed90150240dbc2053bc4f68c5dde4e4d96938d4d3f66fd5d27ede2c",
+      "hash": "9288c7829e3816ae05c2b30d52ec4faa81f0faac3d2542ad7469e4cda5897334",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-zerator-15762d8b7b93b069": {
-      "hash": "c8d095bff02c35b6c59909e2920839b7da8babf5a2753bb3ec5f138d65116669",
+      "hash": "0e5d270265b407304422b3965eafcb2eb753855aef84252fb3d01ddeb46a1cbb",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-zerator-b9e25d5bdebd9c8e": {
-      "hash": "59f6670a7aed99bb64e42a30d1f12fd77e35fef52a8cb9dcffa1fdfb6c768492",
+      "hash": "5808dbe428362a66a86a832001fe2fee28ebc235c7415bbce816bf978492fc8a",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-zerator-2ffb12cedee57bf8": {
-      "hash": "d07f70c8e21abb5b56e0567eaf687b4c4293c37518149bbe993cec9097d72d37",
+      "hash": "1f886e6c586fd8c851050451ed7148aeef5ce1d06c4a639d426730523f3760e0",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-domingo-ce1be7de65fcb6ec": {
+      "hash": "49e571b34d9e5951be4e97680de38503bdba6aa48c20389b23f49701e0fd9517",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "monitor:riot-valorant-broadcast": {
+      "hash": "87d435a709f2d038d06c6854b218cf69a5532876f8dac4f3e2bc10c7abe0be6a",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:riot-valorant-schedule": {
+      "hash": "c993e807c2d041a51587334dccd2f61402f50e87197c516c7f0b9d0029353839",
+      "checkedDay": "2026-10-26"
+    },
+    "twitch-domingo-0f72d3756e00a94b": {
+      "hash": "aa871a073b93bcdad322d8e502fb395f8a7588687a9895d2591b196322f0c0dc",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-domingo-4a8ebd77828c74c9": {
+      "hash": "5dde5885d76048b5c088677d5bd4cf70dbf18b728feee5e40f8e6994bfe75cbf",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ponce-0724c9254d360757": {
+      "hash": "0d162810e7523f4b346e8ec465b8237d209bbe05883cdeb5cddeda381536132f",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ponce-cec0eb4c7cfbcc4d": {
+      "hash": "f07f47c4f6125a21771652899bba4c9f3a793b22b8d12da3f25b76153cfe061c",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ponce-dc52f569f8be605b": {
+      "hash": "7cf281157fc7ff80423dfbfa8c6b72ebcca77d07c06da1761c8552bd107c9201",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ponce-67eb1ffc53bb9e95": {
+      "hash": "55544b12ca3a47d351c98aa297d092913b645a6f9c9a37b10a317c10e5756d87",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ponce-7399dddb449d0735": {
+      "hash": "bd13f38f5f9c420745c97a943eca4b0cb11ec193a1342e161692032083c97597",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ponce-75220ed9957e7e67": {
+      "hash": "7bfbc0f2fc9efbef2ca0535ae000c36dbb4591d8cf7206c9ebf9d8e3d3f826ce",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ponce-e7a36eaef5d9a6b7": {
+      "hash": "373d728bd8d04b9e1e91a98023212be072cca7e991b34f5e2657c6bcb50769cf",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ponce-676ada05e8fd0e73": {
+      "hash": "407f3a475d208ffbc7ca610371c867b19a178c8bddc1a221af99788678aa0e5f",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     }
