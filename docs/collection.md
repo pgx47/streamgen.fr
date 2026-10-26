@@ -32,3 +32,15 @@ L’IA traduit uniquement : dates, URLs, participants et conditions viennent du 
 `/collection-status.json` expose chaque succès/erreur et les changements ; les artefacts Actions gardent le détail 14 jours. Les erreurs 403 ne sont pas contournées. GitHub notifie les échecs selon les préférences du propriétaire. Aucun Telegram ni message externe envoyé.
 
 Les annonces des réseaux sociaux ne sont pas encore collectées automatiquement. Les créateurs couverts sont ceux du registre Twitch ci-dessus. Les sources non structurées, territoires, annulations et disponibilité réelle du flux requièrent d’autres connecteurs. Les fiches ne sont jamais déclarées « en direct » sur le seul horaire.
+
+## Résilience de la collecte planifiée
+
+Chaque collecteur est exécuté indépendamment : une erreur de processus ne saute
+plus les sources suivantes. Le build valide toujours le catalogue avant commit.
+Les données validées sont publiées même si une autre source échoue. Après leur
+sauvegarde et l'archivage des rapports, un contrôle des résultats réels
+(`outcome`, pas `conclusion`) signale la collecte partielle en échec dans GitHub.
+Le déploiement de la révision validée reste autorisé dans ce cas. Une erreur de
+build ou de sauvegarde ne permet pas de publier une nouvelle révision.
+Les rapports par source restent nécessaires : un processus peut terminer sans
+erreur tout en signalant une source inaccessible dans son rapport.

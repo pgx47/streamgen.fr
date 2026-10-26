@@ -22,6 +22,7 @@ jobs:
           node-version: 22
       - run: npm test
       - run: node scripts/collect.mjs
+        id: collect
         continue-on-error: true
       - name: Daily LLM budget key
         id: budget
@@ -48,46 +49,76 @@ jobs:
           path: work/llm-budget
           key: deepseek-daily-${{ steps.budget.outputs.day }}
       - run: node scripts/collect-feeds.mjs
+        id: collect_feeds
+        continue-on-error: true
         env:
           LLM_BUDGET_ALLOWED: ${{ steps.llm_budget.outputs.cache-hit != 'true' && steps.verify_reservation.outputs.cache-hit == 'true' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
       - name: Collect Riot VALORANT matches
         run: node scripts/collect-riot.mjs
+        id: collect_riot
+        continue-on-error: true
       - name: Discover Red Bull TV livestreams
         run: node scripts/collect-redbull.mjs
+        id: collect_redbull
+        continue-on-error: true
       - name: Collect public science conferences and live concerts
         run: node scripts/collect-discoveries.mjs
+        id: collect_discoveries
+        continue-on-error: true
       - name: Collect official launch windows and independently cross-check schedules
         run: node scripts/collect-space.mjs
+        id: collect_space
+        continue-on-error: true
       - name: Discover france.tv weekly sports broadcasts
         run: node scripts/collect-france-sport.mjs
+        id: collect_france_sport
+        continue-on-error: true
       - name: Collect scheduled YouTube livestreams from official channels
         run: node scripts/collect-youtube.mjs
+        id: collect_youtube
+        continue-on-error: true
       - name: Collect Liquipedia esports match schedules
         run: node scripts/collect-liquipedia.mjs
+        id: collect_liquipedia
+        continue-on-error: true
       - name: Collect start.gg French tournaments
         run: node scripts/collect-startgg.mjs
+        id: collect_startgg
+        continue-on-error: true
         env:
           STARTGG_API_KEY: ${{ secrets.STARTGG_API_KEY }}
       - name: Collect PandaScore matches for uncovered games
         run: node scripts/collect-pandascore.mjs
+        id: collect_pandascore
+        continue-on-error: true
         env:
           PANDASCORE_API_KEY: ${{ secrets.PANDASCORE_API_KEY }}
       - name: Collect Lichess broadcast tournaments
         run: node scripts/collect-lichess.mjs
+        id: collect_lichess
+        continue-on-error: true
       - name: Collect Oengus speedrun marathons
         run: node scripts/collect-oengus.mjs
+        id: collect_oengus
+        continue-on-error: true
       - name: AI-assisted extraction from unstructured official pages
         run: node scripts/collect-ai.mjs
+        id: collect_ai
+        continue-on-error: true
         env:
           LLM_BUDGET_ALLOWED: ${{ steps.llm_budget.outputs.cache-hit != 'true' && steps.verify_reservation.outputs.cache-hit == 'true' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
       - name: Discover PGL tournaments and corroborate Counter-Strike matches
         run: node scripts/collect-pgl.mjs
+        id: collect_pgl
+        continue-on-error: true
       - name: Discover and validate event images
         run: node scripts/collect-images.mjs
+        id: collect_images
+        continue-on-error: true
       - run: npm run build
       - name: Commit validated data
         id: commit
@@ -125,9 +156,14 @@ jobs:
             work/ai-run.json
             work/pgl-run.json
           retention-days: 14
+      - name: Report collector failures after preserving validated updates
+        if: always()
+        env:
+          COLLECTION_STEPS: ${{ toJSON(steps) }}
+        run: node scripts/check-collection-steps.mjs
   deploy:
     needs: collect
-    if: needs.collect.outputs.changed == 'true'
+    if: always() && needs.collect.outputs.changed == 'true'
     uses: ./.github/workflows/deploy.yml
     with:
       revision: ${{ needs.collect.outputs.revision }}
