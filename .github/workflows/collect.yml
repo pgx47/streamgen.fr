@@ -78,6 +78,12 @@ jobs:
         run: node scripts/collect-lichess.mjs
       - name: Collect Oengus speedrun marathons
         run: node scripts/collect-oengus.mjs
+      - name: AI-assisted extraction from unstructured official pages
+        run: node scripts/collect-ai.mjs
+        env:
+          LLM_BUDGET_ALLOWED: ${{ steps.llm_budget.outputs.cache-hit != 'true' && steps.verify_reservation.outputs.cache-hit == 'true' }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
       - name: Discover and validate event images
         run: node scripts/collect-images.mjs
       - run: npm run build
@@ -114,6 +120,7 @@ jobs:
             work/pandascore-run.json
             work/lichess-run.json
             work/oengus-run.json
+            work/ai-run.json
           retention-days: 14
   deploy:
     needs: collect

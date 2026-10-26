@@ -77,6 +77,8 @@ Lancés par `.github/workflows/collect.yml` toutes les 4 h (minute 17 UTC).
 | `collect-pandascore.mjs` | PandaScore API (`PANDASCORE_API_KEY`) | Matchs à venir des jeux non couverts ailleurs (R6, SC2, HoK…) + streams officiels ; anti-doublon Liquipedia/Riot |
 | `collect-lichess.mjs` | Lichess `/api/broadcast` (sans clé) | Tournois d'échecs retransmis en direct, dates ISO |
 | `collect-oengus.mjs` | Oengus API (sans clé) | Marathons speedrun + chaîne Twitch officielle (SpeeDons…) |
+| `collect-ai.mjs` | Pages officielles non structurées (france.tv culture) | LLM DeepSeek = parseur strict, validation JSON côté script, rejet si incomplet |
+| `collectors/french.mjs` | `data/french-roster.json` | Détection `frenchPresence` par regex (structures esport FR, équipes nationales, athlètes) — sans LLM |
 | `collect-images.mjs` | sources officielles + Wikimedia Commons | Visuels licenciés, crédits, rejet NC/ND/incohérences |
 
 Logique partagée dans `scripts/collectors/` : `feeds.mjs` (toEvent),
