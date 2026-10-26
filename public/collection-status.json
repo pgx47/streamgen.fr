@@ -1,20 +1,20 @@
 {
   "mode": "scheduled",
-  "checkedAt": "2026-10-25T23:52:31.288Z",
+  "checkedAt": "2026-10-26T00:28:25.061Z",
   "scope": "Calendriers WTT et Twitch, diffusions structurées Eurovision Sport et NASA+. Autres sources surveillées pour accessibilité et changements. Aucun contrôle des flux actifs.",
   "sources": [
     {
       "id": "wtt-index",
       "status": "ok",
-      "checkedAt": "2026-10-25T14:58:20.281Z",
+      "checkedAt": "2026-10-26T00:28:21.725Z",
       "detectedPages": 6
     },
     {
       "id": "wtt-montpellier-2026-10-27",
       "url": "https://tickets.wttmontpellier.com/fr/mardi_27_octobre_2026",
       "status": "ok",
-      "checkedAt": "2026-10-25T14:58:20.281Z",
-      "lastSuccessfulCheck": "2026-10-25T14:58:20.281Z",
+      "checkedAt": "2026-10-26T00:28:21.725Z",
+      "lastSuccessfulCheck": "2026-10-26T00:28:21.725Z",
       "contentHash": "bd124cb1f47f53d5d741cce8d701c43f6f6a5700c08257d562d0548d1470a11c",
       "date": "2026-10-27"
     },
@@ -22,8 +22,8 @@
       "id": "wtt-montpellier-2026-10-28",
       "url": "https://tickets.wttmontpellier.com/fr/mercredi_28_octobre_2026",
       "status": "ok",
-      "checkedAt": "2026-10-25T14:58:20.281Z",
-      "lastSuccessfulCheck": "2026-10-25T14:58:20.281Z",
+      "checkedAt": "2026-10-26T00:28:21.725Z",
+      "lastSuccessfulCheck": "2026-10-26T00:28:21.725Z",
       "contentHash": "ceeb8a5cc1fd3d44feea9ebdafd43a31a630bcc43b649dd68e4ebca403832bee",
       "date": "2026-10-28"
     },
@@ -31,8 +31,8 @@
       "id": "wtt-montpellier-2026-10-29",
       "url": "https://tickets.wttmontpellier.com/fr/jeudi_29_octobre_2026",
       "status": "ok",
-      "checkedAt": "2026-10-25T14:58:20.281Z",
-      "lastSuccessfulCheck": "2026-10-25T14:58:20.281Z",
+      "checkedAt": "2026-10-26T00:28:21.725Z",
+      "lastSuccessfulCheck": "2026-10-26T00:28:21.725Z",
       "contentHash": "3781d179561486de7bc24729ec890d068ecb15c4bb85d160d67bd4d838d5b248",
       "date": "2026-10-29"
     },
@@ -40,8 +40,8 @@
       "id": "wtt-montpellier-2026-10-30",
       "url": "https://tickets.wttmontpellier.com/fr/vendredi_30_octobre_2026",
       "status": "ok",
-      "checkedAt": "2026-10-25T14:58:20.281Z",
-      "lastSuccessfulCheck": "2026-10-25T14:58:20.281Z",
+      "checkedAt": "2026-10-26T00:28:21.725Z",
+      "lastSuccessfulCheck": "2026-10-26T00:28:21.725Z",
       "contentHash": "f903c8d6ac0bd752b6551d982de6cfc7b5a5a021ef445e120fb9c543b4b8fa33",
       "date": "2026-10-30"
     },
@@ -49,8 +49,8 @@
       "id": "wtt-montpellier-2026-10-31",
       "url": "https://tickets.wttmontpellier.com/fr/samedi_31_octobre_2026",
       "status": "ok",
-      "checkedAt": "2026-10-25T14:58:20.281Z",
-      "lastSuccessfulCheck": "2026-10-25T14:58:20.281Z",
+      "checkedAt": "2026-10-26T00:28:21.725Z",
+      "lastSuccessfulCheck": "2026-10-26T00:28:21.725Z",
       "contentHash": "6f8a51219243489730b303333157974f0d3541295968d8afaef4b4b07a1378e8",
       "date": "2026-10-31"
     },
@@ -58,8 +58,8 @@
       "id": "wtt-montpellier-2026-11-01",
       "url": "https://tickets.wttmontpellier.com/fr/dimanche_01_novembre_2026",
       "status": "ok",
-      "checkedAt": "2026-10-25T14:58:20.281Z",
-      "lastSuccessfulCheck": "2026-10-25T14:58:20.281Z",
+      "checkedAt": "2026-10-26T00:28:21.725Z",
+      "lastSuccessfulCheck": "2026-10-26T00:28:21.725Z",
       "contentHash": "c0147dc8f47a580edb0bc1913aba9e12fe8be875d768aaf87589ec02024630ae",
       "date": "2026-11-01"
     },
@@ -67,22 +67,22 @@
       "id": "eurovision-sport",
       "url": "https://eurovisionsport.com/en/home",
       "status": "error",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "error": "Aucun programme structuré : catalogue précédent conservé"
     },
     {
       "id": "nasa-plus",
       "url": "https://plus.nasa.gov/",
       "status": "ok",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "detectedEvents": 1,
-      "publishedEvents": 0
+      "publishedEvents": 1
     },
     {
       "id": "twitch-zerator",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
       "status": "ok",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "detectedEvents": 18,
       "publishedEvents": 5
     },
@@ -90,7 +90,7 @@
       "id": "twitch-mistermv",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
       "status": "ok",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -98,37 +98,37 @@
       "id": "twitch-gotaga",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
       "status": "ok",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "detectedEvents": 0,
       "publishedEvents": 0
-    },
-    {
-      "id": "wtt-rights",
-      "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
-      "status": "error",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
-      "error": "HTTP 403"
     },
     {
       "id": "riot-primer",
       "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
-      "changed": false,
+      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "changed": true,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "wtt-rights",
+      "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
+      "status": "error",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "error": "HTTP 403"
     },
     {
       "id": "esa-webtv",
       "url": "https://www.esa.int/ESA_Multimedia/ESA_Web_TV",
       "status": "error",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "error": "fetch failed"
     },
     {
       "id": "wtt-french",
       "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": true,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -136,7 +136,7 @@
       "id": "f1-mx",
       "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": true,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -144,7 +144,7 @@
       "id": "f1-us",
       "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": true,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -152,14 +152,14 @@
       "id": "canal-f1",
       "url": "https://www.canalplus.com/sport/formule-1/",
       "status": "error",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "error": "HTTP 403"
     },
     {
       "id": "nfl-time",
       "url": "https://www.stadefrance.com/fr/billetterie/pittsburgh-steelers-vs-new-orleans-saints-nfl-paris-game-2026",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -167,29 +167,37 @@
       "id": "rhum-time",
       "url": "https://hospitalites.routedurhum.com/faq/",
       "status": "error",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "error": "HTTP 403"
-    },
-    {
-      "id": "ifb-time",
-      "url": "https://tickets.yonexifb.com/fr/product/200/tremblay_arena_grand_paris/arena_grand_paris_yonex_ifb_2026",
-      "status": "error",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "nfl-tv",
-      "url": "https://www.francetvpub.fr/la-newsletter-169/",
-      "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
     {
       "id": "ifb-tv",
       "url": "https://www.ffbad.org/en/actualites/actualites/2026/yonex-ifb-comment-suivre-l-edition-2026",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "nfl-tv",
+      "url": "https://www.francetvpub.fr/la-newsletter-169/",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "ifb-time",
+      "url": "https://tickets.yonexifb.com/fr/product/200/tremblay_arena_grand_paris/arena_grand_paris_yonex_ifb_2026",
+      "status": "error",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "pgw",
+      "url": "https://www.parisgamesweek.com/fr",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -197,23 +205,15 @@
       "id": "ijf",
       "url": "https://www.ijf.org/competition/3157",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": true,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "pgw",
-      "url": "https://www.parisgamesweek.com/fr",
-      "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
-      "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
     {
       "id": "capcom",
       "url": "https://www.capcomfrance.fr/paris-games-week-2026-le-planning-du-stand-capcom/",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -221,7 +221,7 @@
       "id": "rhum-tv",
       "url": "https://www.francetvpro.fr/contenu-de-presse/78939582",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -229,80 +229,80 @@
       "id": "inoxtag",
       "url": "https://www.parisgamesweek.com/fr/news/inoxtag-paris-games-week",
       "status": "monitored",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
+      "checkedAt": "2026-10-26T00:28:25.061Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
     {
       "id": "deepseek",
       "status": "skipped",
-      "checkedAt": "2026-10-25T23:52:31.288Z",
-      "reason": "Limite quotidienne atteinte"
-    },
-    {
-      "id": "automatic-images",
-      "status": "ok",
-      "checkedAt": "2026-10-25T23:52:36.422Z",
-      "assignedEvents": 0,
-      "storedAssets": 3,
-      "pending": 0,
-      "reportUrl": "/image-collection-status.json"
+      "checkedAt": "2026-10-26T00:28:25.061Z",
+      "reason": "Aucun nouveau titre"
     },
     {
       "id": "arte-guide-2026-10-26",
       "status": "ok",
       "url": "https://www.arte.tv/fr/guide/20261026/",
-      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "checkedAt": "2026-10-26T00:28:31.404Z",
       "programmes": 24
     },
     {
       "id": "arte-guide-2026-10-27",
       "status": "ok",
       "url": "https://www.arte.tv/fr/guide/20261027/",
-      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "checkedAt": "2026-10-26T00:28:31.404Z",
       "programmes": 23
     },
     {
       "id": "arte-guide-2026-10-28",
       "status": "ok",
       "url": "https://www.arte.tv/fr/guide/20261028/",
-      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "checkedAt": "2026-10-26T00:28:31.404Z",
       "programmes": 24
     },
     {
       "id": "arte-guide-2026-10-29",
       "status": "ok",
       "url": "https://www.arte.tv/fr/guide/20261029/",
-      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "checkedAt": "2026-10-26T00:28:31.404Z",
       "programmes": 25
     },
     {
       "id": "arte-guide-2026-10-30",
       "status": "ok",
       "url": "https://www.arte.tv/fr/guide/20261030/",
-      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "checkedAt": "2026-10-26T00:28:31.404Z",
       "programmes": 25
     },
     {
       "id": "arte-guide-2026-10-31",
       "status": "ok",
       "url": "https://www.arte.tv/fr/guide/20261031/",
-      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "checkedAt": "2026-10-26T00:28:31.404Z",
       "programmes": 26
     },
     {
       "id": "arte-guide-2026-11-01",
       "status": "ok",
       "url": "https://www.arte.tv/fr/guide/20261101/",
-      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "checkedAt": "2026-10-26T00:28:31.404Z",
       "programmes": 20
     },
     {
       "id": "arte-guide-2026-11-02",
       "status": "ok",
       "url": "https://www.arte.tv/fr/guide/20261102/",
-      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "checkedAt": "2026-10-26T00:28:31.404Z",
       "programmes": 23
+    },
+    {
+      "id": "automatic-images",
+      "status": "ok",
+      "checkedAt": "2026-10-26T00:28:36.774Z",
+      "assignedEvents": 0,
+      "storedAssets": 3,
+      "pending": 4,
+      "reportUrl": "/image-collection-status.json"
     }
   ]
 }

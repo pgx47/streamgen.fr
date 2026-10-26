@@ -1,52 +1,52 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
-      "checkedDay": "2026-10-25"
+      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
+      "checkedDay": "2026-10-26"
     },
     "monitor:wtt-french": {
-      "hash": "2bf028eda9405c367282de5350b8a0d56528ab4ef51666ae2a5938f7bd7dcae2",
-      "checkedDay": "2026-10-25"
+      "hash": "f27bdd304c728a794e3537aa72be4f21c5fdf861e4f9d93c015bafcb78f4a1d4",
+      "checkedDay": "2026-10-26"
     },
     "monitor:f1-us": {
-      "hash": "cafa46d6aa86c4b7cf8f3d313e33e8bfd7861ccc0b6b1560fb549537dfb9fd04",
-      "checkedDay": "2026-10-25"
+      "hash": "92b23c844d57bd726383c6d221fd2d4680e691947c9da290061c30c039515f82",
+      "checkedDay": "2026-10-26"
     },
     "monitor:nfl-time": {
       "hash": "ad054fe44aaa68d58f18b6398ea3ed31529f463e0952d96af853b0961f84c677",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "6bb176381cc1dbc7e178ab6dd75936047e5845c9be1057e4243e6b03ec7d1021",
-      "checkedDay": "2026-10-25"
+      "hash": "93e0472cc8bb3dda3bdd71fbdf4da742dad37f031a074f45de7849b08c2c5fb2",
+      "checkedDay": "2026-10-26"
     },
     "monitor:nfl-tv": {
       "hash": "a1cf7403815fb72290294aefb11cea199ead8b4dd4e051f3aa27094461175825",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-26"
     },
     "monitor:ifb-tv": {
       "hash": "007190bb24a12532ab60625f4bc4db4ba2ea8d2a51c2ade4ad7d07801a0aa0c0",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-26"
     },
     "monitor:capcom": {
       "hash": "bb49ca1322ccfe3c4413edbba91a369e0c66b76818d67a9bbe627403cba443b5",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-26"
     },
     "monitor:ijf": {
-      "hash": "c6fceb148f57eeef0c36f93b71127cdd80d20bb40de2dc3bc245258b888df49a",
-      "checkedDay": "2026-10-25"
+      "hash": "40a879f77d2c3b0f6c5406f45eb01b8cdcb89d8d8c6e63af16574453055c4dd0",
+      "checkedDay": "2026-10-26"
     },
     "monitor:pgw": {
       "hash": "6e4bf0fa9f98e0ed845352e8c888749755a015c2644b56ad770da619131046f0",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-26"
     },
     "monitor:rhum-tv": {
       "hash": "7d207c83603524e41eee05c50a1981d31bd6fa69c7f0291295dfff908c47e924",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-26"
     },
     "monitor:inoxtag": {
       "hash": "035d4e816743182abcc53bc8c4833c37e5c885138d5ee73605c7642ff37e9068",
-      "checkedDay": "2026-10-25"
+      "checkedDay": "2026-10-26"
     },
     "eurovision-sport-df9d65682c759740": {
       "hash": "d40810a26dfed6a57c2e4dc2a7fffd2fbbd4fb19445e8e71652af23ad04525de",
@@ -74,32 +74,32 @@
     },
     "nasa-plus-71adc9a95eb655e9": {
       "hash": "96f9848f2593633b90e298f78f8329091c1736018b597c74078c7538958df1db",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": true
     },
     "twitch-zerator-3c2d9e947c1536c2": {
       "hash": "dfd1b0d01034723fe72581aaefc40fd3603ed5d679117849e02b8c6d9361df6e",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-zerator-8232dd889c56ff09": {
       "hash": "e881e2c04ed90150240dbc2053bc4f68c5dde4e4d96938d4d3f66fd5d27ede2c",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-zerator-15762d8b7b93b069": {
       "hash": "c8d095bff02c35b6c59909e2920839b7da8babf5a2753bb3ec5f138d65116669",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-zerator-b9e25d5bdebd9c8e": {
       "hash": "59f6670a7aed99bb64e42a30d1f12fd77e35fef52a8cb9dcffa1fdfb6c768492",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-zerator-2ffb12cedee57bf8": {
       "hash": "d07f70c8e21abb5b56e0567eaf687b4c4293c37518149bbe993cec9097d72d37",
-      "checkedDay": "2026-10-25",
+      "checkedDay": "2026-10-26",
       "editorialDone": false
     }
   },
