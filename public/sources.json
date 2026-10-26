@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T00:54:06.455Z",
+  "updatedAt": "2026-10-26T01:01:34.206Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -531,6 +531,15 @@
       "purpose": "Mission et liens de retransmission officiels",
       "checkedAt": "2026-10-26T00:54:06.455Z",
       "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/sl-15-18"
+    },
+    {
+      "id": "francetv-sport-week",
+      "name": "france.tv · programme de la chaîne sport",
+      "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+      "kind": "official",
+      "purpose": "Créneaux datés de diffusion sur la chaîne sport",
+      "checkedAt": "2026-10-26T01:01:34.206Z",
+      "notes": "Article découvert depuis la rubrique sport, semaine et jours contrôlés avec l’année explicite. Les programmes nocturnes en boucle et les replays ne sont pas déduits du lecteur permanent."
     }
   ]
 }

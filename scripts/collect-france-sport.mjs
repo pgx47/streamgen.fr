@@ -1,0 +1,25 @@
+import{readFile,writeFile,rename,mkdir}from'node:fs/promises';
+import{discoverFranceSportWeek,parseFranceSportWeek}from'./collectors/france-sport.mjs';
+import{toEvent}from'./collectors/feeds.mjs';import{dateKey}from'../public/event-utils.mjs';
+const now=new Date().toISOString(),today=dateKey(now),home='https://www.france.tv/sport/',id='francetv-sport-week';
+const read=async p=>JSON.parse(await readFile(p,'utf8')),save=async(p,v)=>{await writeFile(p+'.tmp',JSON.stringify(v,null,2)+'\n');await rename(p+'.tmp',p)};
+async function page(url){const r=await fetch(url,{redirect:'error',signal:AbortSignal.timeout(20000),headers:{'User-Agent':'StreamGen/1.0 (+https://streamgen.fr/sources/)'}});if(!r.ok)throw Error('HTTP '+r.status);const chunks=[];let size=0;for await(const c of r.body){size+=c.length;if(size>2500000)throw Error('Programme trop grand');chunks.push(c)}return Buffer.concat(chunks).toString('utf8')}
+const catalog=await read('public/events.json'),registry=await read('public/sources.json'),report=[];let added=0,updated=0;
+try{
+ const url=discoverFranceSportWeek(await page(home));if(!url)throw Error('Lien vers le programme hebdomadaire absent');
+ const week=parseFranceSportWeek(await page(url));if(week.to<today)throw Error('Programme hebdomadaire périmé : '+week.to);if(week.from>today&&Date.parse(week.from)-Date.parse(today)>7*86400000)throw Error('Semaine trop éloignée');
+ const observed=new Set();
+ for(const item of week.items.filter(x=>dateKey(x.start)>=today)){
+  const e=toEvent(item,{id,name:'france.tv · chaîne sport',platform:'TV',category:'sport',url},now);observed.add(e.id);e.sourceTimezone='Europe/Paris';e.programType=/Live Club|magazine|Stade 2/i.test(item.title)?'scheduled-tv':'sports-broadcast';
+  e.summary='Créneau de diffusion annoncé sur la chaîne sport de france.tv. L’heure correspond au début du programme du diffuseur ; consultez france.tv pour les changements, les disciplines et les conditions d’accès.';e.confirmation='Diffusion annoncée dans le programme hebdomadaire france.tv';
+  const teams=item.title.split(':').at(-1).trim().split(/\s+vs\s+/i);if(teams.length===2){e.participants=teams;if(teams.includes('France')){e.frenchPresence=true;e.frenchNote='France figure dans l’affiche annoncée'}}
+  e.broadcastOptions=[{platform:'TV',label:'france.tv · chaîne sport',url:item.url,access:'free',accountRequired:null,language:'Français',countries:[],territoryNote:'Droits territoriaux variables selon la compétition ; disponibilité dans votre pays à vérifier sur france.tv',confirmed:true,restrictions:'Chaîne sport gratuite de france.tv ; un compte peut être requis. Le programme annonce un créneau, pas la présence actuelle d’un flux.',linkKind:'channel'}];
+  e.notes=['Programme du '+week.from+' au '+week.to+', publié par le diffuseur.','La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire.'];e.evidence={schedule:{url,field:'Créneau daté dans le programme hebdomadaire',observedAt:now},discovery:{url:home,field:'Lien Nos directs à venir',observedAt:now}};e.corroboration={publisherCount:1,pageCount:1,independent:false};e.scheduleCoverage={from:week.from,to:week.to};
+  const at=catalog.events.findIndex(x=>x.id===e.id);if(at<0){catalog.events.push(e);added++}else{if(catalog.events[at].sourceImage)e.sourceImage=catalog.events[at].sourceImage;catalog.events[at]=e;updated++}
+ }
+ // Reconcile only days actually covered by this successful weekly article.
+ for(const old of catalog.events.filter(e=>e.id.startsWith(id+'-')&&e.date>=week.from&&e.date<=week.to&&Date.parse(e.start)>Date.now()&&!observed.has(e.id)&&!['Annulé','Programmation à revérifier'].includes(e.status))){old.status='Programmation à revérifier';old.confirmation='Créneau absent du dernier programme hebdomadaire france.tv';old.broadcastOptions=[];old.lastVerified=now;updated++}
+ const entry={id,name:'france.tv · programme de la chaîne sport',url,kind:'official',purpose:'Créneaux datés de diffusion sur la chaîne sport',checkedAt:now,notes:'Article découvert depuis la rubrique sport, semaine et jours contrôlés avec l’année explicite. Les programmes nocturnes en boucle et les replays ne sont pas déduits du lecteur permanent.'};const si=registry.sources.findIndex(s=>s.id===id);if(si<0)registry.sources.push(entry);else registry.sources[si]=entry;
+ catalog.updatedAt=now;registry.updatedAt=now;await save('public/events.json',catalog);await save('public/sources.json',registry);report.push({id,status:'ok',url,checkedAt:now,from:week.from,to:week.to,detectedProgrammes:week.items.length,added,updated});
+}catch(error){report.push({id,status:'error',url:home,checkedAt:now,error:error.message})}
+const status=await read('public/collection-status.json');status.sources=[...status.sources.filter(s=>s.id!==id),...report];await save('public/collection-status.json',status);await mkdir('work',{recursive:true});await save('work/france-sport-run.json',{checkedAt:now,added,updated,report});console.log(JSON.stringify({added,updated,report}));

@@ -491,6 +491,17 @@
       "preciseWindows": 2,
       "added": 0,
       "updated": 2
+    },
+    {
+      "id": "francetv-sport-week",
+      "status": "ok",
+      "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+      "checkedAt": "2026-10-26T01:01:34.206Z",
+      "from": "2026-10-25",
+      "to": "2026-11-01",
+      "detectedProgrammes": 10,
+      "added": 0,
+      "updated": 7
     }
   ]
 }

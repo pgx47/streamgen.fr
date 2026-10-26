@@ -1,5 +1,5 @@
 const absolute=v=>typeof v==='string'&&/^20\d\d-\d\d-\d\dT\d\d:\d\d.*(?:Z|[+-]\d\d:\d\d)$/.test(v)&&Number.isFinite(Date.parse(v))?new Date(v).toISOString():null;
-function localDate(v){
+export function localDate(v){
  if(!v||!/^20\d\d-\d\d-\d\d$/.test(v.day)||!/^\d\d:\d\d:\d\d$/.test(v.time)||typeof v.tz!=='string')return null;
  try{const target=v.day+' '+v.time,f=new Intl.DateTimeFormat('sv-SE',{timeZone:v.tz,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});let t=Date.parse(target.replace(' ','T')+'Z');for(let i=0;i<3;i++){const actual=f.format(new Date(t));if(actual===target)return new Date(t).toISOString();t+=Date.parse(target.replace(' ','T')+'Z')-Date.parse(actual.replace(' ','T')+'Z')}}catch{}return null;
 }

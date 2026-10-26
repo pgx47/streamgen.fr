@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T00:54:06.455Z",
-  "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, Red Bull TV, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
+  "updatedAt": "2026-10-26T01:01:34.206Z",
+  "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
       "id": "wtt-montpellier-2026-10-27",
@@ -20177,6 +20177,583 @@
         "pageCount": 4,
         "independent": true,
         "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "francetv-sport-week-048f3c40515fd579",
+      "slug": "francetv-sport-week-048f3c40515fd579",
+      "title": "Live Club Stade 2 Ligue 1",
+      "summary": "Créneau de diffusion annoncé sur la chaîne sport de france.tv. L’heure correspond au début du programme du diffuseur ; consultez france.tv pour les changements, les disciplines et les conditions d’accès.",
+      "category": "sport",
+      "subcategory": "Football",
+      "date": "2026-10-26",
+      "start": "2026-10-26T19:15:00.000Z",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "france.tv · chaîne sport",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "france.tv · chaîne sport",
+          "url": "https://www.france.tv/sport/direct.html",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Droits territoriaux variables selon la compétition ; disponibilité dans votre pays à vérifier sur france.tv",
+          "confirmed": true,
+          "restrictions": "Chaîne sport gratuite de france.tv ; un compte peut être requis. Le programme annonce un créneau, pas la présence actuelle d’un flux.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "france.tv · chaîne sport · programme officiel",
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "sourceId": "francetv-sport-week",
+          "collectedAt": "2026-10-26T01:01:34.206Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:01:34.206Z",
+      "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
+      "schedule": [],
+      "notes": [
+        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "scheduled-tv",
+      "evidence": {
+        "schedule": {
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "field": "Créneau daté dans le programme hebdomadaire",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        },
+        "discovery": {
+          "url": "https://www.france.tv/sport/",
+          "field": "Lien Nos directs à venir",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      },
+      "scheduleCoverage": {
+        "from": "2026-10-25",
+        "to": "2026-11-01"
+      }
+    },
+    {
+      "id": "francetv-sport-week-d0d105a635364092",
+      "slug": "francetv-sport-week-d0d105a635364092",
+      "title": "Jeux Olympiques de la Jeunesse Dakar 2026",
+      "summary": "Créneau de diffusion annoncé sur la chaîne sport de france.tv. L’heure correspond au début du programme du diffuseur ; consultez france.tv pour les changements, les disciplines et les conditions d’accès.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-10-30",
+      "start": "2026-10-30T09:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "france.tv · chaîne sport",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "france.tv · chaîne sport",
+          "url": "https://www.france.tv/sport/direct.html",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Droits territoriaux variables selon la compétition ; disponibilité dans votre pays à vérifier sur france.tv",
+          "confirmed": true,
+          "restrictions": "Chaîne sport gratuite de france.tv ; un compte peut être requis. Le programme annonce un créneau, pas la présence actuelle d’un flux.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "france.tv · chaîne sport · programme officiel",
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "sourceId": "francetv-sport-week",
+          "collectedAt": "2026-10-26T01:01:34.206Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:01:34.206Z",
+      "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
+      "schedule": [],
+      "notes": [
+        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "sports-broadcast",
+      "evidence": {
+        "schedule": {
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "field": "Créneau daté dans le programme hebdomadaire",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        },
+        "discovery": {
+          "url": "https://www.france.tv/sport/",
+          "field": "Lien Nos directs à venir",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      },
+      "scheduleCoverage": {
+        "from": "2026-10-25",
+        "to": "2026-11-01"
+      }
+    },
+    {
+      "id": "francetv-sport-week-90ded355d22e05d1",
+      "slug": "francetv-sport-week-90ded355d22e05d1",
+      "title": "Jeux Olympiques de la Jeunesse Dakar 2026",
+      "summary": "Créneau de diffusion annoncé sur la chaîne sport de france.tv. L’heure correspond au début du programme du diffuseur ; consultez france.tv pour les changements, les disciplines et les conditions d’accès.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-10-30",
+      "start": "2026-10-30T14:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "france.tv · chaîne sport",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "france.tv · chaîne sport",
+          "url": "https://www.france.tv/sport/direct.html",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Droits territoriaux variables selon la compétition ; disponibilité dans votre pays à vérifier sur france.tv",
+          "confirmed": true,
+          "restrictions": "Chaîne sport gratuite de france.tv ; un compte peut être requis. Le programme annonce un créneau, pas la présence actuelle d’un flux.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "france.tv · chaîne sport · programme officiel",
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "sourceId": "francetv-sport-week",
+          "collectedAt": "2026-10-26T01:01:34.206Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:01:34.206Z",
+      "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
+      "schedule": [],
+      "notes": [
+        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "sports-broadcast",
+      "evidence": {
+        "schedule": {
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "field": "Créneau daté dans le programme hebdomadaire",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        },
+        "discovery": {
+          "url": "https://www.france.tv/sport/",
+          "field": "Lien Nos directs à venir",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      },
+      "scheduleCoverage": {
+        "from": "2026-10-25",
+        "to": "2026-11-01"
+      }
+    },
+    {
+      "id": "francetv-sport-week-9d0ced6cb54fd8f3",
+      "slug": "francetv-sport-week-9d0ced6cb54fd8f3",
+      "title": "WXV Global Series : Nouvelle-Zélande vs France",
+      "summary": "Créneau de diffusion annoncé sur la chaîne sport de france.tv. L’heure correspond au début du programme du diffuseur ; consultez france.tv pour les changements, les disciplines et les conditions d’accès.",
+      "category": "sport",
+      "subcategory": "Rugby",
+      "date": "2026-10-31",
+      "start": "2026-10-31T06:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [
+        "Nouvelle-Zélande",
+        "France"
+      ],
+      "frenchPresence": true,
+      "frenchNote": "France figure dans l’affiche annoncée",
+      "organizer": "france.tv · chaîne sport",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "france.tv · chaîne sport",
+          "url": "https://www.france.tv/sport/direct.html",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Droits territoriaux variables selon la compétition ; disponibilité dans votre pays à vérifier sur france.tv",
+          "confirmed": true,
+          "restrictions": "Chaîne sport gratuite de france.tv ; un compte peut être requis. Le programme annonce un créneau, pas la présence actuelle d’un flux.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "france.tv · chaîne sport · programme officiel",
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "sourceId": "francetv-sport-week",
+          "collectedAt": "2026-10-26T01:01:34.206Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:01:34.206Z",
+      "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
+      "schedule": [],
+      "notes": [
+        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "sports-broadcast",
+      "evidence": {
+        "schedule": {
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "field": "Créneau daté dans le programme hebdomadaire",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        },
+        "discovery": {
+          "url": "https://www.france.tv/sport/",
+          "field": "Lien Nos directs à venir",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      },
+      "scheduleCoverage": {
+        "from": "2026-10-25",
+        "to": "2026-11-01"
+      }
+    },
+    {
+      "id": "francetv-sport-week-b9e44a8932665b1d",
+      "slug": "francetv-sport-week-b9e44a8932665b1d",
+      "title": "Jeux Olympiques de la Jeunesse Dakar 2026",
+      "summary": "Créneau de diffusion annoncé sur la chaîne sport de france.tv. L’heure correspond au début du programme du diffuseur ; consultez france.tv pour les changements, les disciplines et les conditions d’accès.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-10-31",
+      "start": "2026-10-31T08:25:00.000Z",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "france.tv · chaîne sport",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "france.tv · chaîne sport",
+          "url": "https://www.france.tv/sport/direct.html",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Droits territoriaux variables selon la compétition ; disponibilité dans votre pays à vérifier sur france.tv",
+          "confirmed": true,
+          "restrictions": "Chaîne sport gratuite de france.tv ; un compte peut être requis. Le programme annonce un créneau, pas la présence actuelle d’un flux.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "france.tv · chaîne sport · programme officiel",
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "sourceId": "francetv-sport-week",
+          "collectedAt": "2026-10-26T01:01:34.206Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:01:34.206Z",
+      "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
+      "schedule": [],
+      "notes": [
+        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "sports-broadcast",
+      "evidence": {
+        "schedule": {
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "field": "Créneau daté dans le programme hebdomadaire",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        },
+        "discovery": {
+          "url": "https://www.france.tv/sport/",
+          "field": "Lien Nos directs à venir",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      },
+      "scheduleCoverage": {
+        "from": "2026-10-25",
+        "to": "2026-11-01"
+      }
+    },
+    {
+      "id": "francetv-sport-week-640f7a3101a33b23",
+      "slug": "francetv-sport-week-640f7a3101a33b23",
+      "title": "Jeux Olympiques de la Jeunesse Dakar 2026 : Cérémonie d'ouverture",
+      "summary": "Créneau de diffusion annoncé sur la chaîne sport de france.tv. L’heure correspond au début du programme du diffuseur ; consultez france.tv pour les changements, les disciplines et les conditions d’accès.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-10-31",
+      "start": "2026-10-31T18:25:00.000Z",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "france.tv · chaîne sport",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "france.tv · chaîne sport",
+          "url": "https://www.france.tv/sport/direct.html",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Droits territoriaux variables selon la compétition ; disponibilité dans votre pays à vérifier sur france.tv",
+          "confirmed": true,
+          "restrictions": "Chaîne sport gratuite de france.tv ; un compte peut être requis. Le programme annonce un créneau, pas la présence actuelle d’un flux.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "france.tv · chaîne sport · programme officiel",
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "sourceId": "francetv-sport-week",
+          "collectedAt": "2026-10-26T01:01:34.206Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:01:34.206Z",
+      "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
+      "schedule": [],
+      "notes": [
+        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "sports-broadcast",
+      "evidence": {
+        "schedule": {
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "field": "Créneau daté dans le programme hebdomadaire",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        },
+        "discovery": {
+          "url": "https://www.france.tv/sport/",
+          "field": "Lien Nos directs à venir",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      },
+      "scheduleCoverage": {
+        "from": "2026-10-25",
+        "to": "2026-11-01"
+      }
+    },
+    {
+      "id": "francetv-sport-week-2046f6e85a5a9cc5",
+      "slug": "francetv-sport-week-2046f6e85a5a9cc5",
+      "title": "Jeux Olympiques de la Jeunesse Dakar 2026",
+      "summary": "Créneau de diffusion annoncé sur la chaîne sport de france.tv. L’heure correspond au début du programme du diffuseur ; consultez france.tv pour les changements, les disciplines et les conditions d’accès.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-01",
+      "start": "2026-11-01T08:25:00.000Z",
+      "end": null,
+      "sourceTimezone": "Europe/Paris",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "france.tv · chaîne sport",
+      "broadcastOptions": [
+        {
+          "platform": "TV",
+          "label": "france.tv · chaîne sport",
+          "url": "https://www.france.tv/sport/direct.html",
+          "access": "free",
+          "accountRequired": null,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Droits territoriaux variables selon la compétition ; disponibilité dans votre pays à vérifier sur france.tv",
+          "confirmed": true,
+          "restrictions": "Chaîne sport gratuite de france.tv ; un compte peut être requis. Le programme annonce un créneau, pas la présence actuelle d’un flux.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "france.tv · chaîne sport · programme officiel",
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "sourceId": "francetv-sport-week",
+          "collectedAt": "2026-10-26T01:01:34.206Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:01:34.206Z",
+      "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
+      "schedule": [],
+      "notes": [
+        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "sports-broadcast",
+      "evidence": {
+        "schedule": {
+          "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+          "field": "Créneau daté dans le programme hebdomadaire",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        },
+        "discovery": {
+          "url": "https://www.france.tv/sport/",
+          "field": "Lien Nos directs à venir",
+          "observedAt": "2026-10-26T01:01:34.206Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      },
+      "scheduleCoverage": {
+        "from": "2026-10-25",
+        "to": "2026-11-01"
       }
     }
   ]
