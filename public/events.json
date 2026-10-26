@@ -21485,6 +21485,2667 @@
       "postponement": null,
       "cancellation": null,
       "programType": "livestream"
+    },
+    {
+      "id": "pgl-1a60458a4466-eb8241779e9ddf58",
+      "slug": "pgl-1a60458a4466-eb8241779e9ddf58",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — The MongolZ vs MOUZ",
+      "summary": "Phase suisse · tour 3 : The MongolZ face à MOUZ. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-26",
+      "start": "2026-10-26T08:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [
+        "The MongolZ",
+        "MOUZ"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466-blast",
+          "label": "BLAST · recoupement de l’affiche et de l’horaire",
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire PGL recoupé avec BLAST",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 3",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 3|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "secondarySchedule": {
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "agreement": true,
+          "start": "2026-10-26T08:00:00.000Z",
+          "matchId": "75b339e6-5190-4113-aa7c-626a0b91d327",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-1a351cbc8b9bf8bf",
+      "slug": "pgl-1a60458a4466-1a351cbc8b9bf8bf",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Nemiga vs Aurora Gaming",
+      "summary": "Phase suisse · tour 3 : Nemiga face à Aurora Gaming. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-26",
+      "start": "2026-10-26T08:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [
+        "Nemiga",
+        "Aurora Gaming"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466-blast",
+          "label": "BLAST · recoupement de l’affiche et de l’horaire",
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire PGL recoupé avec BLAST",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 3",
+      "externalStream": "secondary",
+      "externalSlotKey": "group|round 3|secondary|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "secondarySchedule": {
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "agreement": true,
+          "start": "2026-10-26T08:00:00.000Z",
+          "matchId": "5fd63ffc-23f0-4363-92fd-20350a7f2f44",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-b095ea1e42b255f7",
+      "slug": "pgl-1a60458a4466-b095ea1e42b255f7",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Team Vitality vs FUT Esports",
+      "summary": "Phase suisse · tour 3 : Team Vitality face à FUT Esports. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-26",
+      "start": "2026-10-26T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [
+        "Team Vitality",
+        "FUT Esports"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466-blast",
+          "label": "BLAST · recoupement de l’affiche et de l’horaire",
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire PGL recoupé avec BLAST",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 3",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 3|main|2",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "secondarySchedule": {
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "agreement": true,
+          "start": "2026-10-26T11:00:00.000Z",
+          "matchId": "59ab278c-8f2f-450c-96d5-16684716f1be",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-280670db81a02527",
+      "slug": "pgl-1a60458a4466-280670db81a02527",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — 9z Globant vs TYLOO",
+      "summary": "Phase suisse · tour 3 : 9z Globant face à TYLOO. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-26",
+      "start": "2026-10-26T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [
+        "9z Globant",
+        "TYLOO"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466-blast",
+          "label": "BLAST · recoupement de l’affiche et de l’horaire",
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire PGL recoupé avec BLAST",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 3",
+      "externalStream": "secondary",
+      "externalSlotKey": "group|round 3|secondary|2",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "secondarySchedule": {
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "agreement": true,
+          "start": "2026-10-26T11:00:00.000Z",
+          "matchId": "e746012c-7e35-4a30-b21c-3b1a5abc2710",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-1ed9a3eb3410bb2b",
+      "slug": "pgl-1a60458a4466-1ed9a3eb3410bb2b",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Team Spirit vs FURIA",
+      "summary": "Phase suisse · tour 3 : Team Spirit face à FURIA. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-26",
+      "start": "2026-10-26T14:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [
+        "Team Spirit",
+        "FURIA"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466-blast",
+          "label": "BLAST · recoupement de l’affiche et de l’horaire",
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire PGL recoupé avec BLAST",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 3",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 3|main|3",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "secondarySchedule": {
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "agreement": true,
+          "start": "2026-10-26T14:00:00.000Z",
+          "matchId": "465517fc-103a-4009-9302-fd13729450c4",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-0c7549b1e249a5a9",
+      "slug": "pgl-1a60458a4466-0c7549b1e249a5a9",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Team Liquid vs Legacy",
+      "summary": "Phase suisse · tour 3 : Team Liquid face à Legacy. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-26",
+      "start": "2026-10-26T14:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [
+        "Team Liquid",
+        "Legacy"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466-blast",
+          "label": "BLAST · recoupement de l’affiche et de l’horaire",
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire PGL recoupé avec BLAST",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 3",
+      "externalStream": "secondary",
+      "externalSlotKey": "group|round 3|secondary|3",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "secondarySchedule": {
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "agreement": true,
+          "start": "2026-10-26T14:00:00.000Z",
+          "matchId": "4598d4c3-fd82-4314-bf10-b4bd43651580",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-80dacac72c85795e",
+      "slug": "pgl-1a60458a4466-80dacac72c85795e",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — BETBOOM TEAM vs Natus Vincere",
+      "summary": "Phase suisse · tour 3 : BETBOOM TEAM face à Natus Vincere. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-26",
+      "start": "2026-10-26T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [
+        "BETBOOM TEAM",
+        "Natus Vincere"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466-blast",
+          "label": "BLAST · recoupement de l’affiche et de l’horaire",
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire PGL recoupé avec BLAST",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 3",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 3|main|4",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "secondarySchedule": {
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "agreement": true,
+          "start": "2026-10-26T17:00:00.000Z",
+          "matchId": "d104b3d3-e6a5-4cdf-b1a6-6ff385256be0",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-c5266c2725699cba",
+      "slug": "pgl-1a60458a4466-c5266c2725699cba",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — G2 Esports vs DENDELE",
+      "summary": "Phase suisse · tour 3 : G2 Esports face à DENDELE. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-26",
+      "start": "2026-10-26T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [
+        "G2 Esports",
+        "DENDELE"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466-blast",
+          "label": "BLAST · recoupement de l’affiche et de l’horaire",
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire PGL recoupé avec BLAST",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 3",
+      "externalStream": "secondary",
+      "externalSlotKey": "group|round 3|secondary|4",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "secondarySchedule": {
+          "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+          "agreement": true,
+          "start": "2026-10-26T17:00:00.000Z",
+          "matchId": "af4b64d7-9136-4b5c-a35b-a6e12e3e49a8",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-2121d87ee758de20",
+      "slug": "pgl-1a60458a4466-2121d87ee758de20",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 4 · affiche à confirmer",
+      "summary": "Phase suisse · tour 4 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-27",
+      "start": "2026-10-27T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 4",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 4|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-b802015869f9b663",
+      "slug": "pgl-1a60458a4466-b802015869f9b663",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 4 · affiche à confirmer",
+      "summary": "Phase suisse · tour 4 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-27",
+      "start": "2026-10-27T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 4",
+      "externalStream": "secondary",
+      "externalSlotKey": "group|round 4|secondary|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-9f7951a00b350c27",
+      "slug": "pgl-1a60458a4466-9f7951a00b350c27",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 4 · affiche à confirmer",
+      "summary": "Phase suisse · tour 4 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-27",
+      "start": "2026-10-27T14:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 4",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 4|main|2",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-800eab65265cf217",
+      "slug": "pgl-1a60458a4466-800eab65265cf217",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 4 · affiche à confirmer",
+      "summary": "Phase suisse · tour 4 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-27",
+      "start": "2026-10-27T14:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 4",
+      "externalStream": "secondary",
+      "externalSlotKey": "group|round 4|secondary|2",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-aebcc1431eb9eea1",
+      "slug": "pgl-1a60458a4466-aebcc1431eb9eea1",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 4 · affiche à confirmer",
+      "summary": "Phase suisse · tour 4 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-27",
+      "start": "2026-10-27T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 4",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 4|main|3",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-385b2072405d2370",
+      "slug": "pgl-1a60458a4466-385b2072405d2370",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 4 · affiche à confirmer",
+      "summary": "Phase suisse · tour 4 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-27",
+      "start": "2026-10-27T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 4",
+      "externalStream": "secondary",
+      "externalSlotKey": "group|round 4|secondary|3",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-e28a0de7dc8290e3",
+      "slug": "pgl-1a60458a4466-e28a0de7dc8290e3",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 5 match 1 · affiche à confirmer",
+      "summary": "Phase suisse · tour 5 match 1 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-28",
+      "start": "2026-10-28T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 5 match 1",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 5 match 1|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-54c4caa947868cb5",
+      "slug": "pgl-1a60458a4466-54c4caa947868cb5",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 5 match 2 · affiche à confirmer",
+      "summary": "Phase suisse · tour 5 match 2 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-28",
+      "start": "2026-10-28T14:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 5 match 2",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 5 match 2|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-91cb80b54466e3d6",
+      "slug": "pgl-1a60458a4466-91cb80b54466e3d6",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Phase suisse · tour 5 match 3 · affiche à confirmer",
+      "summary": "Phase suisse · tour 5 match 3 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-28",
+      "start": "2026-10-28T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "sourceId": "pgl-1a60458a4466-groups",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "group",
+      "externalRound": "round 5 match 3",
+      "externalStream": "main",
+      "externalSlotKey": "group|round 5 match 3|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-337b8e6ce0ed24c9",
+      "slug": "pgl-1a60458a4466-337b8e6ce0ed24c9",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Quart de finale 1 · affiche à confirmer",
+      "summary": "Quart de finale 1 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-29",
+      "start": "2026-10-29T08:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "sourceId": "pgl-1a60458a4466-playoffs",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "playoffs",
+      "externalRound": "Quarter Final Match 1",
+      "externalStream": "main",
+      "externalSlotKey": "playoffs|Quarter Final Match 1|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-4a9d4258dcf7df82",
+      "slug": "pgl-1a60458a4466-4a9d4258dcf7df82",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Quart de finale 2 · affiche à confirmer",
+      "summary": "Quart de finale 2 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-29",
+      "start": "2026-10-29T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "sourceId": "pgl-1a60458a4466-playoffs",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "playoffs",
+      "externalRound": "Quarter Final Match 2",
+      "externalStream": "main",
+      "externalSlotKey": "playoffs|Quarter Final Match 2|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-ec1f468e7a195d82",
+      "slug": "pgl-1a60458a4466-ec1f468e7a195d82",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Quart de finale 3 · affiche à confirmer",
+      "summary": "Quart de finale 3 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-29",
+      "start": "2026-10-29T14:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "sourceId": "pgl-1a60458a4466-playoffs",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "playoffs",
+      "externalRound": "Quarter Final Match 3",
+      "externalStream": "main",
+      "externalSlotKey": "playoffs|Quarter Final Match 3|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-f935bb6b4b2aef69",
+      "slug": "pgl-1a60458a4466-f935bb6b4b2aef69",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Quart de finale 4 · affiche à confirmer",
+      "summary": "Quart de finale 4 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-29",
+      "start": "2026-10-29T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "sourceId": "pgl-1a60458a4466-playoffs",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "playoffs",
+      "externalRound": "Quarter Final Match 4",
+      "externalStream": "main",
+      "externalSlotKey": "playoffs|Quarter Final Match 4|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-2e09a12dc98683d7",
+      "slug": "pgl-1a60458a4466-2e09a12dc98683d7",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Demi-finale 1 · affiche à confirmer",
+      "summary": "Demi-finale 1 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-30",
+      "start": "2026-10-30T12:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "sourceId": "pgl-1a60458a4466-playoffs",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "playoffs",
+      "externalRound": "Semi-Final Match 1",
+      "externalStream": "main",
+      "externalSlotKey": "playoffs|Semi-Final Match 1|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-afd0b91143e66872",
+      "slug": "pgl-1a60458a4466-afd0b91143e66872",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Demi-finale 2 · affiche à confirmer",
+      "summary": "Demi-finale 2 : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-30",
+      "start": "2026-10-30T15:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "sourceId": "pgl-1a60458a4466-playoffs",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "playoffs",
+      "externalRound": "Semi-Final Match 2",
+      "externalStream": "main",
+      "externalSlotKey": "playoffs|Semi-Final Match 2|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-3b3fc2674ff97692",
+      "slug": "pgl-1a60458a4466-3b3fc2674ff97692",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Match pour la troisième place · affiche à confirmer",
+      "summary": "Match pour la troisième place : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-31",
+      "start": "2026-10-31T08:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "sourceId": "pgl-1a60458a4466-playoffs",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "playoffs",
+      "externalRound": "Third Place Decider",
+      "externalStream": "main",
+      "externalSlotKey": "playoffs|Third Place Decider|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
+    },
+    {
+      "id": "pgl-1a60458a4466-bbf21347bd7af111",
+      "slug": "pgl-1a60458a4466-bbf21347bd7af111",
+      "title": "Counter-Strike 2 · PGL Masters Bucharest 2026 — Finale · affiche à confirmer",
+      "summary": "Finale : les équipes ne sont pas encore annoncées. Horaire prévisionnel publié par PGL, susceptible de changer avec la progression des matchs.",
+      "category": "esport",
+      "subcategory": "Counter-Strike 2",
+      "date": "2026-10-31",
+      "start": "2026-10-31T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "EET",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PGL",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "PGL · directs de l’événement",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions de la plateforme et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Chaîne officielle diffusant cette édition. Le canal précis du match reste à retrouver sur la chaîne ; aucun lien vidéo futur ou flux actif n’est déduit du programme.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PGL · programme officiel",
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "sourceId": "pgl-1a60458a4466-playoffs",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-1a60458a4466",
+          "label": "PGL · page officielle de cette édition",
+          "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        },
+        {
+          "sourceId": "pgl-youtube",
+          "label": "PGL · retransmissions de cette édition sur YouTube",
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "collectedAt": "2026-10-26T01:25:59.419Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T01:25:59.419Z",
+      "confirmation": "Horaire officiel · chaîne de l’édition confirmée",
+      "schedule": [],
+      "notes": [
+        "Les heures suivent le fuseau explicitement fourni par PGL ; aucune durée de match n’est inventée.",
+        "Une affiche non connue reste inconnue. Les états terminés ou annulés viennent du calendrier officiel, jamais d’un score nul ou du seul passage de l’heure."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalTournamentUrl": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "externalPhase": "playoffs",
+      "externalRound": "FINAL",
+      "externalStream": "main",
+      "externalSlotKey": "playoffs|FINAL|main|1",
+      "programType": "esports-match",
+      "evidence": {
+        "schedule": {
+          "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+          "fields": [
+            "date",
+            "time",
+            "timeZone",
+            "status"
+          ],
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        },
+        "broadcast": {
+          "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+          "scope": "PGL Masters Bucharest 2026",
+          "kind": "event-channel",
+          "observedAt": "2026-10-26T01:25:59.419Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 3,
+        "independent": false
+      }
     }
   ]
 }

@@ -666,6 +666,50 @@
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
       "checkedAt": "2026-10-26T04:50:40.017Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "pgl-1a60458a4466",
+      "name": "PGL · PGL Masters Bucharest 2026",
+      "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "kind": "official",
+      "purpose": "Édition officielle et jeu concerné",
+      "checkedAt": "2026-10-26T01:25:59.419Z"
+    },
+    {
+      "id": "pgl-1a60458a4466-groups",
+      "name": "PGL · PGL Masters Bucharest 2026 · groups",
+      "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
+      "kind": "official",
+      "purpose": "Horaires, affiches et états des matchs",
+      "checkedAt": "2026-10-26T01:25:59.419Z",
+      "notes": "API effectivement appelée par la page de cette édition. Les dates doivent rester dans sa plage de compétition."
+    },
+    {
+      "id": "pgl-1a60458a4466-playoffs",
+      "name": "PGL · PGL Masters Bucharest 2026 · playoffs",
+      "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
+      "kind": "official",
+      "purpose": "Horaires, affiches et états des matchs",
+      "checkedAt": "2026-10-26T01:25:59.419Z",
+      "notes": "API effectivement appelée par la page de cette édition. Les dates doivent rester dans sa plage de compétition."
+    },
+    {
+      "id": "pgl-1a60458a4466-blast",
+      "name": "BLAST · calendrier PGL Masters Bucharest 2026",
+      "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
+      "kind": "specialist",
+      "purpose": "Recoupement indépendant des affiches et horaires",
+      "checkedAt": "2026-10-26T01:25:59.419Z",
+      "notes": "Correspondance des deux équipes et du jour ; les affiches encore inconnues ne sont pas recoupées artificiellement."
+    },
+    {
+      "id": "pgl-youtube",
+      "name": "PGL · chaîne YouTube officielle",
+      "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+      "kind": "official",
+      "purpose": "Présence de retransmissions de cette édition sur la chaîne de l’organisateur",
+      "checkedAt": "2026-10-26T01:25:59.419Z",
+      "notes": "Confirme la chaîne de l’événement, pas le lien vidéo ni le début réel d’un match futur."
     }
   ]
 }

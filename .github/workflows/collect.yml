@@ -84,6 +84,8 @@ jobs:
           LLM_BUDGET_ALLOWED: ${{ steps.llm_budget.outputs.cache-hit != 'true' && steps.verify_reservation.outputs.cache-hit == 'true' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+      - name: Discover PGL tournaments and corroborate Counter-Strike matches
+        run: node scripts/collect-pgl.mjs
       - name: Discover and validate event images
         run: node scripts/collect-images.mjs
       - run: npm run build
@@ -121,6 +123,7 @@ jobs:
             work/lichess-run.json
             work/oengus-run.json
             work/ai-run.json
+            work/pgl-run.json
           retention-days: 14
   deploy:
     needs: collect

@@ -700,6 +700,38 @@
       "storedAssets": 4,
       "pending": 7,
       "reportUrl": "/image-collection-status.json"
+    },
+    {
+      "id": "pgl-calendar",
+      "status": "ok",
+      "url": "https://news.pglesports.com/api/events",
+      "checkedAt": "2026-10-26T01:25:59.419Z",
+      "candidates": 2
+    },
+    {
+      "id": "pgl-youtube",
+      "status": "ok",
+      "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
+      "checkedAt": "2026-10-26T01:25:59.419Z",
+      "reason": "Vérification de l’identité de la chaîne, distincte de la présence d’un direct actif"
+    },
+    {
+      "id": "pgl-1a60458a4466",
+      "status": "ok",
+      "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "checkedAt": "2026-10-26T01:25:59.419Z",
+      "detectedMatches": 41,
+      "completeSnapshot": true,
+      "written": 25,
+      "independentlyCorroborated": 8,
+      "eventChannelVerified": true
+    },
+    {
+      "id": "pgl-6d877bb72499",
+      "status": "candidate",
+      "url": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+      "checkedAt": "2026-10-26T01:25:59.419Z",
+      "reason": "Calendrier découvert ; connecteur de matchs structurés non disponible sur cette page"
     }
   ]
 }
