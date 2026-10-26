@@ -1,6 +1,6 @@
 export const ZONE='Europe/Paris';
 export function dateKey(date){return new Intl.DateTimeFormat('en-CA',{timeZone:ZONE,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(date));}
-export function eventOnDay(e,key){return (e.date||dateKey(e.start))===key;}
+export function eventOnDay(e,key){if((e.date||dateKey(e.start))===key)return true;return !!(e.start&&e.end&&Date.parse(e.end)>Date.parse(e.start)&&dateKey(e.start)<=key&&dateKey(new Date(Date.parse(e.end)-1))>=key)}
 export function statusAt(e,now=new Date()){
  if(['En direct confirmé','Terminé','Reporté','Annulé','Programmation à revérifier'].includes(e.status))return e.status;
  if(!e.start)return 'Horaire à confirmer';
@@ -322,4 +322,11 @@ export function serviceIcon(service={}){
 
  const tv=input.platform==='TV';
  return `<svg class="service-icon service-icon-fallback" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">${tv?'<rect x="3" y="5" width="18" height="13" rx="2"/><path d="M8 21h8M12 18v3M8 2l4 3 4-3"/>':'<circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/>'}</svg>`;
+}
+
+export function dayTimeline(e,day=dateKey(new Date()),now=new Date()){
+ const minute=value=>{if(!value||!Number.isFinite(Date.parse(value)))return null;const key=dateKey(value);if(key<day)return 0;if(key>day)return 1440;const parts=new Intl.DateTimeFormat('en-GB',{timeZone:ZONE,hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date(value)).split(':').map(Number);return parts[0]*60+parts[1]};
+ const start=minute(e.start),end=e.end?minute(e.end):null,sessions=[...new Set((e.schedule||[]).filter(s=>s.start&&dateKey(s.start)===day).map(s=>minute(s.start)))].sort((a,b)=>a-b),current=dateKey(now)===day?minute(now.toISOString()):null;
+ let state='upcoming';if(['Annulé','Reporté','Programmation à revérifier'].includes(e.status))state='inactive';else if(e.status==='Terminé'||e.end&&Date.parse(e.end)<=now.getTime())state='ended';else if(e.status==='En direct confirmé')state='live';else if(e.start&&Date.parse(e.start)<=now.getTime()){state=e.end?'scheduled-now':sessions.some(s=>current!==null&&s>current)?'day-programme':'started-unknown'}
+ return {start,end,sessions,current,state};
 }
