@@ -1,5 +1,5 @@
 const norm=s=>String(s||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
-const aliases={auroragaming:'aurora',nemigagaming:'nemiga',teamvitality:'vitality','9zteam':'9z','9zglobant':'9z',teamliquid:'liquid',teamspirit:'spirit',g2esports:'g2',betboomteam:'betboom'};
+const aliases={dendelecs:'dendele',auroragaming:'aurora',nemigagaming:'nemiga',teamvitality:'vitality','9zteam':'9z','9zglobant':'9z',teamliquid:'liquid',teamspirit:'spirit',g2esports:'g2',betboomteam:'betboom'};
 const team=s=>aliases[norm(s)]||norm(s);
 const unique=(xs,key)=>[...new Map(xs.map(x=>[key(x),x])).values()];
 export function groupEvents(input){
