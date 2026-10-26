@@ -66,6 +66,10 @@ jobs:
         run: node scripts/collect-youtube.mjs
       - name: Collect Liquipedia esports match schedules
         run: node scripts/collect-liquipedia.mjs
+      - name: Collect start.gg French tournaments
+        run: node scripts/collect-startgg.mjs
+        env:
+          STARTGG_API_KEY: ${{ secrets.STARTGG_API_KEY }}
       - name: Discover and validate event images
         run: node scripts/collect-images.mjs
       - run: npm run build
@@ -98,6 +102,7 @@ jobs:
             work/france-sport-run.json
             work/youtube-run.json
             work/liquipedia-run.json
+            work/startgg-run.json
           retention-days: 14
   deploy:
     needs: collect

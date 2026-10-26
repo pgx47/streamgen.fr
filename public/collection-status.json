@@ -592,6 +592,14 @@
       "matches": 30,
       "tournaments": 3,
       "observed": 30
+    },
+    {
+      "id": "startgg",
+      "status": "ok",
+      "url": "https://www.start.gg/",
+      "checkedAt": "2026-10-26T03:00:57.368Z",
+      "tournaments": 50,
+      "observed": 40
     }
   ]
 }
