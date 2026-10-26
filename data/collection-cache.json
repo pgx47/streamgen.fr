@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
+      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
       "checkedDay": "2026-10-26"
     },
     "monitor:wtt-french": {
-      "hash": "8ac0ebe5f3d33e3fe13e9d4bbc181b97a3d69693973e99e895a24738bcffd451",
+      "hash": "f1187eb361a683eda70ff57d5bca9652f8946430eced10fe7417714fae07876b",
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-us": {
-      "hash": "df87f59444ffc1eea210ae962fbb079bb8709c55011fd95372ece1f8ad104876",
+      "hash": "24b2d212d4ab186ad0e9c80bf38b4280504b6539d92d997e90c339c358752e60",
       "checkedDay": "2026-10-26"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "0af8ecd733b01d239b2545de2cdd78fe0382944c8b14341f785852e87e0b99c9",
+      "hash": "4ad49f7366c6046aeb044f18d886b08474dc75101778ab597a810de6b3f4ddc6",
       "checkedDay": "2026-10-26"
     },
     "monitor:nfl-tv": {
@@ -33,7 +33,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:ijf": {
-      "hash": "8d6dbaff4e5ec0f6420e5abf1ea143b344b6bcda4c029f2cf47f921bd7a21bdf",
+      "hash": "fbd04ddad640902a6d5554de94360b7f5cda1edc0618519d8b109ae58eefafdc",
       "checkedDay": "2026-10-26"
     },
     "monitor:pgw": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "c5e19c2950bf849f86acbfd3424700d84e45f9d9de7a0680a5c7d671da42c43f",
+      "hash": "3e477764eaac04d6e97a869c539d17cda5317666f5a8f03568467d22ed24a16d",
       "checkedDay": "2026-10-26"
     },
     "monitor:yt-rolandgarros": {
@@ -246,7 +246,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:lichess": {
-      "hash": "761130a9a2410447f161b445e92e40d2f4cec4d64c9046196c5b339f12958000",
+      "hash": "bfd3287cfd6c64ad8a1a343b5e497508b3fa169602a579a6a87bb87e03fd973a",
       "checkedDay": "2026-10-26"
     },
     "monitor:oengus": {
@@ -282,7 +282,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:pgl-1a60458a4466-groups": {
-      "hash": "28b974795af16ef7b34a7582f919b8257ebd692eaa603124eef19d7ca6721fef",
+      "hash": "0fff41bb7b0937616a9fb85a40edcfe21dcbf00d89129302898785b327e441ea",
       "checkedDay": "2026-10-26"
     },
     "monitor:pgl-1a60458a4466-playoffs": {
@@ -290,7 +290,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:pgl-1a60458a4466-blast": {
-      "hash": "02519c7cc44753e406ed0b64b3b4fce1005ed1642beeac5662efd945aac6efc1",
+      "hash": "4e595cd928cdb3c15830ddb707d81a8022e2b1b29cd218eabba2a23eea9d71da",
       "checkedDay": "2026-10-26"
     },
     "monitor:pgl-youtube": {
@@ -321,6 +321,10 @@
       "hash": "49099f09ae8942fb39475ee2eee3dc58025bd92483e3a5778deda02438e4e3d4",
       "checkedDay": "2026-10-26",
       "editorialDone": false
+    },
+    "monitor:spacex-mission-sl-15-21": {
+      "hash": "afd623b148154a550bb1f644012892cc725dcb383cd68fdf05f1665b09e355bc",
+      "checkedDay": "2026-10-26"
     }
   },
   "llmAttemptDay": "2026-10-25"

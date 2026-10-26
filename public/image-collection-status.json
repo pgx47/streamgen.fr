@@ -1,15 +1,50 @@
 {
-  "checkedAt": "2026-10-26T14:52:59.052Z",
+  "checkedAt": "2026-10-26T15:15:11.609Z",
   "mode": "scheduled",
   "subjectsChecked": 6,
-  "assignedEvents": 4,
+  "assignedEvents": 0,
   "storedAssets": 5,
   "newAssetsToday": 2,
   "pending": [
     {
-      "subject": "Jeux Olympiques de la Jeunesse Dakar",
+      "subject": "WXV Global Series : Nouvelle-Zélande vs France",
       "sourceUrl": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
       "imageUrl": "https://www.france.tv/logos/social/france-tv.jpg",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "Jeux Olympiques de la Jeunesse Dakar  : Cérémonie d'ouverture",
+      "sourceUrl": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+      "imageUrl": "https://www.france.tv/logos/social/france-tv.jpg",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "CENTRE FEDERAL BB vs BASKET CLUB FRANCONVILLE Womens Other Basketball",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "CFBB vs Geispolsheim Women's Pro Basketball",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "CFBB vs CO Trith Basket Porte du Hainaut Women's Pro Basketball",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "CENTRE FEDERAL BB vs ESTAIRES BC Womens Other Basketball",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     }
@@ -21,40 +56,40 @@
       "reason": "Visuel spécifique déjà validé"
     },
     {
-      "subject": "CERN · What extreme expeditions reveal about human evolutionary physiology",
+      "subject": "WXV Global Series : Nouvelle-Zélande vs France",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "CERN · LHCb",
+      "subject": "Jeux Olympiques de la Jeunesse Dakar  : Cérémonie d'ouverture",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "CERN · The physics potential at FCC-ee",
+      "subject": "CENTRE FEDERAL BB vs BASKET CLUB FRANCONVILLE Womens Other Basketball",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "SpaceX · Starlink 15-16",
+      "subject": "CFBB vs Geispolsheim Women's Pro Basketball",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "SpaceX · Starlink 15-18",
+      "subject": "CFBB vs CO Trith Basket Porte du Hainaut Women's Pro Basketball",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "Jeux Olympiques de la Jeunesse Dakar",
-      "status": "selected",
-      "candidates": 1,
-      "assetKey": "auto-c226ed1010ba65c59c804fc5"
+      "subject": "CENTRE FEDERAL BB vs ESTAIRES BC Womens Other Basketball",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
     }
   ]
 }
