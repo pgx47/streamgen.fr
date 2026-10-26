@@ -154,3 +154,21 @@ data/                                    # caches collection/images
 tests/*.test.mjs
 docs/                                    # collection, ranking, images…
 ```
+
+## État complémentaire — 26 octobre 2026
+
+Les anciennes indications de tests et de rendu ci-dessus sont historiques.
+La suite comporte désormais 100 tests. Les mises en avant sont limitées à trois,
+avec onglets Aujourd'hui/Cette semaine, et ne défilent pas automatiquement.
+L'agenda regroupe les programmes d'une même journée et conserve leurs sources,
+flux et sessions. Le classement est une priorité éditoriale, sans audience mesurée.
+Les logos remplacent les rangs sur les visuels.
+
+Le build génère aussi les hubs thématiques, `/calendriers/`, les abonnements ICS,
+RSS, métadonnées sociales illustrées et données structurées Event lorsque l'heure
+est publiée. Le cache hors connexion existe ; il ne fournit pas de push serveur.
+
+Reste à implémenter : push lorsque le site est fermé et abonnements persistants,
+popularité mesurée, rédaction IA éditoriale étendue, acquisition SEO externe et
+partenariats/affiliation. La qualité de couverture et d'imagerie doit continuer
+à être mesurée par source : le nombre brut de fiches n'en constitue pas la preuve.

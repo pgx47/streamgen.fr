@@ -29,19 +29,41 @@ Mettre à jour les données et les sources ensemble, en conservant les identifia
 
 Le build génère `/evenements/<slug>/index.html`, l’index `/evenements/`, `/sources/`, `sitemap.xml`, `robots.txt` et une véritable page 404. Chaque fiche contient son contenu dans le HTML initial, un H1, un titre, une description, une URL canonique et ses liens de source. Les liens de fiches sont de vrais `<a href>`. L’aperçu modal reste disponible mais les liens copiés mènent à la page complète. Les anciens liens hash fonctionnent pour les identifiants réels ; les favoris fictifs ne sont pas réattribués aux vrais événements.
 
-Les données structurées sont `Article` et `BreadcrumbList` : ces pages sont des guides de diffusion, pas une billetterie, une fiche VideoObject ou la preuve d’un direct. Aucun résultat enrichi Google ni positionnement n’est promis. La canonique est `https://streamgen.fr`, y compris sur les copies de prévisualisation. Les anciennes routes Astro ne sont pas redirigées arbitrairement vers l’accueil : une URL sans équivalent reçoit une 404. La mise à jour des fiches et de leur contenu éditorial reste indispensable au référencement.
+Les données structurées sont `Article`, `BreadcrumbList` et, pour les rendez-vous avec heure connue, `Event` ou `SportsEvent` : ces pages sont des guides de diffusion, pas une billetterie, une fiche VideoObject ou la preuve d’un direct. Aucun résultat enrichi Google ni positionnement n’est promis. La canonique est `https://streamgen.fr`, y compris sur les copies de prévisualisation. Les anciennes routes Astro ne sont pas redirigées arbitrairement vers l’accueil : une URL sans équivalent reçoit une 404. La mise à jour des fiches et de leur contenu éditorial reste indispensable au référencement.
 
 ## Déploiement
 
 Le workflow GitHub vérifie les tests et génère `dist/`, puis déploie vers le projet Cloudflare Pages existant `streamgen` avec `CLOUDFLARE_API_TOKEN` et `CLOUDFLARE_ACCOUNT_ID`. Aucun de ces secrets n’est copié dans les fichiers publics. Pour un autre projet Pages connecté à GitHub : preset None, commande `npm run build`, sortie `dist`. Pour un téléversement direct, publier le contenu de `dist/`. Le site ne dépend pas de l’hébergement Sites.
 
-## Ce qui reste externe
+## Automatisation en place et limites
 
-Aucune collecte DeepSeek, X, scraping récurrent ou publication sociale n’est connectée. Une future collecte devra être exécutée hors du navigateur, à partir de sources autorisées, avec validation éditoriale avant publication des JSON. Le registre de sources constitue un point de départ, pas un engagement de disponibilité des API. Le pipeline historique Astro et ses automatisations restent dans l’historique Git, antérieur au commit `f2c1159`.
+La collecte GitHub fonctionne toutes les quatre heures : calendriers officiels,
+Riot, france.tv sport, Red Bull, YouTube, Liquipedia, PGL, Lichess, Oengus,
+start.gg, PandaScore, CERN, ARTE Concert et spatial. Les accès et limites varient
+par source ; les rapports indiquent les échecs et les absences de données.
+DeepSeek intervient comme extracteur et traducteur borné, avec budget quotidien.
+Il ne constitue pas encore une rédaction éditoriale complète des fiches.
 
-## Visuel
+Chaque collecteur continue indépendamment des autres. Le catalogue passe le
+build avant publication ; les erreurs de processus restent signalées après
+sauvegarde des données valides. Voir `docs/collection.md`.
 
-`public/assets/ping-hero.png` est une illustration générée avec l’outil intégré ImageGen. Elle ne représente pas un participant réel. Prompt : photographie éditoriale cinématographique d’un pongiste fictif, maillot bleu, coup droit, athlète à droite, salle bleu nuit, lumière de stade et reflets vert chartreuse, espace sombre à gauche, sans texte ni logo. Les polices Google Fonts sont facultatives avec repli système.
+Les favoris sont locaux. Les notifications actuelles nécessitent le site ouvert.
+Les push lorsque le site est fermé, la synchronisation entre appareils, les
+mesures de popularité réelles, la publication sociale et l'affiliation ne sont
+pas implémentés. X n'est pas connecté.
+
+## Visuels et abonnements
+
+Les photos de contexte et d'archive, les logos et les images d'événement validées
+sont crédités sur `/credits-images/`. Un recours de discipline n'est pas une
+photo de l'édition annoncée. La collecte d'images vérifie provenance et licence ;
+elle ne garantit pas une affiche spécifique à chaque rendez-vous.
+
+Google Calendar, Outlook et les exports ICS sont disponibles sur les fiches.
+`/calendriers/` expose les abonnements ICS par thème et le flux RSS. Les hubs
+`/sport/`, `/esport/`, `/espace-sciences/`, `/francais/` et `/semaine/` complètent
+le maillage interne. L'indexation et la croissance SEO restent à mesurer.
 
 ## Première collecte automatique
 
