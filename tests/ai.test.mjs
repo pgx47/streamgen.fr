@@ -7,13 +7,14 @@ test('validateAiItems rejects hallucinated or incomplete entries',()=>{
  const {ok,bad}=validateAiItems([
   {title:'Concert symphonique en direct',category:'autres',date:future.slice(0,10),start:future,watchUrl:'https://www.france.tv/x'},
   {title:'Docu replay sans date',category:'autres'},
-  {title:'Trop court',category:'autres',date:future.slice(0,10),start:future},
-  {title:'Lien non https',category:'sport',date:future.slice(0,10),start:future,watchUrl:'http://x.com'},
+  {title:'Court',category:'autres',date:future.slice(0,10),start:future},
+  {title:'Lien non https devient null',category:'sport',date:future.slice(0,10),start:future,watchUrl:'http://x.com'},
   {title:'Catégorie invalide',category:'sport tv',date:future.slice(0,10),start:future},
  ],{origin:'https://www.france.tv'});
- assert.equal(ok.length,1);
- assert.equal(bad.length,4);
+ assert.equal(ok.length,2);
+ assert.equal(bad.length,3);
  assert.equal(ok[0].watchUrl,'https://www.france.tv/x');
+ assert.equal(ok[1].watchUrl,null);
 });
 
 test('cleanAiJson strips markdown fences and keeps the array',()=>{
