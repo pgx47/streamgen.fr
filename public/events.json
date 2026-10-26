@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T03:03:09.028Z",
+  "updatedAt": "2026-10-26T03:07:31.853Z",
   "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -19679,6 +19679,1968 @@
       "major": false,
       "featured": false,
       "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-o6sVDB4M",
+      "slug": "lc-a847f4092571",
+      "title": "2026 Clutch Chess: Champions Showdown",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (St. Louis, Missouri, United States). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-10-27",
+      "start": "2026-10-27T17:00:00.000Z",
+      "end": "2026-10-29T17:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Caruana",
+        "Nakamura",
+        "Praggnanandhaa",
+        "Sindarov"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/2026-clutch-chess-champions-showdown/o6sVDB4M",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/2026-clutch-chess-champions-showdown/o6sVDB4M",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-DOH73W7G",
+      "slug": "lc-d965eb0493ac",
+      "title": "Prague International Chess Festival 2027 | Futures",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Prague, Czechia). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2027-02-16",
+      "start": "2027-02-16T14:15:00.000Z",
+      "end": "2027-02-25T09:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-QXj3HEWi",
+      "slug": "lc-68753ace4231",
+      "title": "Prague International Chess Festival 2027 | Challengers",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Prague, Czechia). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2027-02-16",
+      "start": "2027-02-16T14:15:00.000Z",
+      "end": "2027-02-25T09:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-challengers/QXj3HEWi",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-challengers/QXj3HEWi",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-1VcAFMbQ",
+      "slug": "lc-06a13e02aa6b",
+      "title": "Prague International Chess Festival 2027 | Masters",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Prague, Czechia). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2027-02-16",
+      "start": "2027-02-16T14:15:00.000Z",
+      "end": "2027-02-25T09:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-G5JF01hD",
+      "slug": "lc-5b1a94f0fbe3",
+      "title": "KazChess Masters Almaty 2026",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Almaty, Kazakhstan). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-10-26",
+      "start": "2026-10-26T10:15:00.000Z",
+      "end": "2026-11-03T06:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Muradli",
+        "Dubov",
+        "Vokhidov",
+        "Hakobyan",
+        "Lazavik"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/kazchess-masters-almaty-2026/G5JF01hD",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/kazchess-masters-almaty-2026/G5JF01hD",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-Viptbwtm",
+      "slug": "lc-4c11fe2c0c1c",
+      "title": "FIDE World Senior Chess Championships 2026 |  Women 65+",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Banja, Serbia). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-03",
+      "start": "2026-11-03T14:15:00.000Z",
+      "end": "2026-11-14T13:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/fide-world-senior-chess-championships-2026-women-65/Viptbwtm",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/fide-world-senior-chess-championships-2026-women-65/Viptbwtm",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-oPEbUUmp",
+      "slug": "lc-f7c8b261a677",
+      "title": "FIDE World Senior Chess Championships 2026 |  Open 65+",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Banja, Serbia). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-03",
+      "start": "2026-11-03T14:15:00.000Z",
+      "end": "2026-11-14T13:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/fide-world-senior-chess-championships-2026-open-65/oPEbUUmp",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/fide-world-senior-chess-championships-2026-open-65/oPEbUUmp",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-P453OtnT",
+      "slug": "lc-df24c882a8f7",
+      "title": "FIDE World Senior Chess Championships 2026 |  Women 50+",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Banja, Serbia). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-03",
+      "start": "2026-11-03T14:15:00.000Z",
+      "end": "2026-11-14T13:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/fide-world-senior-chess-championships-2026-women-50/P453OtnT",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/fide-world-senior-chess-championships-2026-women-50/P453OtnT",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-yVOLKime",
+      "slug": "lc-1e9fcb235f2a",
+      "title": "FIDE World Senior Chess Championships 2026 | Open 50+",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Banja, Serbia). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-03",
+      "start": "2026-11-03T14:15:00.000Z",
+      "end": "2026-11-14T13:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/fide-world-senior-chess-championships-2026-open-50/yVOLKime",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/fide-world-senior-chess-championships-2026-open-50/yVOLKime",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-gm1BydKM",
+      "slug": "lc-d8ebfb060b08",
+      "title": "Group B - U2000",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Benidorm, Spain). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-28",
+      "start": "2026-11-28T16:15:00.000Z",
+      "end": "2026-12-05T09:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/group-b-u2000/gm1BydKM",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/group-b-u2000/gm1BydKM",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-rs7zxTby",
+      "slug": "lc-3daf291012ff",
+      "title": "Group A - Open",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Benidorm, Spain). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-28",
+      "start": "2026-11-28T16:15:00.000Z",
+      "end": "2026-12-05T09:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Pranav Anand",
+        "Kamsky",
+        "Gurevich"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/group-a-open/rs7zxTby",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/group-a-open/rs7zxTby",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-WyE5ef57",
+      "slug": "lc-771db49044b4",
+      "title": "English Chess Championships 2026 | Women | Blitz",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Peterborough, England). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-01",
+      "start": "2026-11-01T10:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-women-blitz/WyE5ef57",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-women-blitz/WyE5ef57",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-ZM3uz8bH",
+      "slug": "lc-36b33c7143b5",
+      "title": "English Chess Championships 2026 | Open | Blitz",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Peterborough, England). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-01",
+      "start": "2026-11-01T10:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-open-blitz/ZM3uz8bH",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-open-blitz/ZM3uz8bH",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-EDeWllBx",
+      "slug": "lc-2fd8ac06a1a3",
+      "title": "English Chess Championships 2026 | Over 65's | Classical",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Peterborough, England). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-10-26",
+      "start": "2026-10-26T10:00:00.000Z",
+      "end": "2026-10-31T15:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-over-65s-classical/EDeWllBx",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-over-65s-classical/EDeWllBx",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-0NA4rnCR",
+      "slug": "lc-e44b0a35c36f",
+      "title": "English Chess Championships 2026 | Over 50's | Classical",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Peterborough, England). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-10-26",
+      "start": "2026-10-26T10:00:00.000Z",
+      "end": "2026-10-31T15:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-over-50s-classical/0NA4rnCR",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-over-50s-classical/0NA4rnCR",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-tOJize5M",
+      "slug": "lc-d9d03360ebe3",
+      "title": "English Chess Championships 2026 | Women | Classical",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Peterborough, England). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-10-26",
+      "start": "2026-10-26T10:00:00.000Z",
+      "end": "2026-10-31T15:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-women-classical/tOJize5M",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-women-classical/tOJize5M",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-inCygpgU",
+      "slug": "lc-05d9aa351164",
+      "title": "English Chess Championships 2026 | Open | Classical",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Peterborough, England). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-10-26",
+      "start": "2026-10-26T10:00:00.000Z",
+      "end": "2026-10-31T15:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Gawain Maroroa Jones",
+        "Michael Adams",
+        "Ameet Ghasi"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-open-classical/inCygpgU",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/english-chess-championships-2026-open-classical/inCygpgU",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-SDTIbAwY",
+      "slug": "lc-25dc8d6237e4",
+      "title": "XI Open Internacional Semana Santa San Vicente del Raspeig 2027 | U2000",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (San Vicente del Raspeig, Spain). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2027-03-24",
+      "start": "2027-03-24T16:15:00.000Z",
+      "end": "2027-03-29T08:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/xi-open-internacional-semana-santa-san-vicente-del-raspeig-2027-u2000/SDTIbAwY",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/xi-open-internacional-semana-santa-san-vicente-del-raspeig-2027-u2000/SDTIbAwY",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-iXhekc0K",
+      "slug": "lc-110ecc1130e6",
+      "title": "XI Open Internacional Semana Santa San Vicente del Raspeig 2027 | Open",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (San Vicente del Raspeig, Spain). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2027-03-24",
+      "start": "2027-03-24T16:15:00.000Z",
+      "end": "2027-03-29T08:15:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Iturrizaga",
+        "Gholami Orimi",
+        "Narayanan"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/xi-open-internacional-semana-santa-san-vicente-del-raspeig-2027-open/iXhekc0K",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/xi-open-internacional-semana-santa-san-vicente-del-raspeig-2027-open/iXhekc0K",
+          "sourceId": "lichess",
+          "collectedAt": "2026-10-26T03:06:31.464Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:06:31.464Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-HiGR",
+      "slug": "oe-332034dd89b9",
+      "title": "Horrible Games",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-10-23",
+      "start": "2026-10-23T17:00:00.000Z",
+      "end": "2026-10-26T03:26:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · Horrible Games",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · HorribleGamesMarathon",
+          "url": "https://www.twitch.tv/horriblegamesmarathon",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/HiGR",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-sslfwa26",
+      "slug": "oe-sslfwa26",
+      "title": "Speed Stuff at InfernaLAN 2026",
+      "summary": "Marathon de speedrun annoncé sur Oengus (Centralia, WA), diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-11-21",
+      "start": "2026-11-21T01:00:00.000Z",
+      "end": "2026-11-23T04:59:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · Speed Stuff at InfernaLAN 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · speedstuff4charity",
+          "url": "https://www.twitch.tv/speedstuff4charity",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/sslfwa26",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-raa2026",
+      "slug": "oe-raa2026",
+      "title": "RacAttack2026",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-11-14",
+      "start": "2026-11-14T12:00:00.000Z",
+      "end": "2026-11-15T17:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · RacAttack2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · ratchetruns",
+          "url": "https://www.twitch.tv/ratchetruns",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/raa2026",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-finnwin27",
+      "slug": "oe-finnwin27",
+      "title": "FINNRUNS Winter 2027",
+      "summary": "Marathon de speedrun annoncé sur Oengus (GamePit Pro Jamk Jyväskylä), diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2027-01-06",
+      "start": "2027-01-06T13:00:00.000Z",
+      "end": "2027-01-10T16:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · FINNRUNS Winter 2027",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · finnruns",
+          "url": "https://www.twitch.tv/finnruns",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/finnwin27",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-RRLAT10",
+      "slug": "oe-83f7ae460563",
+      "title": "Really Really Long A Thon 10",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-12-01",
+      "start": "2026-12-01T16:00:00.000Z",
+      "end": "2027-01-03T05:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · Really Really Long A Thon 10",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · reallyreallylongathon",
+          "url": "https://www.twitch.tv/reallyreallylongathon",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/RRLAT10",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-dsr23",
+      "slug": "oe-dsr23",
+      "title": "Don-t Stop Running-23",
+      "summary": "Marathon de speedrun annoncé sur Oengus (京都・下鴨　喫茶ギャラリーさろん淳平), diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-12-05",
+      "start": "2026-12-05T02:00:00.000Z",
+      "end": "2026-12-05T10:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · Don-t Stop Running-23",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · jaws_players",
+          "url": "https://www.twitch.tv/jaws_players",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/dsr23",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-bingow26",
+      "slug": "oe-bingow26",
+      "title": "Bingothon Winter 2026",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-12-04",
+      "start": "2026-12-04T13:00:00.000Z",
+      "end": "2026-12-07T10:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · Bingothon Winter 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · bingothon",
+          "url": "https://www.twitch.tv/bingothon",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/bingow26",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-cst2026",
+      "slug": "oe-cst2026",
+      "title": "Celets Speed Together 2026",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-12-10",
+      "start": "2026-12-10T20:00:00.000Z",
+      "end": "2026-12-13T22:59:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": true,
+      "frenchNote": "Événement francophone ou organisé en France",
+      "organizer": "Oengus · Celets Speed Together 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · DrakeLeLionBlanc",
+          "url": "https://www.twitch.tv/drakelelionblanc",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Français",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/cst2026",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-ihsm2026",
+      "slug": "oe-ihsm2026",
+      "title": "Indie Horror Speedruns Marathon 2026",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-12-19",
+      "start": "2026-12-19T18:00:00.000Z",
+      "end": "2026-12-20T02:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · Indie Horror Speedruns Marathon 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · IndieHorrorSpeedruns",
+          "url": "https://www.twitch.tv/indiehorrorspeedruns",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/ihsm2026",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-P4P2026",
+      "slug": "oe-ed58914c3436",
+      "title": "Pixels for People 2026",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-12-04",
+      "start": "2026-12-04T12:00:00.000Z",
+      "end": "2026-12-07T00:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · Pixels for People 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · karterfreak",
+          "url": "https://www.twitch.tv/karterfreak",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/P4P2026",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-sre11",
+      "slug": "oe-sre11",
+      "title": "SRE11",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-12-05",
+      "start": "2026-12-05T17:00:00.000Z",
+      "end": "2026-12-14T21:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · SRE11",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · speedrunsespanol",
+          "url": "https://www.twitch.tv/speedrunsespanol",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/sre11",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-uksgred27",
+      "slug": "oe-uksgred27",
+      "title": "UKSG RED 2027",
+      "summary": "Marathon de speedrun annoncé sur Oengus (Glasgow, Scotland), diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2027-02-05",
+      "start": "2027-02-05T09:00:00.000Z",
+      "end": "2027-02-07T22:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · UKSG RED 2027",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · uksgmarathon",
+          "url": "https://www.twitch.tv/uksgmarathon",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/uksgred27",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "oe-WRMII",
+      "slug": "oe-2d21b272ae13",
+      "title": "World Rally Marathon II",
+      "summary": "Marathon de speedrun annoncé sur Oengus, diffusé sur la chaîne Twitch de l’événement. Le planning des runs peut évoluer.",
+      "category": "créateurs",
+      "subcategory": "Speedrun",
+      "date": "2026-12-25",
+      "start": "2026-12-25T18:00:00.000Z",
+      "end": "2026-12-27T18:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Oengus · World Rally Marathon II",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · worldrallymarathon",
+          "url": "https://www.twitch.tv/worldrallymarathon",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du marathon déclarée sur Oengus",
+          "confirmed": true,
+          "restrictions": "Diffusion annoncée par l’organisateur ; le flux actif n’est pas surveillé.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oengus · marathon",
+          "url": "https://oengus.io/marathon/WRMII",
+          "sourceId": "oengus",
+          "collectedAt": "2026-10-26T03:07:00.722Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T03:07:00.722Z",
+      "confirmation": "Marathon listé dans l’API publique Oengus",
+      "schedule": [],
+      "notes": [
+        "Dates ISO fournies par l’API Oengus. Le détail des runs est publié par l’organisateur sur la page du marathon."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "LIVE",
       "commercial": {
         "affiliateUrl": null,
         "sponsor": null,

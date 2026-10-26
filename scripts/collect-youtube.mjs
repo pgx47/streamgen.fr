@@ -12,7 +12,10 @@ const CHANNELS=[
  {handle:'EuropeanSpaceAgency',name:'ESA · Agence spatiale européenne',genre:'Espace',category:'autres'},
  {handle:'NASA',name:'NASA',genre:'Espace',category:'autres'},
  {handle:'collegedefrance',name:'Collège de France',genre:'Sciences et conférences',category:'autres'},
+ {handle:'Senat',name:'Sénat',genre:'Institutions',category:'autres'},
+ {handle:'PublicSenat',name:'Public Sénat · LCP',genre:'Institutions',category:'autres'},
 ];
+const RERUN=/\b(redif(?:fusion)?|rerun|replay|vod|best of|best-of|compilation)\b|\[redif\]/i;
 const DETAILS_PER_CHANNEL=20;
 async function page(url){const r=await fetch(url,{signal:AbortSignal.timeout(25000),headers:{'User-Agent':'StreamGen/1.0 (+https://streamgen.fr/sources/)','Accept-Language':'en-US,en;q=0.9'}});if(!r.ok)throw Error('HTTP '+r.status);const chunks=[];let size=0;for await(const c of r.body){size+=c.length;if(size>3500000)throw Error('Page trop volumineuse');chunks.push(c)}return Buffer.concat(chunks).toString('utf8')}
 const catalog=await read('public/events.json'),registry=await read('public/sources.json'),status=await read('public/collection-status.json');
@@ -26,7 +29,7 @@ for(const ch of CHANNELS){
   for(const l of candidates){
    const watch='https://www.youtube.com/watch?v='+l.videoId;
    let d;try{d=parseWatchDetails(await page(watch))}catch{continue}
-   checked++;if(!d||!d.livestream||d.premiere||!d.start||Date.parse(d.start)<=Date.now())continue;
+   checked++;if(!d||!d.livestream||d.premiere||!d.start||Date.parse(d.start)<=Date.now()||RERUN.test(l.title))continue;
    const title=cleanYouTubeTitle(l.title||d.title),eid='yt-'+l.videoId,slug='yt-'+createHash('sha256').update(l.videoId).digest('hex').slice(0,16),date=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(d.start));
    const e={
     id:eid,slug,title:title.slice(0,180),summary:`Direct annoncé sur la chaîne YouTube officielle ${ch.name}. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.`,

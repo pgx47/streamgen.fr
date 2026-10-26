@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T03:03:09.028Z",
+  "updatedAt": "2026-10-26T03:07:00.722Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -585,6 +585,24 @@
       "purpose": "Matchs datés et streams officiels pour les jeux non couverts ailleurs",
       "checkedAt": "2026-10-26T03:03:09.028Z",
       "notes": "API REST gratuite. Les jeux couverts par Liquipedia (CS2, Dota 2, Rocket League) et Riot (LoL, Valorant) sont exclus pour éviter les doublons."
+    },
+    {
+      "id": "lichess",
+      "name": "Lichess · broadcasts officiels",
+      "url": "https://lichess.org/broadcast",
+      "kind": "official",
+      "purpose": "Tournois d’échecs retransmis en direct",
+      "checkedAt": "2026-10-26T03:06:31.464Z",
+      "notes": "API publique sans clé (NDJSON). Seuls les tournois listés par Lichess sont publiés."
+    },
+    {
+      "id": "oengus",
+      "name": "Oengus · marathons de speedrun",
+      "url": "https://oengus.io/",
+      "kind": "official",
+      "purpose": "Marathons speedrun avec chaîne Twitch déclarée",
+      "checkedAt": "2026-10-26T03:07:00.722Z",
+      "notes": "API publique sans clé. La chaîne Twitch est lue dans le détail de chaque marathon ; seuls les marathons avec chaîne renseignée sont publiés."
     }
   ]
 }

@@ -608,6 +608,22 @@
       "checkedAt": "2026-10-26T03:03:09.028Z",
       "matches": 6,
       "observed": 6
+    },
+    {
+      "id": "lichess",
+      "status": "ok",
+      "url": "https://lichess.org/broadcast",
+      "checkedAt": "2026-10-26T03:06:31.464Z",
+      "tournaments": 19,
+      "observed": 19
+    },
+    {
+      "id": "oengus",
+      "status": "ok",
+      "url": "https://oengus.io/",
+      "checkedAt": "2026-10-26T03:07:00.722Z",
+      "candidates": 15,
+      "observed": 13
     }
   ]
 }

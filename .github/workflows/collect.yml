@@ -74,6 +74,10 @@ jobs:
         run: node scripts/collect-pandascore.mjs
         env:
           PANDASCORE_API_KEY: ${{ secrets.PANDASCORE_API_KEY }}
+      - name: Collect Lichess broadcast tournaments
+        run: node scripts/collect-lichess.mjs
+      - name: Collect Oengus speedrun marathons
+        run: node scripts/collect-oengus.mjs
       - name: Discover and validate event images
         run: node scripts/collect-images.mjs
       - run: npm run build
@@ -108,6 +112,8 @@ jobs:
             work/liquipedia-run.json
             work/startgg-run.json
             work/pandascore-run.json
+            work/lichess-run.json
+            work/oengus-run.json
           retention-days: 14
   deploy:
     needs: collect
