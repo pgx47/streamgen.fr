@@ -148,3 +148,29 @@ main.detail-page.event-detail{width:100%;max-width:none;padding-top:24px}
  main,main.detail-page,main.detail-page.event-detail{width:80%;max-width:none;margin-inline:auto;padding-inline:0}
  header{padding-inline:10%}
 }
+
+/* Une barre courte, les critères détaillés à la demande. */
+.agenda-layout{grid-template-columns:minmax(0,1fr)!important}
+aside.agenda-filters{display:block;background:none;border:0;padding:0;margin:0 0 4px}
+.filter-bar{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;position:relative}
+aside.agenda-filters .quick-categories{display:flex;align-items:center;gap:6px;flex-wrap:wrap;border:0;padding:0;margin:0;min-width:0}
+.agenda-filters .quick-categories legend{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+aside.agenda-filters .quick-categories label{position:relative;display:inline-flex;align-items:center;gap:8px;margin:0;padding:9px 16px;min-height:42px;border:1px solid #354255;border-radius:6px;background:#121b27;font-size:16px!important;line-height:1.4;cursor:pointer;white-space:nowrap}
+.agenda-filters .quick-categories input{position:absolute;opacity:0;width:1px;height:1px;min-width:0;flex:none}
+.agenda-filters .quick-categories label:has(input:checked){background:#c3fa62;border-color:#c3fa62;color:#11180a}
+.agenda-filters .quick-categories label:focus-within{outline:2px solid #c3fa62;outline-offset:3px}
+.agenda-filters .quick-categories .dot{margin:0;width:6px;height:6px;flex:none}
+.advanced-filters{flex:1;min-width:190px}
+.advanced-filters>summary{display:inline-flex;align-items:center;gap:10px;cursor:pointer;list-style:none;border:1px solid #46556a;border-radius:6px;min-height:42px;padding:9px 16px;font-size:16px;background:#192331;color:#eff5fc}
+.advanced-filters>summary::-webkit-details-marker{display:none}
+.advanced-filters[open]>summary{border-color:#a1c670}
+#filter-count{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;border-radius:4px;background:#c3fa62;color:#131b0b;font-weight:700}
+#filter-count[hidden]{display:none}
+.filter-panel{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;background:#111c29;border:1px solid #34455a;border-radius:8px;padding:24px;margin-top:12px}
+aside.agenda-filters .filter-panel fieldset{display:block;min-width:0;padding:0;margin:0;border:0}
+aside.agenda-filters .filter-panel legend{display:block;font-size:16px!important;color:#a3b5cb;letter-spacing:.04em;margin-bottom:12px;font-weight:600}
+aside.agenda-filters .filter-panel label{display:flex;align-items:center;flex-wrap:wrap;gap:9px;white-space:normal;border:0;border-radius:4px;background:transparent;padding:8px 4px;margin:0;min-height:40px;font-size:16px!important;line-height:1.5;cursor:pointer}
+.agenda-filters .filter-panel .hint{flex-basis:100%;padding-left:28px;color:#94a7bd;font-size:16px;line-height:1.5}
+.filter-panel-footer{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:16px;border-top:1px solid #2b3a4c;padding-top:14px}
+.filter-panel-footer button{font-size:16px;min-height:40px;padding:8px 12px}
+@media(max-width:800px){.filter-bar{gap:10px}.advanced-filters{flex-basis:100%}.filter-panel{grid-template-columns:minmax(0,1fr);gap:20px;padding:18px}.filter-panel-footer{flex-wrap:wrap}.agenda-filters .quick-categories{width:100%}aside.agenda-filters .quick-categories label{flex:1;justify-content:center;padding-inline:10px}}
