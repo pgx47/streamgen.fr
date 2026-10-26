@@ -53,7 +53,7 @@ export function editorialPriority(e,now=new Date()){
  const today=dateKey(now),distance=Math.round((Date.parse(e.date+'T12:00:00Z')-Date.parse(today+'T12:00:00Z'))/86400000);
  score+=distance===0?30:distance===1?24:distance<=3&&distance>0?18:distance<=7&&distance>0?12:distance<=14&&distance>0?4:0;
  if(distance===0)reasons.push('Aujourd’hui');else if(distance===1)reasons.push('Demain');
- return {score,importance,reasons,series,routine,spotlightEligible:!routine,label:routine?'Stream régulier':score>=70?'Grand rendez-vous':score>=45?'À suivre':'Au programme'};
+ return {score,importance,reasons,series,routine,spotlightEligible:!routine&&(e.programType!=='scheduled-tv'||/concert|festival|opera|spectacle/i.test(e.subcategory||'')),label:routine?'Stream régulier':score>=70?'Grand rendez-vous':score>=45?'À suivre':'Au programme'};
 }
 export function rankHighlights(events,now=new Date(),limit=3,{includeRoutine=false}={}){
  const today=dateKey(now),latest=new Date(Date.parse(today+'T12:00:00Z')+30*86400000).toISOString().slice(0,10);

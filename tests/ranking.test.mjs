@@ -86,3 +86,8 @@ test('ordinary creator streams never enter any rotating highlight slot, but stay
  assert.ok(discovery.some(e=>e.id==='routine'));assert.equal(discovery.at(-1).id,'routine');
  assert.equal(catalog.length,3);assert.ok(rankHighlights(catalog,now,6).some(e=>e.id==='special'));
 });
+test('ordinary scheduled TV enriches the agenda without displacing exceptional highlights',()=>{
+ const tv=event('arte','Documentaire quotidien',{category:'autres',subcategory:'Documentaires',programType:'scheduled-tv'});
+ assert.equal(rankHighlights([tv],now,3).length,0);
+ assert.equal(rankHighlights([tv],now,3,{includeRoutine:true}).length,1);
+});

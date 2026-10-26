@@ -8,7 +8,7 @@ test('les événements ont de vraies pages HTML indexables, reliées au sitemap'
  const sitemap=await readFile('dist/sitemap.xml','utf8');
  for(const e of data.events){
   const html=await readFile(`dist/evenements/${e.slug}/index.html`,'utf8');
-  assert.ok(html.includes(e.title.replaceAll('&','&amp;')));assert.match(html,/<h1>/);assert.match(html,/rel="canonical"/);assert.ok(html.includes(e.sources[0].url.replaceAll('&','&amp;')));assert.ok(sitemap.includes(`/evenements/${e.slug}/`));assert.doesNotMatch(html,/Démonstration — événement fictif/);
+  assert.ok(html.includes(e.title.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('\"','&quot;').replaceAll("'",'&#39;')));assert.match(html,/<h1>/);assert.match(html,/rel="canonical"/);assert.ok(html.includes(e.sources[0].url.replaceAll('&','&amp;')));assert.ok(sitemap.includes(`/evenements/${e.slug}/`));assert.doesNotMatch(html,/Démonstration — événement fictif/);
  }
  await access('dist/sources/index.html');await access('dist/evenements/index.html');await access('dist/404.html');
  const home=await readFile('dist/index.html','utf8');assert.match(home,/href="\/evenements\//);assert.doesNotMatch(home,/événements fictifs/);

@@ -52,6 +52,8 @@ jobs:
           LLM_BUDGET_ALLOWED: ${{ steps.llm_budget.outputs.cache-hit != 'true' && steps.verify_reservation.outputs.cache-hit == 'true' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+      - name: Collect ARTE weekly TV guide
+        run: node scripts/collect-arte.mjs
       - name: Discover and validate event images
         run: node scripts/collect-images.mjs
       - run: npm run build
@@ -77,6 +79,7 @@ jobs:
             work/collection-run.json
             work/feeds-run.json
             work/images-run.json
+            work/arte-run.json
           retention-days: 14
   deploy:
     needs: collect

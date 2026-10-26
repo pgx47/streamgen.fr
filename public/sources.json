@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T23:52:31.288Z",
+  "updatedAt": "2026-10-26T00:27:07.670Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -244,6 +244,78 @@
       "purpose": "Programme de diffusion collecté automatiquement",
       "checkedAt": "2026-10-25T23:52:31.288Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
+    },
+    {
+      "id": "arte-guide-2026-10-26",
+      "name": "ARTE · guide TV 2026-10-26",
+      "url": "https://www.arte.tv/fr/guide/20261026/",
+      "purpose": "Horaires des programmes télévisés",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
+    },
+    {
+      "id": "arte-guide-2026-10-27",
+      "name": "ARTE · guide TV 2026-10-27",
+      "url": "https://www.arte.tv/fr/guide/20261027/",
+      "purpose": "Horaires des programmes télévisés",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
+    },
+    {
+      "id": "arte-guide-2026-10-28",
+      "name": "ARTE · guide TV 2026-10-28",
+      "url": "https://www.arte.tv/fr/guide/20261028/",
+      "purpose": "Horaires des programmes télévisés",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
+    },
+    {
+      "id": "arte-guide-2026-10-29",
+      "name": "ARTE · guide TV 2026-10-29",
+      "url": "https://www.arte.tv/fr/guide/20261029/",
+      "purpose": "Horaires des programmes télévisés",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
+    },
+    {
+      "id": "arte-guide-2026-10-30",
+      "name": "ARTE · guide TV 2026-10-30",
+      "url": "https://www.arte.tv/fr/guide/20261030/",
+      "purpose": "Horaires des programmes télévisés",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
+    },
+    {
+      "id": "arte-guide-2026-10-31",
+      "name": "ARTE · guide TV 2026-10-31",
+      "url": "https://www.arte.tv/fr/guide/20261031/",
+      "purpose": "Horaires des programmes télévisés",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
+    },
+    {
+      "id": "arte-guide-2026-11-01",
+      "name": "ARTE · guide TV 2026-11-01",
+      "url": "https://www.arte.tv/fr/guide/20261101/",
+      "purpose": "Horaires des programmes télévisés",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
+    },
+    {
+      "id": "arte-guide-2026-11-02",
+      "name": "ARTE · guide TV 2026-11-02",
+      "url": "https://www.arte.tv/fr/guide/20261102/",
+      "purpose": "Horaires des programmes télévisés",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:27:07.670Z",
+      "notes": "Source du diffuseur. Horaire d’antenne et disponibilité en replay séparés ; droit de diffusion en ligne indiqué sans garantir le territoire."
     }
   ]
 }
