@@ -565,6 +565,33 @@
       "candidates": 0,
       "checked": 0,
       "observed": 0
+    },
+    {
+      "id": "lp-counterstrike",
+      "status": "ok",
+      "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "matches": 30,
+      "tournaments": 4,
+      "observed": 30
+    },
+    {
+      "id": "lp-dota2",
+      "status": "ok",
+      "url": "https://liquipedia.net/dota2/Liquipedia:Matches",
+      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "matches": 30,
+      "tournaments": 4,
+      "observed": 30
+    },
+    {
+      "id": "lp-rocketleague",
+      "status": "ok",
+      "url": "https://liquipedia.net/rocketleague/Liquipedia:Matches",
+      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "matches": 30,
+      "tournaments": 3,
+      "observed": 30
     }
   ]
 }

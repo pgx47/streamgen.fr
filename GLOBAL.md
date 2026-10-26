@@ -72,6 +72,7 @@ Lancés par `.github/workflows/collect.yml` toutes les 4 h (minute 17 UTC).
 | `collect-space.mjs` | spacex.com + Launch Library 2 | Fenêtres de lancement, recoupement indépendant |
 | `collect-france-sport.mjs` | france.tv/sport | « Nos directs à venir », semaine datée |
 | `collect-youtube.mjs` | Chaînes YouTube officielles (FFF, FFBB, FIBA, Roland-Garros, Olympics, ESA, NASA, Collège de France) | Page `/streams` → seuls les livestreams programmés (`liveBroadcastDetails` ISO, durée nulle) ; premières, replays et flux permanents exclus |
+| `collect-liquipedia.mjs` | Liquipedia (CS2, Dota 2, Rocket League) | `Liquipedia:Matches` (timestamp, équipes, BoX) + pages tournoi → chaînes Twitch/Kick/YouTube officielles ; ~2 s/requête |
 | `collect-images.mjs` | sources officielles + Wikimedia Commons | Visuels licenciés, crédits, rejet NC/ND/incohérences |
 
 Logique partagée dans `scripts/collectors/` : `feeds.mjs` (toEvent),

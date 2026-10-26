@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T02:47:31.161Z",
+  "updatedAt": "2026-10-26T02:57:54.345Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -540,6 +540,33 @@
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
       "checkedAt": "2026-10-26T02:47:31.161Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "lp-counterstrike",
+      "name": "Liquipedia · calendrier Counter-Strike",
+      "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+      "kind": "community",
+      "purpose": "Matchs datés et chaînes officielles des tournois",
+      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "notes": "Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~2 s entre requêtes."
+    },
+    {
+      "id": "lp-dota2",
+      "name": "Liquipedia · calendrier Dota 2",
+      "url": "https://liquipedia.net/dota2/Liquipedia:Matches",
+      "kind": "community",
+      "purpose": "Matchs datés et chaînes officielles des tournois",
+      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "notes": "Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~2 s entre requêtes."
+    },
+    {
+      "id": "lp-rocketleague",
+      "name": "Liquipedia · calendrier Rocket League",
+      "url": "https://liquipedia.net/rocketleague/Liquipedia:Matches",
+      "kind": "community",
+      "purpose": "Matchs datés et chaînes officielles des tournois",
+      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "notes": "Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~2 s entre requêtes."
     }
   ]
 }
