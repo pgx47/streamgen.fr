@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T00:47:12.833Z",
-  "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, Red Bull TV, ARTE et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
+  "updatedAt": "2026-10-26T00:54:06.455Z",
+  "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, Red Bull TV, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
       "id": "wtt-montpellier-2026-10-27",
@@ -19957,6 +19957,226 @@
         "publisherCount": 1,
         "pageCount": 2,
         "independent": false
+      }
+    },
+    {
+      "id": "spacex-launches-037eb686c8f449ab",
+      "slug": "spacex-launches-037eb686c8f449ab",
+      "title": "SpaceX · Starlink 15-16 — fenêtre de lancement",
+      "summary": "Ouverture de la fenêtre de lancement de Falcon 9. Le décollage peut être décalé dans cette fenêtre ; consultez la retransmission officielle SpaceX pour suivre le compte à rebours.",
+      "category": "autres",
+      "subcategory": "Espace",
+      "date": "2026-10-27",
+      "start": "2026-10-27T04:45:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "SpaceX",
+      "broadcastOptions": [
+        {
+          "platform": "X",
+          "label": "SpaceX · retransmission officielle",
+          "url": "https://x.com/i/broadcasts/1mGPaZgYgLDJN",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions du lecteur et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Le lien est annoncé pour cette mission par SpaceX. La présence d’un flux actif et l’absence de compte requis ne sont pas déduites.",
+          "linkKind": "stream"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SpaceX · programme officiel",
+          "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
+          "sourceId": "spacex-upcoming",
+          "collectedAt": "2026-10-26T00:54:06.455Z"
+        },
+        {
+          "sourceId": "spacex-timings",
+          "label": "SpaceX · fenêtre horaire officielle",
+          "url": "https://content.spacex.com/cms-assets/future_missions.json",
+          "collectedAt": "2026-10-26T00:54:06.455Z"
+        },
+        {
+          "sourceId": "spacex-mission-sl-15-16",
+          "label": "SpaceX · annonce et webcast de cette mission",
+          "url": "https://www.spacex.com/launches/sl-15-16",
+          "collectedAt": "2026-10-26T00:54:06.455Z"
+        },
+        {
+          "sourceId": "space-devs-upcoming",
+          "label": "The Space Devs · calendrier des lancements",
+          "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
+          "collectedAt": "2026-10-26T00:54:06.455Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:54:06.455Z",
+      "confirmation": "Fenêtre SpaceX recoupée avec The Space Devs",
+      "schedule": [],
+      "notes": [
+        "L’heure affichée est l’ouverture de la fenêtre de lancement, pas une heure garantie de décollage ni de début de vidéo.",
+        "La fermeture de fenêtre est 27 octobre 2026 à 09:45 (Paris). Elle ne définit pas la fin du direct.",
+        "Les horaires des vidéos de sources tierces ne sont pas réutilisés."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "ESPACE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalMissionId": "sl-15-16",
+      "launchWindow": {
+        "open": "2026-10-27T04:45:00.000Z",
+        "close": "2026-10-27T08:45:00.000Z"
+      },
+      "startMeaning": "launch-window-open",
+      "evidence": {
+        "schedule": {
+          "url": "https://content.spacex.com/cms-assets/future_missions.json",
+          "field": "PrimaryLaunchWindow.Open.Seconds",
+          "observedAt": "2026-10-26T00:54:06.455Z"
+        },
+        "broadcast": {
+          "url": "https://content.spacex.com/api/spacex-website/missions/sl-15-16",
+          "field": "webcasts",
+          "observedAt": "2026-10-26T00:54:06.455Z"
+        },
+        "secondarySchedule": {
+          "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
+          "launchId": "e2886a96-5ce9-4f45-872f-4e25a00be837",
+          "start": "2026-10-27T04:45:00.000Z",
+          "agreement": true,
+          "observedAt": "2026-10-26T00:54:06.455Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
+      }
+    },
+    {
+      "id": "spacex-launches-773e09207a2f0ccf",
+      "slug": "spacex-launches-773e09207a2f0ccf",
+      "title": "SpaceX · Starlink 15-18 — fenêtre de lancement",
+      "summary": "Ouverture de la fenêtre de lancement de Falcon 9. Le décollage peut être décalé dans cette fenêtre ; consultez la retransmission officielle SpaceX pour suivre le compte à rebours.",
+      "category": "autres",
+      "subcategory": "Espace",
+      "date": "2026-10-30",
+      "start": "2026-10-30T04:02:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "SpaceX",
+      "broadcastOptions": [
+        {
+          "platform": "X",
+          "label": "SpaceX · retransmission officielle",
+          "url": "https://x.com/i/broadcasts/1DGleVlqoaqJL",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Conditions du lecteur et disponibilité selon votre territoire",
+          "confirmed": true,
+          "restrictions": "Le lien est annoncé pour cette mission par SpaceX. La présence d’un flux actif et l’absence de compte requis ne sont pas déduites.",
+          "linkKind": "stream"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SpaceX · programme officiel",
+          "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
+          "sourceId": "spacex-upcoming",
+          "collectedAt": "2026-10-26T00:54:06.455Z"
+        },
+        {
+          "sourceId": "spacex-timings",
+          "label": "SpaceX · fenêtre horaire officielle",
+          "url": "https://content.spacex.com/cms-assets/future_missions.json",
+          "collectedAt": "2026-10-26T00:54:06.455Z"
+        },
+        {
+          "sourceId": "spacex-mission-sl-15-18",
+          "label": "SpaceX · annonce et webcast de cette mission",
+          "url": "https://www.spacex.com/launches/sl-15-18",
+          "collectedAt": "2026-10-26T00:54:06.455Z"
+        },
+        {
+          "sourceId": "space-devs-upcoming",
+          "label": "The Space Devs · calendrier des lancements",
+          "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
+          "collectedAt": "2026-10-26T00:54:06.455Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:54:06.455Z",
+      "confirmation": "Fenêtre SpaceX recoupée avec The Space Devs",
+      "schedule": [],
+      "notes": [
+        "L’heure affichée est l’ouverture de la fenêtre de lancement, pas une heure garantie de décollage ni de début de vidéo.",
+        "La fermeture de fenêtre est 30 octobre 2026 à 09:02 (Paris). Elle ne définit pas la fin du direct.",
+        "Les horaires des vidéos de sources tierces ne sont pas réutilisés."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "ESPACE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "externalMissionId": "sl-15-18",
+      "launchWindow": {
+        "open": "2026-10-30T04:02:00.000Z",
+        "close": "2026-10-30T08:02:00.000Z"
+      },
+      "startMeaning": "launch-window-open",
+      "evidence": {
+        "schedule": {
+          "url": "https://content.spacex.com/cms-assets/future_missions.json",
+          "field": "PrimaryLaunchWindow.Open.Seconds",
+          "observedAt": "2026-10-26T00:54:06.455Z"
+        },
+        "broadcast": {
+          "url": "https://content.spacex.com/api/spacex-website/missions/sl-15-18",
+          "field": "webcasts",
+          "observedAt": "2026-10-26T00:54:06.455Z"
+        },
+        "secondarySchedule": {
+          "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
+          "launchId": "57ce0a39-d035-4f16-a418-bd6108f78199",
+          "start": "2026-10-30T04:02:00.000Z",
+          "agreement": true,
+          "observedAt": "2026-10-26T00:54:06.455Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 2,
+        "pageCount": 4,
+        "independent": true,
+        "scheduleAgreement": true
       }
     }
   ]

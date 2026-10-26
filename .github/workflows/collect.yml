@@ -58,6 +58,8 @@ jobs:
         run: node scripts/collect-redbull.mjs
       - name: Collect public science conferences and live concerts
         run: node scripts/collect-discoveries.mjs
+      - name: Collect official launch windows and independently cross-check schedules
+        run: node scripts/collect-space.mjs
       - name: Collect ARTE weekly TV guide
         run: node scripts/collect-arte.mjs
       - name: Discover and validate event images
@@ -89,6 +91,7 @@ jobs:
             work/riot-run.json
             work/redbull-run.json
             work/discoveries-run.json
+            work/space-run.json
           retention-days: 14
   deploy:
     needs: collect

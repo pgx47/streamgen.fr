@@ -460,6 +460,37 @@
       "url": "https://www.arte.tv/fr/arte-concert/agenda/",
       "checkedAt": "2026-10-26T00:47:12.833Z",
       "livestreams": 2
+    },
+    {
+      "id": "space-devs-upcoming",
+      "status": "ok",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
+      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "launches": 15
+    },
+    {
+      "id": "spacex-mission-sl-15-16",
+      "status": "ok",
+      "url": "https://www.spacex.com/launches/sl-15-16",
+      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "independentScheduleAgreement": true
+    },
+    {
+      "id": "spacex-mission-sl-15-18",
+      "status": "ok",
+      "url": "https://www.spacex.com/launches/sl-15-18",
+      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "independentScheduleAgreement": true
+    },
+    {
+      "id": "spacex-upcoming",
+      "status": "ok",
+      "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
+      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "missions": 3,
+      "preciseWindows": 2,
+      "added": 0,
+      "updated": 2
     }
   ]
 }

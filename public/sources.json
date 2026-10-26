@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T00:47:12.833Z",
+  "updatedAt": "2026-10-26T00:54:06.455Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -487,6 +487,50 @@
       "purpose": "Recoupement du programme scientifique et de l’horaire",
       "checkedAt": "2026-10-26T00:47:12.833Z",
       "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
+    },
+    {
+      "id": "spacex-upcoming",
+      "name": "SpaceX · missions à venir",
+      "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
+      "kind": "official",
+      "purpose": "Identité des missions annoncées",
+      "checkedAt": "2026-10-26T00:54:06.455Z"
+    },
+    {
+      "id": "spacex-timings",
+      "name": "SpaceX · fenêtres officielles de lancement",
+      "url": "https://content.spacex.com/cms-assets/future_missions.json",
+      "kind": "official",
+      "purpose": "Ouverture et fermeture des fenêtres de lancement",
+      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "notes": "Une date sans fenêtre horaire n’est pas publiée à minuit. La fermeture de fenêtre ne représente pas la fin du direct."
+    },
+    {
+      "id": "space-devs-upcoming",
+      "name": "The Space Devs · Launch Library 2",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
+      "kind": "specialist",
+      "purpose": "Recoupement indépendant de l’horaire et de l’identité de mission",
+      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "notes": "La correspondance exige le lien exact de la mission officielle. Les heures de vidéos tierces ne déterminent jamais le programme publié."
+    },
+    {
+      "id": "spacex-mission-sl-15-16",
+      "name": "SpaceX · mission sl-15-16",
+      "url": "https://www.spacex.com/launches/sl-15-16",
+      "kind": "official",
+      "purpose": "Mission et liens de retransmission officiels",
+      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/sl-15-16"
+    },
+    {
+      "id": "spacex-mission-sl-15-18",
+      "name": "SpaceX · mission sl-15-18",
+      "url": "https://www.spacex.com/launches/sl-15-18",
+      "kind": "official",
+      "purpose": "Mission et liens de retransmission officiels",
+      "checkedAt": "2026-10-26T00:54:06.455Z",
+      "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/sl-15-18"
     }
   ]
 }

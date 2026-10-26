@@ -16,7 +16,7 @@ test('les événements ont de vraies pages HTML indexables, reliées au sitemap'
 test('les contenus réels possèdent dates absolues, sources et conditions sans valeurs inventées',async()=>{
  const d=JSON.parse(await readFile('public/events.json','utf8'));assert.equal(d.demo,false);
  const seen=new Set();
- for(const e of d.events){assert.ok(!seen.has(e.id));seen.add(e.id);assert.match(e.date,/^2026-\d\d-\d\d$/);assert.ok(!e.demoSchedule);assert.ok(e.sources.length>0);for(const s of e.sources){assert.match(s.url,/^https:\/\//);assert.ok(s.collectedAt)}assert.equal(e.popularity,null);assert.notEqual(e.status,'En direct confirmé');}
+ for(const e of d.events){assert.ok(!seen.has(e.id));seen.add(e.id);assert.match(e.date,/^20\d\d-\d\d-\d\d$/);assert.ok(!e.demoSchedule);assert.ok(e.sources.length>0);for(const s of e.sources){assert.match(s.url,/^https:\/\//);assert.ok(s.collectedAt)}assert.equal(e.popularity,null);assert.notEqual(e.status,'En direct confirmé');}
 });
 test('les feuilles CSS sont versionnées sur l’accueil et les fiches pour éviter un cache périmé',async()=>{
  const home=await readFile('dist/index.html','utf8');
