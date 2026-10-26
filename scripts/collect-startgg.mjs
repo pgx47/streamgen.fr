@@ -1,5 +1,6 @@
 import{readFile,writeFile,rename,mkdir}from'node:fs/promises';
 import{startggToItems,STARTGG_QUERY}from'./collectors/startgg.mjs';
+import{frenchGuess}from'./collectors/french.mjs';
 const now=new Date().toISOString();
 const read=async p=>JSON.parse(await readFile(p,'utf8')),save=async(p,v)=>{await writeFile(p+'.tmp',JSON.stringify(v,null,2)+'\n');await rename(p+'.tmp',p)};
 const id='startgg',url='https://api.start.gg/gql/alpha',key=process.env.STARTGG_API_KEY;
@@ -27,6 +28,7 @@ try{
    popularity:null,discovery:true,major:false,featured:false,art:'JEU',
    commercial:{affiliateUrl:null,sponsor:null,sponsored:false},vpnContext:null,postponement:null,cancellation:null,programType:'livestream'
   };
+  {const fg=frenchGuess(e);if(fg){e.frenchPresence=true;e.frenchNote=fg.note}}
   observed.add(eid);
   const at=catalog.events.findIndex(x=>x.id===eid);
   if(at<0){catalog.events.push(e);added++}else{if(catalog.events[at].sourceImage)e.sourceImage=catalog.events[at].sourceImage;catalog.events[at]=e;updated++}

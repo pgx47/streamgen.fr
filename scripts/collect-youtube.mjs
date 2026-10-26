@@ -14,6 +14,11 @@ const CHANNELS=[
  {handle:'collegedefrance',name:'Collège de France',genre:'Sciences et conférences',category:'autres'},
  {handle:'Senat',name:'Sénat',genre:'Institutions',category:'autres'},
  {handle:'PublicSenat',name:'Public Sénat · LCP',genre:'Institutions',category:'autres'},
+ {handle:'FIAFormulaE',name:'Formula E',genre:'Sport mécanique',category:'sport'},
+ {handle:'PlayStation',name:'PlayStation',genre:'Jeux vidéo',category:'esport'},
+ {handle:'Xbox',name:'Xbox',genre:'Jeux vidéo',category:'esport'},
+ {handle:'NintendoFR',name:'Nintendo France',genre:'Jeux vidéo',category:'esport'},
+ {handle:'TheGameAwards',name:'The Game Awards',genre:'Jeux vidéo',category:'esport'},
 ];
 const RERUN=/\b(redif(?:fusion)?|rerun|replay|vod|best of|best-of|compilation)\b|\[redif\]/i;
 const DETAILS_PER_CHANNEL=20;
