@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
+      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
       "checkedDay": "2026-10-26"
     },
     "monitor:wtt-french": {
-      "hash": "4bf2456c281f76802422d67f761a7b71ce907cb0fbac30d474444da86fade040",
+      "hash": "10a66b9a02c7d90d6d2e661e514cb9da94b8f53236247fe634f192e1619c30a7",
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-us": {
-      "hash": "4da14740b2d65fbab18aa60e58944c026d38b16a5760ec034330a44bd3eb39c7",
+      "hash": "edfdfe850d2773090135e555ec714075bf0095762635c4909bb72f2cac9cbd31",
       "checkedDay": "2026-10-26"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "5c05f477d75551a6fd6c0d638ded815cc6e992f552dd6a9f81404307cad53bc5",
+      "hash": "b7318d755024502a69726ce9a54e0a630d969324af1718e33a3a3da1c9944947",
       "checkedDay": "2026-10-26"
     },
     "monitor:nfl-tv": {
@@ -33,7 +33,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:ijf": {
-      "hash": "d14ff393ec38fba25d4e0e29207f44fb45abbc51fde3d14842b9ccc673750471",
+      "hash": "20aac29d9eba831498eab7e7163f9a3242c0f9ea73eb09520767e2d59652b93f",
       "checkedDay": "2026-10-26"
     },
     "monitor:pgw": {
@@ -170,7 +170,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:arte-concert-live": {
-      "hash": "86534d0dcddfcd2d55a3c8aacbeeeab86f8623cc7b4ab7782bc8237ad58ab7d8",
+      "hash": "d0db509d02ac2d2c6749da0d54950f3fd1d8ddf80ee8dbb09782cfdb677a5b1e",
       "checkedDay": "2026-10-26"
     },
     "monitor:cern-webcast": {
@@ -214,7 +214,43 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "bbf3eb92c27ce5ac9aa23bcc50dee181df3f11aeea370dc1bf729a16b7728b4e",
+      "hash": "c5e19c2950bf849f86acbfd3424700d84e45f9d9de7a0680a5c7d671da42c43f",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-rolandgarros": {
+      "hash": "c2906f6f58e0379a2f20c35297f2bc2ad3244d99ec0ac1a1bf5b50a0994f6511",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-fff": {
+      "hash": "f7e4047ded770972386a1a1bdc0ea036e69f2063e0895573b816f0cebe341b6f",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-ffbb_officiel": {
+      "hash": "19064052966228355f7e2d4c59c40ed618d58d9fbf67a9852ca4949c4221349a",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-collegedefrance": {
+      "hash": "b560d834513d51c52704ad89a6f80667876648422a0f738a4ab04a9a77d57004",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-nasa": {
+      "hash": "92f8445a05ea29abf2e77e02cc2748557eeb3fbc833c0421b46d213e44d9e807",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-europeanspaceagency": {
+      "hash": "e7c063d61136cd6aed30fb35ad7abeaffac987186280171390c6251551db8a35",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:startgg": {
+      "hash": "b1887760c72253506fd412159560c2015bf13df9e95a6bd92bf5c43b44579e29",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:lichess": {
+      "hash": "a5757c78254145bbcacba21e4e8a10197d9c7aa2acbaf845e38844639f1ace37",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:oengus": {
+      "hash": "cd3534384037678989c87d4bc4af7ea9ca67a3aee37d85fc8430a231827a27dc",
       "checkedDay": "2026-10-26"
     }
   },

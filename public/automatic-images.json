@@ -53,6 +53,24 @@
       "approved": true,
       "checkedAt": "2026-10-25T23:47:54.750Z",
       "bytes": 1481430
+    },
+    "auto-342e438eda718c8c12314335": {
+      "label": "Portrait · Ponce · 2020",
+      "scope": "creator",
+      "eventYear": 2020,
+      "author": "The Eloquent Peasant",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponce_rivers.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ponce_rivers.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Ponce rivers.png",
+      "type": "photo",
+      "changes": "Image collectée automatiquement depuis Wikimedia Commons. Aucun participant de la photo n’est supposé annoncé pour la nouvelle fiche. Les archives conservent leur année.",
+      "creditKey": "auto-342e438eda718c8c12314335",
+      "src": "/assets/auto-images/342e438eda718c8c12314335.png",
+      "approved": true,
+      "checkedAt": "2026-10-26T04:52:26.175Z",
+      "bytes": 204286
     }
   },
   "assignments": {
@@ -68,7 +86,15 @@
     "f1-mexico-essais-libres-2-2026": "auto-b9749dea66dfae8fe834e569",
     "f1-mexico-essais-libres-3-2026": "auto-b9749dea66dfae8fe834e569",
     "f1-mexico-qualifications-2026": "auto-b9749dea66dfae8fe834e569",
-    "f1-mexico-course-2026": "auto-b9749dea66dfae8fe834e569"
+    "f1-mexico-course-2026": "auto-b9749dea66dfae8fe834e569",
+    "twitch-ponce-0724c9254d360757": "auto-342e438eda718c8c12314335",
+    "twitch-ponce-cec0eb4c7cfbcc4d": "auto-342e438eda718c8c12314335",
+    "twitch-ponce-dc52f569f8be605b": "auto-342e438eda718c8c12314335",
+    "twitch-ponce-67eb1ffc53bb9e95": "auto-342e438eda718c8c12314335",
+    "twitch-ponce-7399dddb449d0735": "auto-342e438eda718c8c12314335",
+    "twitch-ponce-75220ed9957e7e67": "auto-342e438eda718c8c12314335",
+    "twitch-ponce-e7a36eaef5d9a6b7": "auto-342e438eda718c8c12314335",
+    "twitch-ponce-676ada05e8fd0e73": "auto-342e438eda718c8c12314335"
   },
-  "updatedAt": "2026-10-26T01:04:23.162Z"
+  "updatedAt": "2026-10-26T04:52:26.175Z"
 }

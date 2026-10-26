@@ -1,6 +1,6 @@
 {
   "mode": "scheduled",
-  "checkedAt": "2026-10-26T01:03:48.357Z",
+  "checkedAt": "2026-10-26T04:49:51.404Z",
   "scope": "Calendriers et diffusions officiels collectés automatiquement. Les rapports par source distinguent extraction de programmes et simple surveillance d’accessibilité. Aucun contrôle des flux actifs.",
   "sources": [
     {
@@ -67,14 +67,14 @@
       "id": "eurovision-sport",
       "url": "https://eurovisionsport.com/en/home",
       "status": "error",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "error": "Aucun programme structuré : catalogue précédent conservé"
     },
     {
       "id": "nasa-plus",
       "url": "https://plus.nasa.gov/",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 1,
       "publishedEvents": 0
     },
@@ -82,15 +82,15 @@
       "id": "twitch-zerator",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "detectedEvents": 18,
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "detectedEvents": 17,
       "publishedEvents": 5
     },
     {
       "id": "twitch-mistermv",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -98,7 +98,7 @@
       "id": "twitch-gotaga",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -106,23 +106,23 @@
       "id": "twitch-domingo",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "detectedEvents": 68,
-      "publishedEvents": 3
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "detectedEvents": 60,
+      "publishedEvents": 1
     },
     {
       "id": "twitch-ponce",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "detectedEvents": 12,
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "detectedEvents": 11,
       "publishedEvents": 8
     },
     {
       "id": "twitch-bagherajones",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=100744948",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -130,15 +130,15 @@
       "id": "twitch-ultia",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=68594999",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "detectedEvents": 37,
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "detectedEvents": 26,
       "publishedEvents": 0
     },
     {
       "id": "twitch-kamet0",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=27115917",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -146,7 +146,7 @@
       "id": "twitch-solary",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=174955366",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -154,7 +154,7 @@
       "id": "twitch-ogaminglol",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=71852533",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -162,7 +162,7 @@
       "id": "twitch-rocketleague",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=57781936",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 6,
       "publishedEvents": 0
     },
@@ -170,7 +170,7 @@
       "id": "twitch-chess",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=7601562",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -178,7 +178,7 @@
       "id": "twitch-eslcs",
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=31239503",
       "status": "ok",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "detectedEvents": 0,
       "publishedEvents": 0
     },
@@ -186,29 +186,37 @@
       "id": "wtt-rights",
       "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-calendrier-des-competitions-de-tennis-de-table-2026-a-voir-sur-l-equipe/1639810",
       "status": "error",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "error": "HTTP 403"
     },
     {
       "id": "riot-primer",
       "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "changed": false,
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "changed": true,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
     {
       "id": "esa-webtv",
       "url": "https://www.esa.int/ESA_Multimedia/ESA_Web_TV",
       "status": "error",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "error": "fetch failed"
     },
     {
       "id": "wtt-french",
       "url": "https://encommun.montpellier.fr/articles/2026-10-20-tennis-de-table-felix-lebrun-champion-deurope",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "changed": true,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "f1-us",
+      "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": true,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -216,7 +224,7 @@
       "id": "f1-mx",
       "url": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": true,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -224,22 +232,14 @@
       "id": "canal-f1",
       "url": "https://www.canalplus.com/sport/formule-1/",
       "status": "error",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "error": "HTTP 403"
-    },
-    {
-      "id": "f1-us",
-      "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "changed": true,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
     {
       "id": "nfl-time",
       "url": "https://www.stadefrance.com/fr/billetterie/pittsburgh-steelers-vs-new-orleans-saints-nfl-paris-game-2026",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -247,29 +247,37 @@
       "id": "rhum-time",
       "url": "https://hospitalites.routedurhum.com/faq/",
       "status": "error",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "error": "HTTP 403"
     },
     {
       "id": "ifb-time",
       "url": "https://tickets.yonexifb.com/fr/product/200/tremblay_arena_grand_paris/arena_grand_paris_yonex_ifb_2026",
       "status": "error",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "error": "HTTP 403"
-    },
-    {
-      "id": "ifb-tv",
-      "url": "https://www.ffbad.org/en/actualites/actualites/2026/yonex-ifb-comment-suivre-l-edition-2026",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
     {
       "id": "nfl-tv",
       "url": "https://www.francetvpub.fr/la-newsletter-169/",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "ifb-tv",
+      "url": "https://www.ffbad.org/en/actualites/actualites/2026/yonex-ifb-comment-suivre-l-edition-2026",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "pgw",
+      "url": "https://www.parisgamesweek.com/fr",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -277,23 +285,15 @@
       "id": "ijf",
       "url": "https://www.ijf.org/competition/3157",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": true,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "pgw",
-      "url": "https://www.parisgamesweek.com/fr",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
     {
       "id": "rhum-tv",
       "url": "https://www.francetvpro.fr/contenu-de-presse/78939582",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -301,7 +301,7 @@
       "id": "capcom",
       "url": "https://www.capcomfrance.fr/paris-games-week-2026-le-planning-du-stand-capcom/",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -309,7 +309,7 @@
       "id": "inoxtag",
       "url": "https://www.parisgamesweek.com/fr/news/inoxtag-paris-games-week",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -317,7 +317,7 @@
       "id": "riot-valorant-broadcast",
       "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -325,7 +325,7 @@
       "id": "cern-indico-1743465",
       "url": "https://indico.cern.ch/event/1743465/",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -333,7 +333,7 @@
       "id": "cern-indico-1743445",
       "url": "https://indico.cern.ch/event/1743445/",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -341,15 +341,7 @@
       "id": "spacex-timings",
       "url": "https://content.spacex.com/cms-assets/future_missions.json",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
-      "changed": false,
-      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
-    },
-    {
-      "id": "cern-indico-1745596",
-      "url": "https://indico.cern.ch/event/1745596/",
-      "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
@@ -357,21 +349,29 @@
       "id": "cern-indico-1745114",
       "url": "https://indico.cern.ch/event/1745114/",
       "status": "monitored",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
+      "changed": false,
+      "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
+    },
+    {
+      "id": "cern-indico-1745596",
+      "url": "https://indico.cern.ch/event/1745596/",
+      "status": "monitored",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "changed": false,
       "reason": "Accessibilité et changement de texte uniquement ; pas de validation automatique des droits ni du calendrier."
     },
     {
       "id": "deepseek",
       "status": "skipped",
-      "checkedAt": "2026-10-26T01:03:48.357Z",
+      "checkedAt": "2026-10-26T04:49:51.404Z",
       "reason": "Aucun nouveau titre"
     },
     {
       "id": "riot-valorant-schedule",
       "status": "ok",
       "url": "https://valorantesports.com/en-US/matches",
-      "checkedAt": "2026-10-26T01:04:04.996Z",
+      "checkedAt": "2026-10-26T04:50:28.118Z",
       "detectedMatches": 10,
       "added": 0,
       "updated": 10,
@@ -381,14 +381,14 @@
       "id": "redbull-live",
       "status": "ok",
       "url": "https://www.redbull.com/int-en/events",
-      "checkedAt": "2026-10-26T01:04:07.759Z",
+      "checkedAt": "2026-10-26T04:50:30.935Z",
       "discoveredProfiles": 4
     },
     {
       "id": "redbull-live-0e364bea321c",
       "status": "ok",
       "url": "https://www.redbull.com/int-en/events/red-bull-king-of-the-air-taiwan-qualifier",
-      "checkedAt": "2026-10-26T01:04:07.759Z",
+      "checkedAt": "2026-10-26T04:50:30.935Z",
       "detectedStreams": 0,
       "added": 0,
       "updated": 0
@@ -397,7 +397,7 @@
       "id": "redbull-live-b71442187dfb",
       "status": "ok",
       "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
-      "checkedAt": "2026-10-26T01:04:07.759Z",
+      "checkedAt": "2026-10-26T04:50:30.935Z",
       "detectedStreams": 0,
       "added": 0,
       "updated": 0
@@ -406,7 +406,7 @@
       "id": "redbull-live-a779e5af11f5",
       "status": "ok",
       "url": "https://www.redbull.com/int-en/events/red-bull-bridge-bars",
-      "checkedAt": "2026-10-26T01:04:07.759Z",
+      "checkedAt": "2026-10-26T04:50:30.935Z",
       "detectedStreams": 0,
       "added": 0,
       "updated": 0
@@ -415,7 +415,7 @@
       "id": "redbull-live-700fc7935d61",
       "status": "ok",
       "url": "https://www.redbull.com/int-en/events/motogp-grand-prix-of-malaysia",
-      "checkedAt": "2026-10-26T01:04:07.759Z",
+      "checkedAt": "2026-10-26T04:50:30.935Z",
       "detectedStreams": 0,
       "added": 0,
       "updated": 0
@@ -424,7 +424,7 @@
       "id": "cern-webcast",
       "status": "ok",
       "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
-      "checkedAt": "2026-10-26T01:04:09.616Z",
+      "checkedAt": "2026-10-26T04:50:33.370Z",
       "listed": 6,
       "publicProgrammes": 4
     },
@@ -432,35 +432,35 @@
       "id": "arte-concert-live",
       "status": "ok",
       "url": "https://www.arte.tv/fr/arte-concert/agenda/",
-      "checkedAt": "2026-10-26T01:04:09.616Z",
+      "checkedAt": "2026-10-26T04:50:33.370Z",
       "livestreams": 2
     },
     {
       "id": "space-devs-upcoming",
       "status": "ok",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
-      "checkedAt": "2026-10-26T01:04:14.230Z",
+      "checkedAt": "2026-10-26T04:50:38.433Z",
       "launches": 15
     },
     {
       "id": "spacex-mission-sl-15-16",
       "status": "ok",
       "url": "https://www.spacex.com/launches/sl-15-16",
-      "checkedAt": "2026-10-26T01:04:14.230Z",
+      "checkedAt": "2026-10-26T04:50:38.433Z",
       "independentScheduleAgreement": true
     },
     {
       "id": "spacex-mission-sl-15-18",
       "status": "ok",
       "url": "https://www.spacex.com/launches/sl-15-18",
-      "checkedAt": "2026-10-26T01:04:14.230Z",
+      "checkedAt": "2026-10-26T04:50:38.433Z",
       "independentScheduleAgreement": true
     },
     {
       "id": "spacex-upcoming",
       "status": "ok",
       "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
-      "checkedAt": "2026-10-26T01:04:14.230Z",
+      "checkedAt": "2026-10-26T04:50:38.433Z",
       "missions": 3,
       "preciseWindows": 2,
       "added": 0,
@@ -470,28 +470,19 @@
       "id": "francetv-sport-week",
       "status": "ok",
       "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
-      "checkedAt": "2026-10-26T01:04:15.186Z",
+      "checkedAt": "2026-10-26T04:50:39.036Z",
       "from": "2026-10-25",
       "to": "2026-11-01",
       "detectedProgrammes": 10,
-      "added": 0,
-      "updated": 7
-    },
-    {
-      "id": "automatic-images",
-      "status": "ok",
-      "checkedAt": "2026-10-26T01:04:23.162Z",
-      "assignedEvents": 0,
-      "storedAssets": 3,
-      "pending": 6,
-      "reportUrl": "/image-collection-status.json"
+      "added": 1,
+      "updated": 6
     },
     {
       "id": "yt-fff",
       "status": "ok",
       "url": "https://www.youtube.com/@FFF/streams",
-      "checkedAt": "2026-10-26T02:47:31.161Z",
-      "lockups": 30,
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 29,
       "candidates": 0,
       "checked": 0,
       "observed": 0
@@ -500,8 +491,8 @@
       "id": "yt-ffbb_officiel",
       "status": "ok",
       "url": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "checkedAt": "2026-10-26T02:47:31.161Z",
-      "lockups": 30,
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 29,
       "candidates": 19,
       "checked": 19,
       "observed": 19
@@ -510,7 +501,7 @@
       "id": "yt-fiba",
       "status": "ok",
       "url": "https://www.youtube.com/@FIBA/streams",
-      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
       "lockups": 30,
       "candidates": 20,
       "checked": 20,
@@ -520,8 +511,8 @@
       "id": "yt-rolandgarros",
       "status": "ok",
       "url": "https://www.youtube.com/@rolandgarros/streams",
-      "checkedAt": "2026-10-26T02:47:31.161Z",
-      "lockups": 30,
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 25,
       "candidates": 0,
       "checked": 0,
       "observed": 0
@@ -530,7 +521,7 @@
       "id": "yt-olympics",
       "status": "ok",
       "url": "https://www.youtube.com/@Olympics/streams",
-      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
       "lockups": 30,
       "candidates": 20,
       "checked": 20,
@@ -540,7 +531,7 @@
       "id": "yt-europeanspaceagency",
       "status": "ok",
       "url": "https://www.youtube.com/@EuropeanSpaceAgency/streams",
-      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
       "lockups": 30,
       "candidates": 0,
       "checked": 0,
@@ -550,7 +541,7 @@
       "id": "yt-nasa",
       "status": "ok",
       "url": "https://www.youtube.com/@NASA/streams",
-      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
       "lockups": 30,
       "candidates": 3,
       "checked": 3,
@@ -560,8 +551,78 @@
       "id": "yt-collegedefrance",
       "status": "ok",
       "url": "https://www.youtube.com/@collegedefrance/streams",
-      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
       "lockups": 0,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-senat",
+      "status": "ok",
+      "url": "https://www.youtube.com/@Senat/streams",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-publicsenat",
+      "status": "ok",
+      "url": "https://www.youtube.com/@PublicSenat/streams",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-fiaformulae",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FIAFormulaE/streams",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 12,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-playstation",
+      "status": "ok",
+      "url": "https://www.youtube.com/@PlayStation/streams",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-xbox",
+      "status": "ok",
+      "url": "https://www.youtube.com/@Xbox/streams",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 89,
+      "candidates": 20,
+      "checked": 20,
+      "observed": 0
+    },
+    {
+      "id": "yt-nintendofr",
+      "status": "ok",
+      "url": "https://www.youtube.com/@NintendoFR/streams",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-thegameawards",
+      "status": "ok",
+      "url": "https://www.youtube.com/@TheGameAwards/streams",
+      "checkedAt": "2026-10-26T04:50:40.017Z",
+      "lockups": 30,
       "candidates": 0,
       "checked": 0,
       "observed": 0
@@ -570,16 +631,16 @@
       "id": "lp-counterstrike",
       "status": "ok",
       "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
-      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "checkedAt": "2026-10-26T04:51:38.852Z",
       "matches": 30,
-      "tournaments": 4,
+      "tournaments": 5,
       "observed": 30
     },
     {
       "id": "lp-dota2",
       "status": "ok",
       "url": "https://liquipedia.net/dota2/Liquipedia:Matches",
-      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "checkedAt": "2026-10-26T04:51:38.852Z",
       "matches": 30,
       "tournaments": 4,
       "observed": 30
@@ -588,16 +649,16 @@
       "id": "lp-rocketleague",
       "status": "ok",
       "url": "https://liquipedia.net/rocketleague/Liquipedia:Matches",
-      "checkedAt": "2026-10-26T02:57:54.345Z",
+      "checkedAt": "2026-10-26T04:51:38.852Z",
       "matches": 30,
-      "tournaments": 3,
+      "tournaments": 1,
       "observed": 30
     },
     {
       "id": "startgg",
       "status": "ok",
       "url": "https://www.start.gg/",
-      "checkedAt": "2026-10-26T03:00:57.368Z",
+      "checkedAt": "2026-10-26T04:52:19.763Z",
       "tournaments": 50,
       "observed": 40
     },
@@ -605,7 +666,7 @@
       "id": "pandascore",
       "status": "ok",
       "url": "https://pandascore.co/",
-      "checkedAt": "2026-10-26T03:03:09.028Z",
+      "checkedAt": "2026-10-26T04:52:20.547Z",
       "matches": 6,
       "observed": 6
     },
@@ -613,7 +674,7 @@
       "id": "lichess",
       "status": "ok",
       "url": "https://lichess.org/broadcast",
-      "checkedAt": "2026-10-26T03:06:31.464Z",
+      "checkedAt": "2026-10-26T04:52:21.712Z",
       "tournaments": 19,
       "observed": 19
     },
@@ -621,9 +682,24 @@
       "id": "oengus",
       "status": "ok",
       "url": "https://oengus.io/",
-      "checkedAt": "2026-10-26T03:07:00.722Z",
+      "checkedAt": "2026-10-26T04:52:22.949Z",
       "candidates": 15,
       "observed": 13
+    },
+    {
+      "id": "ai",
+      "status": "skipped",
+      "checkedAt": "2026-10-26T04:52:26.126Z",
+      "reason": "Budget LLM quotidien déjà consommé"
+    },
+    {
+      "id": "automatic-images",
+      "status": "ok",
+      "checkedAt": "2026-10-26T04:52:26.175Z",
+      "assignedEvents": 8,
+      "storedAssets": 4,
+      "pending": 7,
+      "reportUrl": "/image-collection-status.json"
     }
   ]
 }
