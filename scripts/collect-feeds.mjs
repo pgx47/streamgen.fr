@@ -41,7 +41,7 @@ for(const feed of feeds){
  }catch(e){report.push({id:feed.id,url:feed.url,status:'error',checkedAt:now,error:e.message})}
 }
 // Monitor existing official sources as well; a reachable page alone never revalidates its claims.
-const monitors=[{id:'esa-webtv',url:'https://www.esa.int/ESA_Multimedia/ESA_Web_TV'},...registry.sources.filter(s=>!feeds.some(f=>f.id===s.id)&&!s.url.includes('tickets.wttmontpellier.com')).map(s=>({id:s.id,url:s.url}))];
+const monitors=[{id:'esa-webtv',url:'https://www.esa.int/ESA_Multimedia/ESA_Web_TV'},...registry.sources.filter(s=>!feeds.some(f=>f.id===s.id)&&!s.url.includes('tickets.wttmontpellier.com')&&!s.id.startsWith('arte-guide-')).map(s=>({id:s.id,url:s.url}))];
 const unique=[...new Map(monitors.map(s=>[s.url,s])).values()];
 for(let i=0;i<unique.length;i+=4){
  await Promise.all(unique.slice(i,i+4).map(async source=>{
