@@ -94,6 +94,36 @@
       "checkedDay": "2026-10-26",
       "assetKey": null,
       "lastSuccessfulCheck": null
+    },
+    "7e8d73bb457b40707062f20b": {
+      "checkedDay": "2026-10-26",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    },
+    "5e6176c0404422e4e61e4dfb": {
+      "checkedDay": "2026-10-26",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    },
+    "4a41f9a7d6826b219f723e05": {
+      "checkedDay": "2026-10-26",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    },
+    "6ffe293173a99d726f0cad66": {
+      "checkedDay": "2026-10-26",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    },
+    "c6e6678c84817d4fb597b0f7": {
+      "checkedDay": "2026-10-26",
+      "assetKey": null,
+      "lastSuccessfulCheck": null
+    },
+    "c7d27adb7dd8b0145ec13dc2": {
+      "checkedDay": "2026-10-26",
+      "assetKey": "auto-c226ed1010ba65c59c804fc5",
+      "lastSuccessfulCheck": "2026-10-26T14:52:59.052Z"
     }
   },
   "days": {
@@ -101,7 +131,7 @@
       "newAssets": 3
     },
     "2026-10-26": {
-      "newAssets": 1
+      "newAssets": 2
     }
   }
 }

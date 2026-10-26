@@ -71,6 +71,24 @@
       "approved": true,
       "checkedAt": "2026-10-26T04:52:26.175Z",
       "bytes": 204286
+    },
+    "auto-c226ed1010ba65c59c804fc5": {
+      "label": "Image de l’événement · Jeux Olympiques de la Jeunesse Dakar 2026",
+      "scope": "event",
+      "eventYear": 2026,
+      "author": "Salma03regine",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webinaire_de_lancement_10.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Webinaire_de_lancement_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Webinaire de lancement 10.jpg",
+      "type": "photo",
+      "changes": "Image collectée automatiquement depuis Wikimedia Commons. Aucun participant de la photo n’est supposé annoncé pour la nouvelle fiche. Les archives conservent leur année.",
+      "creditKey": "auto-c226ed1010ba65c59c804fc5",
+      "src": "/assets/auto-images/c226ed1010ba65c59c804fc5.jpg",
+      "approved": true,
+      "checkedAt": "2026-10-26T14:52:59.052Z",
+      "bytes": 242761
     }
   },
   "assignments": {
@@ -94,7 +112,11 @@
     "twitch-ponce-7399dddb449d0735": "auto-342e438eda718c8c12314335",
     "twitch-ponce-75220ed9957e7e67": "auto-342e438eda718c8c12314335",
     "twitch-ponce-e7a36eaef5d9a6b7": "auto-342e438eda718c8c12314335",
-    "twitch-ponce-676ada05e8fd0e73": "auto-342e438eda718c8c12314335"
+    "twitch-ponce-676ada05e8fd0e73": "auto-342e438eda718c8c12314335",
+    "francetv-sport-week-d0d105a635364092": "auto-c226ed1010ba65c59c804fc5",
+    "francetv-sport-week-90ded355d22e05d1": "auto-c226ed1010ba65c59c804fc5",
+    "francetv-sport-week-b9e44a8932665b1d": "auto-c226ed1010ba65c59c804fc5",
+    "francetv-sport-week-2046f6e85a5a9cc5": "auto-c226ed1010ba65c59c804fc5"
   },
-  "updatedAt": "2026-10-26T04:52:26.175Z"
+  "updatedAt": "2026-10-26T14:52:59.052Z"
 }

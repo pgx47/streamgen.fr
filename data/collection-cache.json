@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
+      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
       "checkedDay": "2026-10-26"
     },
     "monitor:wtt-french": {
-      "hash": "10a66b9a02c7d90d6d2e661e514cb9da94b8f53236247fe634f192e1619c30a7",
+      "hash": "8ac0ebe5f3d33e3fe13e9d4bbc181b97a3d69693973e99e895a24738bcffd451",
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-us": {
-      "hash": "edfdfe850d2773090135e555ec714075bf0095762635c4909bb72f2cac9cbd31",
+      "hash": "df87f59444ffc1eea210ae962fbb079bb8709c55011fd95372ece1f8ad104876",
       "checkedDay": "2026-10-26"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "b7318d755024502a69726ce9a54e0a630d969324af1718e33a3a3da1c9944947",
+      "hash": "0af8ecd733b01d239b2545de2cdd78fe0382944c8b14341f785852e87e0b99c9",
       "checkedDay": "2026-10-26"
     },
     "monitor:nfl-tv": {
@@ -33,7 +33,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:ijf": {
-      "hash": "20aac29d9eba831498eab7e7163f9a3242c0f9ea73eb09520767e2d59652b93f",
+      "hash": "8d6dbaff4e5ec0f6420e5abf1ea143b344b6bcda4c029f2cf47f921bd7a21bdf",
       "checkedDay": "2026-10-26"
     },
     "monitor:pgw": {
@@ -126,12 +126,12 @@
       "editorialDone": false
     },
     "twitch-ponce-0724c9254d360757": {
-      "hash": "0d162810e7523f4b346e8ec465b8237d209bbe05883cdeb5cddeda381536132f",
+      "hash": "missing",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-ponce-cec0eb4c7cfbcc4d": {
-      "hash": "f07f47c4f6125a21771652899bba4c9f3a793b22b8d12da3f25b76153cfe061c",
+      "hash": "missing",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     },
@@ -156,21 +156,21 @@
       "editorialDone": false
     },
     "twitch-ponce-e7a36eaef5d9a6b7": {
-      "hash": "373d728bd8d04b9e1e91a98023212be072cca7e991b34f5e2657c6bcb50769cf",
+      "hash": "dea7ac5f20a9ea7c1962308f5992c0c7fe88a8e7469973c8365179e2c3f3a072",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "twitch-ponce-676ada05e8fd0e73": {
-      "hash": "407f3a475d208ffbc7ca610371c867b19a178c8bddc1a221af99788678aa0e5f",
+      "hash": "aefd81faa285f8238da4d599e92db0321ed75fd1b9ccada4d2ecbd695571af11",
       "checkedDay": "2026-10-26",
       "editorialDone": false
     },
     "monitor:redbull-live-b71442187dfb": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "a92d98b9adce75d04101d2fa8db178a34e14c74a33f1a27fc931b4d57085169d",
       "checkedDay": "2026-10-26"
     },
     "monitor:arte-concert-live": {
-      "hash": "d0db509d02ac2d2c6749da0d54950f3fd1d8ddf80ee8dbb09782cfdb677a5b1e",
+      "hash": "3ebc3b46941a61c23c44e05e1cc2821464a941724c65de0f51b0ab1501bb95da",
       "checkedDay": "2026-10-26"
     },
     "monitor:cern-webcast": {
@@ -190,11 +190,11 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:spacex-timings": {
-      "hash": "dd8054d638b902e08251229fb08f2008058e0ba90620633088d9333e2d132e6a",
+      "hash": "c83f15f00251c73cb6d5c8e8ca2b3c8df7bbed28e473bc126be52455bd8d60f8",
       "checkedDay": "2026-10-26"
     },
     "monitor:cern-indico-1745596": {
-      "hash": "bc27b6e47fec7754b936a76fdc6d39bc9aba58e1aeba9755962ab805b5533f59",
+      "hash": "00385bde35d7ee2599ff2694d52e6b6a20a780704789eecfbf917703237852d8",
       "checkedDay": "2026-10-26"
     },
     "monitor:cern-indico-1745114": {
@@ -210,7 +210,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:francetv-sport-week": {
-      "hash": "c5aa08f59d8f44ca8974e4c48e5b08060a0caf75778f60a4233ea071f14cf30f",
+      "hash": "f3754a8722fba165d0309086201916021ac8d8f3f219cefc76165f2c787dd2ac",
       "checkedDay": "2026-10-26"
     },
     "monitor:space-devs-upcoming": {
@@ -246,12 +246,81 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:lichess": {
-      "hash": "a5757c78254145bbcacba21e4e8a10197d9c7aa2acbaf845e38844639f1ace37",
+      "hash": "761130a9a2410447f161b445e92e40d2f4cec4d64c9046196c5b339f12958000",
       "checkedDay": "2026-10-26"
     },
     "monitor:oengus": {
       "hash": "cd3534384037678989c87d4bc4af7ea9ca67a3aee37d85fc8430a231827a27dc",
       "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-senat": {
+      "hash": "6bc79006e0bfaba5e5ca0c8dae78aa1905ba6f8d6a257bdd4382c2cad942a4b5",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-fiaformulae": {
+      "hash": "320e7e06913393c0c66d690df3c9b7e1f75704e51b98aecc34b32b9b8fc7b52b",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-playstation": {
+      "hash": "79adb29bfaff54074fccf44922d9127ab9f56bb9e7b882718d62ea5b3f9a7dd7",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-publicsenat": {
+      "hash": "1aa6a855238127749291c58ea826b2487108543d86e132cd363d4bbe534f38f6",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:pgl-1a60458a4466": {
+      "hash": "742f580bccb12303398f94a93cf7e331db4a18db7469b3cbfbcb89a5006007bd",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-thegameawards": {
+      "hash": "ea6403377584a0796331d1f90b01a544c178a011f4edfac83011c131fa963cc3",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:yt-nintendofr": {
+      "hash": "71b9a873cf036962f087bde2e2f69939583b9daeab5bb68783c570cec47ec37b",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:pgl-1a60458a4466-groups": {
+      "hash": "28b974795af16ef7b34a7582f919b8257ebd692eaa603124eef19d7ca6721fef",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:pgl-1a60458a4466-playoffs": {
+      "hash": "08926cc2acdcf8586ba41f919167d5d0df59875e46781fe169ac625f735e094f",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:pgl-1a60458a4466-blast": {
+      "hash": "02519c7cc44753e406ed0b64b3b4fce1005ed1642beeac5662efd945aac6efc1",
+      "checkedDay": "2026-10-26"
+    },
+    "monitor:pgl-youtube": {
+      "hash": "d0ff6c0702068d832d5966075e337e718070bc6d5cd653ffdffaad6c6513cb13",
+      "checkedDay": "2026-10-26"
+    },
+    "twitch-ultia-bc5c033cfbe9c946": {
+      "hash": "7704a1cfbd532e76ec78f002634e6cc911e28aeebf2910dde80f21f72cf837d0",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ultia-35393465b1c99143": {
+      "hash": "ad6daf7c0dd0a0113ff1d5d21fbf0634914ac0ea12127648458553aec8455cc3",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ultia-b6830599d3151d9a": {
+      "hash": "6d8ee7661e8f2b6cf9cf758cb1745cd4e172da8b8432e60d23b8d35e282a041c",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ultia-7abf5c5a105475c0": {
+      "hash": "55e22f208c74b77d4f9adc0278b44f88f85e040d6c3c412c01cf12ab0442028c",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
+    },
+    "twitch-ultia-56b9c18a1e672cf5": {
+      "hash": "49099f09ae8942fb39475ee2eee3dc58025bd92483e3a5778deda02438e4e3d4",
+      "checkedDay": "2026-10-26",
+      "editorialDone": false
     }
   },
   "llmAttemptDay": "2026-10-25"

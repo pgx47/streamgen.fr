@@ -1,57 +1,15 @@
 {
-  "checkedAt": "2026-10-26T04:52:26.175Z",
+  "checkedAt": "2026-10-26T14:52:59.052Z",
   "mode": "scheduled",
   "subjectsChecked": 6,
-  "assignedEvents": 8,
-  "storedAssets": 4,
-  "newAssetsToday": 1,
+  "assignedEvents": 4,
+  "storedAssets": 5,
+  "newAssetsToday": 2,
   "pending": [
     {
-      "subject": "Kuwait Premier Padel Major",
-      "sourceUrl": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
-      "imageUrl": "https://img.redbull.com/images/c_crop,w_3000,h_1500,x_0,y_214/c_auto,w_1200,h_630/f_auto,q_auto/redbullcom/2024/11/21/nijpnpr1p4sitlz2ztzk/miguel-yanguas-premier-padel-final-kuwait-city-2024",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Kuwait Premier Padel Major",
-      "sourceUrl": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
-      "imageUrl": "https://img.redbull.com/images/c_crop,w_3000,h_1500,x_0,y_214/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2024/11/21/nijpnpr1p4sitlz2ztzk/miguel-yanguas-premier-padel-final-kuwait-city-2024",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Kuwait Premier Padel Major",
-      "sourceUrl": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
-      "imageUrl": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2024/11/21/nijpnpr1p4sitlz2ztzk/miguel-yanguas-premier-padel-final-kuwait-city-2024",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Sofi Jeannin dirige Bach et Nystedt",
-      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
-      "imageUrl": "https://www.arte.tv/img/SHARE_DEFAULT.jpg",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Sofi Jeannin dirige Bach et Nystedt",
-      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
-      "imageUrl": "https://www.arte.tv/img/SHARE_TW_CONCERT_GUIDE.png",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
-      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
-      "imageUrl": "https://www.arte.tv/img/SHARE_DEFAULT.jpg",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
-      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
-      "imageUrl": "https://www.arte.tv/img/SHARE_TW_CONCERT_GUIDE.png",
+      "subject": "Jeux Olympiques de la Jeunesse Dakar",
+      "sourceUrl": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+      "imageUrl": "https://www.france.tv/logos/social/france-tv.jpg",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     }
@@ -63,40 +21,40 @@
       "reason": "Visuel spécifique déjà validé"
     },
     {
-      "subject": "VALORANT · Game Changers Championship",
+      "subject": "CERN · What extreme expeditions reveal about human evolutionary physiology",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "Ponce",
+      "subject": "CERN · LHCb",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "CERN · The physics potential at FCC-ee",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "SpaceX · Starlink 15-16",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "SpaceX · Starlink 15-18",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "Jeux Olympiques de la Jeunesse Dakar",
       "status": "selected",
-      "candidates": 7,
-      "assetKey": "auto-342e438eda718c8c12314335"
-    },
-    {
-      "subject": "Kuwait Premier Padel Major",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "Sofi Jeannin dirige Bach et Nystedt",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "CERN · The FASER experiment: recent results and future prospects",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
+      "candidates": 1,
+      "assetKey": "auto-c226ed1010ba65c59c804fc5"
     }
   ]
 }
