@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T00:33:42.577Z",
+  "updatedAt": "2026-10-26T00:38:26.641Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -424,6 +424,15 @@
       "kind": "official",
       "checkedAt": "2026-10-26T00:33:42.577Z",
       "notes": "Confirmation éditoriale des canaux ; ne prouve pas un flux actif ni une absence de restriction territoriale."
+    },
+    {
+      "id": "redbull-live-b71442187dfb",
+      "name": "Red Bull TV · Kuwait Premier Padel Major",
+      "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+      "purpose": "Horaire explicite de diffusion en direct",
+      "kind": "official",
+      "checkedAt": "2026-10-26T00:38:26.641Z",
+      "notes": "La date générale de compétition ne devient jamais une heure de diffusion. Les restrictions non renseignées restent inconnues."
     }
   ]
 }

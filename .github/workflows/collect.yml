@@ -54,6 +54,8 @@ jobs:
           LLM_MODEL: ${{ vars.LLM_MODEL }}
       - name: Collect Riot VALORANT matches
         run: node scripts/collect-riot.mjs
+      - name: Discover Red Bull TV livestreams
+        run: node scripts/collect-redbull.mjs
       - name: Collect ARTE weekly TV guide
         run: node scripts/collect-arte.mjs
       - name: Discover and validate event images
@@ -83,6 +85,7 @@ jobs:
             work/images-run.json
             work/arte-run.json
             work/riot-run.json
+            work/redbull-run.json
           retention-days: 14
   deploy:
     needs: collect

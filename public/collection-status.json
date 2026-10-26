@@ -402,6 +402,49 @@
       "added": 0,
       "updated": 10,
       "broadcastGuideVerified": true
+    },
+    {
+      "id": "redbull-live",
+      "status": "ok",
+      "url": "https://www.redbull.com/int-en/events",
+      "checkedAt": "2026-10-26T00:38:26.641Z",
+      "discoveredProfiles": 4
+    },
+    {
+      "id": "redbull-live-0e364bea321c",
+      "status": "ok",
+      "url": "https://www.redbull.com/int-en/events/red-bull-king-of-the-air-taiwan-qualifier",
+      "checkedAt": "2026-10-26T00:38:26.641Z",
+      "detectedStreams": 0,
+      "added": 0,
+      "updated": 0
+    },
+    {
+      "id": "redbull-live-b71442187dfb",
+      "status": "ok",
+      "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+      "checkedAt": "2026-10-26T00:38:26.641Z",
+      "detectedStreams": 4,
+      "added": 4,
+      "updated": 0
+    },
+    {
+      "id": "redbull-live-a779e5af11f5",
+      "status": "ok",
+      "url": "https://www.redbull.com/int-en/events/red-bull-bridge-bars",
+      "checkedAt": "2026-10-26T00:38:26.641Z",
+      "detectedStreams": 0,
+      "added": 0,
+      "updated": 0
+    },
+    {
+      "id": "redbull-live-700fc7935d61",
+      "status": "ok",
+      "url": "https://www.redbull.com/int-en/events/motogp-grand-prix-of-malaysia",
+      "checkedAt": "2026-10-26T00:38:26.641Z",
+      "detectedStreams": 0,
+      "added": 0,
+      "updated": 0
     }
   ]
 }

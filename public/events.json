@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T00:33:42.577Z",
+  "updatedAt": "2026-10-26T00:38:26.641Z",
   "coverage": "Sélection non exhaustive. Collecte automatique WTT, Eurovision Sport, NASA+ et calendriers Twitch. Les autres événements restent issus de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -18932,6 +18932,314 @@
       "vpnContext": null,
       "postponement": null,
       "cancellation": null
+    },
+    {
+      "id": "redbull-live-dfa406c07a3f6cc9",
+      "slug": "redbull-live-dfa406c07a3f6cc9",
+      "title": "Kuwait Premier Padel Major — Quarter-finals Centre Court – Kuwait",
+      "summary": "Kuwait Premier Padel Major : Quarter-finals Centre Court – Kuwait. Horaire annoncé par Red Bull TV ; consultez le diffuseur pour la disponibilité dans votre pays.",
+      "category": "sport",
+      "subcategory": "Padel",
+      "date": "2026-10-29",
+      "start": "2026-10-29T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Red Bull TV",
+      "broadcastOptions": [
+        {
+          "platform": "Red Bull TV",
+          "label": "Red Bull TV · diffusion annoncée",
+          "url": "https://www.redbull.tv/en_INT/page/rrn:content:live-videos:f5a4e725-eabd-44f7-a22d-3be211e1c65f/premier-padel-2026-kuwait-major-quarter-finals-centre-court",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Restrictions territoriales non renseignées par cette page ; disponibilité en France à vérifier",
+          "confirmed": true,
+          "restrictions": "Le programme officiel annonce un direct. L’accès gratuit et la disponibilité territoriale ne sont pas déduits de cette annonce.",
+          "linkKind": "stream"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Red Bull TV · programme officiel",
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "sourceId": "redbull-live-b71442187dfb",
+          "collectedAt": "2026-10-26T00:38:26.641Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:38:26.641Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Heure issue du champ liveStreams.startDate ; aucune fin de diffusion inventée.",
+        "Une annonce de diffusion ne confirme pas un flux actuellement actif."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "field": "liveStreams.startDate",
+          "observedAt": "2026-10-26T00:38:26.641Z"
+        },
+        "broadcast": {
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "field": "liveStreams.reference.externalUrl",
+          "observedAt": "2026-10-26T00:38:26.641Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      }
+    },
+    {
+      "id": "redbull-live-debdeacc1c57ed54",
+      "slug": "redbull-live-debdeacc1c57ed54",
+      "title": "Kuwait Premier Padel Major — Quarter-finals Secondary Court – Kuwait",
+      "summary": "Kuwait Premier Padel Major : Quarter-finals Secondary Court – Kuwait. Horaire annoncé par Red Bull TV ; consultez le diffuseur pour la disponibilité dans votre pays.",
+      "category": "sport",
+      "subcategory": "Padel",
+      "date": "2026-10-29",
+      "start": "2026-10-29T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Red Bull TV",
+      "broadcastOptions": [
+        {
+          "platform": "Red Bull TV",
+          "label": "Red Bull TV · diffusion annoncée",
+          "url": "https://www.redbull.tv/en_INT/page/rrn:content:live-videos:cdfc7694-7c65-48f5-aa97-608d4ca23144/premier-padel-2026-kuwait-major-quarter-finals-secondary-court",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Restrictions territoriales non renseignées par cette page ; disponibilité en France à vérifier",
+          "confirmed": true,
+          "restrictions": "Le programme officiel annonce un direct. L’accès gratuit et la disponibilité territoriale ne sont pas déduits de cette annonce.",
+          "linkKind": "stream"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Red Bull TV · programme officiel",
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "sourceId": "redbull-live-b71442187dfb",
+          "collectedAt": "2026-10-26T00:38:26.641Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:38:26.641Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Heure issue du champ liveStreams.startDate ; aucune fin de diffusion inventée.",
+        "Une annonce de diffusion ne confirme pas un flux actuellement actif."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "field": "liveStreams.startDate",
+          "observedAt": "2026-10-26T00:38:26.641Z"
+        },
+        "broadcast": {
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "field": "liveStreams.reference.externalUrl",
+          "observedAt": "2026-10-26T00:38:26.641Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      }
+    },
+    {
+      "id": "redbull-live-5aa21555b18234a2",
+      "slug": "redbull-live-5aa21555b18234a2",
+      "title": "Kuwait Premier Padel Major — Semi-finals – Kuwait",
+      "summary": "Kuwait Premier Padel Major : Semi-finals – Kuwait. Horaire annoncé par Red Bull TV ; consultez le diffuseur pour la disponibilité dans votre pays.",
+      "category": "sport",
+      "subcategory": "Padel",
+      "date": "2026-10-30",
+      "start": "2026-10-30T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Red Bull TV",
+      "broadcastOptions": [
+        {
+          "platform": "Red Bull TV",
+          "label": "Red Bull TV · diffusion annoncée",
+          "url": "https://www.redbull.tv/en_INT/page/rrn:content:live-videos:fac38fe7-eda1-49d1-a7e9-bbf834267ea3/premier-padel-2026-kuwait-major-semi-finals",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Restrictions territoriales non renseignées par cette page ; disponibilité en France à vérifier",
+          "confirmed": true,
+          "restrictions": "Le programme officiel annonce un direct. L’accès gratuit et la disponibilité territoriale ne sont pas déduits de cette annonce.",
+          "linkKind": "stream"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Red Bull TV · programme officiel",
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "sourceId": "redbull-live-b71442187dfb",
+          "collectedAt": "2026-10-26T00:38:26.641Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:38:26.641Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Heure issue du champ liveStreams.startDate ; aucune fin de diffusion inventée.",
+        "Une annonce de diffusion ne confirme pas un flux actuellement actif."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "field": "liveStreams.startDate",
+          "observedAt": "2026-10-26T00:38:26.641Z"
+        },
+        "broadcast": {
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "field": "liveStreams.reference.externalUrl",
+          "observedAt": "2026-10-26T00:38:26.641Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      }
+    },
+    {
+      "id": "redbull-live-79d2e5065817d6de",
+      "slug": "redbull-live-79d2e5065817d6de",
+      "title": "Kuwait Premier Padel Major — Final – Kuwait",
+      "summary": "Kuwait Premier Padel Major : Final – Kuwait. Horaire annoncé par Red Bull TV ; consultez le diffuseur pour la disponibilité dans votre pays.",
+      "category": "sport",
+      "subcategory": "Padel",
+      "date": "2026-10-31",
+      "start": "2026-10-31T13:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Red Bull TV",
+      "broadcastOptions": [
+        {
+          "platform": "Red Bull TV",
+          "label": "Red Bull TV · diffusion annoncée",
+          "url": "https://www.redbull.tv/en_INT/page/rrn:content:live-videos:afba65f8-36be-4078-b688-2845f46e9579/premier-padel-2026-kuwait-major-final",
+          "access": "unknown",
+          "accountRequired": null,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Restrictions territoriales non renseignées par cette page ; disponibilité en France à vérifier",
+          "confirmed": true,
+          "restrictions": "Le programme officiel annonce un direct. L’accès gratuit et la disponibilité territoriale ne sont pas déduits de cette annonce.",
+          "linkKind": "stream"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Red Bull TV · programme officiel",
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "sourceId": "redbull-live-b71442187dfb",
+          "collectedAt": "2026-10-26T00:38:26.641Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T00:38:26.641Z",
+      "confirmation": "Diffusion programmée par le diffuseur",
+      "schedule": [],
+      "notes": [
+        "Heure issue du champ liveStreams.startDate ; aucune fin de diffusion inventée.",
+        "Une annonce de diffusion ne confirme pas un flux actuellement actif."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "evidence": {
+        "schedule": {
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "field": "liveStreams.startDate",
+          "observedAt": "2026-10-26T00:38:26.641Z"
+        },
+        "broadcast": {
+          "url": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
+          "field": "liveStreams.reference.externalUrl",
+          "observedAt": "2026-10-26T00:38:26.641Z"
+        }
+      },
+      "corroboration": {
+        "publisherCount": 1,
+        "pageCount": 1,
+        "independent": false
+      }
     }
   ]
 }
