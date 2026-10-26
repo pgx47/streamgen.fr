@@ -498,13 +498,6 @@
       "updated": 2
     },
     {
-      "id": "francetv-sport-week",
-      "status": "error",
-      "url": "https://www.france.tv/sport/",
-      "checkedAt": "2026-10-26T14:50:49.426Z",
-      "error": "Semaine datée absente du programme france.tv"
-    },
-    {
       "id": "yt-fff",
       "status": "ok",
       "url": "https://www.youtube.com/@FFF/streams",
@@ -759,6 +752,17 @@
       "storedAssets": 5,
       "pending": 1,
       "reportUrl": "/image-collection-status.json"
+    },
+    {
+      "id": "francetv-sport-week",
+      "status": "ok",
+      "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
+      "checkedAt": "2026-10-26T14:54:12.510Z",
+      "from": "2026-10-26",
+      "to": "2026-11-01",
+      "detectedProgrammes": 7,
+      "added": 0,
+      "updated": 7
     }
   ]
 }

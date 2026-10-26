@@ -158,7 +158,7 @@ docs/                                    # collection, ranking, images…
 ## État complémentaire — 26 octobre 2026
 
 Les anciennes indications de tests et de rendu ci-dessus sont historiques.
-La suite comporte désormais 100 tests. Les mises en avant sont limitées à trois,
+La suite comporte désormais 101 tests. Les mises en avant sont limitées à trois,
 avec onglets Aujourd'hui/Cette semaine, et ne défilent pas automatiquement.
 L'agenda regroupe les programmes d'une même journée et conserve leurs sources,
 flux et sessions. Le classement est une priorité éditoriale, sans audience mesurée.

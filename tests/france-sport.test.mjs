@@ -9,3 +9,10 @@ test('weekly discovery only follows the broadcaster article and handles a dated 
  assert.equal(discoverFranceSportWeek('<a href="/sport/multisports/123-nos-directs-a-venir.html">À venir</a>'),'https://www.france.tv/sport/multisports/123-nos-directs-a-venir.html');assert.equal(discoverFranceSportWeek('<a href="https://evil.test/123-nos-directs-a-venir.html">x</a>'),null);
  const s='<p>du dimanche 27 décembre 2026 au dimanche 3 janvier 2027</p><article><p>Vendredi 1er janvier</p><p>15h00 - Rugby</p></article>';assert.equal(parseFranceSportWeek(s).items[0].start,'2027-01-01T14:00:00.000Z');
 });
+test('accepts an explicit end year shared by a French weekly range, including New Year',()=>{
+ const current=html.replace('dimanche 25 octobre 2026 au','lundi 26 octobre au');
+ assert.equal(parseFranceSportWeek(current).from,'2026-10-26');
+ const cross='<p>du dimanche 27 décembre au dimanche 3 janvier 2027</p><article><p>Vendredi 1er janvier</p><p>15h00 - Rugby</p></article>';
+ const week=parseFranceSportWeek(cross);assert.equal(week.from,'2026-12-27');assert.equal(week.to,'2027-01-03');
+ assert.throws(()=>parseFranceSportWeek(cross.replace('2027','')));
+});

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T14:52:59.052Z",
+  "updatedAt": "2026-10-26T14:54:12.510Z",
   "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, PGL, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -5388,15 +5388,15 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-10-26T04:50:39.036Z"
+          "collectedAt": "2026-10-26T14:54:12.510Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T04:50:39.036Z",
+      "lastVerified": "2026-10-26T14:54:12.510Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
-        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "Programme du 2026-10-26 au 2026-11-01, publié par le diffuseur.",
         "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
       ],
       "popularity": null,
@@ -5417,12 +5417,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         }
       },
       "corroboration": {
@@ -5431,7 +5431,7 @@
         "independent": false
       },
       "scheduleCoverage": {
-        "from": "2026-10-25",
+        "from": "2026-10-26",
         "to": "2026-11-01"
       },
       "sourceImage": {
@@ -5489,15 +5489,15 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-10-26T04:50:39.036Z"
+          "collectedAt": "2026-10-26T14:54:12.510Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T04:50:39.036Z",
+      "lastVerified": "2026-10-26T14:54:12.510Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
-        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "Programme du 2026-10-26 au 2026-11-01, publié par le diffuseur.",
         "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
       ],
       "popularity": null,
@@ -5518,12 +5518,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         }
       },
       "corroboration": {
@@ -5532,7 +5532,7 @@
         "independent": false
       },
       "scheduleCoverage": {
-        "from": "2026-10-25",
+        "from": "2026-10-26",
         "to": "2026-11-01"
       },
       "sourceImage": {
@@ -5593,15 +5593,15 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-10-26T04:50:39.036Z"
+          "collectedAt": "2026-10-26T14:54:12.510Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T04:50:39.036Z",
+      "lastVerified": "2026-10-26T14:54:12.510Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
-        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "Programme du 2026-10-26 au 2026-11-01, publié par le diffuseur.",
         "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
       ],
       "popularity": null,
@@ -5622,12 +5622,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         }
       },
       "corroboration": {
@@ -5636,7 +5636,7 @@
         "independent": false
       },
       "scheduleCoverage": {
-        "from": "2026-10-25",
+        "from": "2026-10-26",
         "to": "2026-11-01"
       }
     },
@@ -5675,15 +5675,15 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-10-26T04:50:39.036Z"
+          "collectedAt": "2026-10-26T14:54:12.510Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T04:50:39.036Z",
+      "lastVerified": "2026-10-26T14:54:12.510Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
-        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "Programme du 2026-10-26 au 2026-11-01, publié par le diffuseur.",
         "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
       ],
       "popularity": null,
@@ -5704,12 +5704,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         }
       },
       "corroboration": {
@@ -5718,7 +5718,7 @@
         "independent": false
       },
       "scheduleCoverage": {
-        "from": "2026-10-25",
+        "from": "2026-10-26",
         "to": "2026-11-01"
       },
       "sourceImage": {
@@ -5776,15 +5776,15 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-10-26T04:50:39.036Z"
+          "collectedAt": "2026-10-26T14:54:12.510Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T04:50:39.036Z",
+      "lastVerified": "2026-10-26T14:54:12.510Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
-        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "Programme du 2026-10-26 au 2026-11-01, publié par le diffuseur.",
         "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
       ],
       "popularity": null,
@@ -5805,12 +5805,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         }
       },
       "corroboration": {
@@ -5819,7 +5819,7 @@
         "independent": false
       },
       "scheduleCoverage": {
-        "from": "2026-10-25",
+        "from": "2026-10-26",
         "to": "2026-11-01"
       }
     },
@@ -5858,15 +5858,15 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-10-26T04:50:39.036Z"
+          "collectedAt": "2026-10-26T14:54:12.510Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T04:50:39.036Z",
+      "lastVerified": "2026-10-26T14:54:12.510Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
-        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "Programme du 2026-10-26 au 2026-11-01, publié par le diffuseur.",
         "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
       ],
       "popularity": null,
@@ -5887,12 +5887,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         }
       },
       "corroboration": {
@@ -5901,7 +5901,7 @@
         "independent": false
       },
       "scheduleCoverage": {
-        "from": "2026-10-25",
+        "from": "2026-10-26",
         "to": "2026-11-01"
       },
       "sourceImage": {
@@ -21270,15 +21270,15 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-10-26T04:50:39.036Z"
+          "collectedAt": "2026-10-26T14:54:12.510Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-10-26T04:50:39.036Z",
+      "lastVerified": "2026-10-26T14:54:12.510Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
-        "Programme du 2026-10-25 au 2026-11-01, publié par le diffuseur.",
+        "Programme du 2026-10-26 au 2026-11-01, publié par le diffuseur.",
         "La fin de diffusion et les disciplines non précisées ne sont pas inventées. Les mentions de live chat ne créent aucun événement supplémentaire."
       ],
       "popularity": null,
@@ -21299,12 +21299,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-10-26T04:50:39.036Z"
+          "observedAt": "2026-10-26T14:54:12.510Z"
         }
       },
       "corroboration": {
@@ -21313,7 +21313,7 @@
         "independent": false
       },
       "scheduleCoverage": {
-        "from": "2026-10-25",
+        "from": "2026-10-26",
         "to": "2026-11-01"
       }
     },
