@@ -62,6 +62,8 @@ jobs:
         run: node scripts/collect-space.mjs
       - name: Discover france.tv weekly sports broadcasts
         run: node scripts/collect-france-sport.mjs
+      - name: Collect scheduled YouTube livestreams from official channels
+        run: node scripts/collect-youtube.mjs
       - name: Discover and validate event images
         run: node scripts/collect-images.mjs
       - run: npm run build
@@ -92,6 +94,7 @@ jobs:
             work/discoveries-run.json
             work/space-run.json
             work/france-sport-run.json
+            work/youtube-run.json
           retention-days: 14
   deploy:
     needs: collect

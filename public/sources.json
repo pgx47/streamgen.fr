@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T02:31:19.455Z",
+  "updatedAt": "2026-10-26T02:47:31.161Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -468,6 +468,78 @@
       "purpose": "Créneaux datés de diffusion sur la chaîne sport",
       "checkedAt": "2026-10-26T01:04:15.186Z",
       "notes": "Article découvert depuis la rubrique sport, semaine et jours contrôlés avec l’année explicite. Les programmes nocturnes en boucle et les replays ne sont pas déduits du lecteur permanent."
+    },
+    {
+      "id": "yt-fff",
+      "name": "FFF TV · Fédération française de football · page des directs YouTube",
+      "url": "https://www.youtube.com/@FFF/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-ffbb_officiel",
+      "name": "FFBB · Fédération française de basket · page des directs YouTube",
+      "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-fiba",
+      "name": "FIBA · page des directs YouTube",
+      "url": "https://www.youtube.com/@FIBA/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-rolandgarros",
+      "name": "Roland-Garros · page des directs YouTube",
+      "url": "https://www.youtube.com/@rolandgarros/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-olympics",
+      "name": "Olympics · chaîne olympique officielle · page des directs YouTube",
+      "url": "https://www.youtube.com/@Olympics/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-europeanspaceagency",
+      "name": "ESA · Agence spatiale européenne · page des directs YouTube",
+      "url": "https://www.youtube.com/@EuropeanSpaceAgency/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-nasa",
+      "name": "NASA · page des directs YouTube",
+      "url": "https://www.youtube.com/@NASA/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-collegedefrance",
+      "name": "Collège de France · page des directs YouTube",
+      "url": "https://www.youtube.com/@collegedefrance/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     }
   ]
 }

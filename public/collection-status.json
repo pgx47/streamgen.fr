@@ -485,6 +485,86 @@
       "storedAssets": 3,
       "pending": 6,
       "reportUrl": "/image-collection-status.json"
+    },
+    {
+      "id": "yt-fff",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FFF/streams",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-ffbb_officiel",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "lockups": 30,
+      "candidates": 19,
+      "checked": 19,
+      "observed": 19
+    },
+    {
+      "id": "yt-fiba",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FIBA/streams",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "lockups": 30,
+      "candidates": 20,
+      "checked": 20,
+      "observed": 20
+    },
+    {
+      "id": "yt-rolandgarros",
+      "status": "ok",
+      "url": "https://www.youtube.com/@rolandgarros/streams",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-olympics",
+      "status": "ok",
+      "url": "https://www.youtube.com/@Olympics/streams",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "lockups": 30,
+      "candidates": 20,
+      "checked": 20,
+      "observed": 20
+    },
+    {
+      "id": "yt-europeanspaceagency",
+      "status": "ok",
+      "url": "https://www.youtube.com/@EuropeanSpaceAgency/streams",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-nasa",
+      "status": "ok",
+      "url": "https://www.youtube.com/@NASA/streams",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "lockups": 30,
+      "candidates": 3,
+      "checked": 3,
+      "observed": 1
+    },
+    {
+      "id": "yt-collegedefrance",
+      "status": "ok",
+      "url": "https://www.youtube.com/@collegedefrance/streams",
+      "checkedAt": "2026-10-26T02:47:31.161Z",
+      "lockups": 0,
+      "candidates": 0,
+      "checked": 0,
+      "observed": 0
     }
   ]
 }

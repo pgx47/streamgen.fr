@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-10-26T02:31:19.455Z",
+  "updatedAt": "2026-10-26T02:49:47.337Z",
   "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -5853,6 +5853,4026 @@
         "from": "2026-10-25",
         "to": "2026-11-01"
       }
+    },
+    {
+      "id": "yt-0YU_HJoR_RI",
+      "slug": "yt-317c950099a4b5d8",
+      "title": "CENTRE FEDERAL BB vs AL Aplemont Le Havre Basket Womens Other Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-04-27",
+      "start": "2027-04-27T17:55:00.000Z",
+      "end": "2027-04-27T20:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=0YU_HJoR_RI",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=0YU_HJoR_RI",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-lelRgaCwrQk",
+      "slug": "yt-9547aa96213e4b02",
+      "title": "CFBB vs GCO Bihorel Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-04-03",
+      "start": "2027-04-03T17:55:00.000Z",
+      "end": "2027-04-03T20:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=lelRgaCwrQk",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=lelRgaCwrQk",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-KuUnJMWlXF4",
+      "slug": "yt-5643dd669d4d2ef1",
+      "title": "CENTRE FEDERAL BB vs PARIS BASKETBALL ASSOCIATION Womens Other Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-03-27",
+      "start": "2027-03-27T16:55:00.000Z",
+      "end": "2027-03-27T19:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=KuUnJMWlXF4",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=KuUnJMWlXF4",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-eUJ9Xtae2ss",
+      "slug": "yt-79ea84379464f906",
+      "title": "CFBB vs UNION HAINAUT BASKET SAINT AMAND Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-03-24",
+      "start": "2027-03-24T14:55:00.000Z",
+      "end": "2027-03-24T17:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=eUJ9Xtae2ss",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=eUJ9Xtae2ss",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-5AvaFut3WxE",
+      "slug": "yt-1218bb489fda83f8",
+      "title": "CFBB vs MONTBRISON FEMININES BC Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-03-13",
+      "start": "2027-03-13T14:55:00.000Z",
+      "end": "2027-03-13T17:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=5AvaFut3WxE",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=5AvaFut3WxE",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-m0tqeb8ZOkA",
+      "slug": "yt-87ec2f2342fcd986",
+      "title": "CENTRE FEDERAL BB vs BASKET FEMININ ESCAUDAIN PH Womens Other Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-02-27",
+      "start": "2027-02-27T18:55:00.000Z",
+      "end": "2027-02-27T21:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=m0tqeb8ZOkA",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=m0tqeb8ZOkA",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-TxYTzUoqKLs",
+      "slug": "yt-87bfe34451d2ca95",
+      "title": "CFBB vs FEYTIAT BASKET 87 Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-02-27",
+      "start": "2027-02-27T16:55:00.000Z",
+      "end": "2027-02-27T18:55:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=TxYTzUoqKLs",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=TxYTzUoqKLs",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-ZwBFH4Qz0bM",
+      "slug": "yt-79a3cddbd5899ced",
+      "title": "CENTRE FEDERAL BB vs BASKET CLUB FRANCONVILLE Womens Other Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-02-06",
+      "start": "2027-02-06T18:55:00.000Z",
+      "end": "2027-02-06T21:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=ZwBFH4Qz0bM",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=ZwBFH4Qz0bM",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt--day49mj1kU",
+      "slug": "yt-840f27f6ef2f5cac",
+      "title": "CFBB vs Geispolsheim Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-02-06",
+      "start": "2027-02-06T14:55:00.000Z",
+      "end": "2027-02-06T17:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=-day49mj1kU",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=-day49mj1kU",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-xmyZ5z2jW2A",
+      "slug": "yt-3835057441db51a8",
+      "title": "CFBB vs CO Trith Basket Porte du Hainaut Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-01-22",
+      "start": "2027-01-22T16:55:00.000Z",
+      "end": "2027-01-22T19:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=xmyZ5z2jW2A",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=xmyZ5z2jW2A",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-Kw-buJEEVF4",
+      "slug": "yt-04fe9e7dddfaf789",
+      "title": "CENTRE FEDERAL BB vs ESTAIRES BC Womens Other Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-01-16",
+      "start": "2027-01-16T16:55:00.000Z",
+      "end": "2027-01-16T19:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=Kw-buJEEVF4",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=Kw-buJEEVF4",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-hgITkVaoWoM",
+      "slug": "yt-c9744b3a0cd53f5a",
+      "title": "CENTRE FEDERAL BB vs ASA SCEAUX Womens Other Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-01-09",
+      "start": "2027-01-09T19:25:00.000Z",
+      "end": "2027-01-09T21:55:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=hgITkVaoWoM",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=hgITkVaoWoM",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-WT7e6RpM3qU",
+      "slug": "yt-19a1c5db5dfa2266",
+      "title": "CFBB vs USO MONDEVILLE BASKET Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2027-01-09",
+      "start": "2027-01-09T16:55:00.000Z",
+      "end": "2027-01-09T19:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=WT7e6RpM3qU",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=WT7e6RpM3qU",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-rUxEsmLSTlE",
+      "slug": "yt-4414123e5019dfe2",
+      "title": "CFBB vs CHAMPAGNE BASKET FEMININ Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-12-12",
+      "start": "2026-12-12T16:55:00.000Z",
+      "end": "2026-12-12T19:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=rUxEsmLSTlE",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=rUxEsmLSTlE",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-NGdty84izcw",
+      "slug": "yt-7fbe1397cd6e1828",
+      "title": "CFBB vs Roche Vendee Basket Club Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-12-05",
+      "start": "2026-12-05T16:55:00.000Z",
+      "end": "2026-12-05T19:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=NGdty84izcw",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=NGdty84izcw",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-lTa2sGPi7V8",
+      "slug": "yt-8e477dc661cf35a5",
+      "title": "CFBB vs PAYS VOIRONNAIS BASKET CLUB Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-22",
+      "start": "2026-11-22T14:25:00.000Z",
+      "end": "2026-11-22T16:55:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=lTa2sGPi7V8",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=lTa2sGPi7V8",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-fKba4y4csqU",
+      "slug": "yt-ad79c83df5d94ad3",
+      "title": "CENTRE FEDERAL BB vs COTE D'OPALE BASKET CALAIS Womens Other Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-07",
+      "start": "2026-11-07T16:55:00.000Z",
+      "end": "2026-11-07T19:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=fKba4y4csqU",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=fKba4y4csqU",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-_tS1fmLjTNY",
+      "slug": "yt-3ea712a0b46d7f0d",
+      "title": "CFBB vs CAVIGAL NICE BASKET 06 Women's Pro Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-10-30",
+      "start": "2026-10-30T15:55:00.000Z",
+      "end": "2026-10-30T18:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=_tS1fmLjTNY",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=_tS1fmLjTNY",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-WbDvHYCLQyg",
+      "slug": "yt-4cb80a251927962a",
+      "title": "CENTRE FEDERAL BB vs STADE FRANCAIS BASKET Womens Other Basketball",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FFBB · Fédération française de basket. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-10-28",
+      "start": "2026-10-28T16:55:00.000Z",
+      "end": "2026-10-28T19:25:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FFBB · Fédération française de basket",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FFBB · Fédération française de basket · YouTube",
+          "url": "https://www.youtube.com/watch?v=WbDvHYCLQyg",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FFBB · Fédération française de basket · directs programmés",
+          "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=WbDvHYCLQyg",
+          "sourceId": "yt-ffbb_officiel",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-lXf0VR8XbGU",
+      "slug": "yt-172154e737e41bbd",
+      "title": "Venezuela v Colombia | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-15",
+      "start": "2026-11-15T22:30:00.000Z",
+      "end": "2026-11-16T01:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=lXf0VR8XbGU",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=lXf0VR8XbGU",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-ah97F8KuZuE",
+      "slug": "yt-358f02a63a128ddd",
+      "title": "Ecuador v Paraguay | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-15",
+      "start": "2026-11-15T20:00:00.000Z",
+      "end": "2026-11-15T22:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=ah97F8KuZuE",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=ah97F8KuZuE",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-N-Vz3fjdcco",
+      "slug": "yt-47ca80d519199b52",
+      "title": "Chile v Uruguay | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-15",
+      "start": "2026-11-15T17:30:00.000Z",
+      "end": "2026-11-15T20:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=N-Vz3fjdcco",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=N-Vz3fjdcco",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-LUyXy9k-36Y",
+      "slug": "yt-3636dc7c66d527d1",
+      "title": "Chile v Venezuela | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-15",
+      "start": "2026-11-14T23:30:00.000Z",
+      "end": "2026-11-15T02:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=LUyXy9k-36Y",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=LUyXy9k-36Y",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-dHmgQbvywiM",
+      "slug": "yt-be03698330a09e00",
+      "title": "Colombia v Paraguay | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-14",
+      "start": "2026-11-14T21:00:00.000Z",
+      "end": "2026-11-14T23:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=dHmgQbvywiM",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=dHmgQbvywiM",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-eAfMpEdqFQ8",
+      "slug": "yt-401f2beb4ca757ba",
+      "title": "Uruguay v Ecuador | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-14",
+      "start": "2026-11-14T18:30:00.000Z",
+      "end": "2026-11-14T21:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=eAfMpEdqFQ8",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=eAfMpEdqFQ8",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-njzGQyJ3lQQ",
+      "slug": "yt-aff5891c8992456c",
+      "title": "Venezuela v Uruguay | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-14",
+      "start": "2026-11-13T23:30:00.000Z",
+      "end": "2026-11-14T02:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=njzGQyJ3lQQ",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=njzGQyJ3lQQ",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-0_E2xfPmieg",
+      "slug": "yt-f047077aa12233ee",
+      "title": "Paraguay v Chile | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-13",
+      "start": "2026-11-13T21:00:00.000Z",
+      "end": "2026-11-13T23:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=0_E2xfPmieg",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=0_E2xfPmieg",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-rmumNwFM4HE",
+      "slug": "yt-9eb8bb5f6e168698",
+      "title": "Ecuador v Colombia | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-13",
+      "start": "2026-11-13T18:30:00.000Z",
+      "end": "2026-11-13T21:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=rmumNwFM4HE",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=rmumNwFM4HE",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-CPn5KB4JcL8",
+      "slug": "yt-ea41d33edd52ca56",
+      "title": "Venezuela v Paraguay | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-13",
+      "start": "2026-11-12T23:30:00.000Z",
+      "end": "2026-11-13T02:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=CPn5KB4JcL8",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=CPn5KB4JcL8",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-Tr-yJzNKe1U",
+      "slug": "yt-36a983afe7c09205",
+      "title": "Chile v Ecuador | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-12",
+      "start": "2026-11-12T21:00:00.000Z",
+      "end": "2026-11-12T23:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=Tr-yJzNKe1U",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=Tr-yJzNKe1U",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-EnZjdSPW-lE",
+      "slug": "yt-90c0936ffe4178cd",
+      "title": "Uruguay v Colombia | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-12",
+      "start": "2026-11-12T18:30:00.000Z",
+      "end": "2026-11-12T21:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=EnZjdSPW-lE",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=EnZjdSPW-lE",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-DBmdIjolc1A",
+      "slug": "yt-313d4d4aca43ab8d",
+      "title": "Ecuador v Venezuela | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-12",
+      "start": "2026-11-11T23:30:00.000Z",
+      "end": "2026-11-12T02:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=DBmdIjolc1A",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=DBmdIjolc1A",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-oyw7ciM4GbQ",
+      "slug": "yt-feee35e299bfe064",
+      "title": "Paraguay v Uruguay | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-11",
+      "start": "2026-11-11T21:00:00.000Z",
+      "end": "2026-11-11T23:30:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=oyw7ciM4GbQ",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=oyw7ciM4GbQ",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-14m9sSfJtnE",
+      "slug": "yt-8a921c156935e4ae",
+      "title": "Colombia v Chile | FIBA U16 Women's AmeriCup 2027 South American Qualifiers",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-11-11",
+      "start": "2026-11-11T18:30:00.000Z",
+      "end": "2026-11-11T21:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=14m9sSfJtnE",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=14m9sSfJtnE",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt---23UlUQaoU",
+      "slug": "yt-57f89a795c958a1d",
+      "title": "Basket Namur Capitale v MEINS Avenida | EuroCup Women 2026-27 | Regular Season",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-10-29",
+      "start": "2026-10-29T19:30:00.000Z",
+      "end": "2026-10-29T22:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=--23UlUQaoU",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=--23UlUQaoU",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-sXvt4lD5uq4",
+      "slug": "yt-3c9875715fecdb74",
+      "title": "Landerneau Bretagne Basket v Autosped BCC Castelnuovo Scrivia | EuroCup Women 2026-27",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-10-29",
+      "start": "2026-10-29T18:30:00.000Z",
+      "end": "2026-10-29T21:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=sXvt4lD5uq4",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=sXvt4lD5uq4",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-OWsdfy0gycU",
+      "slug": "yt-ca7e23f495ab8c7a",
+      "title": "BCF Elfic Fribourg v ENEA AZS Politechnika Poznan | EuroCup Women 2026-27 | Regular Season",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-10-29",
+      "start": "2026-10-29T18:30:00.000Z",
+      "end": "2026-10-29T21:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=OWsdfy0gycU",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=OWsdfy0gycU",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-GGHY8T74zZY",
+      "slug": "yt-92bef5a1632d53d9",
+      "title": "SL Benfica v Sopron Basket | EuroCup Women 2026-27 | Regular Season",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-10-29",
+      "start": "2026-10-29T18:30:00.000Z",
+      "end": "2026-10-29T21:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=GGHY8T74zZY",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=GGHY8T74zZY",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-YBQXiXk3bwA",
+      "slug": "yt-c4298b3631e4348b",
+      "title": "Panathlitikos Sykeon v ZKK Brod Na Savi | EuroCup Women 2026-27 | Regular Season",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle FIBA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Basketball",
+      "date": "2026-10-29",
+      "start": "2026-10-29T18:15:00.000Z",
+      "end": "2026-10-29T20:45:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "FIBA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "FIBA · YouTube",
+          "url": "https://www.youtube.com/watch?v=YBQXiXk3bwA",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "FIBA · directs programmés",
+          "url": "https://www.youtube.com/@FIBA/streams",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=YBQXiXk3bwA",
+          "sourceId": "yt-fiba",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-oqAXUFODHDA",
+      "slug": "yt-a19b051c37422a9a",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Fencing - Men's Sabre | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-13",
+      "start": "2026-11-13T19:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=oqAXUFODHDA",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=oqAXUFODHDA",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-SEim3JgmDwo",
+      "slug": "yt-1d167cb959904428",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Closing Ceremony | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-13",
+      "start": "2026-11-13T16:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=SEim3JgmDwo",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=SEim3JgmDwo",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-gDgDlrSF9Ek",
+      "slug": "yt-f891d3cf7162858f",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Breaking Semi Final & Final | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-13",
+      "start": "2026-11-13T08:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=gDgDlrSF9Ek",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=gDgDlrSF9Ek",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-zt1_OI3UP3A",
+      "slug": "yt-daf51c7be3e59b5e",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Beach Handball Finals | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-13",
+      "start": "2026-11-13T08:25:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=zt1_OI3UP3A",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=zt1_OI3UP3A",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-HwQErCqY2gw",
+      "slug": "yt-e4d953e10b1edc3a",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Boxing Finals - Women's -48kg, -54kg, +60kg + Men's -55kg & -65kg",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-12",
+      "start": "2026-11-12T15:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=HwQErCqY2gw",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=HwQErCqY2gw",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-GGTQfZ4s920",
+      "slug": "yt-a54dbf7a37af9d24",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Taekwondo Mixed Team Semi Final & Final | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-12",
+      "start": "2026-11-12T13:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=GGTQfZ4s920",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=GGTQfZ4s920",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-Cmy832So8E0",
+      "slug": "yt-410567de24c89fc8",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Men's Futsal Gold Medal Match | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-12",
+      "start": "2026-11-12T13:25:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=Cmy832So8E0",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=Cmy832So8E0",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-GgF828NTz-Y",
+      "slug": "yt-aa7f1a6344a9cf2c",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Fencing - Women's Sabre | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-12",
+      "start": "2026-11-12T12:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=GgF828NTz-Y",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=GgF828NTz-Y",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-Mfzz-IOKOpw",
+      "slug": "yt-90f08108c790b1db",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Boxing Finals - Women's -51kg & -57kg + Men's -50kg, -60kg & +70kg",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-12",
+      "start": "2026-11-12T10:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=Mfzz-IOKOpw",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=Mfzz-IOKOpw",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-ZOw368o4heM",
+      "slug": "yt-855a05197f46fef2",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Men's Futsal Bronze Medal Match | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-12",
+      "start": "2026-11-12T09:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=ZOw368o4heM",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=ZOw368o4heM",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-DRv0wRdVxsY",
+      "slug": "yt-aa2975c82c208507",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Taekwondo Finals - Women's +63kg, Men's -73kg & Men's +73kg |#Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-11",
+      "start": "2026-11-11T14:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=DRv0wRdVxsY",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=DRv0wRdVxsY",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-1dBav0zb6UU",
+      "slug": "yt-83cbf0d7e46c37af",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Women's Futsal Gold Medal Match | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-11",
+      "start": "2026-11-11T13:25:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=1dBav0zb6UU",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=1dBav0zb6UU",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-mC0TnzRbFnE",
+      "slug": "yt-b17b5b7be7f2a0b6",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Fencing - Men's Epee | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-11",
+      "start": "2026-11-11T12:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=mC0TnzRbFnE",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=mC0TnzRbFnE",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-tvTBFVfXvn8",
+      "slug": "yt-07630a908a2a0459",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Women's Futsal Bronze Medal Match | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-11",
+      "start": "2026-11-11T09:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=tvTBFVfXvn8",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=tvTBFVfXvn8",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-UgUuZelE4gs",
+      "slug": "yt-e230b71c525e2441",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Women's Artistic Gymnastics All Around Final | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-10",
+      "start": "2026-11-10T15:10:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=UgUuZelE4gs",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=UgUuZelE4gs",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-B_IwF-sh0LI",
+      "slug": "yt-4b433bd7e857634d",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Taekwondo Finals - Women's -55kg, -63kg & Men's -63kg | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-10",
+      "start": "2026-11-10T14:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=B_IwF-sh0LI",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=B_IwF-sh0LI",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-r2-CrC7gVaw",
+      "slug": "yt-367bf8958af682fe",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Archery Mixed Team Finals | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-10",
+      "start": "2026-11-10T12:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=r2-CrC7gVaw",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=r2-CrC7gVaw",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-_ay4lRdImaM",
+      "slug": "yt-4870455702a1986a",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Fencing - Women's Epee | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-10",
+      "start": "2026-11-10T12:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=_ay4lRdImaM",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=_ay4lRdImaM",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-87SgMYzghGQ",
+      "slug": "yt-0c2e36c109eef433",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Men's Artistic Gymnastics All Around Final | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-10",
+      "start": "2026-11-10T10:25:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=87SgMYzghGQ",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=87SgMYzghGQ",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-ta-sP-EY8aM",
+      "slug": "yt-e9f947f4abda2cc4",
+      "title": "𝙇𝙄𝙑𝙀 Summer Youth Olympics! Athletics Finals - Men's & Women's 200m and more! | #Dakar2026",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Olympics · chaîne olympique officielle. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Multisports",
+      "date": "2026-11-10",
+      "start": "2026-11-10T08:55:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Olympics · chaîne olympique officielle",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Olympics · chaîne olympique officielle · YouTube",
+          "url": "https://www.youtube.com/watch?v=ta-sP-EY8aM",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Olympics · chaîne olympique officielle · directs programmés",
+          "url": "https://www.youtube.com/@Olympics/streams",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=ta-sP-EY8aM",
+          "sourceId": "yt-olympics",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-hv867HnY4j4",
+      "slug": "yt-809adbdc7ff0aa02",
+      "title": "U.S. Spacewalk 100",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle NASA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "autres",
+      "subcategory": "Espace",
+      "date": "2026-10-29",
+      "start": "2026-10-29T10:45:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "NASA",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "NASA · YouTube",
+          "url": "https://www.youtube.com/watch?v=hv867HnY4j4",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NASA · directs programmés",
+          "url": "https://www.youtube.com/@NASA/streams",
+          "sourceId": "yt-nasa",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=hv867HnY4j4",
+          "sourceId": "yt-nasa",
+          "collectedAt": "2026-10-26T02:47:31.161Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-10-26T02:47:31.161Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "ESPACE",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
     }
   ]
 }
