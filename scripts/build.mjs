@@ -1,9 +1,11 @@
+import {groupEvents} from './group-events.mjs';
 import { cp, mkdir, rm, readFile, writeFile, access } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { dateKey, rankHighlights, statusAt, editorialPriority, serviceIcon, eventVisual, imageCredit, IMAGE_LIBRARY, automaticEventVisual } from '../public/event-utils.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url)),out=root+'dist/',origin='https://streamgen.fr';
 const data=JSON.parse(await readFile(root+'public/events.json','utf8'));
+data.events=groupEvents(data.events);
 const catalog=JSON.parse(await readFile(root+'public/sources.json','utf8'));
 let automaticImages={assets:{}};try{automaticImages=JSON.parse(await readFile(root+'public/automatic-images.json','utf8'))}catch{}
 Object.assign(IMAGE_LIBRARY,automaticImages.assets);
@@ -24,7 +26,7 @@ for(const e of data.events){
  for(const s of e.sources)if(!sourceIDs.has(s.sourceId)||new URL(s.url).protocol!=='https:')throw Error('Source inconnue : '+e.id);
  for(const b of e.broadcastOptions)if(new URL(b.url).protocol!=='https:')throw Error('Lien invalide : '+e.id);
 }
-await rm(out,{recursive:true,force:true});await mkdir(out,{recursive:true});await cp(root+'public/',out,{recursive:true});
+await rm(out,{recursive:true,force:true});await mkdir(out,{recursive:true});await cp(root+'public/',out,{recursive:true});await writeFile(out+'events.json',JSON.stringify(data,null,2)+'\n');
 const assetVersions={};
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex').slice(0,12);
 for(const file of ['style.css','wow.css','event-utils.mjs','events.json'])assetVersions[file]=hash(await readFile(out+file));
@@ -58,6 +60,9 @@ await writeFile(out+'image-credits.json',JSON.stringify(IMAGE_LIBRARY,null,2)+'\
 const weekNow=new Date(),weekToday=dateKey(weekNow),weekEnd=dateKey(new Date(weekNow.getTime()+7*86400000));
 const weekSelection=rankHighlights(data.events.filter(e=>e.date>=weekToday&&e.date<=weekEnd),weekNow,data.events.length);
 await mkdir(out+'semaine/',{recursive:true});await writeFile(out+'semaine/index.html',page('Les incontournables de la semaine | StreamGen','Les temps forts des sept prochains jours : horaires et liens vers les diffuseurs officiels.','/semaine/',`<p class="eyebrow">LES TEMPS FORTS À VENIR</p><h1>À ne pas manquer cette semaine.</h1><p class="lead">Une sélection par série pour les sept prochains jours. Les horaires restent susceptibles de changer.</p><p><a href="/#agenda">Retour à l’agenda d’aujourd’hui →</a></p><div class="week-events">${weekSelection.map(e=>`<article><a href="${url(e)}"><img src="${eventVisual(e).src}" alt="" loading="lazy" style="object-fit:${eventVisual(e).fit||'cover'}"><h2>${esc(e.title)}</h2></a><p>${esc(when(e))}</p><p>${esc(e.summary)}</p><p>${imageCredit(e)}</p><a class="button-link" href="${url(e)}">Voir la fiche →</a></article>`).join('')||'<p>Aucun temps fort annoncé pour cette période.</p>'}</div>`));
+const mergedRedirects=data.events.flatMap(e=>(e.mergedAliases||[]).filter(a=>a.slug!==e.slug).map(a=>`/evenements/${a.slug}/ ${url(e)} 301`));
+let priorRedirects='';try{priorRedirects=await readFile(out+'_redirects','utf8')}catch{}await writeFile(out+'_redirects',priorRedirects+'\n'+mergedRedirects.join('\n')+'\n');
+for(const e of data.events)for(const alias of e.mergedAliases||[]){if(alias.slug===e.slug)continue;await mkdir(out+'evenements/'+alias.slug+'/',{recursive:true});await writeFile(out+'evenements/'+alias.slug+'/index.html',`<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=${url(e)}"><link rel="canonical" href="${origin+url(e)}"><meta name="robots" content="noindex"><title>Événement regroupé</title></head><body><a href="${url(e)}">Voir la fiche regroupée : ${esc(e.title)}</a></body></html>`)}
 const paths=['/','/semaine/','/evenements/','/sources/','/credits-images/',...data.events.map(url)];
 await writeFile(out+'sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${paths.map(p=>`<url><loc>${origin+p}</loc><lastmod>${data.updatedAt.slice(0,10)}</lastmod></url>`).join('')}</urlset>`);
 await writeFile(out+'robots.txt',`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);

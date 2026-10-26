@@ -1,10 +1,11 @@
+import {groupEvents} from '../scripts/group-events.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, access } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 test('les événements ont de vraies pages HTML indexables, reliées au sitemap',async()=>{
  execFileSync(process.execPath,['scripts/build.mjs']);
- const data=JSON.parse(await readFile('public/events.json','utf8'));
+ const data=JSON.parse(await readFile('public/events.json','utf8'));data.events=groupEvents(data.events);
  const sitemap=await readFile('dist/sitemap.xml','utf8');
  for(const e of data.events){
   const html=await readFile(`dist/evenements/${e.slug}/index.html`,'utf8');
