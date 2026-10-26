@@ -142,3 +142,9 @@ main.detail-page.event-detail{width:100%;max-width:none;padding-top:24px}
 
 .event-toolbar .calendar-menu{padding:0}.event-toolbar .calendar-menu[open]{padding:0 14px 14px}.event-toolbar .calendar-menu summary{list-style-position:inside}.event-toolbar .calendar-menu[open] summary{padding-inline:0}
 @media(min-width:761px){.event-sheet .event-cover{align-self:center}.event-sheet .event-cover img{height:clamp(320px,24vw,440px);flex:none}}
+
+/* Largeur centrée demandée sur ordinateur. */
+@media(min-width:1101px){
+ main,main.detail-page.event-detail{width:80%;max-width:none;margin-inline:auto;padding-inline:0}
+ header{padding-inline:10%}
+}
