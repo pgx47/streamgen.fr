@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T05:10:41.443Z",
+  "updatedAt": "2026-10-27T14:35:52.615Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -206,7 +206,7 @@
       "url": "https://eurovisionsport.com/en/home",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-26T00:33:33.797Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -215,7 +215,7 @@
       "url": "https://plus.nasa.gov/",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -224,7 +224,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=41719107",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -233,7 +233,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=28575692",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -242,7 +242,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=24147592",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -251,7 +251,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -260,7 +260,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -269,7 +269,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=100744948",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -278,7 +278,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=68594999",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -287,7 +287,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=27115917",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -296,7 +296,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=174955366",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -305,7 +305,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=71852533",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -314,7 +314,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=57781936",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -323,7 +323,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=7601562",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -332,7 +332,7 @@
       "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=31239503",
       "kind": "official",
       "purpose": "Programme de diffusion collecté automatiquement",
-      "checkedAt": "2026-10-27T05:07:53.831Z",
+      "checkedAt": "2026-10-27T14:33:16.744Z",
       "notes": "Données du diffuseur. Territoires et disponibilité du flux à vérifier."
     },
     {
@@ -341,7 +341,7 @@
       "url": "https://valorantesports.com/en-US/matches",
       "purpose": "Participants et horaires officiels",
       "kind": "official",
-      "checkedAt": "2026-10-27T05:08:14.583Z",
+      "checkedAt": "2026-10-27T14:33:40.052Z",
       "notes": "Riot Games. Affiches non connues conservées comme inconnues."
     },
     {
@@ -350,7 +350,7 @@
       "url": "https://valorantesports.com/en-US/news/valorant-game-changers-championship-2026-everything-you-need-to-know",
       "purpose": "Canaux annoncés pour cette édition",
       "kind": "official",
-      "checkedAt": "2026-10-27T05:08:14.583Z",
+      "checkedAt": "2026-10-27T14:33:40.052Z",
       "notes": "Confirmation éditoriale des canaux ; ne prouve pas un flux actif ni une absence de restriction territoriale."
     },
     {
@@ -368,7 +368,7 @@
       "url": "https://www.arte.tv/fr/arte-concert/agenda/",
       "kind": "official",
       "purpose": "Concerts explicitement annoncés en livestream",
-      "checkedAt": "2026-10-27T05:08:19.302Z",
+      "checkedAt": "2026-10-27T14:33:44.731Z",
       "notes": "Seul le type LIVESTREAM_WEB est collecté ; les dates de mise en replay sont exclues."
     },
     {
@@ -377,7 +377,7 @@
       "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
       "kind": "official",
       "purpose": "Horaires, intervenants et accès public des webcasts",
-      "checkedAt": "2026-10-27T05:08:19.302Z",
+      "checkedAt": "2026-10-27T14:33:44.731Z",
       "notes": "Seuls les événements restricted=false sont retenus. Aucune réunion de collaborateurs ni URL privée de flux n’est publiée."
     },
     {
@@ -395,16 +395,16 @@
       "url": "https://indico.cern.ch/event/1743445/",
       "kind": "official",
       "purpose": "Recoupement du programme scientifique et de l’horaire",
-      "checkedAt": "2026-10-27T05:08:19.302Z",
+      "checkedAt": "2026-10-27T14:33:44.731Z",
       "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     },
     {
       "id": "cern-indico-1745596",
-      "name": "CERN Indico · LHCb",
+      "name": "CERN Indico · New results on $B_{(s)}^0 \\to \\mu^+ \\mu^-$ decays with LHCb Upgrade I data",
       "url": "https://indico.cern.ch/event/1745596/",
       "kind": "official",
       "purpose": "Recoupement du programme scientifique et de l’horaire",
-      "checkedAt": "2026-10-27T05:08:19.302Z",
+      "checkedAt": "2026-10-27T14:33:44.731Z",
       "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     },
     {
@@ -413,7 +413,7 @@
       "url": "https://indico.cern.ch/event/1745114/",
       "kind": "official",
       "purpose": "Recoupement du programme scientifique et de l’horaire",
-      "checkedAt": "2026-10-27T05:08:19.302Z",
+      "checkedAt": "2026-10-27T14:33:44.731Z",
       "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     },
     {
@@ -422,7 +422,7 @@
       "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
       "kind": "official",
       "purpose": "Identité des missions annoncées",
-      "checkedAt": "2026-10-27T05:08:23.907Z"
+      "checkedAt": "2026-10-27T14:33:50.749Z"
     },
     {
       "id": "spacex-timings",
@@ -430,7 +430,7 @@
       "url": "https://content.spacex.com/cms-assets/future_missions.json",
       "kind": "official",
       "purpose": "Ouverture et fermeture des fenêtres de lancement",
-      "checkedAt": "2026-10-27T05:08:23.907Z",
+      "checkedAt": "2026-10-27T14:33:50.749Z",
       "notes": "Une date sans fenêtre horaire n’est pas publiée à minuit. La fermeture de fenêtre ne représente pas la fin du direct."
     },
     {
@@ -439,7 +439,7 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
       "kind": "specialist",
       "purpose": "Recoupement indépendant de l’horaire et de l’identité de mission",
-      "checkedAt": "2026-10-27T05:08:23.907Z",
+      "checkedAt": "2026-10-27T14:33:50.749Z",
       "notes": "La correspondance exige le lien exact de la mission officielle. Les heures de vidéos tierces ne déterminent jamais le programme publié."
     },
     {
@@ -457,7 +457,7 @@
       "url": "https://www.spacex.com/launches/sl-15-18",
       "kind": "official",
       "purpose": "Mission et liens de retransmission officiels",
-      "checkedAt": "2026-10-27T05:08:23.907Z",
+      "checkedAt": "2026-10-27T14:33:50.749Z",
       "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/sl-15-18"
     },
     {
@@ -466,7 +466,7 @@
       "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
       "kind": "official",
       "purpose": "Créneaux datés de diffusion sur la chaîne sport",
-      "checkedAt": "2026-10-27T05:08:24.620Z",
+      "checkedAt": "2026-10-27T14:33:51.482Z",
       "notes": "Article découvert depuis la rubrique sport, semaine et jours contrôlés avec l’année explicite. Les programmes nocturnes en boucle et les replays ne sont pas déduits du lecteur permanent."
     },
     {
@@ -475,7 +475,7 @@
       "url": "https://www.youtube.com/@FFF/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -484,7 +484,7 @@
       "url": "https://www.youtube.com/@FFBB_Officiel/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -493,7 +493,7 @@
       "url": "https://www.youtube.com/@FIBA/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -502,7 +502,7 @@
       "url": "https://www.youtube.com/@rolandgarros/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -511,7 +511,7 @@
       "url": "https://www.youtube.com/@Olympics/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -520,7 +520,7 @@
       "url": "https://www.youtube.com/@EuropeanSpaceAgency/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -529,7 +529,7 @@
       "url": "https://www.youtube.com/@NASA/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -538,7 +538,7 @@
       "url": "https://www.youtube.com/@collegedefrance/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -547,7 +547,7 @@
       "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
       "kind": "community",
       "purpose": "Matchs datés et chaînes officielles des tournois",
-      "checkedAt": "2026-10-27T05:09:33.461Z",
+      "checkedAt": "2026-10-27T14:34:54.124Z",
       "notes": "Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~2 s entre requêtes."
     },
     {
@@ -556,7 +556,7 @@
       "url": "https://liquipedia.net/dota2/Liquipedia:Matches",
       "kind": "community",
       "purpose": "Matchs datés et chaînes officielles des tournois",
-      "checkedAt": "2026-10-27T05:09:33.461Z",
+      "checkedAt": "2026-10-27T14:34:54.124Z",
       "notes": "Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~2 s entre requêtes."
     },
     {
@@ -565,7 +565,7 @@
       "url": "https://liquipedia.net/rocketleague/Liquipedia:Matches",
       "kind": "community",
       "purpose": "Matchs datés et chaînes officielles des tournois",
-      "checkedAt": "2026-10-27T05:09:33.461Z",
+      "checkedAt": "2026-10-27T14:34:54.124Z",
       "notes": "Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~2 s entre requêtes."
     },
     {
@@ -574,7 +574,7 @@
       "url": "https://www.start.gg/",
       "kind": "official",
       "purpose": "Tournois esport à venir avec horaires et chaînes déclarées",
-      "checkedAt": "2026-10-27T05:10:22.197Z",
+      "checkedAt": "2026-10-27T14:35:43.696Z",
       "notes": "API GraphQL officielle, filtre pays France. Les chaînes sont celles déclarées par l’organisateur ; les tournois sans stream restent sans diffuseur supposé."
     },
     {
@@ -583,7 +583,7 @@
       "url": "https://pandascore.co/",
       "kind": "official",
       "purpose": "Matchs datés et streams officiels pour les jeux non couverts ailleurs",
-      "checkedAt": "2026-10-27T05:10:23.281Z",
+      "checkedAt": "2026-10-27T14:35:44.609Z",
       "notes": "API REST gratuite. Les jeux couverts par Liquipedia (CS2, Dota 2, Rocket League) et Riot (LoL, Valorant) sont exclus pour éviter les doublons."
     },
     {
@@ -592,7 +592,7 @@
       "url": "https://lichess.org/broadcast",
       "kind": "official",
       "purpose": "Tournois d’échecs retransmis en direct",
-      "checkedAt": "2026-10-27T05:10:24.451Z",
+      "checkedAt": "2026-10-27T14:35:46.526Z",
       "notes": "API publique sans clé (NDJSON). Seuls les tournois listés par Lichess sont publiés."
     },
     {
@@ -601,7 +601,7 @@
       "url": "https://oengus.io/",
       "kind": "official",
       "purpose": "Marathons speedrun avec chaîne Twitch déclarée",
-      "checkedAt": "2026-10-27T05:10:25.666Z",
+      "checkedAt": "2026-10-27T14:35:47.840Z",
       "notes": "API publique sans clé. La chaîne Twitch est lue dans le détail de chaque marathon ; seuls les marathons avec chaîne renseignée sont publiés."
     },
     {
@@ -610,7 +610,7 @@
       "url": "https://www.youtube.com/@Senat/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -619,7 +619,7 @@
       "url": "https://www.youtube.com/@PublicSenat/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -628,7 +628,7 @@
       "url": "https://www.youtube.com/@FIAFormulaE/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -637,7 +637,7 @@
       "url": "https://www.youtube.com/@PlayStation/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -646,7 +646,7 @@
       "url": "https://www.youtube.com/@Xbox/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -655,7 +655,7 @@
       "url": "https://www.youtube.com/@NintendoFR/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -664,7 +664,7 @@
       "url": "https://www.youtube.com/@TheGameAwards/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-10-27T05:08:29.657Z",
+      "checkedAt": "2026-10-27T14:33:51.806Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -673,7 +673,7 @@
       "url": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
       "kind": "official",
       "purpose": "Édition officielle et jeu concerné",
-      "checkedAt": "2026-10-27T05:10:41.443Z"
+      "checkedAt": "2026-10-27T14:35:52.615Z"
     },
     {
       "id": "pgl-1a60458a4466-groups",
@@ -681,7 +681,7 @@
       "url": "https://cs2te-api.pglesports.com/api/get-group-stage",
       "kind": "official",
       "purpose": "Horaires, affiches et états des matchs",
-      "checkedAt": "2026-10-27T05:10:41.443Z",
+      "checkedAt": "2026-10-27T14:35:52.615Z",
       "notes": "API effectivement appelée par la page de cette édition. Les dates doivent rester dans sa plage de compétition."
     },
     {
@@ -690,7 +690,7 @@
       "url": "https://cs2te-api.pglesports.com/api/get-playoffs",
       "kind": "official",
       "purpose": "Horaires, affiches et états des matchs",
-      "checkedAt": "2026-10-27T05:10:41.443Z",
+      "checkedAt": "2026-10-27T14:35:52.615Z",
       "notes": "API effectivement appelée par la page de cette édition. Les dates doivent rester dans sa plage de compétition."
     },
     {
@@ -699,7 +699,7 @@
       "url": "https://blast.tv/cs/tournaments/pgl-belgrade-2026",
       "kind": "specialist",
       "purpose": "Recoupement indépendant des affiches et horaires",
-      "checkedAt": "2026-10-27T05:10:41.443Z",
+      "checkedAt": "2026-10-27T14:35:52.615Z",
       "notes": "Correspondance des deux équipes et du jour ; les affiches encore inconnues ne sont pas recoupées artificiellement."
     },
     {
@@ -708,7 +708,7 @@
       "url": "https://www.youtube.com/channel/UC5jpxDZx4yoBo324pMQ91Ww/streams",
       "kind": "official",
       "purpose": "Présence de retransmissions de cette édition sur la chaîne de l’organisateur",
-      "checkedAt": "2026-10-27T05:10:41.443Z",
+      "checkedAt": "2026-10-27T14:35:52.615Z",
       "notes": "Confirme la chaîne de l’événement, pas le lien vidéo ni le début réel d’un match futur."
     },
     {
@@ -717,7 +717,7 @@
       "url": "https://www.spacex.com/launches/sl-15-21",
       "kind": "official",
       "purpose": "Mission et liens de retransmission officiels",
-      "checkedAt": "2026-10-27T05:08:23.907Z",
+      "checkedAt": "2026-10-27T14:33:50.749Z",
       "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/sl-15-21"
     },
     {
@@ -744,8 +744,26 @@
       "url": "https://www.spacex.com/launches/ussf432",
       "kind": "official",
       "purpose": "Mission et liens de retransmission officiels",
-      "checkedAt": "2026-10-27T05:08:23.907Z",
+      "checkedAt": "2026-10-27T14:33:50.749Z",
       "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/ussf432"
+    },
+    {
+      "id": "cern-indico-1745623",
+      "name": "CERN Indico · HRPPD photosensors for RICH detectors with a high resolution timing capability",
+      "url": "https://indico.cern.ch/event/1745623/",
+      "kind": "official",
+      "purpose": "Recoupement du programme scientifique et de l’horaire",
+      "checkedAt": "2026-10-27T14:33:44.731Z",
+      "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
+    },
+    {
+      "id": "cern-indico-1709015",
+      "name": "CERN Indico · Open Source at CERN in 2026/2027",
+      "url": "https://indico.cern.ch/event/1709015/",
+      "kind": "official",
+      "purpose": "Recoupement du programme scientifique et de l’horaire",
+      "checkedAt": "2026-10-27T14:33:44.731Z",
+      "notes": "Même organisme que le service de diffusion ; ne constitue pas un éditeur indépendant."
     }
   ]
 }
