@@ -65,7 +65,7 @@ test('event artwork outranks generic art and archival photos explicitly state th
  const pgw=eventVisual({title:'Paris Games Week — la scène Capcom',subcategory:'Jeux et rencontres'});
  assert.equal(pgw.scope,'event');assert.equal(pgw.eventYear,2026);assert.ok(pgw.sourceUrl.includes('parisgamesweek.com'));
  const worlds=eventVisual({title:'Worlds LoL — phase suisse',subcategory:'League of Legends',category:'esport'});
- assert.equal(worlds.scope,'archive');assert.equal(worlds.eventYear,2025);assert.match(worlds.label,/2025/);assert.notEqual(worlds.src,'/assets/esport-hero.webp');
+ assert.equal(worlds.scope,'game');assert.equal(worlds.creditKey,'game-lol');assert.match(worlds.label,/League of Legends/);assert.notEqual(worlds.src,'/assets/esport-hero.webp');
 });
 test('creator identity and announced subject beat unrelated sport or arena imagery',async()=>{
  const {eventVisual}=await import('../public/event-utils.mjs');

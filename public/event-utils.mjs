@@ -284,7 +284,6 @@ export function automaticEventVisual(e={}){
  return v;
 }
 const CONTEXT_PHOTOS={"chess": {"creditKey": "photo-chess", "src": "/assets/library/chess-photo.jpg", "label": "Photo d’illustration · échecs", "title": "Chess game Staunton No. 6 perfil view 8.jpg", "author": "Wilfredor", "license": "CC0", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chess_game_Staunton_No._6_perfil_view_8.jpg", "scope": "illustration", "changes": "Photo de contexte sous licence libre ; ne représente pas l’événement annoncé. Recadrage d’affichage."}, "dota": {"creditKey": "photo-dota", "src": "/assets/library/dota-photo.jpg", "label": "Photo d’archive · Dota 2, The International 2011", "title": "The International Dota 2 video game tournament.jpg", "author": "YJ", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg", "scope": "illustration", "changes": "Photo de contexte sous licence libre ; ne représente pas l’événement annoncé. Recadrage d’affichage.", "eventYear": 2011}, "counterstrike": {"creditKey": "photo-counterstrike", "src": "/assets/library/counterstrike-photo.jpg", "label": "Photo d’archive · PGL Copenhague 2024", "title": "PGL CS2 Major Copenhagen 2024 stage - 02.jpg", "author": "European Parliament", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:PGL_CS2_Major_Copenhagen_2024_stage_-_02.jpg", "scope": "illustration", "changes": "Photo de contexte sous licence libre ; ne représente pas l’événement annoncé. Recadrage d’affichage.", "eventYear": 2024}, "valorant": {"creditKey": "photo-valorant", "src": "/assets/library/valorant-photo.jpg", "label": "Photo d’archive · VALORANT Istanbul 2022", "title": "Valorant Champions İstanbul 2022.jpg", "author": "Emriquet", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valorant_Champions_%C4%B0stanbul_2022.jpg", "scope": "illustration", "changes": "Photo de contexte sous licence libre ; ne représente pas l’événement annoncé. Recadrage d’affichage.", "eventYear": 2022}};
-CONTEXT_PHOTOS['smash-ultimate']={creditKey:'photo-smash-ultimate',src:'/assets/library/smash-ultimate-photo.jpg',label:'Photo d’archive · Smash Ultimate, Super Smash Con 2021',title:'SSBU at Super Smash Con 2021.jpg',author:'GuiltyGearFan37',license:'CC0',licenseUrl:'https://creativecommons.org/publicdomain/zero/1.0/',sourceUrl:'https://commons.wikimedia.org/wiki/File:SSBU_at_Super_Smash_Con_2021.jpg',scope:'illustration',eventYear:2021,fit:'contain',changes:'Photo d’archive de joueurs de Super Smash Bros. Ultimate. Ne représente pas le tournoi annoncé. Image entière, sans recadrage.'};
 for(const [key,photo]of Object.entries(CONTEXT_PHOTOS))IMAGE_LIBRARY['photo-'+key]=photo;
 const FREE_REPLACEMENTS={"racing": {"creditKey": "racing", "src": "/assets/library/free-racing.jpg", "label": "Photo d’archive · Formule 1, Malaisie 2015", "title": "2015 Malaysian GP opening lap.jpg", "author": "Morio", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015_Malaysian_GP_opening_lap.jpg", "scope": "illustration", "type": "photo", "changes": "Photo libre de contexte ; ne représente pas nécessairement le rendez-vous annoncé. Recadrage d’affichage."}, "stadium": {"creditKey": "stadium", "src": "/assets/library/free-stadium.jpg", "label": "Photo de contexte · football américain", "title": "Warrior Games athletes honored at Navy-Air Force football game 141004-D-DB155-022.jpg", "author": "EJ Hersom", "license": "Public domain", "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warrior_Games_athletes_honored_at_Navy-Air_Force_football_game_141004-D-DB155-022.jpg", "scope": "illustration", "type": "photo", "changes": "Photo libre de contexte ; ne représente pas nécessairement le rendez-vous annoncé. Recadrage d’affichage."}, "ping": {"creditKey": "ping", "src": "/assets/library/free-ping.jpg", "label": "Photo de contexte · tennis de table", "title": "Table-tennis-match-karlskrona-idrottshall.jpg", "author": "TimMario", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Table-tennis-match-karlskrona-idrottshall.jpg", "scope": "illustration", "type": "photo", "changes": "Photo libre de contexte ; ne représente pas nécessairement le rendez-vous annoncé. Recadrage d’affichage."}};
 Object.assign(IMAGE_LIBRARY,FREE_REPLACEMENTS);
@@ -293,11 +292,226 @@ IMAGE_LIBRARY["photo-chess"]={"creditKey": "photo-chess", "src": "/assets/librar
 CONTEXT_PHOTOS.chess=IMAGE_LIBRARY["photo-chess"];
 export const EVENT_BRANDS={"lol": {"src": "/assets/brands/lol-transparent.png", "name": "League of Legends", "sourceUrl": "https://commons.wikimedia.org/wiki/File:League_of_Legends.png", "owner": "Riot Games", "license": "Public domain"}, "dota": {"src": "/assets/brands/dota.jpg", "name": "Dota 2", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dota_2_-_cropped_logo.jpg", "owner": "Valve", "license": "Public domain"}, "valorant": {"src": "/assets/brands/valorant.png", "name": "VALORANT", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valorant_logo_-_pink_color_version_(cropped).png", "owner": "Riot Games", "license": "Public domain"}, "kazchess": {"src": "/assets/brands/kazchess.png", "name": "KazChess", "sourceUrl": "https://kazchess.kz/", "owner": "Kazakhstan Chess Federation", "license": "Logo de marque utilisé pour identifier l’organisateur"}};
 export function eventBrand(e){const text=(e.subcategory+' '+e.title).toLowerCase();if(/kazchess/.test(text))return EVENT_BRANDS.kazchess;if(/league of legends|worlds.*lol/.test(text))return EVENT_BRANDS.lol;if(/dota/.test(text))return EVENT_BRANDS.dota;if(/valorant/.test(text))return EVENT_BRANDS.valorant;const domain=/counter.?strike/.test(text)?'counter-strike.net':/formule 1/.test(text)?'formula1.com':/judo/.test(text)?'ijf.org':/tennis de table/.test(text)?'worldtabletennis.com':/echecs|échecs|chess/.test(text)?'fide.com':/espace|spacex/.test(text)?'spacex.com':null;let fallback=domain;if(!fallback)try{fallback=new URL(e.sources?.[0]?.url||'').hostname}catch{}return fallback?{src:'https://www.google.com/s2/favicons?domain='+encodeURIComponent(fallback)+'&sz=128',name:e.subcategory,sourceUrl:'https://'+fallback}:null}
+Object.assign(IMAGE_LIBRARY,{
+  "game-mlbb": {
+    "creditKey": "game-mlbb",
+    "src": "/assets/games/mlbb.webp",
+    "label": "Visuel du jeu · Mobile Legends",
+    "title": "Mobile Legends — illustration promotionnelle",
+    "author": "MOONTON",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.mobile.legends",
+    "originalUrl": "https://play-lh.googleusercontent.com/GXynmfKwsaWUuJN086Is8Ctm0OCfrDeTvXIABDF1DYZRV1RRd-7Tfe4-U0H0QhcCGxdHem5PF6V2O1QwVkM0=w1280",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-smash-ultimate": {
+    "creditKey": "game-smash-ultimate",
+    "src": "/assets/games/smash-ultimate.webp",
+    "label": "Visuel du jeu · Super Smash Bros. Ultimate",
+    "title": "Super Smash Bros. Ultimate — illustration promotionnelle",
+    "author": "Nintendo",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://www.smashbros.com/fr_FR/",
+    "originalUrl": "http://www.smashbros.com/assets_v2/img/sns/en.png?180613",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-smash-melee": {
+    "creditKey": "game-smash-melee",
+    "src": "/assets/games/smash-melee.webp",
+    "label": "Visuel du jeu · Super Smash Bros. Melee",
+    "title": "Super Smash Bros. Melee — illustration promotionnelle",
+    "author": "Nintendo",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://www.mariowiki.com/File:SSBM.jpg",
+    "originalUrl": "https://mario.wiki.gallery/images/3/30/SSBM.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-lol": {
+    "creditKey": "game-lol",
+    "src": "/assets/games/lol.webp",
+    "label": "Visuel du jeu · League of Legends",
+    "title": "League of Legends — illustration promotionnelle",
+    "author": "Riot Games",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/",
+    "originalUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-valorant": {
+    "creditKey": "game-valorant",
+    "src": "/assets/games/valorant.webp",
+    "label": "Visuel du jeu · VALORANT",
+    "title": "VALORANT — illustration promotionnelle",
+    "author": "Riot Games",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://playvalorant.com/en-us/media/",
+    "originalUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/083baed63d306ee9ba41df4971ac0f6bb0222032-1920x1080.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-starcraft": {
+    "creditKey": "game-starcraft",
+    "src": "/assets/games/starcraft.webp",
+    "label": "Visuel du jeu · StarCraft II",
+    "title": "StarCraft II — illustration promotionnelle",
+    "author": "Blizzard Entertainment",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://starcraft2.blizzard.com/en-us/",
+    "originalUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltbe2068a317e02d9f/6966bac0fb2fd910dbda4a26/og_image.webp",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-2xko": {
+    "creditKey": "game-2xko",
+    "src": "/assets/games/2xko.webp",
+    "label": "Visuel du jeu · 2XKO",
+    "title": "2XKO — illustration promotionnelle",
+    "author": "Riot Games",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://2xko.riotgames.com/en-us/",
+    "originalUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0d8da14d9cc0c69376e8fb42cc6344276bf937ad-1200x600.jpg?accountingTag=2XKO?w=1200&h=630&fm=webp&fit=crop&crop=center",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-counterstrike": {
+    "creditKey": "game-counterstrike",
+    "src": "/assets/games/counterstrike.webp",
+    "label": "Visuel du jeu · Counter-Strike",
+    "title": "Counter-Strike — illustration promotionnelle",
+    "author": "Valve",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://store.steampowered.com/app/730",
+    "originalUrl": "https://cdn.akamai.steamstatic.com/steam/apps/730/library_hero.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-dota": {
+    "creditKey": "game-dota",
+    "src": "/assets/games/dota.webp",
+    "label": "Visuel du jeu · Dota 2",
+    "title": "Dota 2 — illustration promotionnelle",
+    "author": "Valve",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://store.steampowered.com/app/570",
+    "originalUrl": "https://cdn.akamai.steamstatic.com/steam/apps/570/library_hero.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-rivals": {
+    "creditKey": "game-rivals",
+    "src": "/assets/games/rivals.webp",
+    "label": "Visuel du jeu · Rivals of Aether II",
+    "title": "Rivals of Aether II — illustration promotionnelle",
+    "author": "Aether Studios",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://store.steampowered.com/app/2217000",
+    "originalUrl": "https://cdn.akamai.steamstatic.com/steam/apps/2217000/library_hero.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-tekken": {
+    "creditKey": "game-tekken",
+    "src": "/assets/games/tekken.webp",
+    "label": "Visuel du jeu · TEKKEN 8",
+    "title": "TEKKEN 8 — illustration promotionnelle",
+    "author": "Bandai Namco Entertainment",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://store.steampowered.com/app/1778820",
+    "originalUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1778820/library_hero.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-street-fighter": {
+    "creditKey": "game-street-fighter",
+    "src": "/assets/games/street-fighter.webp",
+    "label": "Visuel du jeu · Street Fighter 6",
+    "title": "Street Fighter 6 — illustration promotionnelle",
+    "author": "Capcom",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://store.steampowered.com/app/1364780",
+    "originalUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1364780/library_hero.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-mario-kart": {
+    "creditKey": "game-mario-kart",
+    "src": "/assets/games/mario-kart.webp",
+    "label": "Visuel du jeu · Mario Kart World",
+    "title": "Mario Kart World — illustration promotionnelle",
+    "author": "Nintendo",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-world-switch-2/",
+    "originalUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto/f_auto/dpr_2.0/store/software/switch2/70010000095431/0485f410193ca12f92a2f615ea608bb437540f321bd05e464593c33fefa09bf2",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-rocket-league": {
+    "creditKey": "game-rocket-league",
+    "src": "/assets/games/rocket-league.webp",
+    "label": "Visuel du jeu · Rocket League",
+    "title": "Rocket League — illustration promotionnelle",
+    "author": "Psyonix / Epic Games",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://store.steampowered.com/app/252950",
+    "originalUrl": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  },
+  "game-hok": {
+    "creditKey": "game-hok",
+    "src": "/assets/games/hok.webp",
+    "label": "Visuel du jeu · Honor of Kings",
+    "title": "Honor of Kings — illustration promotionnelle",
+    "author": "TiMi Studio Group / Tencent",
+    "license": "Visuel promotionnel protégé — droits réservés à son éditeur",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.levelinfinite.sgameGlobal",
+    "originalUrl": "https://play-lh.googleusercontent.com/XGDGnERI9RY_WUVAJ4WSPyw2augRGF8dd3cNA_oz4n3rK5PAQJuWVYqjT_akT2tPoOiWKkxQ1O8yiGcmV2NS=w1280",
+    "type": "publisher",
+    "scope": "game",
+    "fit": "cover",
+    "changes": "Conversion WebP et redimensionnement ; recadrage d’affichage. Illustration du jeu, sans lien revendiqué avec le tournoi ni partenariat avec son éditeur."
+  }
+});
+const GAME_ART_KEYS={"super smash bros. ultimate":"game-smash-ultimate","ultimate":"game-smash-ultimate","super smash bros. melee":"game-smash-melee","melee":"game-smash-melee","counter-strike":"game-counterstrike","counter-strike 2":"game-counterstrike","dota 2":"game-dota","rivals of aether ii":"game-rivals","street fighter 6":"game-street-fighter","tekken 8":"game-tekken","league of legends":"game-lol","valorant":"game-valorant","2xko":"game-2xko","honor of kings":"game-hok","mobile legends":"game-mlbb","mario kart world":"game-mario-kart","starcraft ii":"game-starcraft","rocket league":"game-rocket-league"};
 export function eventVisual(e={}){
  const topic=String(e.subcategory||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
  const title=String(e.title||'').toLowerCase();
  const automatic=automaticEventVisual(e);
  if(automatic?.scope==='event')return automatic;
+ const gameArt=GAME_ART_KEYS[String(e.subcategory||'').trim().toLowerCase()];
+ if(gameArt)return IMAGE_LIBRARY[gameArt];
  if(/paris games week|\bpgw\b/.test(title)&&(!e.date||e.date.startsWith('2026-')))return IMAGE_LIBRARY['pgw-2026'];
  if(automatic?.scope==='archive')return automatic;
  if(/worlds/.test(title)&&(/lol|league/.test(title)||topic==='league of legends'))return IMAGE_LIBRARY['worlds-2025'];
@@ -305,7 +519,7 @@ export function eventVisual(e={}){
  if(e.category==='créateurs'&&/cooking|cuisine/.test(topic+' '+title))return IMAGE_LIBRARY.cooking;
  if(automatic?.scope==='creator'&&(!IMAGE_LIBRARY.zerator.eventYear||automatic.eventYear>=IMAGE_LIBRARY.zerator.eventYear||!/^zerator$/i.test(e.organizer||'')))return automatic;
  if(e.category==='créateurs'&&(/^(zerator)$/i.test(e.organizer||'')||/^zerator\s*[—-]/.test(title)))return IMAGE_LIBRARY.zerator;
- const game=/smash.*ultimate|^ultimate$/.test(topic)?'smash-ultimate':/dota/.test(topic)?'dota':/counter.?strike/.test(topic)?'counterstrike':/valorant/.test(topic)?'valorant':/echecs|chess/.test(topic)?'chess':null;
+ const game=/dota/.test(topic)?'dota':/counter.?strike/.test(topic)?'counterstrike':/valorant/.test(topic)?'valorant':/echecs|chess/.test(topic)?'chess':null;
  if(game&&(!automatic||automatic.scope==='illustration'))return IMAGE_LIBRARY['photo-'+game];
  if(automatic)return automatic;
  let key=topic==='formule 1'?'racing':topic==='football americain'?'stadium':topic==='tennis de table'?'ping':/badminton/.test(topic)?'badminton':/gymnast/.test(topic)?'gymnastics':/aquatic|natation|swimming/.test(topic)?'swimming':/voile|sailing/.test(topic)?'sailing':/judo/.test(topic)?'judo':/espace|space/.test(topic)?'space':/cooking|cuisine/.test(topic)?'cooking':/paris games week|\bpgw\b/.test(title)||e.category==='esport'||(e.category!=='créateurs'&&/fortnite|league of legends/.test(topic))?'esport':e.category==='créateurs'?'creator':'generic';
