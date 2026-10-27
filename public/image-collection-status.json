@@ -1,95 +1,82 @@
 {
-  "checkedAt": "2026-10-26T21:04:13.035Z",
+  "checkedAt": "2026-10-27T05:10:43.372Z",
   "mode": "scheduled",
   "subjectsChecked": 6,
-  "assignedEvents": 0,
+  "assignedEvents": 1,
   "storedAssets": 5,
-  "newAssetsToday": 2,
+  "newAssetsToday": 0,
   "pending": [
     {
-      "subject": "CENTRE FEDERAL BB vs ASA SCEAUX Womens Other Basketball",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "Grand Prix du Mexique",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+      "imageUrl": "https://www.formula1.com/etc/designs/fom-website/social/f1-default-share.jpg",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "CFBB vs USO MONDEVILLE BASKET Women's Pro Basketball",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "Grand Prix du Mexique",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-gran-premio-de-la-ciudad-de-mexico-2026.14b3wTWzNNLJ5Wd8cG7HCQ",
+      "imageUrl": "https://www.formula1.com/etc/designs/fom-website/social/f1-default-share.jpg",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "CFBB vs CHAMPAGNE BASKET FEMININ Women's Pro Basketball",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "Route du Rhum",
+      "sourceUrl": "https://www.francetvpro.fr/contenu-de-presse/78939582",
+      "imageUrl": "https://www.francetvpro.fr/sites/default/files/styles/crop_format_linkedin/public/telechargements/images/ROUTE_DU_RHUM_2026__2.jpg.webp",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "CFBB vs Roche Vendee Basket Club Women's Pro Basketball",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "CFBB vs PAYS VOIRONNAIS BASKET CLUB Women's Pro Basketball",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "CENTRE FEDERAL BB vs COTE D'OPALE BASKET CALAIS Womens Other Basketball",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "Sortie dans l'espace américaine 101",
+      "sourceUrl": "https://plus.nasa.gov/",
+      "imageUrl": "https://plus.nasa.gov/wp-content/uploads/2023/03/nasa-png-placeholder.png",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     }
   ],
   "results": [
     {
+      "subject": "WTT Montpellier",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "Worlds LoL",
+      "status": "selected",
+      "candidates": 6,
+      "assetKey": "auto-38612edd15b7136185186da3"
+    },
+    {
+      "subject": "Grand Prix du Mexique",
+      "status": "selected",
+      "candidates": 7,
+      "assetKey": "auto-b9749dea66dfae8fe834e569",
+      "error": "Limite de taille dépassée"
+    },
+    {
+      "subject": "Route du Rhum",
+      "status": "selected",
+      "candidates": 7,
+      "assetKey": "auto-adc57a57165c4d378837bb7f"
+    },
+    {
+      "subject": "Grand Slam d’Abu Dhabi",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "Sortie dans l'espace américaine 101",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
       "subject": "ZeratoR",
       "status": "curated",
       "reason": "Visuel spécifique déjà validé"
-    },
-    {
-      "subject": "CENTRE FEDERAL BB vs ASA SCEAUX Womens Other Basketball",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "CFBB vs USO MONDEVILLE BASKET Women's Pro Basketball",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "CFBB vs CHAMPAGNE BASKET FEMININ Women's Pro Basketball",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "CFBB vs Roche Vendee Basket Club Women's Pro Basketball",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "CFBB vs PAYS VOIRONNAIS BASKET CLUB Women's Pro Basketball",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "CENTRE FEDERAL BB vs COTE D'OPALE BASKET CALAIS Womens Other Basketball",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
     }
   ]
 }
