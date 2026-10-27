@@ -17,7 +17,7 @@ export function startggToItems(nodes){
    start:new Date(t.startAt*1000).toISOString(),
    end:Number.isFinite(t.endAt)&&t.endAt>t.startAt?new Date(t.endAt*1000).toISOString():null,
    url:'https://www.start.gg/'+encodeURI(t.slug||('tournament/'+t.id)),
-   game:(t.events||[]).map(e=>e?.videogame?.displayName||e?.videogame?.name).filter(Boolean)[0]||'Jeux de combat',
+   game:(t.events||[]).map(e=>e?.videogame?.name||e?.videogame?.displayName).filter(Boolean).map(name=>name==='Ultimate'?'Super Smash Bros. Ultimate':name==='Melee'?'Super Smash Bros. Melee':name)[0]||'Jeux de combat',
    city:String(t.city||'').trim()||null,
    streams:(t.streams||[]).map(startggStreamURL).filter(Boolean),
    events:(t.events||[]).filter(e=>Number.isFinite(e?.startAt)&&e.startAt>=t.startAt-86400).map(e=>({label:String(e.name||'').trim().slice(0,80),start:new Date(e.startAt*1000).toISOString()})).slice(0,8)

@@ -17,7 +17,7 @@ test('startggToItems keeps dated tournaments with stream and game info',()=>{
  ]);
  assert.equal(items.length,1);
  assert.equal(items[0].key,'sg-966356');
- assert.equal(items[0].game,'Ultimate');
+ assert.equal(items[0].game,'Super Smash Bros. Ultimate');
  assert.equal(items[0].streams[0].platform,'Twitch');
  assert.equal(items[0].end,new Date(1792947600*1000).toISOString());
 });
