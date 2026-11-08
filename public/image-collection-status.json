@@ -1,47 +1,12 @@
 {
-  "checkedAt": "2026-10-27T14:35:55.842Z",
+  "checkedAt": "2026-11-08T21:36:01.689Z",
   "mode": "scheduled",
   "subjectsChecked": 6,
-  "assignedEvents": 0,
+  "assignedEvents": 9,
   "storedAssets": 5,
   "newAssetsToday": 0,
   "pending": [
     {
-      "subject": "Kuwait Premier Padel Major",
-      "sourceUrl": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
-      "imageUrl": "https://img.redbull.com/images/c_crop,w_3000,h_1500,x_0,y_214/c_auto,w_1200,h_630/f_auto,q_auto/redbullcom/2024/11/21/nijpnpr1p4sitlz2ztzk/miguel-yanguas-premier-padel-final-kuwait-city-2024",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Kuwait Premier Padel Major",
-      "sourceUrl": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
-      "imageUrl": "https://img.redbull.com/images/c_crop,w_3000,h_1500,x_0,y_214/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2024/11/21/nijpnpr1p4sitlz2ztzk/miguel-yanguas-premier-padel-final-kuwait-city-2024",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Kuwait Premier Padel Major",
-      "sourceUrl": "https://www.redbull.com/int-en/events/premier-padel-kuwait-major",
-      "imageUrl": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2024/11/21/nijpnpr1p4sitlz2ztzk/miguel-yanguas-premier-padel-final-kuwait-city-2024",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Sofi Jeannin dirige Bach et Nystedt",
-      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
-      "imageUrl": "https://www.arte.tv/img/SHARE_DEFAULT.jpg",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Sofi Jeannin dirige Bach et Nystedt",
-      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
-      "imageUrl": "https://www.arte.tv/img/SHARE_TW_CONCERT_GUIDE.png",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
       "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
       "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
       "imageUrl": "https://www.arte.tv/img/SHARE_DEFAULT.jpg",
@@ -52,39 +17,44 @@
       "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
       "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
       "imageUrl": "https://www.arte.tv/img/SHARE_TW_CONCERT_GUIDE.png",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BF Escaudain PH",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Feytiat Basket 87",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BC Franconville",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Geispolsheim CJS",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     }
   ],
   "results": [
     {
-      "subject": "ZeratoR",
-      "status": "curated",
-      "reason": "Visuel spécifique déjà validé"
-    },
-    {
-      "subject": "VALORANT · Game Changers Championship",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "Ponce",
+      "subject": "Worlds LoL",
       "status": "selected",
-      "candidates": 7,
-      "assetKey": "auto-342e438eda718c8c12314335"
-    },
-    {
-      "subject": "Kuwait Premier Padel Major",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "Sofi Jeannin dirige Bach et Nystedt",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
+      "candidates": 6,
+      "assetKey": "auto-38612edd15b7136185186da3"
     },
     {
       "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
@@ -93,7 +63,25 @@
       "assetKey": null
     },
     {
-      "subject": "CERN · The FASER experiment: recent results and future prospects",
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BF Escaudain PH",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Feytiat Basket 87",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BC Franconville",
+      "status": "fallback",
+      "candidates": 0,
+      "assetKey": null
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Geispolsheim CJS",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
