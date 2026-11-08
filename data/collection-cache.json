@@ -9,7 +9,7 @@
       "checkedDay": "2026-11-08"
     },
     "monitor:f1-us": {
-      "hash": "52694742ab3ac3ba016dd6915a8832c53563b0e759a9d40e7b99709513b634cd",
+      "hash": "6ec36c8f1597fef6b850adf9357d7f65ab7d7ba6a35b10b7dbac24f1054087a0",
       "checkedDay": "2026-11-08"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "9a565a70781f933de4af3f297ec739e043f8756fd1df0efe33aaaebbcd550f1d",
+      "hash": "7c63a32ded1a29979bd01c84834a2891d801a87a8e584bf7641f64ac116629ba",
       "checkedDay": "2026-11-08"
     },
     "monitor:nfl-tv": {
@@ -246,7 +246,7 @@
       "checkedDay": "2026-11-08"
     },
     "monitor:lichess": {
-      "hash": "7397ed48ede0f42fdfc73c0de49e44d00e0d22bac5cc47ed490efed7217ce2ad",
+      "hash": "a0cdf2cbfd6697ef84ad46c01981a5f9a39f89d8a464c199b6d7e5bdfaa5dd19",
       "checkedDay": "2026-11-08"
     },
     "monitor:oengus": {
@@ -510,6 +510,22 @@
       "hash": "f8b51e809cf5ea444cf70d1a34142000b858cf688526ddfbcc724cde41c3e50e",
       "checkedDay": "2026-11-08",
       "editorialDone": false
+    },
+    "monitor:spacex-mission-ussf627": {
+      "hash": "afd623b148154a550bb1f644012892cc725dcb383cd68fdf05f1665b09e355bc",
+      "checkedDay": "2026-11-08"
+    },
+    "monitor:cern-indico-1748475": {
+      "hash": "451d52ab70363bd3647369e551f1063a1779bdb98f46562b630f9e3b7b904900",
+      "checkedDay": "2026-11-08"
+    },
+    "monitor:cern-indico-1567687": {
+      "hash": "1e5f7d012770430d3feac5908eb38af8dedefd18b2dcd9d1d7e085a4d25a9742",
+      "checkedDay": "2026-11-08"
+    },
+    "monitor:spacex-mission-ussf317": {
+      "hash": "afd623b148154a550bb1f644012892cc725dcb383cd68fdf05f1665b09e355bc",
+      "checkedDay": "2026-11-08"
     }
   },
   "llmAttemptDay": "2026-11-08"
