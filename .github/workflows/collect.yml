@@ -120,6 +120,8 @@ jobs:
         id: collect_images
         continue-on-error: true
       - run: npm run build
+      - name: Re-run the checks against the freshly collected data
+        run: npm test
       - name: Commit validated data
         id: commit
         run: |
