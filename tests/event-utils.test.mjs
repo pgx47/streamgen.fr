@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { statusAt, dateKey, countdownAt, matchesOptions, calendarText, eventOnDay } from '../public/event-utils.mjs';
+import { statusAt, dateKey, countdownAt, matchesOptions, calendarText, eventOnDay, nowPlaying, eventTiming } from '../public/event-utils.mjs';
 const now=new Date('2026-10-25T14:00:00Z');
 test('un horaire dépassé ne confirme jamais un direct ou une fin',()=>{assert.equal(statusAt({start:'2026-10-25T12:00:00Z',end:'2026-10-25T13:00:00Z',status:'À venir'},now),'Début prévu');});
 test('la date française respecte le changement d’heure',()=>{assert.equal(dateKey('2026-10-24T22:30:00Z'),'2026-10-25');assert.equal(dateKey('2026-10-25T23:30:00Z'),'2026-10-26');});
@@ -10,3 +10,27 @@ test('les filtres combinés doivent correspondre à la même option',()=>{const 
 test('le calendrier réel garde un UID stable, aucune fin inventée',()=>{const e={id:'wtt-2026',title:'WTT, Montpellier',summary:'Résumé',start:'2026-10-27T11:00:00Z',end:null,status:'À venir'};const a=calendarText(e,now),b=calendarText(e,new Date('2026-10-26T14:00:00Z'));assert.match(a,/UID:wtt-2026@streamgen.fr/);assert.match(b,/UID:wtt-2026@streamgen.fr/);assert.match(a,/DTSTART:20261027T110000Z/);assert.doesNotMatch(a,/DTEND|DÉMO|FICTIF/);assert.match(a,/SUMMARY:WTT\\, Montpellier/);});
 test('un calendrier date seule utilise VALUE=DATE',()=>{assert.match(calendarText({id:'judo',title:'Judo',date:'2026-10-29',start:null,status:'À venir',summary:'Heure inconnue'},now),/DTSTART;VALUE=DATE:20261029/);});
 test('un événement réparti sur deux sessions reste dans son jour',()=>{assert.equal(eventOnDay({start:'2026-10-27T11:00:00Z',date:'2026-10-27'},'2026-10-28'),false);});
+test('le bloc « en ce moment » ne retient que les créneaux en cours, jamais une preuve de direct',()=>{
+ const now=new Date('2026-11-10T20:00:00Z');
+ const mk=(id,o={})=>({id,title:id,category:'esport',subcategory:'LoL',date:'2026-11-10',start:'2026-11-10T18:00:00Z',end:'2026-11-10T22:00:00Z',status:'À venir',organizer:'O',participants:[],sources:[],broadcastOptions:[],...o});
+ const live=mk('live'),ended=mk('ended',{start:'2026-11-10T15:00:00Z',end:'2026-11-10T19:00:00Z'}),future=mk('future',{start:'2026-11-10T21:00:00Z'}),canceled=mk('canceled',{status:'Annulé'});
+ const open=mk('open',{start:'2026-11-10T18:30:00Z',end:null}),stale=mk('stale',{start:'2026-11-10T14:00:00Z',end:null});
+ const ids=list=>nowPlaying(list,now,5).map(e=>e.id);
+ assert.deepEqual(ids([live,ended,future,canceled,open,stale]),['live','open']);
+ assert.equal(nowPlaying([mk('a'),mk('b'),mk('c'),mk('d')],now,3).length,3);
+});
+test('un seul modèle d’horaires : plage, tournoi multi-jours, début sans fin, heure inconnue',()=>{
+ const at=new Date('2026-11-10T19:00:00Z');
+ const multi=eventTiming({start:'2026-11-03T14:15:00Z',end:'2026-11-14T13:15:00Z',date:'2026-11-03',status:'À venir'},at);
+ assert.equal(multi.kind,'multi');assert.equal(multi.label,'Du 3 nov. au 14 nov.');assert.equal(multi.detail,'Jour 8 sur 12');assert.equal(multi.state,'ongoing');assert.equal(multi.stateLabel,'En cours · créneau annoncé');assert.ok(multi.progress>0&&multi.progress<1);
+ assert.equal(countdownAt({start:'2026-11-03T14:15:00Z',end:'2026-11-14T13:15:00Z',status:'À venir'},at),'Jusqu’au 14 nov.');
+ const range=eventTiming({start:'2026-11-10T17:15:00Z',end:'2026-11-10T19:15:00Z',date:'2026-11-10',status:'À venir'},at);
+ assert.equal(range.kind,'range');assert.equal(range.label,'18:15 – 20:15');assert.equal(range.state,'ongoing');
+ assert.equal(eventTiming({start:'2026-11-10T17:15:00Z',end:'2026-11-10T18:15:00Z',date:'2026-11-10',status:'À venir'},at).stateLabel,'Terminé');
+ const open=eventTiming({start:'2026-11-10T17:30:00Z',date:'2026-11-10',status:'À venir'},at);
+ assert.equal(open.stateLabel,'En cours · fin non annoncée');assert.equal(open.label,'Début à 18:30');
+ assert.equal(eventTiming({start:'2026-11-10T10:00:00Z',date:'2026-11-10',status:'À venir'},at).stateLabel,'Début annoncé · fin non communiquée');
+ assert.equal(eventTiming({start:'2026-11-10T21:15:00Z',date:'2026-11-10',status:'À venir'},at).label,'Dès 22:15');
+ assert.equal(eventTiming({start:null,date:'2026-11-12',status:'À venir'},at).label,'Horaire à confirmer');
+ assert.equal(eventTiming({start:'2026-11-10T17:15:00Z',end:'2026-11-10T19:15:00Z',status:'Annulé'},at).stateLabel,'Annulé');
+});

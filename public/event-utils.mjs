@@ -6,11 +6,38 @@ export function statusAt(e,now=new Date()){
  if(!e.start)return 'Horaire à confirmer';
  return new Date(e.start)<=now?'Début prévu':'À venir';
 }
+const hm=d=>new Intl.DateTimeFormat('fr-FR',{timeZone:ZONE,hour:'2-digit',minute:'2-digit'}).format(d);
+const dayMonth=d=>new Intl.DateTimeFormat('fr-FR',{timeZone:ZONE,day:'numeric',month:'short'}).format(d);
+const dayNo=d=>Math.round(Date.parse(d+'T12:00:00Z')/86400000);
+// Un seul modèle de lecture des horaires : ce qui est annoncé, quand cela se termine, et ce qu'on ignore.
+export function eventTiming(e,now=new Date()){
+ const at=now.getTime(),inactive=['Annulé','Reporté','Programmation à revérifier','Terminé'].includes(e.status);
+ if(!e.start)return{kind:'unknown',label:'Horaire à confirmer',detail:null,state:inactive?'inactive':'unknown',stateLabel:e.status==='Terminé'?'Terminé':inactive?e.status:'Horaire à confirmer',progress:null};
+ const start=Date.parse(e.start),end=e.end?Date.parse(e.end):null,startDay=dateKey(e.start),endDay=end?dateKey(new Date(end-1)):null,multi=!!end&&endDay!==startDay;
+ const state=inactive?'inactive':end&&end<=at?'ended':start>at?'upcoming':end?'ongoing':at-start<=3*3600000?'ongoing':'recent';
+ const statusLabel=inactive?e.status:state==='ended'?'Terminé':state==='upcoming'?'À venir':state==='recent'?'Début annoncé · fin non communiquée':end?'En cours · créneau annoncé':'En cours · fin non annoncée';
+ let kind,label,detail=null,progress=null;
+ if(multi){
+  kind='multi';label=`Du ${dayMonth(new Date(start))} au ${dayMonth(new Date(end-1))}`;
+  const total=dayNo(endDay)-dayNo(startDay)+1,current=Math.min(total,Math.max(1,dayNo(dateKey(now))-dayNo(startDay)+1));
+  if(state==='ongoing')detail=`Jour ${current} sur ${total}`;
+  progress=(at-start)/(end-start);
+ }else if(end){
+  kind='range';label=`${hm(new Date(start))} – ${hm(new Date(end))}`;
+  progress=(at-start)/(end-start);
+ }else{
+  kind='start';label=state==='upcoming'?`Dès ${hm(new Date(start))}`:`Début à ${hm(new Date(start))}`;
+ }
+ return{kind,label,detail,state,stateLabel:statusLabel,progress:state==='ongoing'&&progress!==null?Math.max(0,Math.min(1,progress)):null};
+}
 export function countdownAt(e,now=new Date()){
- if(['Reporté','Annulé','Terminé','Programmation à revérifier'].includes(e.status))return e.status;
- if(!e.start)return 'Horaire à confirmer';
- const m=Math.ceil((new Date(e.start)-now)/60000);
- if(m<=0)return 'Direct non vérifié';
+ const t=eventTiming(e,now);
+ if(t.state==='unknown')return t.stateLabel;
+ if(t.state==='inactive')return t.stateLabel;
+ if(t.state==='ended')return 'Terminé';
+ if(t.state==='ongoing')return t.kind==='multi'?`Jusqu’au ${dayMonth(new Date(Date.parse(e.end)-1))}`:e.end?`Jusqu’à ${hm(new Date(e.end))}`:t.stateLabel;
+ if(t.state==='recent')return 'Début annoncé';
+ const m=Math.ceil((Date.parse(e.start)-now.getTime())/60000);
  if(m<60)return `Dans ${m} min`;
  if(m<1440)return `Dans ${Math.floor(m/60)} h ${m%60} min`;
  return `Dans ${Math.floor(m/1440)} j`;
@@ -55,14 +82,23 @@ export function editorialPriority(e,now=new Date()){
  if(distance===0)reasons.push('Aujourd’hui');else if(distance===1)reasons.push('Demain');
  return {score,importance,reasons,series,routine,spotlightEligible:!routine&&(e.programType!=='scheduled-tv'||/concert|festival|opera|spectacle/i.test(e.subcategory||'')),label:routine?'Stream régulier':score>=70?'Grand rendez-vous':score>=45?'À suivre':'Au programme'};
 }
-export function rankHighlights(events,now=new Date(),limit=3,{includeRoutine=false}={}){
- const today=dateKey(now),latest=new Date(Date.parse(today+'T12:00:00Z')+30*86400000).toISOString().slice(0,10);
+export function rankHighlights(events,now=new Date(),limit=3,{includeRoutine=false}={}){ const today=dateKey(now),latest=new Date(Date.parse(today+'T12:00:00Z')+30*86400000).toISOString().slice(0,10);
  const weekEnd=new Date(Date.parse(today+'T12:00:00Z')+7*86400000).toISOString().slice(0,10);
  const ranked=events.filter(e=>e.date>=today&&e.date<=latest&&!['Annulé','Reporté','Terminé','Programmation à revérifier'].includes(e.status)&&(!e.end||Date.parse(e.end)>now.getTime())&&(e.end||!e.start||e.status==='En direct confirmé'||Date.parse(e.start)>now.getTime()-3*3600000))
  .map(e=>({event:e,priority:editorialPriority(e,now)})).filter(({event,priority})=>(includeRoutine||priority.spotlightEligible)&&(event.date<=weekEnd||priority.importance>=60||event.major===true)).sort((a,b)=>Number(a.priority.routine)-Number(b.priority.routine)||Number(b.event.date===today)-Number(a.event.date===today)||b.priority.score-a.priority.score||a.event.date.localeCompare(b.event.date)||String(a.event.start||'~').localeCompare(String(b.event.start||'~'))||a.event.id.localeCompare(b.event.id));
  const seen=new Set(),chosen=[];
  for(const {event,priority} of ranked){if(seen.has(priority.series))continue;seen.add(priority.series);chosen.push(event);if(chosen.length>=limit)break}
  return chosen;
+}
+
+// Ce qui se déroule maintenant selon les horaires annoncés : jamais une preuve de flux actif.
+export function nowPlaying(events,now=new Date(),limit=3){
+ const at=now.getTime(),today=dateKey(now);
+ const ranked=events.filter(e=>e.start&&e.date<=today&&!['Annulé','Reporté','Terminé','Programmation à revérifier'].includes(e.status))
+  .filter(e=>Date.parse(e.start)<=at&&(e.end?Date.parse(e.end)>at:Date.parse(e.start)>at-3*3600000))
+  .map(e=>({event:e,priority:editorialPriority(e,now)})).filter(({priority})=>priority.spotlightEligible)
+  .sort((a,b)=>b.priority.score-a.priority.score||b.priority.importance-a.priority.importance||String(a.event.start).localeCompare(String(b.event.start))||a.event.id.localeCompare(b.event.id));
+ return ranked.slice(0,limit).map(({event})=>event);
 }
 
 export const IMAGE_LIBRARY={
