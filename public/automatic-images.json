@@ -89,6 +89,42 @@
       "approved": true,
       "checkedAt": "2026-10-26T14:52:59.052Z",
       "bytes": 242761
+    },
+    "auto-d7aaa0354ab9e83296f8d871": {
+      "label": "Archive · Venezuela v Uruguay 2007",
+      "scope": "archive",
+      "eventYear": 2007,
+      "author": "Warairarepano&Guaicaipuro",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Estadio_Polideportivo_Pueblo_Nuevo_San_Cristobal_Estado_Tachira_Venezuela_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Estadio_Polideportivo_Pueblo_Nuevo_San_Cristobal_Estado_Tachira_Venezuela_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Estadio Polideportivo Pueblo Nuevo San Cristobal Estado Tachira Venezuela 1.jpg",
+      "type": "photo",
+      "changes": "Image collectée automatiquement depuis Wikimedia Commons. Aucun participant de la photo n’est supposé annoncé pour la nouvelle fiche. Les archives conservent leur année.",
+      "creditKey": "auto-d7aaa0354ab9e83296f8d871",
+      "src": "/assets/auto-images/d7aaa0354ab9e83296f8d871.jpg",
+      "approved": true,
+      "checkedAt": "2026-11-10T21:51:48.697Z",
+      "bytes": 735893
+    },
+    "auto-a9990192fdd2f14adb193384": {
+      "label": "Archive · Paraguay v Chile 1954",
+      "scope": "archive",
+      "eventYear": 1954,
+      "author": "Unknown author Unknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paraguay,_Estadio,_1954-02-20_(562).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paraguay,_Estadio,_1954-02-20_(562).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Paraguay%2C_Estadio%2C_1954-02-20_%28562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "Paraguay, Estadio, 1954-02-20 (562).jpg",
+      "type": "photo",
+      "changes": "Image collectée automatiquement depuis Wikimedia Commons. Aucun participant de la photo n’est supposé annoncé pour la nouvelle fiche. Les archives conservent leur année.",
+      "creditKey": "auto-a9990192fdd2f14adb193384",
+      "src": "/assets/auto-images/a9990192fdd2f14adb193384.jpg",
+      "approved": true,
+      "checkedAt": "2026-11-10T21:51:48.697Z",
+      "bytes": 569663
     }
   },
   "assignments": {
@@ -133,7 +169,9 @@
     "twitch-ponce-8b564d241d1dbbf7": "auto-342e438eda718c8c12314335",
     "twitch-ponce-5fc276debd3f0d54": "auto-342e438eda718c8c12314335",
     "twitch-ponce-c34b7f7544c3d95e": "auto-342e438eda718c8c12314335",
-    "twitch-ponce-fb1249ed40f00050": "auto-342e438eda718c8c12314335"
+    "twitch-ponce-fb1249ed40f00050": "auto-342e438eda718c8c12314335",
+    "yt-njzGQyJ3lQQ": "auto-d7aaa0354ab9e83296f8d871",
+    "yt-0_E2xfPmieg": "auto-a9990192fdd2f14adb193384"
   },
-  "updatedAt": "2026-11-10T19:11:53.039Z"
+  "updatedAt": "2026-11-10T21:51:48.697Z"
 }

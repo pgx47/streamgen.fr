@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
+      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
       "checkedDay": "2026-11-10"
     },
     "monitor:wtt-french": {
-      "hash": "5a9a1b28771c31bd2373e3bcef685f46ae018d9fb433c9226b49c9c41e52335a",
+      "hash": "9d01a3b017b888d6c48c1656d75ab3e5c4d2aa1dc6b26193427dea5d82452efe",
       "checkedDay": "2026-11-10"
     },
     "monitor:f1-us": {
-      "hash": "47e5feccca86437d5bb1358d28aa5f1638c52a4372eef1d0ec9d3276b89e2e05",
+      "hash": "a0459648c0f1b0d86a54e97cc96c4716561ae1da58816bfd3548d913215bd094",
       "checkedDay": "2026-11-10"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "c95a4c2d2b84b37bfa911c278d0e3ae33384c72419e4157ecf3bc3f84b5131f0",
+      "hash": "9e1d6b5ad0a2244ef64035e52b9b9614d02c3e95cb7d7882caf76652a2461fa0",
       "checkedDay": "2026-11-10"
     },
     "monitor:nfl-tv": {
@@ -170,7 +170,7 @@
       "checkedDay": "2026-11-10"
     },
     "monitor:arte-concert-live": {
-      "hash": "d47317c963d7c0d72d415a04fc8979eb62acdadfe6b8b6a82491290d7565f64b",
+      "hash": "622f619b2ab88d954a9c14569b47cef4041eeed8a58a9a8576c644b8d6097bc4",
       "checkedDay": "2026-11-10"
     },
     "monitor:cern-webcast": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-10"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "751276f249d8aef134b1c274e5f9d10e919c10bd60c533ad0c3859540be3b6a8",
+      "hash": "1eb78ec5b643f87b2ca9a3b30db16f833e44fa7dfc295f071f58df8704ab253c",
       "checkedDay": "2026-11-10"
     },
     "monitor:yt-rolandgarros": {
@@ -246,7 +246,7 @@
       "checkedDay": "2026-11-10"
     },
     "monitor:lichess": {
-      "hash": "ce4096176b982136b2bc6de1ab2e334734b1f75ee12242636002aa6a3deba8cb",
+      "hash": "b8be2175cfe58f1d411be18041ec518cf782ed2a110957eaf8aae52de2145a36",
       "checkedDay": "2026-11-10"
     },
     "monitor:oengus": {
@@ -668,7 +668,7 @@
       "checkedDay": "2026-11-10"
     },
     "monitor:redbull-live-3f74183bef2d": {
-      "hash": "9edc30889cd7dc28a8d27eedd85fd0c1c362d4dfe1efae3d4f74d525de9ff99d",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-10"
     }
   },

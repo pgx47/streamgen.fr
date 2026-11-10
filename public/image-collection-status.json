@@ -1,48 +1,48 @@
 {
-  "checkedAt": "2026-11-10T19:11:53.039Z",
+  "checkedAt": "2026-11-10T21:51:48.697Z",
   "mode": "scheduled",
   "subjectsChecked": 6,
-  "assignedEvents": 0,
-  "storedAssets": 5,
-  "newAssetsToday": 0,
+  "assignedEvents": 2,
+  "storedAssets": 7,
+  "newAssetsToday": 2,
   "pending": [
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Pays Voironnais",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Venezuela v Colombia",
+      "subject": "Uruguay v Ecuador",
       "sourceUrl": "https://www.youtube.com/@FIBA/streams",
       "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "Ecuador v Paraguay",
+      "subject": "Venezuela v Uruguay",
       "sourceUrl": "https://www.youtube.com/@FIBA/streams",
       "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "Chile v Uruguay",
+      "subject": "Paraguay v Chile",
       "sourceUrl": "https://www.youtube.com/@FIBA/streams",
       "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "Chile v Venezuela",
+      "subject": "Ecuador v Colombia",
       "sourceUrl": "https://www.youtube.com/@FIBA/streams",
       "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "Colombia v Paraguay",
+      "subject": "Venezuela v Paraguay",
+      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "Chile v Ecuador",
       "sourceUrl": "https://www.youtube.com/@FIBA/streams",
       "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
@@ -51,37 +51,38 @@
   ],
   "results": [
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Pays Voironnais",
+      "subject": "Uruguay v Ecuador",
+      "status": "fallback",
+      "candidates": 6,
+      "assetKey": null,
+      "error": "Limite de taille dépassée"
+    },
+    {
+      "subject": "Venezuela v Uruguay",
+      "status": "selected",
+      "candidates": 5,
+      "assetKey": "auto-d7aaa0354ab9e83296f8d871"
+    },
+    {
+      "subject": "Paraguay v Chile",
+      "status": "selected",
+      "candidates": 1,
+      "assetKey": "auto-a9990192fdd2f14adb193384"
+    },
+    {
+      "subject": "Ecuador v Colombia",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "Venezuela v Colombia",
+      "subject": "Venezuela v Paraguay",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "Ecuador v Paraguay",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "Chile v Uruguay",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "Chile v Venezuela",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "Colombia v Paraguay",
+      "subject": "Chile v Ecuador",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
