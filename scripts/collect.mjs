@@ -1,6 +1,6 @@
 import { readFile, writeFile, rename, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { parseWttDay,mergeCollectedEvents } from './collectors/core.mjs';
+import { parseWttDay,mergeCollectedEvents,wttIndex } from './collectors/core.mjs';
 const root=new URL('../',import.meta.url),now=new Date().toISOString();
 const read=async name=>JSON.parse(await readFile(new URL(name,root),'utf8'));
 const atomic=async(name,data)=>{const file=new URL(name,root);await writeFile(new URL(name+'.tmp',root),JSON.stringify(data,null,2)+'\n');await rename(new URL(name+'.tmp',root),file)};
@@ -15,12 +15,15 @@ async function fetchOfficial(url){
  const reader=response.body.getReader();let bytes=0,chunks=[];while(true){const {done,value}=await reader.read();if(done)break;bytes+=value.length;if(bytes>1500000){await reader.cancel();throw Error('Réponse trop volumineuse')}chunks.push(value)}return Buffer.concat(chunks).toString('utf8');
 }
 // Discovery is constrained to dated links on the organizer's own calendar.
-let urls=[];
+let urls=[],seasonClosed=false;
 try{
  const html=await fetchOfficial('https://tickets.wttmontpellier.com/fr');
- urls=[...new Set([...html.matchAll(/href=["']([^"']*\/fr\/[a-z]+_\d{2}_[a-z]+_20\d{2})["']/g)].map(m=>new URL(m[1],'https://tickets.wttmontpellier.com').href))].slice(0,20);
- if(!urls.length)throw Error('Aucune journée officielle détectée');
- results.push({id:'wtt-index',status:'ok',checkedAt:now,detectedPages:urls.length});
+ const {urls:found,identified}=wttIndex(html);
+ urls=found;
+ if(urls.length)results.push({id:'wtt-index',status:'ok',checkedAt:now,detectedPages:urls.length});
+ // Hors édition, la billetterie ne publie plus de journées datées : absence attendue, pas une panne.
+ else if(identified){seasonClosed=true;results.push({id:'wtt-index',status:'ok',checkedAt:now,detectedPages:0,note:'Aucune journée datée publiée : édition terminée ou billetterie fermée.'});}
+ else throw Error('Page d’accueil WTT non reconnue : structure changée');
 }catch(e){results.push({id:'wtt-index',status:'error',checkedAt:now,error:e.message});}
 for(const url of urls){
  try{
@@ -43,6 +46,6 @@ for(const url of urls){
 const successes=results.filter(s=>s.status==='ok'&&s.id!=='wtt-index').length;
 await mkdir(new URL('work/',root),{recursive:true});
 await writeFile(new URL('work/collection-run.json',root),JSON.stringify({checkedAt:now,results},null,2));
-if(!successes)throw Error('Aucune journée vérifiée : dernier catalogue conservé, rapport disponible dans les artefacts Actions.');
+if(!successes&&!seasonClosed)throw Error('Aucune journée vérifiée : dernier catalogue conservé, rapport disponible dans les artefacts Actions.');
 if(patches.length){catalog.events=mergeCollectedEvents(catalog.events,patches);catalog.updatedAt=now;catalog.coverage='Sélection non exhaustive. Horaires WTT contrôlés automatiquement ; autres sources vérifiées manuellement.';await atomic('public/events.json',catalog);await atomic('public/sources.json',registry);await atomic('public/collection-status.json',{mode:'scheduled',checkedAt:now,scope:'Horaires des sessions WTT Montpellier uniquement. Pas de contrôle des flux, droits TV ou autres catégories.',sources:results});}
-console.log(JSON.stringify({verifiedPages:successes,updatedEvents:patches.length,errors:results.filter(s=>s.status==='error').length,candidates:results.filter(s=>s.status==='candidate').length}));
+console.log(JSON.stringify({verifiedPages:successes,updatedEvents:patches.length,errors:results.filter(s=>s.status==='error').length,candidates:results.filter(s=>s.status==='candidate').length,seasonClosed}));

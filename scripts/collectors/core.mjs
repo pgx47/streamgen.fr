@@ -1,4 +1,11 @@
 const months={JANVIER:'01',FEVRIER:'02',MARS:'03',AVRIL:'04',MAI:'05',JUIN:'06',JUILLET:'07',AOUT:'08',SEPTEMBRE:'09',OCTOBRE:'10',NOVEMBRE:'11',DECEMBRE:'12'};
+const WTT_HOST='https://tickets.wttmontpellier.com';
+// Une billetterie hors édition ne publie plus de journées datées : ce n'est pas une panne.
+export function wttIndex(html){
+ const title=html.match(/<title>([^<]*)<\/title>/i)?.[1]??'';
+ const urls=[...new Set([...html.matchAll(/href=["']([^"']*\/fr\/[a-z]+_\d{2}_[a-z]+_20\d{2})["']/g)].map(m=>new URL(m[1],WTT_HOST).href))].slice(0,20);
+ return {urls,identified:/wtt/i.test(title)&&/montpellier/i.test(title)};
+}
 export function parseWttDay(html,url){
  const heading=html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1].replace(/<[^>]*>/g,' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase();
  const match=heading?.match(/(\d{1,2})\s+([A-Z]+)\s+(20\d{2})/);
