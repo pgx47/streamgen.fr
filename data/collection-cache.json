@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
+      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
       "checkedDay": "2026-11-11"
     },
     "monitor:wtt-french": {
-      "hash": "16387fc54f1bd47790975aaba7ff01f564bb2d16989b6abe52134f166d90ee0e",
+      "hash": "7c649f6476848a1c1008869238e5380a246a3b591db2d22e372c087a18596d4e",
       "checkedDay": "2026-11-11"
     },
     "monitor:f1-us": {
-      "hash": "359dd44f33e194e296b08c41b4c82d322ccc58c9cde53d2faff2e9551790da56",
+      "hash": "019b6bc1d1fdb90db87738e3aaf1b854cde99a0eb49a759e275458aaa6ad1b58",
       "checkedDay": "2026-11-11"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "990fbfee5c8d4ccb2c9362344de9ac48bd45b27333886f0384965de50df5a17f",
+      "hash": "0f96c35f9d74103ec81e08f94ea217af725d4d5ecbc5e5280da95111b7b73d1f",
       "checkedDay": "2026-11-11"
     },
     "monitor:nfl-tv": {
@@ -190,7 +190,7 @@
       "checkedDay": "2026-11-11"
     },
     "monitor:spacex-timings": {
-      "hash": "4c0d6b77bd390bae9e6f71ce6267ff2850629c2de05c071cf3b32d93d2538df7",
+      "hash": "486286d2d5e1cd2fde7aeb633192f4b58b932bfcf1f2fa348840c5ab4c3022f6",
       "checkedDay": "2026-11-11"
     },
     "monitor:cern-indico-1745596": {
@@ -210,11 +210,11 @@
       "checkedDay": "2026-11-11"
     },
     "monitor:francetv-sport-week": {
-      "hash": "f184e122a494146fa4ee822b6131b07afc5fbb8d739bb774e32fc822dbf6f77e",
+      "hash": "7381926a52dad53644b95ce8380df1e30b9fbc245be315b01ab9490f0ab180a8",
       "checkedDay": "2026-11-11"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "56f4c24af659e4ccde2542a78e47d0a1e306dad345a5f2e24c1b6b2aafbcb38f",
+      "hash": "5ee92b925b9eb4e0f10ffca6411a23488acd3b07e10112347217c1a813ae6ee3",
       "checkedDay": "2026-11-11"
     },
     "monitor:yt-rolandgarros": {
@@ -246,7 +246,7 @@
       "checkedDay": "2026-11-11"
     },
     "monitor:lichess": {
-      "hash": "019c13e38ff7a2038b40e3987e71d86257fefeebe8392d08a995bf8742f6e707",
+      "hash": "1562556033fd749cdb0268c75b8569e6385224f9e52df8efec0470cf6af7886a",
       "checkedDay": "2026-11-11"
     },
     "monitor:oengus": {
@@ -520,7 +520,7 @@
       "checkedDay": "2026-11-11"
     },
     "monitor:cern-indico-1567687": {
-      "hash": "f5ce0d502def2e8a8e1531f97bec7cff12351fe53d6abd53b6198549ebdb2895",
+      "hash": "e411e3740a41e51b173a509956f37b9478b17646b0877085989b849106a30e46",
       "checkedDay": "2026-11-11"
     },
     "monitor:spacex-mission-ussf317": {
@@ -683,6 +683,16 @@
     },
     "twitch-ponce-c9d276d193ec48d6": {
       "hash": "04a7872537b5bfc91a81e9f4e063cc8f100ef1a06ebe506cee6d9324dc44a2b5",
+      "checkedDay": "2026-11-11",
+      "editorialDone": false
+    },
+    "eurovision-sport-078e25845311b29f": {
+      "hash": "dee89e33f426d19c0c192d2808a849e235135b1a5412acb48e1f4dffdb259d73",
+      "checkedDay": "2026-11-11",
+      "editorialDone": false
+    },
+    "eurovision-sport-0146fd4fe4bf1c0f": {
+      "hash": "bd8bc06479a635513729d59f03fef2153588dc93e842e79d05cb8cb24810bcf9",
       "checkedDay": "2026-11-11",
       "editorialDone": false
     }
