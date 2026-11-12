@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T22:44:42.726Z",
+  "checkedAt": "2026-11-12T07:15:50.640Z",
   "mode": "scheduled",
   "subjectsChecked": 6,
   "assignedEvents": 0,
@@ -7,81 +7,81 @@
   "newAssetsToday": 0,
   "pending": [
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Pays Voironnais",
+      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
+      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
+      "imageUrl": "https://www.arte.tv/img/SHARE_DEFAULT.jpg",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
+      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
+      "imageUrl": "https://www.arte.tv/img/SHARE_TW_CONCERT_GUIDE.png",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BF Escaudain PH",
       "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
       "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "Venezuela v Colombia",
-      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Feytiat Basket 87",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "Ecuador v Paraguay",
-      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BC Franconville",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "Chile v Uruguay",
-      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Chile v Venezuela",
-      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "Colombia v Paraguay",
-      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Geispolsheim CJS",
+      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     }
   ],
   "results": [
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Pays Voironnais",
+      "subject": "Worlds LoL",
+      "status": "selected",
+      "candidates": 6,
+      "assetKey": "auto-38612edd15b7136185186da3"
+    },
+    {
+      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "Venezuela v Colombia",
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BF Escaudain PH",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "Ecuador v Paraguay",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Feytiat Basket 87",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "Chile v Uruguay",
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BC Franconville",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "Chile v Venezuela",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "Colombia v Paraguay",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Geispolsheim CJS",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
