@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13T12:17:15.772Z",
+  "checkedAt": "2026-11-13T19:51:13.324Z",
   "mode": "scheduled",
   "subjectsChecked": 6,
   "assignedEvents": 0,
@@ -7,81 +7,81 @@
   "newAssetsToday": 0,
   "pending": [
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Geispolsheim CJS",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Roche Vendee BC",
       "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
       "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 CO Trith Basket PH",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Pays Voironnais",
       "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
       "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 Estaires BC",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "Venezuela v Colombia",
+      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 ASA Sceaux",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "Ecuador v Paraguay",
+      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 USO Mondeville",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "Chile v Uruguay",
+      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Champagne Basket Féminin",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
+      "subject": "Chile v Venezuela",
+      "sourceUrl": "https://www.youtube.com/@FIBA/streams",
+      "imageUrl": "https://yt3.googleusercontent.com/J09pwEf655991JjUDUvEqBb24t5oYoLeihQ0FL9AP06KEo-w58J8v8AgxiCVIky_I5J4Ly19=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     }
   ],
   "results": [
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Geispolsheim CJS",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Roche Vendee BC",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 CO Trith Basket PH",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Pays Voironnais",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 Estaires BC",
+      "subject": "Venezuela v Colombia",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 ASA Sceaux",
+      "subject": "Ecuador v Paraguay",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 USO Mondeville",
+      "subject": "Chile v Uruguay",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Champagne Basket Féminin",
+      "subject": "Chile v Venezuela",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null

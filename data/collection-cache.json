@@ -5,11 +5,11 @@
       "checkedDay": "2026-11-13"
     },
     "monitor:wtt-french": {
-      "hash": "7f7fcec40178d5e4a44ac3b0e26453af326f4d3711d839ac1a029b397a01e4e9",
+      "hash": "3b0f7c45304231039e238d7fd288ab4a517268d708c40c5487b592a13a91a8c5",
       "checkedDay": "2026-11-13"
     },
     "monitor:f1-us": {
-      "hash": "5f9454ea06d969672b1ce37107921dceac040d2d091125b93b1acf839b8de6be",
+      "hash": "bdf00b4468c2b3947a29364816a0b3764ea68b03c7f8ee9bb8cc19fcc539f35a",
       "checkedDay": "2026-11-13"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "b59c79c734110830dcafc5da8566bb9bfdc8931400ac1cb30459ee0234097c98",
+      "hash": "4915411f3c45968f1fd641b4e44c3a9f0db58649f11a30a3a16f9024c65b0f31",
       "checkedDay": "2026-11-13"
     },
     "monitor:nfl-tv": {
@@ -170,11 +170,11 @@
       "checkedDay": "2026-11-13"
     },
     "monitor:arte-concert-live": {
-      "hash": "1858438ed4188b587fa42d5aafca1c868dad7469e32d954dceacaab90cb37e9d",
+      "hash": "08feb67d3c500a1a113e7730337774f5bc4ad81a70092738a2bd49ddc9342b6c",
       "checkedDay": "2026-11-13"
     },
     "monitor:cern-webcast": {
-      "hash": "ecb2f78555ba5b1a5556ea03f8572f25ea89ad60a2e08dab1042f70016774cc4",
+      "hash": "344f15e8cdc0b1029f57c032455b8b3cd37f826199ec306ad066a82e7006db83",
       "checkedDay": "2026-11-13"
     },
     "monitor:cern-indico-1743465": {
@@ -186,11 +186,11 @@
       "checkedDay": "2026-11-13"
     },
     "monitor:spacex-upcoming": {
-      "hash": "13fe81879956c24d9b9ea6674cdb0c8606af0f4a00dff03de3d4425f18f12195",
+      "hash": "70db9a0b36495674f4ef546fbc4b26d04b35cebf16f653b062bea36acb7e6dec",
       "checkedDay": "2026-11-13"
     },
     "monitor:spacex-timings": {
-      "hash": "d80e620571f76940c20cde6e4f104206ee4debc858b502444ef1a42880cd5160",
+      "hash": "d67f4c9e126e7a34722f89cf289dc3baab1b9ba7ae978bc3c0117dd295f0bad8",
       "checkedDay": "2026-11-13"
     },
     "monitor:cern-indico-1745596": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-13"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "6b38cb57c2d1c42c4384ce98ed024f588182cd004ed8c5351cf63fe09da2712a",
+      "hash": "00720a643e81df8d297633a495a9e5f42d4fe39e6715966cc23aafed627bb0da",
       "checkedDay": "2026-11-13"
     },
     "monitor:yt-rolandgarros": {
@@ -246,7 +246,7 @@
       "checkedDay": "2026-11-13"
     },
     "monitor:lichess": {
-      "hash": "f4ac0c18b52d83e8c5ff790ad876f2a8297eba6953d3c8daf449804ec7040523",
+      "hash": "6d1ecb7db6ae4f5cb8610b251d4af60cc1f29345cae4ba036d9c8cd8c2556f0d",
       "checkedDay": "2026-11-13"
     },
     "monitor:oengus": {
@@ -520,7 +520,7 @@
       "checkedDay": "2026-11-13"
     },
     "monitor:cern-indico-1567687": {
-      "hash": "e411e3740a41e51b173a509956f37b9478b17646b0877085989b849106a30e46",
+      "hash": "e0e385fade95eaeb3da6c13469913d570f8033548587b148fdc31bc1ffe1fa10",
       "checkedDay": "2026-11-13"
     },
     "monitor:spacex-mission-ussf317": {
@@ -528,7 +528,7 @@
       "checkedDay": "2026-11-13"
     },
     "monitor:redbull-live-8346cdb559a7": {
-      "hash": "054b00005e354612a466ee1281ba8c16f084299c4dbdf3386de503275d8cef59",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-13"
     },
     "twitch-domingo-a35aaecb16d31e22": {
@@ -668,7 +668,7 @@
       "checkedDay": "2026-11-13"
     },
     "monitor:redbull-live-3f74183bef2d": {
-      "hash": "a2c57949c7946c936a4b9eb04842587a85e22ed54b4c02873436e68a580ee3d5",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-13"
     },
     "twitch-ponce-c2361606aa5cc21a": {
@@ -697,7 +697,7 @@
       "editorialDone": false
     },
     "monitor:redbull-live-020434f10819": {
-      "hash": "0381b2e8faaa2562e4fe7c0ace5754ad516d1eb42634683b1814adf115b98c62",
+      "hash": "b71031a58eaf532db2ab55ea0d3246e8e2c8cd2dc9aea9ffd82ca8bbaf523c04",
       "checkedDay": "2026-11-13"
     },
     "eurovision-sport-182e51332ec54390": {
