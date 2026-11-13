@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-12T16:52:00.078Z",
+  "checkedAt": "2026-11-13T01:09:02.869Z",
   "mode": "scheduled",
   "subjectsChecked": 6,
   "assignedEvents": 0,
@@ -7,42 +7,42 @@
   "newAssetsToday": 0,
   "pending": [
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 CO Trith Basket PH",
+      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
+      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
+      "imageUrl": "https://www.arte.tv/img/SHARE_DEFAULT.jpg",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
+      "sourceUrl": "https://www.arte.tv/fr/arte-concert/agenda/",
+      "imageUrl": "https://www.arte.tv/img/SHARE_TW_CONCERT_GUIDE.png",
+      "status": "pending",
+      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
+    },
+    {
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Montbrison Féminines BC",
       "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
       "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 Estaires BC",
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BF Escaudain PH",
       "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
       "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 ASA Sceaux",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Feytiat Basket 87",
       "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
       "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
       "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 USO Mondeville",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Champagne Basket Féminin",
-      "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
-      "status": "pending",
-      "reason": "Aperçu repéré, mais licence et correspondance exactes non établies"
-    },
-    {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Roche Vendee BC",
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BC Franconville",
       "sourceUrl": "https://www.youtube.com/@FFBB_Officiel/streams",
       "imageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nWA1YETUCCIuAfeUvpJKveSp-3100QYxOLJEaAbe0obQc=s900-c-k-c0x00ffffff-no-rj",
       "status": "pending",
@@ -51,37 +51,37 @@
   ],
   "results": [
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 CO Trith Basket PH",
+      "subject": "Worlds LoL",
+      "status": "selected",
+      "candidates": 6,
+      "assetKey": "auto-38612edd15b7136185186da3"
+    },
+    {
+      "subject": "Jaap Van Zweden dirige Brahms et Berlioz",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 Estaires BC",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Montbrison Féminines BC",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 ASA Sceaux",
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BF Escaudain PH",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 USO Mondeville",
+      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Feytiat Basket 87",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
     },
     {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Champagne Basket Féminin",
-      "status": "fallback",
-      "candidates": 0,
-      "assetKey": null
-    },
-    {
-      "subject": "[LIVE Pôle France BasketBall] LF2 PFBB 🆚 Roche Vendee BC",
+      "subject": "[LIVE Pôle France BasketBall] NF1 PFBB 🆚 BC Franconville",
       "status": "fallback",
       "candidates": 0,
       "assetKey": null
