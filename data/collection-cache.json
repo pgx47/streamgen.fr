@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "ce51abdfaa8d3666bb0a3daabce8bf3097c2efc02f31c917cd3b4a43b2b1c112",
+      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
       "checkedDay": "2026-11-14"
     },
     "monitor:wtt-french": {
-      "hash": "632e925faa77a6e4390a4034db69aa155f3e38ccb723c29557902135de982514",
+      "hash": "0695098ab5e893d9899ee1372bf274eee20bcde3bb7a34f8a144ce02a274a682",
       "checkedDay": "2026-11-14"
     },
     "monitor:f1-us": {
-      "hash": "859700c9196a949c7985195456ff11f35fa790e961db71ff9130fa89a1d3eefc",
+      "hash": "2ecc63a771d7fc955d58b6a9a96449847ba98a06422cfc90100c92b2e19f7f11",
       "checkedDay": "2026-11-14"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "88e9c024440614bec1657f216d93b2a7d4e2dca01756ac498b7f995c6e70f961",
+      "hash": "ba2b668771f08dbed19f40cfe08278a2f4577c226325cac1b979bd9398d8af35",
       "checkedDay": "2026-11-14"
     },
     "monitor:nfl-tv": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-14"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "2fc1e5df8cd8eb1e1b9b4ec6d1ef7d46f1fd65f93d9d8ed859b3eb78c1b9aaa3",
+      "hash": "659d9187d41cfcd9366e144420cb2f70cfee6fd03af755a066a119ba83feea11",
       "checkedDay": "2026-11-14"
     },
     "monitor:yt-rolandgarros": {
@@ -246,7 +246,7 @@
       "checkedDay": "2026-11-14"
     },
     "monitor:lichess": {
-      "hash": "ef159b3e37cbbb8a077778087e7226aee9ea35160b056d25667e17f0efe8ce3a",
+      "hash": "d2f0c65fed7a85943d9ad7c8204e90f4c4cd89be18ec170499f77c991a3cedc2",
       "checkedDay": "2026-11-14"
     },
     "monitor:oengus": {
@@ -697,7 +697,7 @@
       "editorialDone": true
     },
     "monitor:redbull-live-020434f10819": {
-      "hash": "e13dce88a3e6aa35d824459408a3621197c192591d54093065140a3fabc70a6f",
+      "hash": "bbca670c29ab26c4f4b441123760ab29182db08142bc1f19b77b1cf4165f26db",
       "checkedDay": "2026-11-14"
     },
     "eurovision-sport-182e51332ec54390": {
