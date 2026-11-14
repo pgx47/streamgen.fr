@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
+      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
       "checkedDay": "2026-11-14"
     },
     "monitor:wtt-french": {
-      "hash": "0695098ab5e893d9899ee1372bf274eee20bcde3bb7a34f8a144ce02a274a682",
+      "hash": "a3e8309616178df45f11bc956203f84dc6b97d108d4dcf3d40950f4b162df883",
       "checkedDay": "2026-11-14"
     },
     "monitor:f1-us": {
-      "hash": "2ecc63a771d7fc955d58b6a9a96449847ba98a06422cfc90100c92b2e19f7f11",
+      "hash": "192d4cfefd9f04d44bbdc27f322e19bf0e4f7eb9b4047851205819e9520a61af",
       "checkedDay": "2026-11-14"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "ba2b668771f08dbed19f40cfe08278a2f4577c226325cac1b979bd9398d8af35",
+      "hash": "636c792ac267e19121f298ae58e4e15c1b2e8accd1b49d606de371304913dd7a",
       "checkedDay": "2026-11-14"
     },
     "monitor:nfl-tv": {
@@ -170,7 +170,7 @@
       "checkedDay": "2026-11-14"
     },
     "monitor:arte-concert-live": {
-      "hash": "c94bd07d3afa1f56bf4449d4f3d3c0635bccfb76bdd0140706f61e45fbbe6fd6",
+      "hash": "f85ad0fb4c2a7261973f108051c5891e2873d7d408dd0ec158c75f50d6666d7f",
       "checkedDay": "2026-11-14"
     },
     "monitor:cern-webcast": {
@@ -186,11 +186,11 @@
       "checkedDay": "2026-11-14"
     },
     "monitor:spacex-upcoming": {
-      "hash": "70db9a0b36495674f4ef546fbc4b26d04b35cebf16f653b062bea36acb7e6dec",
+      "hash": "360f14314696448b9738d300e4b50a6b38c0f47d8561b049e9f328f21cd7b032",
       "checkedDay": "2026-11-14"
     },
     "monitor:spacex-timings": {
-      "hash": "7e13255f6905538cbd61c57aea4e581a5b4779d3cf8192c2e1931390b5283bad",
+      "hash": "ba05f1f16f23a874c876699ce2ee2b186d4041db051be04c150e508ab743c0cf",
       "checkedDay": "2026-11-14"
     },
     "monitor:cern-indico-1745596": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-14"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "659d9187d41cfcd9366e144420cb2f70cfee6fd03af755a066a119ba83feea11",
+      "hash": "b2172b2c43b7c92dee9d783f820965cab49acf5bea75e7b7bc55b4dcff9a975d",
       "checkedDay": "2026-11-14"
     },
     "monitor:yt-rolandgarros": {
@@ -246,7 +246,7 @@
       "checkedDay": "2026-11-14"
     },
     "monitor:lichess": {
-      "hash": "d2f0c65fed7a85943d9ad7c8204e90f4c4cd89be18ec170499f77c991a3cedc2",
+      "hash": "725f93232026a081e55d093768f80b83e33a804ddda64fea43b7f5c77723b3bb",
       "checkedDay": "2026-11-14"
     },
     "monitor:oengus": {
@@ -697,7 +697,7 @@
       "editorialDone": true
     },
     "monitor:redbull-live-020434f10819": {
-      "hash": "bbca670c29ab26c4f4b441123760ab29182db08142bc1f19b77b1cf4165f26db",
+      "hash": "3a13e0966811720e5268b04dc79e112aae0a26485d273d30c05eb9025b96691e",
       "checkedDay": "2026-11-14"
     },
     "eurovision-sport-182e51332ec54390": {
