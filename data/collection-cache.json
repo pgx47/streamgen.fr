@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "ce51abdfaa8d3666bb0a3daabce8bf3097c2efc02f31c917cd3b4a43b2b1c112",
+      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
       "checkedDay": "2026-11-17"
     },
     "monitor:wtt-french": {
-      "hash": "462d35fc29b50320834840976d48f035f99aaed5cf81a8792c002e6aacd561a0",
+      "hash": "900c780fa78ce29d69ecfa155b64ec2c1d9212543667565fdac831b07e6168be",
       "checkedDay": "2026-11-17"
     },
     "monitor:f1-us": {
-      "hash": "cfd7a76836d25ac2ef362dfd1ad65849821fc846debec2137727b744d2ecd272",
+      "hash": "a764857db5dbd51a257b6e26f2ea7902c550da7c3f7abd26957c4692d557bdf7",
       "checkedDay": "2026-11-17"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "91d05c624b37437624d431a344913b6aa6847427fd265a23c4ed8d948b866a3b",
+      "hash": "c95a772ddafb4bcac21204958dae81a9d783f0d90b4cd83aff560e8a86170f43",
       "checkedDay": "2026-11-17"
     },
     "monitor:nfl-tv": {
@@ -170,7 +170,7 @@
       "checkedDay": "2026-11-17"
     },
     "monitor:arte-concert-live": {
-      "hash": "afe693b75e421e1918b72e4ab6736da99b5448354af620df59f7e3f18f2aefe4",
+      "hash": "a3b43e7f6f7efceaa39d7de7381efcc0e7ecd0caa6aa9f2377a2554bf7dbfbbb",
       "checkedDay": "2026-11-17"
     },
     "monitor:cern-webcast": {
@@ -186,11 +186,11 @@
       "checkedDay": "2026-11-17"
     },
     "monitor:spacex-upcoming": {
-      "hash": "360f14314696448b9738d300e4b50a6b38c0f47d8561b049e9f328f21cd7b032",
+      "hash": "a149a1ddac047b710d6de95f35702ca6ce9f533076c297ce91ebc22976a7a683",
       "checkedDay": "2026-11-17"
     },
     "monitor:spacex-timings": {
-      "hash": "abc80eaa8cb43261b6d2c6410217543dda4be85b85e87c838941786d9420e431",
+      "hash": "a0923a6d7fba3a65e3851bcc34446a79551f7f4ee61b2f68f91994e15074c4b7",
       "checkedDay": "2026-11-17"
     },
     "monitor:cern-indico-1745596": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-17"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "c4654bdeef253a22333136a64ad600479f29cea4aef015a3784259a0fd32fec1",
+      "hash": "630edf659da976b9b5faaf07532003a010a7af371a57f33e614f3a3ebd3e1431",
       "checkedDay": "2026-11-17"
     },
     "monitor:yt-rolandgarros": {
@@ -520,7 +520,7 @@
       "checkedDay": "2026-11-17"
     },
     "monitor:cern-indico-1567687": {
-      "hash": "a8d02458e26054c3abcba248611b7a5b34c2dbe476f23c3a51e2218a5893f11d",
+      "hash": "2f87dfad110d4a8091acd735f43d28a7030b0d6a7e295be410d86d5ede93b17f",
       "checkedDay": "2026-11-17"
     },
     "monitor:spacex-mission-ussf317": {
@@ -697,7 +697,7 @@
       "editorialDone": true
     },
     "monitor:redbull-live-020434f10819": {
-      "hash": "50e2ba7fc175d13e45f5946ea34f0eae0ab6ecbe85887f31d65d75c05ca6367c",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-17"
     },
     "eurovision-sport-182e51332ec54390": {
@@ -855,6 +855,32 @@
     },
     "twitch-ponce-b4dc2105801ca326": {
       "hash": "063aef2f9059707624a78cd351dfdd8312c66f9567fa8220062a0761eb774468",
+      "checkedDay": "2026-11-17",
+      "editorialDone": false
+    },
+    "monitor:redbull-live-265f397821aa": {
+      "hash": "06f0fdecd05567421ff5ea790e8c00a0063260ced256add12176628d4e62c555",
+      "checkedDay": "2026-11-17"
+    },
+    "monitor:redbull-live-85d28dcb2150": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checkedDay": "2026-11-17"
+    },
+    "monitor:cern-indico-1753449": {
+      "hash": "7f75010fca76fd8b17627168571a900b75e998c39bac0f7e9c4de7280a972a7d",
+      "checkedDay": "2026-11-17"
+    },
+    "monitor:redbull-live-a41103152d3d": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checkedDay": "2026-11-17"
+    },
+    "twitch-ponce-28071be24e5f1f98": {
+      "hash": "accd17d613952842f63fd619521efc8cf79c0deb1774559f99c35bd5ddc0dfa6",
+      "checkedDay": "2026-11-17",
+      "editorialDone": false
+    },
+    "twitch-ponce-3e2a77df0518a358": {
+      "hash": "967b5941fd42d0e1f994e010c4864c6e1043b58aa7019b2939e179e19032de13",
       "checkedDay": "2026-11-17",
       "editorialDone": false
     }
