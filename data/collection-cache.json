@@ -9,7 +9,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:f1-us": {
-      "hash": "372a6273cf11259a8ad0affee9782b453f35abc6c736bf7d552343eb08c7d60f",
+      "hash": "d78a0ba02da075b1d8231eb36776b40639f9336d468ee884b436237152673eec",
       "checkedDay": "2026-11-18"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "0ad94cd54fa8f21335d47bdcb02ad8892b08d668ee08893e6a9f63f33a39c706",
+      "hash": "03a1f058cf712e9de604409463c291ed21133820938785697f08207d463287d1",
       "checkedDay": "2026-11-18"
     },
     "monitor:nfl-tv": {
@@ -166,7 +166,7 @@
       "editorialDone": false
     },
     "monitor:redbull-live-b71442187dfb": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "b0b08d8239023e20ea6717d0be46707a82471bdb4077c17fba844fb09b4e2d25",
       "checkedDay": "2026-11-18"
     },
     "monitor:arte-concert-live": {
@@ -327,7 +327,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-a779e5af11f5": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "b55a0ef3343e38f61ef3a5ed0f5f3a18c30ff6bfe0d829eee2c5e73c82abb8fd",
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-6a3df2d487e6": {
@@ -528,7 +528,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-8346cdb559a7": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "b680e0f7a66fcb26e78c5b96864039de7ab7e0b95a42a20aefebdd09e4383ccb",
       "checkedDay": "2026-11-18"
     },
     "twitch-domingo-a35aaecb16d31e22": {
@@ -668,7 +668,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-3f74183bef2d": {
-      "hash": "026224f2b6ee771fc5eb21a792af4a96ee980261faed4606ff76e74a8a3dfe9e",
+      "hash": "5ad808533d2cb5bc18e54855f88cfb3e34e0b7b6b8c07a71dcb6475c0debbfd0",
       "checkedDay": "2026-11-18"
     },
     "twitch-ponce-c2361606aa5cc21a": {
@@ -688,16 +688,16 @@
     },
     "eurovision-sport-078e25845311b29f": {
       "hash": "dee89e33f426d19c0c192d2808a849e235135b1a5412acb48e1f4dffdb259d73",
-      "checkedDay": "2026-11-16",
+      "checkedDay": "2026-11-18",
       "editorialDone": true
     },
     "eurovision-sport-0146fd4fe4bf1c0f": {
       "hash": "bd8bc06479a635513729d59f03fef2153588dc93e842e79d05cb8cb24810bcf9",
-      "checkedDay": "2026-11-16",
+      "checkedDay": "2026-11-18",
       "editorialDone": true
     },
     "monitor:redbull-live-020434f10819": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "50e2ba7fc175d13e45f5946ea34f0eae0ab6ecbe85887f31d65d75c05ca6367c",
       "checkedDay": "2026-11-18"
     },
     "eurovision-sport-182e51332ec54390": {
@@ -765,13 +765,13 @@
       "editorialDone": true
     },
     "eurovision-sport-0a36c7b4e791fbf3": {
-      "hash": "425996d48fdea4a0365970f903769f8b44b98cf8db1f272deecba23c84a9565e",
-      "checkedDay": "2026-11-16",
+      "hash": "388e2c4a1b70ee641df529ba6ef89f5f8081a96b2964d2ce516108eb114c79b0",
+      "checkedDay": "2026-11-18",
       "editorialDone": false
     },
     "eurovision-sport-e1f86f70dc74230a": {
       "hash": "423900251ed0fa975deb4aa6c20a549f7b2787c3cb2fae746edf74f30e7f3235",
-      "checkedDay": "2026-11-16",
+      "checkedDay": "2026-11-18",
       "editorialDone": false
     },
     "twitch-domingo-5a9f154f55e4f0ed": {
@@ -863,7 +863,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-85d28dcb2150": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "a686fdff7d0b7ef881c23da6c3a7f3cf5995d9b02b05c8fa967e58f909f130f6",
       "checkedDay": "2026-11-18"
     },
     "monitor:cern-indico-1753449": {
@@ -871,7 +871,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-a41103152d3d": {
-      "hash": "3328c1e38b3d1365b8c4ad9895b46bcfbe2f6356f0f520c8c4ba3974308d53d0",
+      "hash": "f094b1a50a08407e2c223c909d7499e579e0266c7e0257ca481192cdeea8ff51",
       "checkedDay": "2026-11-18"
     },
     "twitch-ponce-28071be24e5f1f98": {
