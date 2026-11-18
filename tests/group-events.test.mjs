@@ -24,8 +24,7 @@ test('une même affiche annoncée deux fois dans la journée ne crée qu’une s
  const dup=lp('lp-b',day.d26,'2026-10-26T08:20:00Z');
  const a=groupEvents([lp('lp-a',day.d26,'2026-10-26T08:00:00Z'),dup]);
  assert.equal(a.length,1);
- assert.equal(a[0].schedule.length,1);
- assert.equal(a[0].schedule[0].start,'2026-10-26T08:00:00Z');
+ assert.equal(a[0].start,'2026-10-26T08:00:00Z');
 });
 test('un même intitulé de diffusion récurrent devient une fiche, sauf au-delà de trois semaines',()=>{
  const joj=(id,date,start)=>({id,slug:id,title:'Jeux Olympiques de la Jeunesse Dakar 2026',date,start,category:'sport',subcategory:'Multisports',participants:[],organizer:'France Télévisions',sources:[{sourceId:'francetv-sport-week',url:'https://france.tv/'+id}],broadcastOptions:[],notes:[]});

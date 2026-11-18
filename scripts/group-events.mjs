@@ -1,6 +1,8 @@
 import{publishableEvent}from'./editorial-policy.mjs';
 const norm=s=>String(s||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const unique=(xs,key)=>[...new Map(xs.map(x=>[key(x),x])).values()];
+const aliases={dendelecs:'dendele',auroragaming:'aurora',nemigagaming:'nemiga',teamvitality:'vitality','9zteam':'9z','9zglobant':'9z',teamliquid:'liquid',teamspirit:'spirit',g2esports:'g2',betboomteam:'betboom'};
+const team=s=>aliases[norm(s)]||norm(s);
 const sourceIds=e=>(e.sources||[]).map(s=>String(s?.sourceId||''));
 const hasSource=(e,prefix)=>sourceIds(e).some(id=>id.startsWith(prefix));
 const parisDay=iso=>new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(iso));
@@ -19,7 +21,7 @@ function tournamentKey(e){
  if(e.category!=='esport')return null;
  if(hasSource(e,'startgg'))return null;
  if(hasSource(e,'lichess'))return null;
- if(hasSource(e,'pgl-'))return 'pgl|'+String(e.id).split('-').slice(0,2).join('-');
+ if(hasSource(e,'pgl-'))return 'pgl|'+norm(pglTournament(e));
  if(hasSource(e,'lp-'))return 'lp|'+norm(e.organizer||e.title.split(' · ')[0]);
  return 'esport|'+norm(esportBase(e.title))+'|'+norm(e.subcategory);
 }
@@ -52,6 +54,21 @@ function sessionLabel(e){
  const phase=parts.length>1?parts.at(-1):tail;
  return phase&&norm(phase)!==norm(esportBase(e.title))?day+' · '+phase:day;
 }
+// Une affiche connue remplace le créneau « affiche à confirmer » du même horaire, et une même
+// affiche annoncée par deux sources à quelques minutes d'écart ne compte qu'une fois.
+function pruneSessions(list){
+ const clean=[...list].filter(s=>s&&s.start).sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
+ const known=new Set(clean.filter(s=>/ vs /.test(s.label)).map(s=>s.start));
+ const seen=new Set(),out=[];
+ for(const s of clean){
+  if(/affiche à confirmer/i.test(s.label)&&known.has(s.start))continue;
+  const teams=/ vs /.test(s.label)?s.label.split(' · ').slice(1).join(' · ').split(' vs ').map(team).sort().join('|'):null;
+  const key=teams?parisDay(s.start)+'|'+teams:s.start+'|'+s.label;
+  if(seen.has(key))continue;
+  seen.add(key);out.push(s);
+ }
+ return out;
+}
 function mergeTournament(es){
  const withStart=es.filter(e=>e.start).sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
  const ranked=[...es].sort((a,b)=>Number(!a.start)-Number(!b.start)||String(a.start||a.date).localeCompare(String(b.start||b.date))||String(a.id).localeCompare(String(b.id)));
@@ -65,13 +82,14 @@ function mergeTournament(es){
  main.groupedEvents=es.map(e=>({id:e.id,slug:e.slug,title:e.title,participants:e.participants,start:e.start,end:e.end,sources:e.sources,broadcastOptions:e.broadcastOptions}));
  main.sources=unique(es.flatMap(e=>e.sources||[]),s=>s.sourceId+'|'+s.url);
  main.broadcastOptions=unique(es.flatMap(e=>e.broadcastOptions||[]),b=>b.url+'|'+b.language+'|'+b.countries.join(','));
- main.participants=unique(es.flatMap(e=>e.participants||[]),norm).filter(Boolean);
+ main.participants=unique(es.flatMap(e=>e.participants||[]),team).filter(Boolean);
  main.notes=[...new Set(es.flatMap(e=>e.notes||[]))];
  main.notes.push('Fiche unique : les sessions de ce tournoi sont réunies, les jours sans session restent dans la période affichée.');
  const sessions=es.map(e=>({label:sessionLabel(e),start:sessionStart(e),who:sessionWho(e)})).filter(s=>s.start)
   .sort((a,b)=>Date.parse(b.start)-Date.parse(a.start)); // unique garde la dernière valeur : l'horaire le plus tôt l'emporte
- main.schedule=unique(sessions,s=>s.who?parisDay(s.start)+'|'+norm(s.who):s.start+'|'+s.label)
-  .map(({label,start})=>({label,start})).sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
+ main.schedule=unique(sessions,s=>s.who?s.start+'|'+s.who.split(' vs ').map(team).sort().join('|'):s.start+'|'+s.label)
+  .map(({label,start})=>({label,start}));
+ main.schedule=pruneSessions(main.schedule);
  if(main.schedule.length>60){main.schedule=main.schedule.slice(0,60);main.notes.push('Le programme affiche les 60 premières sessions annoncées.');}
  main.summary=isEsport?`Tournoi réunissant ${main.schedule.length} sessions annoncées. Une seule fiche pour suivre l’événement ; le programme détaille les horaires et les affiches connues.`:`${main.schedule.length} diffusions annoncées pour ce rendez-vous, réunies dans une seule fiche.`;
  main.mergedAliases=unique(es.flatMap(e=>[{id:e.id,slug:e.slug},...(e.mergedAliases||[])]),a=>a.id).filter(a=>a.id!==main.id);
@@ -94,7 +112,7 @@ function mergeLichess(es){
  main.groupedEvents=es.map(e=>({id:e.id,slug:e.slug,title:e.title,participants:e.participants,start:e.start,end:e.end,sources:e.sources,broadcastOptions:e.broadcastOptions}));
  main.sources=unique(es.flatMap(e=>e.sources||[]),s=>s.sourceId+'|'+s.url);
  main.broadcastOptions=unique(es.flatMap(e=>e.broadcastOptions.map(b=>({...b,label:'Lichess · '+(e.title.split('|').slice(1).join(' · ').trim()||b.label)}))),b=>b.url+'|'+b.language+'|'+b.countries.join(','));
- main.participants=unique(es.flatMap(e=>e.participants||[]),norm).filter(Boolean);
+ main.participants=unique(es.flatMap(e=>e.participants||[]),team).filter(Boolean);
  main.notes=[...new Set(es.flatMap(e=>e.notes||[]))];
  main.notes.push('Fiche regroupée : les sources et options de diffusion des annonces correspondantes sont réunies.');
  main.mergedAliases=unique(es.flatMap(e=>[{id:e.id,slug:e.slug},...(e.mergedAliases||[])]),a=>a.id).filter(a=>a.id!==main.id);
@@ -105,26 +123,31 @@ function mergeLichess(es){
 // Deux chaînes peuvent diffuser le même rendez-vous : même affiche et même créneau, ou même
 // intitulé à quelques minutes d'écart. La fiche absorbe l'autre, qui devient une redirection.
 const STOP=new Set(['the','and','vs','for','with','from','live','direct','officiel','official','en','le','la','les','de','des','du','un','une','et','aux','sur','dans','pour','par']);
-const words=s=>new Set(String(s||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/&/g,' et ').replace(/[^a-z0-9]+/g,' ').split(' ').filter(w=>w.length>2&&!STOP.has(w)&&!/^20\d\d$/.test(w)));
-function dice(a,b){
- if(!a.size||!b.size)return 0;
- let common=0;for(const w of a)if(b.has(w))common++;
- return 2*common/(a.size+b.size);
+const words=s=>new Set(String(s||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/&/g,' et ').replace(/[^a-z0-9]+/g,' ').split(' ').filter(w=>w&&!STOP.has(w)&&!/^20\d\d$/.test(w)));
+// « Group A » et « Group B » ne sont pas le même rendez-vous : une inclusion ne vaut
+// que si les mots en plus sont signifiants (Bucharest, Playoffs…).
+function titleMatch(a,b){
+ const wa=words(a),wb=words(b);
+ if(!wa.size||!wb.size)return false;
+ const [small,big]=wa.size<=wb.size?[wa,wb]:[wb,wa];
+ if(![...small].every(w=>big.has(w)))return false;
+ return [...big].filter(w=>!small.has(w)).every(w=>w.length>2)&&wa.size!==wb.size||[...big].every(w=>small.has(w))&&wa.size===wb.size;
 }
-const teamSet=e=>(e.participants||[]).length===2?new Set(e.participants.map(norm)):null;
+const teamSet=e=>(e.participants||[]).length===2?new Set(e.participants.map(team)):null;
 function sameRendezVous(a,b){
  if(a.id===b.id||a.category!==b.category)return false;
  const at=Date.parse(a.start||''),bt=Date.parse(b.start||'');
  if(!Number.isFinite(at)||!Number.isFinite(bt))return false;
  const gap=Math.abs(at-bt),pa=teamSet(a),pb=teamSet(b);
  if(pa&&pb&&[...pa].every(x=>pb.has(x)))return gap<=30*60000;
- return gap<=15*60000&&dice(words(a.title),words(b.title))>=0.85;
+ if(gap>15*60000)return false;
+ return titleMatch(a.title,b.title);
 }
 function absorb(main,other){
  main.sources=unique([...(main.sources||[]),...(other.sources||[])],s=>s.sourceId+'|'+s.url);
  main.broadcastOptions=unique([...(main.broadcastOptions||[]),...(other.broadcastOptions||[])],b=>b.url+'|'+b.language+'|'+(b.countries||[]).join(','));
- main.participants=unique([...(main.participants||[]),...(other.participants||[])],norm).filter(Boolean);
- main.schedule=unique([...(main.schedule||[]),...(other.schedule||[])],x=>x.start+'|'+x.label).sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
+ main.participants=unique([...(main.participants||[]),...(other.participants||[])],team).filter(Boolean);
+ main.schedule=pruneSessions([...(main.schedule||[]),...(other.schedule||[])]);
  main.notes=[...new Set([...(main.notes||[]),...(other.notes||[]),'Plusieurs chaînes diffusent ce rendez-vous : les options ci-dessous sont réunies.'])];
  main.groupedEvents=[...(main.groupedEvents||[]),...(other.groupedEvents||[other]),].filter(x=>x&&x.id!==main.id);
  main.mergedAliases=unique([...(main.mergedAliases||[]),...(other.mergedAliases||[]),{id:other.id,slug:other.slug}],a=>a.id).filter(a=>a.id!==main.id);
@@ -132,11 +155,22 @@ function absorb(main,other){
  if(other.major===true)main.major=true;
  return main;
 }
+const sessionKeys=e=>{
+ const list=(e.groupedEvents&&e.groupedEvents.length?e.groupedEvents:[e]);
+ return list.filter(x=>(x.participants||[]).length===2&&x.start).map(x=>x.start+'|'+x.participants.map(team).sort().join('|'));
+};
+// Deux fiches qui listent la même affiche au même horaire sont le même tournoi,
+// même si les sources le nomment différemment (« PGL 2026 Masters » / « PGL Masters Bucharest 2026 »).
+function shareSession(a,b){
+ const A=new Set(sessionKeys(a));
+ if(!A.size)return false;
+ return sessionKeys(b).some(k=>A.has(k));
+}
 function mergeDuplicates(events){
  const ordered=[...events].sort((a,b)=>String(a.start||a.date).localeCompare(String(b.start||b.date))||String(a.id).localeCompare(String(b.id)));
  const out=[];
  for(const e of ordered){
-  const twin=out.find(x=>x.date===e.date&&sameRendezVous(x,e));
+  const twin=out.find(x=>Math.abs(Date.parse(x.date)-Date.parse(e.date))<=3*86400000&&(sameRendezVous(x,e)||shareSession(x,e)));
   if(twin)absorb(twin,e);else out.push(e);
  }
  return out;
