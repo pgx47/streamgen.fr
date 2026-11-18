@@ -1,11 +1,11 @@
 import{readFile,writeFile,rename,mkdir}from'node:fs/promises';
-import{startggToItems,STARTGG_QUERY}from'./collectors/startgg.mjs';
+import{startggToItems,isMajorStartgg,STARTGG_QUERY}from'./collectors/startgg.mjs';
 import{frenchGuess}from'./collectors/french.mjs';
 const now=new Date().toISOString();
 const read=async p=>JSON.parse(await readFile(p,'utf8')),save=async(p,v)=>{await writeFile(p+'.tmp',JSON.stringify(v,null,2)+'\n');await rename(p+'.tmp',p)};
 const id='startgg',url='https://api.start.gg/gql/alpha',key=process.env.STARTGG_API_KEY;
 const catalog=await read('public/events.json'),registry=await read('public/sources.json'),status=await read('public/collection-status.json');
-const report=[];let added=0,updated=0;
+const report=[];let added=0,updated=0,removed=0;
 const observed=new Set();
 try{
  if(!key)throw Error('STARTGG_API_KEY absente');
@@ -13,7 +13,8 @@ try{
  if(!r.ok)throw Error('HTTP '+r.status);
  const json=await r.json();
  if(json.errors?.length)throw Error(json.errors[0].message);
- const items=startggToItems(json?.data?.tournaments?.nodes);
+ const all=startggToItems(json?.data?.tournaments?.nodes);
+ const items=all.filter(isMajorStartgg);
  for(const item of items.filter(i=>Date.parse(i.start)>Date.now()-3*3600000)){
   const eid=item.key,date=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(item.start));
   const e={
@@ -25,7 +26,7 @@ try{
    status:'À venir',lastVerified:now,confirmation:'Tournoi daté dans le calendrier start.gg',
    schedule:item.events.map(x=>({label:x.label,start:x.start})),
    notes:['Horaires fournis par l’API start.gg en timestamp Unix. Les brackets et participants ne sont pas déduits.','Un tournoi sans chaîne déclarée reste « Diffuseur à confirmer ».'],
-   popularity:null,discovery:true,major:false,featured:false,art:'JEU',
+   popularity:null,discovery:true,major:true,featured:false,art:'JEU',
    commercial:{affiliateUrl:null,sponsor:null,sponsored:false},vpnContext:null,postponement:null,cancellation:null,programType:'livestream'
   };
   {const fg=frenchGuess(e);if(fg){e.frenchPresence=true;e.frenchNote=fg.note}}
@@ -33,12 +34,15 @@ try{
   const at=catalog.events.findIndex(x=>x.id===eid);
   if(at<0){catalog.events.push(e);added++}else{if(catalog.events[at].sourceImage)e.sourceImage=catalog.events[at].sourceImage;catalog.events[at]=e;updated++}
  }
- for(const old of catalog.events.filter(x=>x.id.startsWith('sg-')&&Date.parse(x.start)>Date.now()&&!observed.has(x.id)&&!['Annulé','Programmation à revérifier'].includes(x.status))){old.status='Programmation à revérifier';old.confirmation='Tournoi absent du dernier calendrier start.gg';old.broadcastOptions=[];old.lastVerified=now;updated++}
- const entry={id,name:'start.gg · tournois en France',url:'https://www.start.gg/',kind:'official',purpose:'Tournois esport à venir avec horaires et chaînes déclarées',checkedAt:now,notes:'API GraphQL officielle, filtre pays France. Les chaînes sont celles déclarées par l’organisateur ; les tournois sans stream restent sans diffuseur supposé.'};
+ const stale=catalog.events.filter(x=>x.id.startsWith('sg-')&&!observed.has(x.id)&&!['Annulé','Programmation à revérifier'].includes(x.status));
+ const purged=new Set(stale.filter(x=>!isMajorStartgg({title:x.title,attendees:x.attendees})).map(x=>x.id));
+ if(purged.size){catalog.events=catalog.events.filter(x=>!purged.has(x.id));removed=purged.size}
+ for(const old of stale.filter(x=>!purged.has(x.id)&&Date.parse(x.start)>Date.now())){old.status='Programmation à revérifier';old.confirmation='Tournoi absent du dernier calendrier start.gg';old.broadcastOptions=[];old.lastVerified=now;updated++}
+ const entry={id,name:'start.gg · tournois en France',url:'https://www.start.gg/',kind:'official',purpose:'Tournois esport d’envergure à venir avec horaires et chaînes déclarées',checkedAt:now,notes:'API GraphQL officielle, filtre pays France. Seuls les tournois avec au moins 48 inscrits ou un intitulé explicite sont publiés ; les weeklies restent hors catalogue. Les chaînes sont celles déclarées par l’organisateur ; les tournois sans stream restent sans diffuseur supposé.'};
  const si=registry.sources.findIndex(s=>s.id===id);if(si<0)registry.sources.push(entry);else registry.sources[si]=entry;
- report.push({id,status:'ok',url:'https://www.start.gg/',checkedAt:now,tournaments:items.length,observed:observed.size});
+ report.push({id,status:'ok',url:'https://www.start.gg/',checkedAt:now,tournaments:all.length,majors:items.length,observed:observed.size});
 }catch(e){report.push({id,status:'error',url:'https://www.start.gg/',checkedAt:now,error:e.message})}
-if(added||updated){catalog.updatedAt=now;registry.updatedAt=now;await save('public/events.json',catalog);await save('public/sources.json',registry)}
+if(added||updated||removed){catalog.updatedAt=now;registry.updatedAt=now;await save('public/events.json',catalog);await save('public/sources.json',registry)}
 status.sources=[...status.sources.filter(s=>s.id!==id),...report];await save('public/collection-status.json',status);
-await mkdir('work',{recursive:true});await save('work/startgg-run.json',{checkedAt:now,added,updated,report});
-console.log(JSON.stringify({added,updated,report},null,1));
+await mkdir('work',{recursive:true});await save('work/startgg-run.json',{checkedAt:now,added,updated,removed,report});
+console.log(JSON.stringify({added,updated,removed,report},null,1));

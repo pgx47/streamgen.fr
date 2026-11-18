@@ -1,7 +1,71 @@
 import test from'node:test';import assert from'node:assert/strict';import{groupEvents}from'../scripts/group-events.mjs';
-const base={id:'lp-a',slug:'lp-a',title:'PGL 2026 Masters — MOUZ vs The MongolZ',subcategory:'Counter-Strike',participants:['MOUZ','The MongolZ'],start:'2026-10-26T08:00:00Z',date:'2026-10-26',sources:[{sourceId:'lp',url:'https://a.test'}],broadcastOptions:[{url:'https://twitch.tv/pgl',language:'EN',countries:[]}],notes:[]};
-test('same PGL match merges reverse teams and sources, preserves aliases; other matches and days remain separate',()=>{const other={...base,id:'pgl-b',slug:'pgl-b',title:'PGL Masters Bucharest 2026',subcategory:'Counter-Strike 2',participants:['The MongolZ','MOUZ'],sources:[{sourceId:'official',url:'https://b.test'}],broadcastOptions:[{url:'https://youtube.com/pgl',language:'EN',countries:[]}]};const a=groupEvents([base,other,{...base,id:'different',participants:['G2','MOUZ']}]);assert.equal(a.length,2);assert.equal(a[0].sources.length,2);assert.equal(a[0].broadcastOptions.length,2);assert.equal(a[0].mergedAliases[0].slug,'lp-a');assert.equal(groupEvents(a).length,2)});
-test('chess sections combine only same championship day and cadence, keeping each board link',()=>{const e={...base,id:'lc-a',title:'English Chess Championships 2026 | Women | Classical',sources:[{sourceId:'lichess',url:'https://lichess.org/a'}]};const a=groupEvents([e,{...e,id:'lc-b',slug:'lc-b',title:'English Chess Championships 2026 | Open | Classical',broadcastOptions:[{url:'https://lichess.org/b',language:'EN',countries:[]}]}]);assert.equal(a.length,1);assert.equal(a[0].schedule.length,2);assert.match(a[0].broadcastOptions[1].label,/Open/);assert.equal(groupEvents([e,{...e,id:'lc-c',date:'2026-10-27'}]).length,2)});
-test('merged team aliases count once and chess starts at earliest section',()=>{const e={...base,participants:['Aurora Gaming','MOUZ']};const a=groupEvents([e,{...e,id:'pgl-b',participants:['Aurora','MOUZ']}]);assert.equal(a[0].participants.length,2);const c={...base,id:'lc-a',sources:[{sourceId:'lichess',url:'https://lichess.org/a'}],title:'English Chess Championships 2026 | Women | Classical',start:'2026-10-26T18:00:00Z'};assert.equal(groupEvents([c,{...c,id:'lc-b',start:'2026-10-26T15:00:00Z'}])[0].start,'2026-10-26T15:00:00Z')});
-test('a tournament day combines separate sessions while preserving other tournament days',()=>{const e={...base,category:'esport',id:'lp-a'};const list=groupEvents([e,{...e,id:'lp-b',start:'2026-10-26T11:00:00Z',participants:['G2','FURIA']},{...e,id:'lp-c',date:'2026-10-27',start:'2026-10-27T08:00:00Z'}]);assert.equal(list.length,2);assert.equal(list[0].schedule.length,2);assert.match(list[0].title,/programme du 26\/10/)});
-test('les tableaux d’un même tournoi Lichess sont réunis, sauf cadences distinctes',()=>{const mk=(id,title,date='2026-11-03',start='2026-11-03T14:15:00Z',end='2026-11-14T13:15:00Z')=>({...base,id,slug:id,title,start,end,date,sources:[{sourceId:'lichess',url:'https://lichess.org/'+id}],broadcastOptions:[{url:'https://lichess.org/'+id,language:'EN',countries:[]}]});const fide=['Open 65+','Open 50+','Women 65+','Women 50+'].map((s,i)=>mk('lc-'+i,'FIDE World Senior Chess Championships 2026 | '+s));const a=groupEvents(fide);assert.equal(a.length,1);assert.equal(a[0].title,'FIDE World Senior Chess Championships 2026');assert.equal(a[0].schedule.length,4);assert.equal(a[0].broadcastOptions.length,4);assert.equal(a[0].end,'2026-11-14T13:15:00Z');assert.equal(groupEvents(a).length,1);assert.equal(groupEvents([mk('lc-r','X Open 2026 | Open | Rapid'),mk('lc-c','X Open 2026 | Open | Classical')]).length,2);assert.equal(groupEvents([mk('lc-f','X Open 2026 | Rapid'),mk('lc-g','X Open 2026 | Blitz')]).length,2);assert.equal(groupEvents([mk('lc-d','Y Cup 2026 | A','2026-11-03','2026-11-03T10:00:00Z','2026-11-04T10:00:00Z'),mk('lc-e','Y Cup 2026 | B','2026-11-03','2026-11-03T10:00:00Z','2026-11-06T10:00:00Z')])[0].end,null)});
+const lp=(id,date,start,extra={})=>({id,slug:id,title:'PGL 2026 Masters · Round 1 — MOUZ vs The MongolZ · Bo3',date,start,category:'esport',subcategory:'Counter-Strike 2',organizer:'PGL 2026 Masters',participants:['MOUZ','The MongolZ'],sources:[{sourceId:'lp-counterstrike',url:'https://liquipedia.net/'+id,sourceId2:id}],broadcastOptions:[{url:'https://twitch.tv/pgl',language:'EN',countries:[]}],notes:[],...extra});
+const day={d26:'2026-10-26',d27:'2026-10-27',d28:'2026-10-28'};
+test('un tournoi reste un seul rendez-vous, quelle que soit sa durée',()=>{
+ const a=groupEvents([lp('lp-a',day.d26,'2026-10-26T08:00:00Z'),lp('lp-b',day.d27,'2026-10-27T08:00:00Z',{participants:['G2','FURIA']}),lp('lp-c',day.d28,'2026-10-28T08:00:00Z')]);
+ assert.equal(a.length,1);
+ assert.equal(a[0].title,'PGL 2026 Masters');
+ assert.equal(a[0].date,day.d26);
+ assert.equal(a[0].start,'2026-10-26T08:00:00Z');
+ assert.equal(Date.parse(a[0].end),Date.parse('2026-10-28T08:00:00Z'));
+ assert.equal(a[0].schedule.length,3);
+ assert.match(a[0].schedule[0].label,/^26\/10 · MOUZ vs The MongolZ$/);
+ assert.equal(a[0].mergedAliases.length,2);
+ assert.deepEqual(new Set(a[0].mergedAliases.map(x=>x.slug)),new Set(['lp-b','lp-c']));
+ assert.doesNotMatch(a[0].title,/programme du/);
+});
+test('les tournois distincts et les autres disciplines restent séparés',()=>{
+ const other=lp('lp-z',day.d26,'2026-10-26T10:00:00Z',{organizer:'DFRAG Invitational 2026'});
+ const sport={...lp('yt-a',day.d26,'2026-10-26T10:00:00Z'),category:'sport',subcategory:'Basketball',organizer:'FFBB',sources:[{sourceId:'yt-ffbb',url:'https://youtube.com/a'}],participants:['PFBB','Rouen']};
+ const out=groupEvents([lp('lp-a',day.d26,'2026-10-26T08:00:00Z'),other,sport]);
+ assert.equal(out.length,3);
+});
+test('une même affiche annoncée deux fois dans la journée ne crée qu’une session',()=>{
+ const dup=lp('lp-b',day.d26,'2026-10-26T08:20:00Z');
+ const a=groupEvents([lp('lp-a',day.d26,'2026-10-26T08:00:00Z'),dup]);
+ assert.equal(a.length,1);
+ assert.equal(a[0].schedule.length,1);
+ assert.equal(a[0].schedule[0].start,'2026-10-26T08:00:00Z');
+});
+test('un même intitulé de diffusion récurrent devient une fiche, sauf au-delà de trois semaines',()=>{
+ const joj=(id,date,start)=>({id,slug:id,title:'Jeux Olympiques de la Jeunesse Dakar 2026',date,start,category:'sport',subcategory:'Multisports',participants:[],organizer:'France Télévisions',sources:[{sourceId:'francetv-sport-week',url:'https://france.tv/'+id}],broadcastOptions:[],notes:[]});
+ const a=groupEvents([joj('j1','2026-10-30','2026-10-30T09:55:00Z'),joj('j2','2026-11-01','2026-11-01T08:55:00Z'),joj('j3','2026-11-13','2026-11-13T08:55:00Z')]);
+ assert.equal(a.length,1);
+ assert.equal(a[0].schedule.length,3);
+ assert.equal(Date.parse(a[0].end),Date.parse('2026-11-13T08:55:00Z'));
+ assert.equal(groupEvents([joj('j1','2026-10-30','2026-10-30T09:55:00Z'),joj('j2','2026-12-20','2026-12-20T09:55:00Z')]).length,2);
+});
+test('chess sections combine only same championship day and cadence, keeping each board link',()=>{
+ const base={id:'lc-a',slug:'lc-a',title:'English Chess Championships 2026 | Women | Classical',date:'2026-10-26',start:'2026-10-26T14:00:00Z',category:'échecs',subcategory:'Échecs',participants:[],organizer:'Lichess',sources:[{sourceId:'lichess',url:'https://lichess.org/a'}],broadcastOptions:[{url:'https://lichess.org/a',language:'EN',countries:[]}],notes:[]};
+ const a=groupEvents([base,{...base,id:'lc-b',slug:'lc-b',title:'English Chess Championships 2026 | Open | Classical',start:'2026-10-26T15:00:00Z',broadcastOptions:[{url:'https://lichess.org/b',language:'EN',countries:[]}]}]);
+ assert.equal(a.length,1);
+ assert.equal(a[0].schedule.length,2);
+ assert.match(a[0].broadcastOptions[1].label,/Open/);
+ assert.equal(groupEvents([base,{...base,id:'lc-c',slug:'lc-c',date:'2026-10-27',start:'2026-10-27T14:00:00Z'}]).length,2);
+});
+test('les tableaux d’un même tournoi Lichess sont réunis, sauf cadences distinctes',()=>{
+ const mk=(id,title,date='2026-11-03',start='2026-11-03T14:15:00Z',end='2026-11-14T13:15:00Z')=>({id,slug:id,title,start,end,date,category:'échecs',subcategory:'Échecs',participants:[],organizer:'Lichess',sources:[{sourceId:'lichess',url:'https://lichess.org/'+id}],broadcastOptions:[{url:'https://lichess.org/'+id,language:'EN',countries:[]}],notes:[]});
+ const fide=['Open 65+','Open 50+','Women 65+','Women 50+'].map((s,i)=>mk('lc-'+i,'FIDE World Senior Chess Championships 2026 | '+s));
+ const a=groupEvents(fide);
+ assert.equal(a.length,1);
+ assert.equal(a[0].title,'FIDE World Senior Chess Championships 2026');
+ assert.equal(a[0].schedule.length,4);
+ assert.equal(a[0].broadcastOptions.length,4);
+ assert.equal(Date.parse(a[0].end),Date.parse('2026-11-14T13:15:00Z'));
+ assert.equal(groupEvents(a).length,1);
+ assert.equal(groupEvents([mk('lc-r','X Open 2026 | Open | Rapid'),mk('lc-c','X Open 2026 | Open | Classical')]).length,2);
+ assert.equal(groupEvents([mk('lc-f','X Open 2026 | Rapid'),mk('lc-g','X Open 2026 | Blitz')]).length,2);
+ assert.equal(groupEvents([mk('lc-d','Y Cup 2026 | A','2026-11-03','2026-11-03T10:00:00Z','2026-11-04T10:00:00Z'),mk('lc-e','Y Cup 2026 | B','2026-11-03','2026-11-03T10:00:00Z','2026-11-06T10:00:00Z')])[0].end,null);
+});
+test('le regroupement est idempotent et ne crée pas de fiche en double',()=>{
+ const list=[lp('lp-a',day.d26,'2026-10-26T08:00:00Z'),lp('lp-b',day.d27,'2026-10-27T08:00:00Z')];
+ const once=groupEvents(list),twice=groupEvents(once);
+ assert.equal(once.length,1);
+ assert.equal(twice.length,1);
+ assert.equal(twice[0].id,once[0].id);
+ assert.equal(twice[0].schedule.length,2);
+});
+test('les rediffusions et programmes TV restent exclus',()=>{
+ const rerun=lp('lp-r',day.d26,'2026-10-26T08:00:00Z',{title:'PGL 2026 Masters — Rediffusion'});
+ assert.equal(groupEvents([rerun]).length,0);
+});

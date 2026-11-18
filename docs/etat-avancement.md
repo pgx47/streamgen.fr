@@ -20,8 +20,8 @@ artificielle. L'extraction IA n'a pas tourné : budget quotidien déjà consomm�
 
 ## Fonctions livrées
 
-Collecte toutes les quatre heures, validation, regroupement quotidien des
-programmes, union des sources et flux, classement éditorial, agenda temporel,
+Collecte toutes les quatre heures, validation, regroupement par tournoi plutôt
+que par match ou par journée, union des sources et flux, classement éditorial, agenda temporel,
 archives conservées, photos créditées avec recours par discipline, logos,
 fiches HTML, métadonnées sociales, hubs SEO, calendrier Google/Outlook,
 exports et abonnements ICS, RSS et cache hors connexion.
