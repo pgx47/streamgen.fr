@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-11-18T17:18:54.647Z",
+  "updatedAt": "2026-11-18T21:41:49.262Z",
   "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, PGL, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -6615,21 +6615,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FFBB · Fédération française de basket",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FFBB · Fédération française de basket · YouTube",
-          "url": "https://www.youtube.com/watch?v=Kw-buJEEVF4",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FFBB · Fédération française de basket · directs programmés",
@@ -6644,9 +6630,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -6682,21 +6668,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FFBB · Fédération française de basket",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FFBB · Fédération française de basket · YouTube",
-          "url": "https://www.youtube.com/watch?v=hgITkVaoWoM",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FFBB · Fédération française de basket · directs programmés",
@@ -6711,9 +6683,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -6749,21 +6721,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FFBB · Fédération française de basket",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FFBB · Fédération française de basket · YouTube",
-          "url": "https://www.youtube.com/watch?v=WT7e6RpM3qU",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FFBB · Fédération française de basket · directs programmés",
@@ -6778,9 +6736,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -6816,21 +6774,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FFBB · Fédération française de basket",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FFBB · Fédération française de basket · YouTube",
-          "url": "https://www.youtube.com/watch?v=rUxEsmLSTlE",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FFBB · Fédération française de basket · directs programmés",
@@ -6845,9 +6789,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -6883,21 +6827,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FFBB · Fédération française de basket",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FFBB · Fédération française de basket · YouTube",
-          "url": "https://www.youtube.com/watch?v=NGdty84izcw",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FFBB · Fédération française de basket · directs programmés",
@@ -6912,9 +6842,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -6950,21 +6880,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FFBB · Fédération française de basket",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FFBB · Fédération française de basket · YouTube",
-          "url": "https://www.youtube.com/watch?v=lTa2sGPi7V8",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FFBB · Fédération française de basket · directs programmés",
@@ -6979,9 +6895,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -25643,73 +25559,6 @@
       }
     },
     {
-      "id": "yt-RNICwt59QWA",
-      "slug": "yt-e0d82b2de1769869",
-      "title": "Le tirage au sort des 7e et 8e tours en direct (10h30) I Coupe de France Crédit Agricole 2026-2027",
-      "summary": "Direct annoncé sur la chaîne YouTube officielle FFF TV · Fédération française de football. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
-      "category": "sport",
-      "subcategory": "Football",
-      "date": "2026-10-28",
-      "start": "2026-10-28T09:30:00.000Z",
-      "end": null,
-      "sourceTimezone": "UTC",
-      "participants": [],
-      "frenchPresence": null,
-      "frenchNote": "Non renseignée par la source",
-      "organizer": "FFF TV · Fédération française de football",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FFF TV · Fédération française de football · YouTube",
-          "url": "https://www.youtube.com/watch?v=RNICwt59QWA",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
-      "sources": [
-        {
-          "label": "FFF TV · Fédération française de football · directs programmés",
-          "url": "https://www.youtube.com/@FFF/streams",
-          "sourceId": "yt-fff",
-          "collectedAt": "2026-10-27T14:33:51.806Z"
-        },
-        {
-          "label": "Page vidéo YouTube",
-          "url": "https://www.youtube.com/watch?v=RNICwt59QWA",
-          "sourceId": "yt-fff",
-          "collectedAt": "2026-10-27T14:33:51.806Z"
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": "2026-10-27T14:33:51.806Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
-      "schedule": [],
-      "notes": [
-        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
-        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
-      ],
-      "popularity": null,
-      "discovery": true,
-      "major": false,
-      "featured": false,
-      "art": "SPORT",
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null,
-      "postponement": null,
-      "cancellation": null,
-      "programType": "livestream"
-    },
-    {
       "id": "yt-oUsB1FMkCNc",
       "slug": "yt-fff70ba780aa3df1",
       "title": "🔴 FIBA 3x3 AmeriCup 2026 | Finals | #3x3Basketball",
@@ -32162,21 +32011,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=j423WlENSmc",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32191,9 +32026,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -32229,21 +32064,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=ZVvp9F90ONc",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32258,9 +32079,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -32296,21 +32117,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=W4wxSs19VOo",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32325,9 +32132,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -32363,21 +32170,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=pk5HDgCL40k",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32392,9 +32185,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -32430,21 +32223,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=i7Io77UR4AU",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32459,9 +32238,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -32497,21 +32276,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=mWm0Cm6uAmw",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32526,9 +32291,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -32564,21 +32329,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=ShXvzowb77M",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32593,9 +32344,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -32631,21 +32382,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=KA9E0wJrjTs",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32660,9 +32397,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -32698,21 +32435,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=iH449pHa9Bo",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -32727,9 +32450,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -43371,73 +43094,6 @@
         "pageCount": 1,
         "independent": false
       }
-    },
-    {
-      "id": "yt-7y4x9xJc-4s",
-      "slug": "yt-953987dbbc2e653f",
-      "title": "Budget 2027 : conférence de presse",
-      "summary": "Direct annoncé sur la chaîne YouTube officielle Sénat. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
-      "category": "autres",
-      "subcategory": "Institutions",
-      "date": "2026-11-12",
-      "start": "2026-11-12T13:00:00.000Z",
-      "end": null,
-      "sourceTimezone": "UTC",
-      "participants": [],
-      "frenchPresence": null,
-      "frenchNote": "Non renseignée par la source",
-      "organizer": "Sénat",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "Sénat · YouTube",
-          "url": "https://www.youtube.com/watch?v=7y4x9xJc-4s",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Sénat · directs programmés",
-          "url": "https://www.youtube.com/@Senat/streams",
-          "sourceId": "yt-senat",
-          "collectedAt": "2026-11-12T07:13:41.578Z"
-        },
-        {
-          "label": "Page vidéo YouTube",
-          "url": "https://www.youtube.com/watch?v=7y4x9xJc-4s",
-          "sourceId": "yt-senat",
-          "collectedAt": "2026-11-12T07:13:41.578Z"
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": "2026-11-12T07:13:41.578Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
-      "schedule": [],
-      "notes": [
-        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
-        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
-      ],
-      "popularity": null,
-      "discovery": true,
-      "major": false,
-      "featured": false,
-      "art": "ESPACE",
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null,
-      "postponement": null,
-      "cancellation": null,
-      "programType": "livestream"
     },
     {
       "id": "lp-counterstrike-3282c2ea0755",
@@ -64016,21 +63672,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "FIBA",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FIBA · YouTube",
-          "url": "https://www.youtube.com/watch?v=-TxnXMHBZKM",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "FIBA · directs programmés",
@@ -64045,9 +63687,9 @@
           "collectedAt": "2026-11-18T17:17:15.461Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:17:15.461Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct absent de la dernière liste de streams programmés de la chaîne",
       "schedule": [],
       "notes": [
         "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
@@ -83853,73 +83495,6 @@
       }
     },
     {
-      "id": "yt-UFis3YGl7Y4",
-      "slug": "yt-5d78f2a87072feb8",
-      "title": "La liste des Bleues du sélectionneur Laurent Bonadei (14h)",
-      "summary": "Direct annoncé sur la chaîne YouTube officielle FFF TV · Fédération française de football. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
-      "category": "sport",
-      "subcategory": "Football",
-      "date": "2026-11-18",
-      "start": "2026-11-18T13:00:00.000Z",
-      "end": null,
-      "sourceTimezone": "UTC",
-      "participants": [],
-      "frenchPresence": null,
-      "frenchNote": "Non renseignée par la source",
-      "organizer": "FFF TV · Fédération française de football",
-      "broadcastOptions": [
-        {
-          "platform": "YouTube",
-          "label": "FFF TV · Fédération française de football · YouTube",
-          "url": "https://www.youtube.com/watch?v=UFis3YGl7Y4",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
-          "confirmed": true,
-          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
-          "linkKind": "channel"
-        }
-      ],
-      "sources": [
-        {
-          "label": "FFF TV · Fédération française de football · directs programmés",
-          "url": "https://www.youtube.com/@FFF/streams",
-          "sourceId": "yt-fff",
-          "collectedAt": "2026-11-18T07:32:30.130Z"
-        },
-        {
-          "label": "Page vidéo YouTube",
-          "url": "https://www.youtube.com/watch?v=UFis3YGl7Y4",
-          "sourceId": "yt-fff",
-          "collectedAt": "2026-11-18T07:32:30.130Z"
-        }
-      ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T07:32:30.130Z",
-      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
-      "schedule": [],
-      "notes": [
-        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
-        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
-      ],
-      "popularity": null,
-      "discovery": true,
-      "major": false,
-      "featured": false,
-      "art": "SPORT",
-      "commercial": {
-        "affiliateUrl": null,
-        "sponsor": null,
-        "sponsored": false
-      },
-      "vpnContext": null,
-      "postponement": null,
-      "cancellation": null,
-      "programType": "livestream"
-    },
-    {
       "id": "lp-counterstrike-e7851d804743",
       "slug": "lp-counterstrike-e7851d804743",
       "title": "PLAYzone RUSH Brno 2026 · Group A — Alliance vs Iberian Soul · Bo3",
@@ -84902,8 +84477,8 @@
       "summary": "Direct annoncé sur la chaîne YouTube officielle NASA. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
       "category": "autres",
       "subcategory": "Espace",
-      "date": "2026-11-18",
-      "start": "2026-11-18T15:45:00.000Z",
+      "date": "2026-11-20",
+      "start": "2026-11-20T16:45:00.000Z",
       "end": null,
       "sourceTimezone": "UTC",
       "participants": [],
@@ -84930,17 +84505,17 @@
           "label": "NASA · directs programmés",
           "url": "https://www.youtube.com/@NASA/streams",
           "sourceId": "yt-nasa",
-          "collectedAt": "2026-11-18T07:32:30.130Z"
+          "collectedAt": "2026-11-18T21:41:49.262Z"
         },
         {
           "label": "Page vidéo YouTube",
           "url": "https://www.youtube.com/watch?v=fTDvp9CBXoQ",
           "sourceId": "yt-nasa",
-          "collectedAt": "2026-11-18T07:32:30.130Z"
+          "collectedAt": "2026-11-18T21:41:49.262Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T07:32:30.130Z",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
       "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
       "schedule": [],
       "notes": [
@@ -88496,6 +88071,542 @@
       "major": false,
       "featured": false,
       "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-3FcHtUUn6U4",
+      "slug": "yt-eb8c2d7c0ada373b",
+      "title": "| Zimbabwe v Chile | World Rugby Nations Cup | International Rugby Test",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle World Rugby. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Rugby",
+      "date": "2026-11-21",
+      "start": "2026-11-21T17:15:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "World Rugby",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "World Rugby · YouTube",
+          "url": "https://www.youtube.com/watch?v=3FcHtUUn6U4",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Rugby · directs programmés",
+          "url": "https://www.youtube.com/@WorldRugby/streams",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=3FcHtUUn6U4",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-oL5gu06TiI8",
+      "slug": "yt-408210652ab4002a",
+      "title": "| Spain v Samoa | World Rugby Nations Cup 2026 | International Rugby Test",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle World Rugby. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Rugby",
+      "date": "2026-11-21",
+      "start": "2026-11-21T16:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "World Rugby",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "World Rugby · YouTube",
+          "url": "https://www.youtube.com/watch?v=oL5gu06TiI8",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Rugby · directs programmés",
+          "url": "https://www.youtube.com/@WorldRugby/streams",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=oL5gu06TiI8",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-JgeUPuZtdc4",
+      "slug": "yt-05de560d3cd2f7bd",
+      "title": "| Portugal v Uruguay | World Rugby Nations Cup 2026 | International Rugby Test",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle World Rugby. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Rugby",
+      "date": "2026-11-21",
+      "start": "2026-11-21T15:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "World Rugby",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "World Rugby · YouTube",
+          "url": "https://www.youtube.com/watch?v=JgeUPuZtdc4",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Rugby · directs programmés",
+          "url": "https://www.youtube.com/@WorldRugby/streams",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=JgeUPuZtdc4",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-ol1LJxa_maA",
+      "slug": "yt-7f8d2cb8b882f2d1",
+      "title": "| Georgia v USA | World Rugby Nations Cup 2026 | International Rugby Test",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle World Rugby. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Rugby",
+      "date": "2026-11-21",
+      "start": "2026-11-21T14:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "World Rugby",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "World Rugby · YouTube",
+          "url": "https://www.youtube.com/watch?v=ol1LJxa_maA",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Rugby · directs programmés",
+          "url": "https://www.youtube.com/@WorldRugby/streams",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=ol1LJxa_maA",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-iT3VQqcmOIQ",
+      "slug": "yt-95753a4e06af6674",
+      "title": "| Hong Kong China v Tonga | World Rugby Nations Cup 2026 | International Rugby Test",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle World Rugby. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Rugby",
+      "date": "2026-11-21",
+      "start": "2026-11-21T09:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "World Rugby",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "World Rugby · YouTube",
+          "url": "https://www.youtube.com/watch?v=iT3VQqcmOIQ",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Rugby · directs programmés",
+          "url": "https://www.youtube.com/@WorldRugby/streams",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=iT3VQqcmOIQ",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-qbygwTKuQ1w",
+      "slug": "yt-8b54307190073e6a",
+      "title": "| Romania v Canada | World Rugby Nations Cup 2026 | International Rugby Test",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle World Rugby. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "Rugby",
+      "date": "2026-11-20",
+      "start": "2026-11-20T16:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "World Rugby",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "World Rugby · YouTube",
+          "url": "https://www.youtube.com/watch?v=qbygwTKuQ1w",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Rugby · directs programmés",
+          "url": "https://www.youtube.com/@WorldRugby/streams",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=qbygwTKuQ1w",
+          "sourceId": "yt-worldrugby",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-jQJa4eJhU8A",
+      "slug": "yt-73d6dabeaadab662",
+      "title": "Power Slap 27: Quinones vs. Godfrey Prelims | November 19th",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle UFC. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "sport",
+      "subcategory": "MMA",
+      "date": "2026-11-19",
+      "start": "2026-11-19T17:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "UFC",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "UFC · YouTube",
+          "url": "https://www.youtube.com/watch?v=jQJa4eJhU8A",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "UFC · directs programmés",
+          "url": "https://www.youtube.com/@ufc/streams",
+          "sourceId": "yt-ufc",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=jQJa4eJhU8A",
+          "sourceId": "yt-ufc",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "yt-oc1Pt-Xpjd0",
+      "slug": "yt-3db902044aa7d954",
+      "title": "Street Fighter League JAPAN 2026 | Division F EPISODE 8",
+      "summary": "Direct annoncé sur la chaîne YouTube officielle Capcom Fighters. L’horaire provient des données de programmation YouTube et peut évoluer ; le flux actif n’est pas surveillé.",
+      "category": "esport",
+      "subcategory": "Street Fighter",
+      "date": "2026-11-27",
+      "start": "2026-11-27T09:50:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Capcom Fighters",
+      "broadcastOptions": [
+        {
+          "platform": "YouTube",
+          "label": "Capcom Fighters · YouTube",
+          "url": "https://www.youtube.com/watch?v=oc1Pt-Xpjd0",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Stream public sur la chaîne officielle ; restrictions territoriales éventuelles propres à YouTube",
+          "confirmed": true,
+          "restrictions": "Direct public annoncé sur la page vidéo officielle. La lecture ne requiert pas de compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Capcom Fighters · directs programmés",
+          "url": "https://www.youtube.com/@CapcomFighters/streams",
+          "sourceId": "yt-capcomfighters",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        },
+        {
+          "label": "Page vidéo YouTube",
+          "url": "https://www.youtube.com/watch?v=oc1Pt-Xpjd0",
+          "sourceId": "yt-capcomfighters",
+          "collectedAt": "2026-11-18T21:41:49.262Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T21:41:49.262Z",
+      "confirmation": "Direct programmé dans la page vidéo officielle YouTube",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni par les données de programmation YouTube (startTimestamp), indépendant du texte affiché localisé.",
+        "Les vidéos en première (pré-enregistrées, durée connue) sont exclues : seules les diffusions en direct sont collectées."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "SPORT",
       "commercial": {
         "affiliateUrl": null,
         "sponsor": null,

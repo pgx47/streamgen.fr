@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {extractJson,parseStreamLockups,parseWatchDetails,cleanYouTubeTitle} from '../scripts/collectors/youtube.mjs';
+import {extractJson,parseStreamLockups,parseWatchDetails,cleanYouTubeTitle,youtubeIsEvent} from '../scripts/collectors/youtube.mjs';
 
 const lockup=(id,title,parts)=>({contentId:id,metadata:{lockupMetadataViewModel:{title:{content:title},metadata:{contentMetadataViewModel:{metadataRows:[{metadataParts:parts.map(t=>({text:{content:t}}))}]}}}}});
 const page=o=>'<html><script>var ytInitialData = '+JSON.stringify(o)+';</script></html>';
@@ -45,4 +45,15 @@ test('cleanYouTubeTitle strips live markers and emoji prefixes',()=>{
  assert.equal(cleanYouTubeTitle('🔴 Summer Youth Olympics! Fencing'),'Summer Youth Olympics! Fencing');
  assert.equal(cleanYouTubeTitle('LIVE - Venezuela v Colombia | FIBA U16'),'Venezuela v Colombia | FIBA U16');
  assert.equal(cleanYouTubeTitle('Match normal'),'Match normal');
+});
+
+test('les directs hors compétition restent exclus de l’agenda',()=>{
+ assert.equal(youtubeIsEvent('| Romania v Canada | World Rugby Nations Cup 2026'),true);
+ assert.equal(youtubeIsEvent('Street Fighter League JAPAN 2026 | Division F EPISODE 8'),true);
+ assert.equal(youtubeIsEvent('2026 Nitto ATP Finals Live Practice Stream: La Stampa 1'),false);
+ assert.equal(youtubeIsEvent('UFC Qatar: Ceremonial Weigh-In'),false);
+ assert.equal(youtubeIsEvent('UFC Qatar: Post-Fight Press Conference'),false);
+ assert.equal(youtubeIsEvent('Le tirage au sort des 7e et 8e tours en direct'),false);
+ assert.equal(youtubeIsEvent('La liste des Bleues du sélectionneur'),false);
+ assert.equal(youtubeIsEvent('   '),false);
 });

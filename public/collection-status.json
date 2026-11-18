@@ -642,156 +642,6 @@
       "updated": 2
     },
     {
-      "id": "yt-fff",
-      "status": "ok",
-      "url": "https://www.youtube.com/@FFF/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 29,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
-      "id": "yt-ffbb_officiel",
-      "status": "ok",
-      "url": "https://www.youtube.com/@FFBB_Officiel/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 30,
-      "candidates": 17,
-      "checked": 17,
-      "observed": 16
-    },
-    {
-      "id": "yt-fiba",
-      "status": "ok",
-      "url": "https://www.youtube.com/@FIBA/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 28,
-      "candidates": 20,
-      "checked": 20,
-      "observed": 20
-    },
-    {
-      "id": "yt-rolandgarros",
-      "status": "ok",
-      "url": "https://www.youtube.com/@rolandgarros/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 25,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
-      "id": "yt-olympics",
-      "status": "ok",
-      "url": "https://www.youtube.com/@Olympics/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 30,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
-      "id": "yt-europeanspaceagency",
-      "status": "ok",
-      "url": "https://www.youtube.com/@EuropeanSpaceAgency/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 30,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
-      "id": "yt-nasa",
-      "status": "ok",
-      "url": "https://www.youtube.com/@NASA/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 30,
-      "candidates": 3,
-      "checked": 3,
-      "observed": 1
-    },
-    {
-      "id": "yt-collegedefrance",
-      "status": "ok",
-      "url": "https://www.youtube.com/@collegedefrance/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 0,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
-      "id": "yt-senat",
-      "status": "ok",
-      "url": "https://www.youtube.com/@Senat/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 30,
-      "candidates": 1,
-      "checked": 1,
-      "observed": 1
-    },
-    {
-      "id": "yt-publicsenat",
-      "status": "ok",
-      "url": "https://www.youtube.com/@PublicSenat/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 29,
-      "candidates": 1,
-      "checked": 1,
-      "observed": 0
-    },
-    {
-      "id": "yt-fiaformulae",
-      "status": "ok",
-      "url": "https://www.youtube.com/@FIAFormulaE/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 12,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
-      "id": "yt-playstation",
-      "status": "ok",
-      "url": "https://www.youtube.com/@PlayStation/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 30,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
-      "id": "yt-xbox",
-      "status": "ok",
-      "url": "https://www.youtube.com/@Xbox/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 92,
-      "candidates": 20,
-      "checked": 20,
-      "observed": 0
-    },
-    {
-      "id": "yt-nintendofr",
-      "status": "ok",
-      "url": "https://www.youtube.com/@NintendoFR/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 30,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
-      "id": "yt-thegameawards",
-      "status": "ok",
-      "url": "https://www.youtube.com/@TheGameAwards/streams",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
-      "lockups": 30,
-      "candidates": 0,
-      "checked": 0,
-      "observed": 0
-    },
-    {
       "id": "lp-counterstrike",
       "status": "ok",
       "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
@@ -892,6 +742,336 @@
       "storedAssets": 7,
       "pending": 6,
       "reportUrl": "/image-collection-status.json"
+    },
+    {
+      "id": "yt-fff",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FFF/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-ffbb_officiel",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FFBB_Officiel/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 10,
+      "checked": 0,
+      "reused": 10,
+      "observed": 10
+    },
+    {
+      "id": "yt-fiba",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FIBA/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 10,
+      "checked": 0,
+      "reused": 10,
+      "observed": 10
+    },
+    {
+      "id": "yt-rolandgarros",
+      "status": "ok",
+      "url": "https://www.youtube.com/@rolandgarros/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-olympics",
+      "status": "ok",
+      "url": "https://www.youtube.com/@Olympics/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-europeanspaceagency",
+      "status": "ok",
+      "url": "https://www.youtube.com/@EuropeanSpaceAgency/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-nasa",
+      "status": "ok",
+      "url": "https://www.youtube.com/@NASA/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 4,
+      "checked": 3,
+      "reused": 1,
+      "observed": 2
+    },
+    {
+      "id": "yt-collegedefrance",
+      "status": "ok",
+      "url": "https://www.youtube.com/@collegedefrance/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 0,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-senat",
+      "status": "ok",
+      "url": "https://www.youtube.com/@Senat/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 1,
+      "checked": 0,
+      "reused": 1,
+      "observed": 1
+    },
+    {
+      "id": "yt-publicsenat",
+      "status": "ok",
+      "url": "https://www.youtube.com/@PublicSenat/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 29,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-fiaformulae",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FIAFormulaE/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 12,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-playstation",
+      "status": "ok",
+      "url": "https://www.youtube.com/@PlayStation/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-xbox",
+      "status": "ok",
+      "url": "https://www.youtube.com/@Xbox/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 92,
+      "candidates": 10,
+      "checked": 10,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-nintendofr",
+      "status": "ok",
+      "url": "https://www.youtube.com/@NintendoFR/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-thegameawards",
+      "status": "ok",
+      "url": "https://www.youtube.com/@TheGameAwards/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-lnrofficiel",
+      "status": "ok",
+      "url": "https://www.youtube.com/@LNRofficiel/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 1,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-worldrugby",
+      "status": "ok",
+      "url": "https://www.youtube.com/@WorldRugby/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 18,
+      "candidates": 6,
+      "checked": 6,
+      "reused": 0,
+      "observed": 6
+    },
+    {
+      "id": "yt-atptour",
+      "status": "ok",
+      "url": "https://www.youtube.com/@atptour/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 4,
+      "checked": 4,
+      "reused": 0,
+      "observed": 4
+    },
+    {
+      "id": "yt-wta",
+      "status": "ok",
+      "url": "https://www.youtube.com/@WTA/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-ufc",
+      "status": "ok",
+      "url": "https://www.youtube.com/@ufc/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 26,
+      "candidates": 3,
+      "checked": 3,
+      "reused": 0,
+      "observed": 3
+    },
+    {
+      "id": "yt-ibu",
+      "status": "ok",
+      "url": "https://www.youtube.com/@IBU/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 0,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-uci",
+      "status": "ok",
+      "url": "https://www.youtube.com/@UCI/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 0,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-worldathletics",
+      "status": "ok",
+      "url": "https://www.youtube.com/@WorldAthletics/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 20,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-uefa",
+      "status": "ok",
+      "url": "https://www.youtube.com/@UEFA/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 0,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-fifa",
+      "status": "ok",
+      "url": "https://www.youtube.com/@FIFA/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-eurosportfrance",
+      "status": "ok",
+      "url": "https://www.youtube.com/@EurosportFrance/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-capcomfighters",
+      "status": "ok",
+      "url": "https://www.youtube.com/@CapcomFighters/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 30,
+      "candidates": 1,
+      "checked": 1,
+      "reused": 0,
+      "observed": 1
+    },
+    {
+      "id": "yt-evo",
+      "status": "ok",
+      "url": "https://www.youtube.com/@EVO/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 21,
+      "candidates": 0,
+      "checked": 0,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-gamescom",
+      "status": "ok",
+      "url": "https://www.youtube.com/@gamescom/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 63,
+      "candidates": 10,
+      "checked": 10,
+      "reused": 0,
+      "observed": 0
+    },
+    {
+      "id": "yt-parisgamesweek",
+      "status": "ok",
+      "url": "https://www.youtube.com/@ParisGamesWeek/streams",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "lockups": 58,
+      "candidates": 10,
+      "checked": 10,
+      "reused": 0,
+      "observed": 0
     }
   ]
 }

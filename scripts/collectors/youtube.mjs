@@ -60,3 +60,11 @@ export function parseWatchDetails(html){
 export function cleanYouTubeTitle(title){
  return String(title).replace(/^[\u{1F300}-\u{1FAFF}\u2600-\u27BF]+\s*/u,'').replace(/^(?:LIVE|EN DIRECT|🔴)\s*[-–—:•]?\s*/i,'').trim();
 }
+// Un direct de chaîne officielle n'est pas toujours un rendez-vous : échauffements, pesées,
+// conférences de presse et annonces de composition restent hors agenda.
+const NON_EVENT=/\b(practice|warm[- ]?up|weigh[- ]?in|ceremonial|press conference|post[- ]?fight|media day|open training|training session|draw ceremony|tirage au sort|conférence de presse|liste des|compositions?|point presse)\b/i;
+export function youtubeIsEvent(title){
+ const t=String(title||'');
+ if(!t.trim())return false;
+ return !NON_EVENT.test(t);
+}

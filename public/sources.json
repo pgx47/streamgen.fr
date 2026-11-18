@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T17:18:54.647Z",
+  "updatedAt": "2026-11-18T21:41:49.262Z",
   "mode": "Collecte automatique et curation manuelle",
   "sources": [
     {
@@ -475,7 +475,7 @@
       "url": "https://www.youtube.com/@FFF/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -484,7 +484,7 @@
       "url": "https://www.youtube.com/@FFBB_Officiel/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -493,7 +493,7 @@
       "url": "https://www.youtube.com/@FIBA/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -502,7 +502,7 @@
       "url": "https://www.youtube.com/@rolandgarros/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -511,7 +511,7 @@
       "url": "https://www.youtube.com/@Olympics/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -520,7 +520,7 @@
       "url": "https://www.youtube.com/@EuropeanSpaceAgency/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -529,7 +529,7 @@
       "url": "https://www.youtube.com/@NASA/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -538,7 +538,7 @@
       "url": "https://www.youtube.com/@collegedefrance/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -610,7 +610,7 @@
       "url": "https://www.youtube.com/@Senat/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -619,7 +619,7 @@
       "url": "https://www.youtube.com/@PublicSenat/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -628,7 +628,7 @@
       "url": "https://www.youtube.com/@FIAFormulaE/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -637,7 +637,7 @@
       "url": "https://www.youtube.com/@PlayStation/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -646,7 +646,7 @@
       "url": "https://www.youtube.com/@Xbox/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -655,7 +655,7 @@
       "url": "https://www.youtube.com/@NintendoFR/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -664,7 +664,7 @@
       "url": "https://www.youtube.com/@TheGameAwards/streams",
       "kind": "official",
       "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
-      "checkedAt": "2026-11-18T17:17:15.461Z",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
       "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     },
     {
@@ -926,6 +926,141 @@
       "purpose": "Mission et liens de retransmission officiels",
       "checkedAt": "2026-11-18T17:17:14.117Z",
       "notes": "Données structurées du site officiel : https://content.spacex.com/api/spacex-website/missions/ussf380"
+    },
+    {
+      "id": "yt-lnrofficiel",
+      "name": "LNR · Ligue nationale de rugby · page des directs YouTube",
+      "url": "https://www.youtube.com/@LNRofficiel/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-worldrugby",
+      "name": "World Rugby · page des directs YouTube",
+      "url": "https://www.youtube.com/@WorldRugby/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-atptour",
+      "name": "ATP Tour · page des directs YouTube",
+      "url": "https://www.youtube.com/@atptour/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-wta",
+      "name": "WTA · tennis féminin · page des directs YouTube",
+      "url": "https://www.youtube.com/@WTA/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-ufc",
+      "name": "UFC · page des directs YouTube",
+      "url": "https://www.youtube.com/@ufc/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-ibu",
+      "name": "IBU · biathlon · page des directs YouTube",
+      "url": "https://www.youtube.com/@IBU/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-uci",
+      "name": "UCI · cyclisme · page des directs YouTube",
+      "url": "https://www.youtube.com/@UCI/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-worldathletics",
+      "name": "World Athletics · page des directs YouTube",
+      "url": "https://www.youtube.com/@WorldAthletics/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-uefa",
+      "name": "UEFA · page des directs YouTube",
+      "url": "https://www.youtube.com/@UEFA/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-fifa",
+      "name": "FIFA · page des directs YouTube",
+      "url": "https://www.youtube.com/@FIFA/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-eurosportfrance",
+      "name": "Eurosport France · page des directs YouTube",
+      "url": "https://www.youtube.com/@EurosportFrance/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-capcomfighters",
+      "name": "Capcom Fighters · page des directs YouTube",
+      "url": "https://www.youtube.com/@CapcomFighters/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-evo",
+      "name": "EVO · tournois de jeux de combat · page des directs YouTube",
+      "url": "https://www.youtube.com/@EVO/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-gamescom",
+      "name": "gamescom · page des directs YouTube",
+      "url": "https://www.youtube.com/@gamescom/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
+    },
+    {
+      "id": "yt-parisgamesweek",
+      "name": "Paris Games Week · page des directs YouTube",
+      "url": "https://www.youtube.com/@ParisGamesWeek/streams",
+      "kind": "official",
+      "purpose": "Diffusions en direct programmées sur la chaîne YouTube officielle",
+      "checkedAt": "2026-11-18T21:41:49.262Z",
+      "notes": "Seuls les flux de type livestream (durée nulle, liveBroadcastDetails daté) sont retenus ; les premières et replays sont exclus. Horaire lu dans les données ISO de la page vidéo."
     }
   ]
 }
