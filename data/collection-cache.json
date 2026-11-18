@@ -5,11 +5,11 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:wtt-french": {
-      "hash": "3c8bbf683e03549ed8c187806fa963fb759257207af73b3c43b974cc45352c3f",
+      "hash": "7e1dd03f4955d5c46be3275297d71c843cb274705b09df8508ead9e323649e3e",
       "checkedDay": "2026-11-18"
     },
     "monitor:f1-us": {
-      "hash": "92ce9a1312a0b5a7fe52a23be2e9cb255189b14c44dcc4571029372251cbb5ef",
+      "hash": "bd63e9a349ebfa77f40a58a542e879af8046210159413da1018020319e9d152e",
       "checkedDay": "2026-11-18"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "034cb3f800f9389a168350b69fe7ddc0e739fb6f2dad737390f376a12acf11e8",
+      "hash": "d47110a653f2d71676f84f9507e55c333b67498de5eb8457fa0a4821deaa8e88",
       "checkedDay": "2026-11-18"
     },
     "monitor:nfl-tv": {
@@ -166,7 +166,7 @@
       "editorialDone": false
     },
     "monitor:redbull-live-b71442187dfb": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "b0b08d8239023e20ea6717d0be46707a82471bdb4077c17fba844fb09b4e2d25",
       "checkedDay": "2026-11-18"
     },
     "monitor:arte-concert-live": {
@@ -331,7 +331,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-6a3df2d487e6": {
-      "hash": "fc2988207d62e9e74e96d72be036201492260b171906252ef20edf284bf7cf71",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-18"
     },
     "twitch-domingo-32e342e341b5681f": {
@@ -668,7 +668,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-3f74183bef2d": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "5ad808533d2cb5bc18e54855f88cfb3e34e0b7b6b8c07a71dcb6475c0debbfd0",
       "checkedDay": "2026-11-18"
     },
     "twitch-ponce-c2361606aa5cc21a": {
@@ -859,7 +859,7 @@
       "editorialDone": false
     },
     "monitor:redbull-live-265f397821aa": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "b160aee9ef7911fd37c9a74fa8387a6ce216852eae41c282c582aa1f83762564",
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-85d28dcb2150": {
@@ -871,7 +871,7 @@
       "checkedDay": "2026-11-18"
     },
     "monitor:redbull-live-a41103152d3d": {
-      "hash": "f094b1a50a08407e2c223c909d7499e579e0266c7e0257ca481192cdeea8ff51",
+      "hash": "3328c1e38b3d1365b8c4ad9895b46bcfbe2f6356f0f520c8c4ba3974308d53d0",
       "checkedDay": "2026-11-18"
     },
     "twitch-ponce-28071be24e5f1f98": {

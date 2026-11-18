@@ -123,6 +123,50 @@
         }
       ],
       "checkedAt": "2026-11-18T22:16:15.478Z"
+    },
+    "counterstrike|/counterstrike/United21/Season_58": {
+      "streams": [
+        {
+          "platform": "kick",
+          "channel": "United21"
+        }
+      ],
+      "checkedAt": "2026-11-18T22:32:19.834Z"
+    },
+    "dota2|/dota2/European_Pro_League/41": {
+      "streams": [
+        {
+          "platform": "kick",
+          "channel": "EPL Dota EN2"
+        }
+      ],
+      "checkedAt": "2026-11-18T22:32:19.834Z"
+    },
+    "rocketleague|/rocketleague/Rival_Rush/Season_3/Split_1": {
+      "streams": [
+        {
+          "platform": "twitch",
+          "channel": "RivalRushRL"
+        }
+      ],
+      "checkedAt": "2026-11-18T22:32:19.834Z"
+    },
+    "leagueoflegends|/leagueoflegends/League_The_k4sen/Season_Finale/Playoffs": {
+      "streams": [
+        {
+          "platform": "twitch",
+          "channel": "lolthek4sen"
+        },
+        {
+          "platform": "youtube",
+          "channel": "lolthek4sen"
+        }
+      ],
+      "checkedAt": "2026-11-18T22:32:19.834Z"
+    },
+    "valorant|/valorant/VCT/2027/Pacific/Kickoff/South_Asia/Open_Qualifier/Swiss_Stage": {
+      "streams": [],
+      "checkedAt": "2026-11-18T22:32:19.834Z"
     }
   }
 }
