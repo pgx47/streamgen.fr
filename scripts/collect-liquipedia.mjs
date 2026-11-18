@@ -20,14 +20,14 @@ const report=[],observedAll=new Set();let added=0,updated=0;
 for(const {wiki,game} of WIKIS){
  const id='lp-'+wiki,url='https://liquipedia.net/'+wiki+'/Liquipedia:Matches';
  try{
-  const json=JSON.parse(await page(api(wiki,'Liquipedia:Matches')));await sleep(2100);
+  const json=JSON.parse(await page(api(wiki,'Liquipedia:Matches')));await sleep(3000);
   const html=json?.parse?.text?.['*'];if(!html)throw Error('Réponse API sans contenu');
   const matches=parseMatchesPage(html,wiki).filter(m=>Date.parse(m.start)>Date.now()-3*3600000).slice(0,MAX_MATCHES);
   const tournPaths=[...new Set(matches.map(m=>m.tournamentPath).filter(Boolean))].slice(0,MAX_TOURNAMENTS);
   const tournStreams=new Map();
   for(const p of tournPaths){
    try{const tj=JSON.parse(await page(api(wiki,p.replace(/^\/[^/]+\//,''))));const th=tj?.parse?.text?.['*'];if(th)tournStreams.set(p,parseTournamentStreams(th))}catch{}
-   await sleep(2100);
+   await sleep(3000);
   }
   const observed=new Set();
   for(const m of matches){
@@ -58,7 +58,7 @@ for(const {wiki,game} of WIKIS){
    if(at<0){catalog.events.push(e);added++}else{if(catalog.events[at].sourceImage)e.sourceImage=catalog.events[at].sourceImage;catalog.events[at]=e;updated++}
   }
   for(const old of catalog.events.filter(x=>x.id.startsWith(id+'-')&&Date.parse(x.start)>Date.now()&&!observed.has(x.id)&&!['Annulé','Programmation à revérifier'].includes(x.status))){old.status='Programmation à revérifier';old.confirmation='Match absent du dernier calendrier Liquipedia';old.broadcastOptions=[];old.lastVerified=now;updated++}
-  const entry={id,name:'Liquipedia · calendrier '+game,url,kind:'community',purpose:'Matchs datés et chaînes officielles des tournois',checkedAt:now,notes:'Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~2 s entre requêtes.'};
+  const entry={id,name:'Liquipedia · calendrier '+game,url,kind:'community',purpose:'Matchs datés et chaînes officielles des tournois',checkedAt:now,notes:'Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~3 s entre requêtes.'};
   const si=registry.sources.findIndex(s=>s.id===id);if(si<0)registry.sources.push(entry);else registry.sources[si]=entry;
   report.push({id,status:'ok',url,checkedAt:now,matches:matches.length,tournaments:tournStreams.size,observed:observed.size});
  }catch(e){report.push({id,status:'error',url,checkedAt:now,error:e.message})}
