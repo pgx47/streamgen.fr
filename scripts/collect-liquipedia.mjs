@@ -13,21 +13,34 @@ const WIKIS=[
 ];
 const MAX_MATCHES=30,MAX_TOURNAMENTS=8,UA={'User-Agent':'StreamGen/1.0 (+https://streamgen.fr/sources/)','Accept-Encoding':'gzip'};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+// Conditions Liquipedia : une requête action=parse toutes les 30 s, résultats mis en cache.
+// Les pages de tournoi changent rarement : 7 jours de cache et 4 nouvelles pages par passage.
+const PARSE_DELAY=30000,CACHE_TTL=7*86400000,MAX_NEW_PER_WIKI=1;
+let lastParse=0;
+async function parse(wiki,pageName){
+ const wait=PARSE_DELAY-(Date.now()-lastParse);
+ if(wait>0)await sleep(wait);
+ lastParse=Date.now();
+ const json=JSON.parse(await page(api(wiki,pageName)));
+ return json?.parse?.text?.['*']||null;
+}
 async function page(url){const r=await fetch(url,{signal:AbortSignal.timeout(25000),headers:UA});if(!r.ok)throw Error('HTTP '+r.status);const chunks=[];let size=0;for await(const c of r.body){size+=c.length;if(size>2500000)throw Error('Page trop volumineuse');chunks.push(c)}return Buffer.concat(chunks).toString('utf8')}
 const api=(wiki,pageName)=>'https://liquipedia.net/'+wiki+'/api.php?action=parse&page='+encodeURIComponent(pageName)+'&prop=text&format=json';
 const catalog=await read('public/events.json'),registry=await read('public/sources.json'),status=await read('public/collection-status.json');
-const report=[],observedAll=new Set();let added=0,updated=0;
+let cache={tournaments:{}};try{cache=await read('data/liquipedia-cache.json')}catch{}
+const report=[],observedAll=new Set();let added=0,updated=0,newTournaments=0,cachedTournaments=0;
 for(const {wiki,game} of WIKIS){
  const id='lp-'+wiki,url='https://liquipedia.net/'+wiki+'/Liquipedia:Matches';
  try{
-  const json=JSON.parse(await page(api(wiki,'Liquipedia:Matches')));await sleep(3000);
-  const html=json?.parse?.text?.['*'];if(!html)throw Error('Réponse API sans contenu');
+  const html=await parse(wiki,'Liquipedia:Matches');if(!html)throw Error('Réponse API sans contenu');
   const matches=parseMatchesPage(html,wiki).filter(m=>Date.parse(m.start)>Date.now()-3*3600000).slice(0,MAX_MATCHES);
   const tournPaths=[...new Set(matches.map(m=>m.tournamentPath).filter(Boolean))].slice(0,MAX_TOURNAMENTS);
-  const tournStreams=new Map();
+  const tournStreams=new Map();let fetched=0;
   for(const p of tournPaths){
-   try{const tj=JSON.parse(await page(api(wiki,p.replace(/^\/[^/]+\//,''))));const th=tj?.parse?.text?.['*'];if(th)tournStreams.set(p,parseTournamentStreams(th))}catch{}
-   await sleep(3000);
+   const key=wiki+'|'+p,hit=cache.tournaments[key];
+   if(hit&&Date.now()-Date.parse(hit.checkedAt)<CACHE_TTL){tournStreams.set(p,hit.streams);cachedTournaments++;continue}
+   if(fetched>=MAX_NEW_PER_WIKI)continue;
+   try{const th=await parse(wiki,p.replace(/^\/[^/]+\//,''));if(th){const streams=parseTournamentStreams(th);tournStreams.set(p,streams);cache.tournaments[key]={streams,checkedAt:now};fetched++;newTournaments++}}catch{}
   }
   const observed=new Set();
   for(const m of matches){
@@ -58,12 +71,14 @@ for(const {wiki,game} of WIKIS){
    if(at<0){catalog.events.push(e);added++}else{if(catalog.events[at].sourceImage)e.sourceImage=catalog.events[at].sourceImage;catalog.events[at]=e;updated++}
   }
   for(const old of catalog.events.filter(x=>x.id.startsWith(id+'-')&&Date.parse(x.start)>Date.now()&&!observed.has(x.id)&&!['Annulé','Programmation à revérifier'].includes(x.status))){old.status='Programmation à revérifier';old.confirmation='Match absent du dernier calendrier Liquipedia';old.broadcastOptions=[];old.lastVerified=now;updated++}
-  const entry={id,name:'Liquipedia · calendrier '+game,url,kind:'community',purpose:'Matchs datés et chaînes officielles des tournois',checkedAt:now,notes:'Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique, ~3 s entre requêtes.'};
+  const entry={id,name:'Liquipedia · calendrier '+game,url,kind:'community',purpose:'Matchs datés et chaînes officielles des tournois',checkedAt:now,notes:'Wiki communautaire de référence pour l’esport ; les chaînes de diffusion sont celles déclarées par les pages de tournoi. API MediaWiki publique : une requête action=parse toutes les 30 s, pages de tournoi mises en cache 7 jours.'};
   const si=registry.sources.findIndex(s=>s.id===id);if(si<0)registry.sources.push(entry);else registry.sources[si]=entry;
-  report.push({id,status:'ok',url,checkedAt:now,matches:matches.length,tournaments:tournStreams.size,observed:observed.size});
+  report.push({id,status:'ok',url,checkedAt:now,matches:matches.length,tournaments:tournStreams.size,cachedTournaments,newTournaments,observed:observed.size});
  }catch(e){report.push({id,status:'error',url,checkedAt:now,error:e.message})}
 }
 if(added||updated){catalog.updatedAt=now;registry.updatedAt=now;await save('public/events.json',catalog);await save('public/sources.json',registry)}
 status.sources=[...status.sources.filter(s=>!WIKIS.some(w=>'lp-'+w.wiki===s.id)),...report];await save('public/collection-status.json',status);
+cache.tournaments=Object.fromEntries(Object.entries(cache.tournaments).filter(([,v])=>Date.now()-Date.parse(v.checkedAt)<30*86400000));
+await save('data/liquipedia-cache.json',cache);
 await mkdir('work',{recursive:true});await save('work/liquipedia-run.json',{checkedAt:now,added,updated,report});
 console.log(JSON.stringify({added,updated,report},null,1));

@@ -127,7 +127,7 @@ jobs:
         run: |
           git config user.name streamgen-bot
           git config user.email bot@streamgen.fr
-          git add public/events.json public/sources.json public/collection-status.json data/collection-cache.json public/automatic-images.json public/image-collection-status.json data/image-cache.json public/assets/auto-images
+          git add public/events.json public/sources.json public/collection-status.json data/collection-cache.json data/liquipedia-cache.json public/automatic-images.json public/image-collection-status.json data/image-cache.json public/assets/auto-images
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
           else

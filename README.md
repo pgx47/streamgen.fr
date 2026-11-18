@@ -38,7 +38,7 @@ Le workflow GitHub vérifie les tests et génère `dist/`, puis déploie vers le
 ## Automatisation en place et limites
 
 La collecte GitHub fonctionne toutes les quatre heures : calendriers officiels,
-Riot, france.tv sport, Red Bull, YouTube, Liquipedia, PGL, Lichess, Oengus,
+Riot, france.tv sport, Red Bull, YouTube, Liquipedia (CS2, Dota 2, Rocket League, LoL, VALORANT), PGL, Lichess, Oengus,
 start.gg, PandaScore, CERN, ARTE Concert et spatial. Les accès et limites varient
 par source ; les rapports indiquent les échecs et les absences de données.
 DeepSeek intervient comme extracteur et traducteur borné, avec budget quotidien.
