@@ -1,0 +1,128 @@
+{
+  "tournaments": {
+    "counterstrike|/counterstrike/Stake_Ranked/Episode_6": {
+      "streams": [
+        {
+          "platform": "kick",
+          "channel": "StarLadder"
+        }
+      ],
+      "checkedAt": "2026-11-18T22:16:15.478Z"
+    },
+    "dota2|/dota2/EPL/World_Series/Southeast_Asia/20": {
+      "streams": [
+        {
+          "platform": "kick",
+          "channel": "EPL Dota EN1"
+        }
+      ],
+      "checkedAt": "2026-11-18T22:16:15.478Z"
+    },
+    "rocketleague|/rocketleague/Rocket_League_Championship_Series/Club_Championship/2027/Kick-Off/Europe": {
+      "streams": [
+        {
+          "platform": "twitch",
+          "channel": "FritesEC"
+        },
+        {
+          "platform": "twitch",
+          "channel": "beastbound"
+        },
+        {
+          "platform": "twitch",
+          "channel": "rezears"
+        },
+        {
+          "platform": "twitch",
+          "channel": "groundzero000"
+        },
+        {
+          "platform": "twitch",
+          "channel": "drku"
+        },
+        {
+          "platform": "twitch",
+          "channel": "ayroz5"
+        },
+        {
+          "platform": "twitch",
+          "channel": "kaydop"
+        },
+        {
+          "platform": "twitch",
+          "channel": "Detectesportseu"
+        },
+        {
+          "platform": "twitch",
+          "channel": "the real jar"
+        },
+        {
+          "platform": "twitch",
+          "channel": "applerl"
+        },
+        {
+          "platform": "twitch",
+          "channel": "Rocket League"
+        },
+        {
+          "platform": "youtube",
+          "channel": "Rocket League"
+        },
+        {
+          "platform": "twitch",
+          "channel": "Aucune Chance Esports"
+        },
+        {
+          "platform": "twitch",
+          "channel": "kadelyrl"
+        },
+        {
+          "platform": "twitch",
+          "channel": "lakituetv"
+        },
+        {
+          "platform": "twitch",
+          "channel": "NOVOEsports"
+        },
+        {
+          "platform": "twitch",
+          "channel": "zeynr1"
+        },
+        {
+          "platform": "twitch",
+          "channel": "Phoenix3sports"
+        },
+        {
+          "platform": "twitch",
+          "channel": "pxrteam"
+        },
+        {
+          "platform": "twitch",
+          "channel": "pegazus94"
+        },
+        {
+          "platform": "twitch",
+          "channel": "SniREsport"
+        }
+      ],
+      "checkedAt": "2026-11-18T22:16:15.478Z"
+    },
+    "leagueoflegends|/leagueoflegends/ESClub/NA_Premier/Season_1/Group_Stage": {
+      "streams": [],
+      "checkedAt": "2026-11-18T22:16:15.478Z"
+    },
+    "valorant|/valorant/China_National_Tournament/2026/Omega/Pro/Group_Stage": {
+      "streams": [
+        {
+          "platform": "bilibili",
+          "channel": "ErdenJ"
+        },
+        {
+          "platform": "bilibili",
+          "channel": "VALORANT BWIKI"
+        }
+      ],
+      "checkedAt": "2026-11-18T22:16:15.478Z"
+    }
+  }
+}
