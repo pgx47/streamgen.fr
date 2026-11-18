@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-11-18T21:41:49.262Z",
+  "updatedAt": "2026-11-18T22:00:17.719Z",
   "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, PGL, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -34438,21 +34438,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Stake Ranked Episode 6",
-      "broadcastOptions": [
-        {
-          "platform": "Kick",
-          "label": "Kick · StarLadder",
-          "url": "https://kick.com/starladder",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia Counter-Strike · matchs",
@@ -34467,9 +34453,9 @@
           "collectedAt": "2026-11-18T17:18:02.804Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -34525,17 +34511,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_6",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -34592,17 +34578,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_6",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -45943,17 +45929,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_6",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -52438,17 +52424,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -52521,17 +52507,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -56393,17 +56379,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -56476,17 +56462,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -57720,17 +57706,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -57802,17 +57788,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -57885,17 +57871,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -57968,17 +57954,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -80167,17 +80153,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Playoffs",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -80247,17 +80233,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Playoffs",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -84937,17 +84923,17 @@
           "label": "Liquipedia Counter-Strike · matchs",
           "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         },
         {
           "label": "Liquipedia · page du tournoi",
           "url": "https://liquipedia.net/counterstrike/Master_League_Portugal/Season_19",
           "sourceId": "lp-counterstrike",
-          "collectedAt": "2026-11-18T17:18:02.804Z"
+          "collectedAt": "2026-11-18T22:00:17.719Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
       "confirmation": "Match daté dans le calendrier Liquipedia",
       "schedule": [],
       "notes": [
@@ -86966,21 +86952,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Stake Ranked Episode 6",
-      "broadcastOptions": [
-        {
-          "platform": "Kick",
-          "label": "Kick · StarLadder",
-          "url": "https://kick.com/starladder",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia Counter-Strike · matchs",
@@ -86995,9 +86967,9 @@
           "collectedAt": "2026-11-18T17:18:02.804Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -87035,21 +87007,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Stake Ranked Episode 6",
-      "broadcastOptions": [
-        {
-          "platform": "Kick",
-          "label": "Kick · StarLadder",
-          "url": "https://kick.com/starladder",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia Counter-Strike · matchs",
@@ -87064,9 +87022,9 @@
           "collectedAt": "2026-11-18T17:18:02.804Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-18T17:18:02.804Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -88607,6 +88565,450 @@
       "major": false,
       "featured": false,
       "art": "SPORT",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lp-counterstrike-3384dfe46522",
+      "slug": "lp-counterstrike-3384dfe46522",
+      "title": "Stake Ranked Episode 6 · Results — IC Esports vs GamerLegion · Bo3",
+      "summary": "Match programmé selon le calendrier Liquipedia Counter-Strike. Les diffuseurs listés sont les chaînes officielles déclarées par l’organisateur du tournoi ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Counter-Strike",
+      "date": "2026-11-19",
+      "start": "2026-11-19T11:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "IC Esports",
+        "GamerLegion"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Stake Ranked Episode 6",
+      "broadcastOptions": [
+        {
+          "platform": "Kick",
+          "label": "Kick · StarLadder",
+          "url": "https://kick.com/starladder",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
+          "confirmed": true,
+          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Liquipedia Counter-Strike · matchs",
+          "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        },
+        {
+          "label": "Liquipedia · page du tournoi",
+          "url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_6",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "schedule": [],
+      "notes": [
+        "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
+        "Les équipes non déterminées restent affichées comme telles. Les streams permanents en cours ne sont pas collectés."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lp-counterstrike-b7bfcd67bc2a",
+      "slug": "lp-counterstrike-b7bfcd67bc2a",
+      "title": "Stake Ranked Episode 6 · Results — Ninjas in Pyjamas vs BIG · Bo3",
+      "summary": "Match programmé selon le calendrier Liquipedia Counter-Strike. Les diffuseurs listés sont les chaînes officielles déclarées par l’organisateur du tournoi ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Counter-Strike",
+      "date": "2026-11-19",
+      "start": "2026-11-19T13:30:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Ninjas in Pyjamas",
+        "BIG"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Stake Ranked Episode 6",
+      "broadcastOptions": [
+        {
+          "platform": "Kick",
+          "label": "Kick · StarLadder",
+          "url": "https://kick.com/starladder",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
+          "confirmed": true,
+          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Liquipedia Counter-Strike · matchs",
+          "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        },
+        {
+          "label": "Liquipedia · page du tournoi",
+          "url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_6",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "schedule": [],
+      "notes": [
+        "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
+        "Les équipes non déterminées restent affichées comme telles. Les streams permanents en cours ne sont pas collectés."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lp-counterstrike-5d56e564d33f",
+      "slug": "lp-counterstrike-5d56e564d33f",
+      "title": "Stake Ranked Episode 6 · Results — Luminosity Gaming vs Sangal Esports · Bo3",
+      "summary": "Match programmé selon le calendrier Liquipedia Counter-Strike. Les diffuseurs listés sont les chaînes officielles déclarées par l’organisateur du tournoi ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Counter-Strike",
+      "date": "2026-11-19",
+      "start": "2026-11-19T16:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Luminosity Gaming",
+        "Sangal Esports"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Stake Ranked Episode 6",
+      "broadcastOptions": [
+        {
+          "platform": "Kick",
+          "label": "Kick · StarLadder",
+          "url": "https://kick.com/starladder",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
+          "confirmed": true,
+          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Liquipedia Counter-Strike · matchs",
+          "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        },
+        {
+          "label": "Liquipedia · page du tournoi",
+          "url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_6",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "schedule": [],
+      "notes": [
+        "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
+        "Les équipes non déterminées restent affichées comme telles. Les streams permanents en cours ne sont pas collectés."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lp-counterstrike-51147b28c5e7",
+      "slug": "lp-counterstrike-51147b28c5e7",
+      "title": "United21 Season 58 · Playoffs — EYEBALLERS · Bo3",
+      "summary": "Match programmé selon le calendrier Liquipedia Counter-Strike. Les diffuseurs listés sont les chaînes officielles déclarées par l’organisateur du tournoi ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Counter-Strike",
+      "date": "2026-11-20",
+      "start": "2026-11-20T09:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "EYEBALLERS"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "United21 Season 58",
+      "broadcastOptions": [
+        {
+          "platform": "Kick",
+          "label": "Kick · United21",
+          "url": "https://kick.com/united21",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
+          "confirmed": true,
+          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Liquipedia Counter-Strike · matchs",
+          "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        },
+        {
+          "label": "Liquipedia · page du tournoi",
+          "url": "https://liquipedia.net/counterstrike/United21/Season_58",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "schedule": [],
+      "notes": [
+        "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
+        "Les équipes non déterminées restent affichées comme telles. Les streams permanents en cours ne sont pas collectés."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lp-counterstrike-d654776b5c4f",
+      "slug": "lp-counterstrike-d654776b5c4f",
+      "title": "PLAYzone RUSH Brno 2026 · Playoffs — SINNERS Esports vs Metizport · Bo3",
+      "summary": "Match programmé selon le calendrier Liquipedia Counter-Strike. Les diffuseurs listés sont les chaînes officielles déclarées par l’organisateur du tournoi ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Counter-Strike",
+      "date": "2026-11-20",
+      "start": "2026-11-20T18:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "SINNERS Esports",
+        "Metizport"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PLAYzone RUSH Brno 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · PLAYzoneUP",
+          "url": "https://www.twitch.tv/playzoneup",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
+          "confirmed": true,
+          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "YouTube",
+          "label": "YouTube · PLAYzone",
+          "url": "https://www.youtube.com/@PLAYzone",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
+          "confirmed": true,
+          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Liquipedia Counter-Strike · matchs",
+          "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        },
+        {
+          "label": "Liquipedia · page du tournoi",
+          "url": "https://liquipedia.net/counterstrike/PLAYzone/RUSH_Brno/2026",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "schedule": [],
+      "notes": [
+        "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
+        "Les équipes non déterminées restent affichées comme telles. Les streams permanents en cours ne sont pas collectés."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lp-counterstrike-e6aa0c70ee0e",
+      "slug": "lp-counterstrike-e6aa0c70ee0e",
+      "title": "PLAYzone RUSH Brno 2026 · Playoffs — Alliance · Bo3",
+      "summary": "Match programmé selon le calendrier Liquipedia Counter-Strike. Les diffuseurs listés sont les chaînes officielles déclarées par l’organisateur du tournoi ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Counter-Strike",
+      "date": "2026-11-21",
+      "start": "2026-11-21T13:00:00.000Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Alliance"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "PLAYzone RUSH Brno 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · PLAYzoneUP",
+          "url": "https://www.twitch.tv/playzoneup",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
+          "confirmed": true,
+          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "YouTube",
+          "label": "YouTube · PLAYzone",
+          "url": "https://www.youtube.com/@PLAYzone",
+          "access": "free",
+          "accountRequired": false,
+          "language": "À vérifier",
+          "countries": [],
+          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
+          "confirmed": true,
+          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Liquipedia Counter-Strike · matchs",
+          "url": "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        },
+        {
+          "label": "Liquipedia · page du tournoi",
+          "url": "https://liquipedia.net/counterstrike/PLAYzone/RUSH_Brno/2026",
+          "sourceId": "lp-counterstrike",
+          "collectedAt": "2026-11-18T22:00:17.719Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-18T22:00:17.719Z",
+      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "schedule": [],
+      "notes": [
+        "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
+        "Les équipes non déterminées restent affichées comme telles. Les streams permanents en cours ne sont pas collectés."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
       "commercial": {
         "affiliateUrl": null,
         "sponsor": null,

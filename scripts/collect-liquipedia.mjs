@@ -8,6 +8,8 @@ const WIKIS=[
  {wiki:'counterstrike',game:'Counter-Strike'},
  {wiki:'dota2',game:'Dota 2'},
  {wiki:'rocketleague',game:'Rocket League'},
+ {wiki:'leagueoflegends',game:'League of Legends'},
+ {wiki:'valorant',game:'VALORANT'},
 ];
 const MAX_MATCHES=30,MAX_TOURNAMENTS=8,UA={'User-Agent':'StreamGen/1.0 (+https://streamgen.fr/sources/)','Accept-Encoding':'gzip'};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));

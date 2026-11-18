@@ -69,3 +69,31 @@ test('les rediffusions et programmes TV restent exclus',()=>{
  const rerun=lp('lp-r',day.d26,'2026-10-26T08:00:00Z',{title:'PGL 2026 Masters — Rediffusion'});
  assert.equal(groupEvents([rerun]).length,0);
 });
+const broadcast=(id,sourceId,title,start,extra={})=>({id,slug:id,title,date:start.slice(0,10),start,category:'esport',subcategory:'VALORANT',participants:['FENNEL HOTELAVA','SK Nebula'],organizer:'Riot Games',sources:[{sourceId,url:'https://'+sourceId+'.test/'+id}],broadcastOptions:[{url:'https://twitch.tv/'+sourceId,language:'EN',countries:[]}],notes:[],...extra});
+test('une même affiche diffusée par deux sources devient une seule fiche',()=>{
+ const a=broadcast('riot-a','riot','VALORANT · Game Changers Championship — FENNEL HOTELAVA vs SK Nebula','2026-11-20T18:00:00Z');
+ const b=broadcast('lp-a','lp-valorant','VALORANT · Game Changers — FENNEL HOTELAVA vs SK Nebula','2026-11-20T18:10:00Z',{subcategory:'Jeux de combat',broadcastOptions:[{url:'https://youtube.com/lp',language:'EN',countries:[]}]});
+ const out=groupEvents([a,b]);
+ assert.equal(out.length,1);
+ assert.equal(out[0].sources.length,2);
+ assert.equal(out[0].broadcastOptions.length,2);
+ assert.equal(out[0].mergedAliases.length,1);
+ assert.equal(groupEvents(out).length,1);
+});
+test('les mêmes équipes à deux heures d’écart restent deux matchs',()=>{
+ const a=broadcast('riot-a','riot','VALORANT · Game Changers — A vs B','2026-11-20T18:00:00Z');
+ const b=broadcast('lp-a','lp-valorant','VALORANT · Masters — A vs B','2026-11-20T20:00:00Z');
+ assert.equal(groupEvents([a,b]).length,2);
+});
+test('le même intitulé à quelques minutes fusionne, un autre jour non',()=>{
+ const a=broadcast('yt-a','yt-x','World Rugby Nations Cup 2026 | Romania v Canada','2026-11-20T16:30:00Z',{participants:[],category:'sport',subcategory:'Rugby'});
+ const b=broadcast('yt-b','yt-y','World Rugby Nations Cup 2026 | Romania v Canada','2026-11-20T16:35:00Z',{participants:[],category:'sport',subcategory:'Rugby'});
+ assert.equal(groupEvents([a,b]).length,1);
+ const c={...b,id:'yt-c',date:'2026-12-10',start:'2026-12-10T16:30:00Z'};
+ assert.equal(groupEvents([a,c]).length,2);
+});
+test('deux matchs différents à la même heure ne fusionnent pas',()=>{
+ const a=broadcast('riot-a','riot','VALORANT · North America — FENNEL vs SK','2026-11-20T18:00:00Z');
+ const b=broadcast('riot-b','riot','VALORANT · Latin America — LOUD vs KRÜ','2026-11-20T18:00:00Z',{participants:['LOUD','KRÜ']});
+ assert.equal(groupEvents([a,b]).length,2);
+});

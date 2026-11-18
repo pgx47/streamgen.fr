@@ -101,6 +101,46 @@ function mergeLichess(es){
  main.confirmation='Annonces regroupées · '+main.sources.length+' sources consultables';
  return main;
 }
+
+// Deux chaînes peuvent diffuser le même rendez-vous : même affiche et même créneau, ou même
+// intitulé à quelques minutes d'écart. La fiche absorbe l'autre, qui devient une redirection.
+const STOP=new Set(['the','and','vs','for','with','from','live','direct','officiel','official','en','le','la','les','de','des','du','un','une','et','aux','sur','dans','pour','par']);
+const words=s=>new Set(String(s||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/&/g,' et ').replace(/[^a-z0-9]+/g,' ').split(' ').filter(w=>w.length>2&&!STOP.has(w)&&!/^20\d\d$/.test(w)));
+function dice(a,b){
+ if(!a.size||!b.size)return 0;
+ let common=0;for(const w of a)if(b.has(w))common++;
+ return 2*common/(a.size+b.size);
+}
+const teamSet=e=>(e.participants||[]).length===2?new Set(e.participants.map(norm)):null;
+function sameRendezVous(a,b){
+ if(a.id===b.id||a.category!==b.category)return false;
+ const at=Date.parse(a.start||''),bt=Date.parse(b.start||'');
+ if(!Number.isFinite(at)||!Number.isFinite(bt))return false;
+ const gap=Math.abs(at-bt),pa=teamSet(a),pb=teamSet(b);
+ if(pa&&pb&&[...pa].every(x=>pb.has(x)))return gap<=30*60000;
+ return gap<=15*60000&&dice(words(a.title),words(b.title))>=0.85;
+}
+function absorb(main,other){
+ main.sources=unique([...(main.sources||[]),...(other.sources||[])],s=>s.sourceId+'|'+s.url);
+ main.broadcastOptions=unique([...(main.broadcastOptions||[]),...(other.broadcastOptions||[])],b=>b.url+'|'+b.language+'|'+(b.countries||[]).join(','));
+ main.participants=unique([...(main.participants||[]),...(other.participants||[])],norm).filter(Boolean);
+ main.schedule=unique([...(main.schedule||[]),...(other.schedule||[])],x=>x.start+'|'+x.label).sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
+ main.notes=[...new Set([...(main.notes||[]),...(other.notes||[]),'Plusieurs chaînes diffusent ce rendez-vous : les options ci-dessous sont réunies.'])];
+ main.groupedEvents=[...(main.groupedEvents||[]),...(other.groupedEvents||[other]),].filter(x=>x&&x.id!==main.id);
+ main.mergedAliases=unique([...(main.mergedAliases||[]),...(other.mergedAliases||[]),{id:other.id,slug:other.slug}],a=>a.id).filter(a=>a.id!==main.id);
+ if(other.frenchPresence===true&&main.frenchPresence!==true){main.frenchPresence=true;main.frenchNote=other.frenchNote}
+ if(other.major===true)main.major=true;
+ return main;
+}
+function mergeDuplicates(events){
+ const ordered=[...events].sort((a,b)=>String(a.start||a.date).localeCompare(String(b.start||b.date))||String(a.id).localeCompare(String(b.id)));
+ const out=[];
+ for(const e of ordered){
+  const twin=out.find(x=>x.date===e.date&&sameRendezVous(x,e));
+  if(twin)absorb(twin,e);else out.push(e);
+ }
+ return out;
+}
 export function groupEvents(input){
  const groups=new Map();
  for(const e of input.filter(publishableEvent)){
@@ -116,5 +156,5 @@ export function groupEvents(input){
   if(hasSource(es[0],'lichess')){out.push(mergeLichess(es));continue}
   for(const part of splitByGap(es))out.push(part.length===1?part[0]:mergeTournament(part));
  }
- return out;
+ return mergeDuplicates(out);
 }
