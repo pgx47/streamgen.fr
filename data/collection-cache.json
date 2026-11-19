@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
+      "hash": "ce51abdfaa8d3666bb0a3daabce8bf3097c2efc02f31c917cd3b4a43b2b1c112",
       "checkedDay": "2026-11-19"
     },
     "monitor:wtt-french": {
-      "hash": "51099f1b766e8b771ff5fb11436383577b1a4769eb8f661c98889d31650c40da",
+      "hash": "a5353d7c2d570f60bb72778ff984f3d350c2cec638b1f8f89c5d85d30c3cd6aa",
       "checkedDay": "2026-11-19"
     },
     "monitor:f1-us": {
-      "hash": "f98f429f7c16c692156d4504feb12e5cbda7ec43ce2dd672811a01627bad390a",
+      "hash": "e66155d03b425d50ef511eab7e8a51126c52a8cbcb6799df337b57c10351c7a1",
       "checkedDay": "2026-11-19"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "d6a5cbee866d28bf3ed204453e1331d2da1e819d3df5ff6b4d9c4cc357341561",
+      "hash": "45dab1be963ed65646230d1151b8036f8fa3f500c48f5ffdc1e7f8031f99c82f",
       "checkedDay": "2026-11-19"
     },
     "monitor:nfl-tv": {
@@ -112,7 +112,7 @@
       "checkedDay": "2026-11-19"
     },
     "monitor:riot-valorant-schedule": {
-      "hash": "1188be0f6ef76eaefa40ccb18619804a7eba7dd300f804cc82060c87d4de0c64",
+      "hash": "8138c9a690bafd9b8911fe549b519898d7f638f42a042172ed8f4ff594a262ad",
       "checkedDay": "2026-11-19"
     },
     "twitch-domingo-0f72d3756e00a94b": {
@@ -166,15 +166,15 @@
       "editorialDone": false
     },
     "monitor:redbull-live-b71442187dfb": {
-      "hash": "b0b08d8239023e20ea6717d0be46707a82471bdb4077c17fba844fb09b4e2d25",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-19"
     },
     "monitor:arte-concert-live": {
-      "hash": "3ddfe4786219c7f2a4319c51932c5ce5d7130d753fe7320918e75eab2d631a21",
+      "hash": "98c511dfe862bd5378653025f62d079fc68600c014da6c8ffe08f609e973c6a2",
       "checkedDay": "2026-11-19"
     },
     "monitor:cern-webcast": {
-      "hash": "754899cf42d86d8ea378b41a049570181c7e7467e717f50d6c89a3d8c998b29e",
+      "hash": "2400b44efa039699f64dc08bb76770a3084ae80e4e6578d65295b382d055574c",
       "checkedDay": "2026-11-19"
     },
     "monitor:cern-indico-1743465": {
@@ -190,7 +190,7 @@
       "checkedDay": "2026-11-19"
     },
     "monitor:spacex-timings": {
-      "hash": "3234083b286150013e115ae043400e09fa850c2b5711f7909e9b6117b646844d",
+      "hash": "3c86e764eff49c99dcd76dd94233c26157a5152fe7615e987c17f62ba9fbe337",
       "checkedDay": "2026-11-19"
     },
     "monitor:cern-indico-1745596": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-19"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "259ae5949f9b2d7f8c70e34ddb658a8c6cd55cc8adefde4e20486848d85ad8b2",
+      "hash": "2f20a490bc7032845d632a4243990bbcfd35246dfbf5c20763558ca8bdf58dd3",
       "checkedDay": "2026-11-19"
     },
     "monitor:yt-rolandgarros": {
@@ -290,7 +290,7 @@
       "checkedDay": "2026-11-19"
     },
     "monitor:pgl-1a60458a4466-blast": {
-      "hash": "a0465f087e97616cc68487085caff4e519c4cddfc577a9d4badf91ffe15647f8",
+      "hash": "3a0280695f4f1798cc67ed3c13c1e504ad31b44ca9975c840fa89b0a3d7a9097",
       "checkedDay": "2026-11-19"
     },
     "monitor:pgl-youtube": {
@@ -697,7 +697,7 @@
       "editorialDone": true
     },
     "monitor:redbull-live-020434f10819": {
-      "hash": "50e2ba7fc175d13e45f5946ea34f0eae0ab6ecbe85887f31d65d75c05ca6367c",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-19"
     },
     "eurovision-sport-182e51332ec54390": {
@@ -948,6 +948,16 @@
     "monitor:yt-gamescom": {
       "hash": "1a4bcb25691244cc5fa22f21c9e0dee08659f3daf704096acf229d6d0c5623dc",
       "checkedDay": "2026-11-19"
+    },
+    "nasa-plus-5d532e3e1ffe313d": {
+      "hash": "d2a47ff3d9181a0c06805f0616b879a74f2a603930b8af3fd829a1435021cc18",
+      "checkedDay": "2026-11-19",
+      "editorialDone": false
+    },
+    "nasa-plus-400472577865ec47": {
+      "hash": "80c948e43408597112a5a13211185e97e222452d899232933bea7eb2f10558b7",
+      "checkedDay": "2026-11-19",
+      "editorialDone": false
     }
   },
   "llmAttemptDay": "2026-11-16"

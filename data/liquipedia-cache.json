@@ -201,6 +201,40 @@
     "valorant|/valorant/VCT/2027/EMEA/Kickoff/North_Africa/Qualifier_2": {
       "streams": [],
       "checkedAt": "2026-11-19T01:54:02.528Z"
+    },
+    "dota2|/dota2/BLAST/SLAM/9": {
+      "streams": [
+        {
+          "platform": "twitch",
+          "channel": "BLAST Dota"
+        },
+        {
+          "platform": "youtube",
+          "channel": "BLAST Dota"
+        },
+        {
+          "platform": "kick",
+          "channel": "BLAST Dota"
+        },
+        {
+          "platform": "twitch",
+          "channel": "BLAST Dota B"
+        },
+        {
+          "platform": "kick",
+          "channel": "BLAST Dota B"
+        }
+      ],
+      "checkedAt": "2026-11-19T13:12:22.838Z"
+    },
+    "leagueoflegends|/leagueoflegends/Legends_Premier_League/Season_5/Swiss_Stage": {
+      "streams": [
+        {
+          "platform": "twitch",
+          "channel": "legendpremierleague"
+        }
+      ],
+      "checkedAt": "2026-11-19T13:12:22.838Z"
     }
   }
 }
