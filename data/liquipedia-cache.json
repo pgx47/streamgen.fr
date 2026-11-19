@@ -167,6 +167,40 @@
     "valorant|/valorant/VCT/2027/Pacific/Kickoff/South_Asia/Open_Qualifier/Swiss_Stage": {
       "streams": [],
       "checkedAt": "2026-11-18T22:32:19.834Z"
+    },
+    "counterstrike|/counterstrike/PLAYzone/RUSH_Brno/2026": {
+      "streams": [
+        {
+          "platform": "twitch",
+          "channel": "PLAYzoneUP"
+        },
+        {
+          "platform": "youtube",
+          "channel": "PLAYzone"
+        }
+      ],
+      "checkedAt": "2026-11-19T01:54:02.528Z"
+    },
+    "dota2|/dota2/DreamLeague/Division_2/5": {
+      "streams": [
+        {
+          "platform": "twitch",
+          "channel": "ESL Dota 2"
+        },
+        {
+          "platform": "youtube",
+          "channel": "ESL Dota2"
+        },
+        {
+          "platform": "kick",
+          "channel": "ESL Dota2"
+        }
+      ],
+      "checkedAt": "2026-11-19T01:54:02.528Z"
+    },
+    "valorant|/valorant/VCT/2027/EMEA/Kickoff/North_Africa/Qualifier_2": {
+      "streams": [],
+      "checkedAt": "2026-11-19T01:54:02.528Z"
     }
   }
 }
