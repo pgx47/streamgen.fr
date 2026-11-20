@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "demo": false,
-  "updatedAt": "2026-11-20T07:21:49.844Z",
+  "updatedAt": "2026-11-20T17:01:59.884Z",
   "coverage": "Sélection non exhaustive. Collecte automatique des sessions WTT suivies, Eurovision Sport, NASA+, Twitch, VALORANT, PGL, Red Bull TV, france.tv sport, ARTE, SpaceX et conférences publiques du CERN. Les autres fiches restent issues de sources officielles avec vérification manuelle.",
   "events": [
     {
@@ -15823,11 +15823,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -15884,11 +15884,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-challengers/QXj3HEWi",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -15945,11 +15945,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -17371,11 +17371,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/sre11",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -17431,11 +17431,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/uksgred27",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -17491,11 +17491,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/WRMII",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -17703,11 +17703,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/RRR97",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -26290,11 +26290,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/stmsrwe26",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -27517,11 +27517,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -27544,12 +27544,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -27583,11 +27583,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -27610,12 +27610,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -27649,11 +27649,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -27676,12 +27676,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -27715,11 +27715,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -27742,12 +27742,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -27781,11 +27781,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -27808,12 +27808,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -27847,11 +27847,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -27874,12 +27874,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -27913,11 +27913,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -27940,12 +27940,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -27979,11 +27979,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28006,12 +28006,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -28024,15 +28024,18 @@
     {
       "id": "riot-valorant-a1d4a8f3c3a89604",
       "slug": "riot-valorant-a1d4a8f3c3a89604",
-      "title": "VALORANT · MENA — Finals",
-      "summary": "MENA : affiche encore à confirmer. Consultez le calendrier officiel pour les changements de programme.",
+      "title": "VALORANT · MENA — No Org No Problem vs Team Stallions",
+      "summary": "MENA : No Org No Problem face à Team Stallions. Consultez le calendrier officiel pour les changements de programme.",
       "category": "esport",
       "subcategory": "VALORANT",
       "date": "2026-11-21",
       "start": "2026-11-21T16:00:00.000Z",
       "end": null,
       "sourceTimezone": "UTC",
-      "participants": [],
+      "participants": [
+        "No Org No Problem",
+        "Team Stallions"
+      ],
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Riot Games",
@@ -28042,11 +28045,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28069,12 +28072,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -28087,15 +28090,18 @@
     {
       "id": "riot-valorant-9df7b98d280f1c29",
       "slug": "riot-valorant-9df7b98d280f1c29",
-      "title": "VALORANT · MENA — Finals",
-      "summary": "MENA : affiche encore à confirmer. Consultez le calendrier officiel pour les changements de programme.",
+      "title": "VALORANT · MENA — Mix My Miks vs Gamax Esports",
+      "summary": "MENA : Mix My Miks face à Gamax Esports. Consultez le calendrier officiel pour les changements de programme.",
       "category": "esport",
       "subcategory": "VALORANT",
       "date": "2026-11-21",
       "start": "2026-11-21T18:30:00.000Z",
       "end": null,
       "sourceTimezone": "UTC",
-      "participants": [],
+      "participants": [
+        "Mix My Miks",
+        "Gamax Esports"
+      ],
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Riot Games",
@@ -28105,11 +28111,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28132,12 +28138,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -28168,11 +28174,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28195,12 +28201,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -28231,11 +28237,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28258,12 +28264,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -28294,11 +28300,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28321,12 +28327,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -28357,11 +28363,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28384,12 +28390,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -28420,11 +28426,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28447,12 +28453,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -28483,11 +28489,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -28510,12 +28516,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -30245,16 +30251,16 @@
           "label": "CERN · programme officiel",
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "sourceId": "cern-webcast",
-          "collectedAt": "2026-11-20T07:18:45.462Z"
+          "collectedAt": "2026-11-20T16:59:17.894Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:45.462Z",
+      "lastVerified": "2026-11-20T16:59:17.894Z",
       "confirmation": "Conférence publique programmée par le CERN",
       "schedule": [],
       "notes": [
         "L’accès public est explicitement indiqué dans le programme CERN. La langue n’est pas déduite du titre.",
-        "Recoupement Indico indisponible : Annonce sans horaire structuré cohérent"
+        "Recoupement Indico indisponible : fetch failed"
       ],
       "popularity": null,
       "discovery": true,
@@ -30273,13 +30279,13 @@
         "schedule": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "startDate",
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
         },
         "access": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "restricted",
           "value": false,
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
         }
       },
       "corroboration": {
@@ -39265,11 +39271,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/biothon",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -39325,11 +39331,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/FE26",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -39385,11 +39391,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/bsgplus27",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -39445,11 +39451,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/gspsdzie27",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -42716,16 +42722,22 @@
           "label": "CERN · programme officiel",
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "sourceId": "cern-webcast",
-          "collectedAt": "2026-11-20T07:18:45.462Z"
+          "collectedAt": "2026-11-20T16:59:17.894Z"
+        },
+        {
+          "label": "CERN Indico · annonce de la conférence",
+          "url": "https://indico.cern.ch/event/1751604/",
+          "sourceId": "cern-indico-1751604",
+          "collectedAt": "2026-11-20T16:59:17.894Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:45.462Z",
-      "confirmation": "Conférence publique programmée par le CERN",
+      "lastVerified": "2026-11-20T16:59:17.894Z",
+      "confirmation": "Horaire recoupé : CERN Webcast et CERN Indico",
       "schedule": [],
       "notes": [
         "L’accès public est explicitement indiqué dans le programme CERN. La langue n’est pas déduite du titre.",
-        "Recoupement Indico indisponible : Annonce sans horaire structuré cohérent"
+        "Le programme de diffusion et l’annonce Indico concordent ; les deux pages appartiennent au CERN."
       ],
       "popularity": null,
       "discovery": true,
@@ -42744,18 +42756,23 @@
         "schedule": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "startDate",
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
         },
         "access": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "restricted",
           "value": false,
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
+        },
+        "announcement": {
+          "url": "https://indico.cern.ch/event/1751604/",
+          "start": "2026-11-24T10:00:00.000Z",
+          "observedAt": "2026-11-20T16:59:17.894Z"
         }
       },
       "corroboration": {
         "publisherCount": 1,
-        "pageCount": 1,
+        "pageCount": 2,
         "independent": false
       }
     },
@@ -45359,11 +45376,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/24hAnna2",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -45419,11 +45436,11 @@
           "label": "Ponce · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
           "sourceId": "twitch-ponce",
-          "collectedAt": "2026-11-20T07:18:21.685Z"
+          "collectedAt": "2026-11-20T16:58:53.725Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:21.685Z",
+      "lastVerified": "2026-11-20T16:58:53.725Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -45497,29 +45514,29 @@
           "label": "SpaceX · programme officiel",
           "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
           "sourceId": "spacex-upcoming",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "spacex-timings",
           "label": "SpaceX · fenêtre horaire officielle",
           "url": "https://content.spacex.com/cms-assets/future_missions.json",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "spacex-mission-ussf266",
           "label": "SpaceX · annonce et webcast de cette mission",
           "url": "https://www.spacex.com/launches/ussf266",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "space-devs-upcoming",
           "label": "The Space Devs · calendrier des lancements",
           "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:47.738Z",
+      "lastVerified": "2026-11-20T16:59:21.675Z",
       "confirmation": "Fenêtre SpaceX recoupée avec The Space Devs",
       "schedule": [],
       "notes": [
@@ -45550,19 +45567,19 @@
         "schedule": {
           "url": "https://content.spacex.com/cms-assets/future_missions.json",
           "field": "PrimaryLaunchWindow.Open.Seconds",
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         },
         "broadcast": {
           "url": "https://content.spacex.com/api/spacex-website/missions/ussf266",
           "field": "webcasts",
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         },
         "secondarySchedule": {
           "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
           "launchId": "460d9db7-eaf6-4cd9-b095-cff433534c09",
           "start": "2026-11-23T16:04:00.000Z",
           "agreement": true,
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         }
       },
       "corroboration": {
@@ -46941,16 +46958,22 @@
           "label": "CERN · programme officiel",
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "sourceId": "cern-webcast",
-          "collectedAt": "2026-11-20T07:18:45.462Z"
+          "collectedAt": "2026-11-20T16:59:17.894Z"
+        },
+        {
+          "label": "CERN Indico · annonce de la conférence",
+          "url": "https://indico.cern.ch/event/1661009/",
+          "sourceId": "cern-indico-1661009",
+          "collectedAt": "2026-11-20T16:59:17.894Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:45.462Z",
-      "confirmation": "Conférence publique programmée par le CERN",
+      "lastVerified": "2026-11-20T16:59:17.894Z",
+      "confirmation": "Horaire recoupé : CERN Webcast et CERN Indico",
       "schedule": [],
       "notes": [
         "L’accès public est explicitement indiqué dans le programme CERN. La langue n’est pas déduite du titre.",
-        "Recoupement Indico indisponible : Annonce sans horaire structuré cohérent"
+        "Le programme de diffusion et l’annonce Indico concordent ; les deux pages appartiennent au CERN."
       ],
       "popularity": null,
       "discovery": true,
@@ -46969,18 +46992,23 @@
         "schedule": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "startDate",
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
         },
         "access": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "restricted",
           "value": false,
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
+        },
+        "announcement": {
+          "url": "https://indico.cern.ch/event/1661009/",
+          "start": "2026-11-23T08:00:00.000Z",
+          "observedAt": "2026-11-20T16:59:17.894Z"
         }
       },
       "corroboration": {
         "publisherCount": 1,
-        "pageCount": 1,
+        "pageCount": 2,
         "independent": false
       }
     },
@@ -50858,11 +50886,11 @@
           "label": "Ponce · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
           "sourceId": "twitch-ponce",
-          "collectedAt": "2026-11-20T07:18:21.685Z"
+          "collectedAt": "2026-11-20T16:58:53.725Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:21.685Z",
+      "lastVerified": "2026-11-20T16:58:53.725Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -55857,11 +55885,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/fide-world-chess-championship-2026/qfkdt8mn",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -59833,8 +59861,8 @@
       "summary": "Ouverture de la fenêtre de lancement de Falcon 9. Le décollage peut être décalé dans cette fenêtre ; consultez la retransmission officielle SpaceX pour suivre le compte à rebours.",
       "category": "autres",
       "subcategory": "Espace",
-      "date": "2026-11-21",
-      "start": "2026-11-21T12:30:00.000Z",
+      "date": "2026-11-22",
+      "start": "2026-11-22T12:16:00.000Z",
       "end": null,
       "sourceTimezone": "UTC",
       "participants": [],
@@ -59861,34 +59889,34 @@
           "label": "SpaceX · programme officiel",
           "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
           "sourceId": "spacex-upcoming",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "spacex-timings",
           "label": "SpaceX · fenêtre horaire officielle",
           "url": "https://content.spacex.com/cms-assets/future_missions.json",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "spacex-mission-nrol136",
           "label": "SpaceX · annonce et webcast de cette mission",
           "url": "https://www.spacex.com/launches/nrol136",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "space-devs-upcoming",
           "label": "The Space Devs · calendrier des lancements",
           "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:47.738Z",
+      "lastVerified": "2026-11-20T16:59:21.675Z",
       "confirmation": "Fenêtre SpaceX recoupée avec The Space Devs",
       "schedule": [],
       "notes": [
         "L’heure affichée est l’ouverture de la fenêtre de lancement, pas une heure garantie de décollage ni de début de vidéo.",
-        "La fermeture de fenêtre est 21 novembre 2026 à 14:00 (Paris). Elle ne définit pas la fin du direct.",
+        "La fermeture de fenêtre est 22 novembre 2026 à 13:46 (Paris). Elle ne définit pas la fin du direct.",
         "Les horaires des vidéos de sources tierces ne sont pas réutilisés."
       ],
       "popularity": null,
@@ -59906,27 +59934,27 @@
       "cancellation": null,
       "externalMissionId": "nrol136",
       "launchWindow": {
-        "open": "2026-11-21T12:30:00.000Z",
-        "close": "2026-11-21T13:00:00.000Z"
+        "open": "2026-11-22T12:16:00.000Z",
+        "close": "2026-11-22T12:46:00.000Z"
       },
       "startMeaning": "launch-window-open",
       "evidence": {
         "schedule": {
           "url": "https://content.spacex.com/cms-assets/future_missions.json",
           "field": "PrimaryLaunchWindow.Open.Seconds",
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         },
         "broadcast": {
           "url": "https://content.spacex.com/api/spacex-website/missions/nrol136",
           "field": "webcasts",
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         },
         "secondarySchedule": {
           "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
           "launchId": "951a341f-236b-42fe-a667-4ab2fcf36eac",
-          "start": "2026-11-21T12:30:00.000Z",
+          "start": "2026-11-22T12:16:00.000Z",
           "agreement": true,
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         }
       },
       "corroboration": {
@@ -63966,11 +63994,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/Rundry4",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -76596,11 +76624,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/comp26",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -76656,11 +76684,11 @@
           "label": "Oengus · marathon",
           "url": "https://oengus.io/marathon/cisnt4",
           "sourceId": "oengus",
-          "collectedAt": "2026-11-20T07:21:49.844Z"
+          "collectedAt": "2026-11-20T17:01:59.884Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:49.844Z",
+      "lastVerified": "2026-11-20T17:01:59.884Z",
       "confirmation": "Marathon listé dans l’API publique Oengus",
       "schedule": [],
       "notes": [
@@ -76834,11 +76862,11 @@
           "label": "Domingo · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
           "sourceId": "twitch-domingo",
-          "collectedAt": "2026-11-20T07:18:21.685Z"
+          "collectedAt": "2026-11-20T16:58:53.725Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:21.685Z",
+      "lastVerified": "2026-11-20T16:58:53.725Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -76952,11 +76980,11 @@
           "label": "Domingo · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
           "sourceId": "twitch-domingo",
-          "collectedAt": "2026-11-20T07:18:21.685Z"
+          "collectedAt": "2026-11-20T16:58:53.725Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:21.685Z",
+      "lastVerified": "2026-11-20T16:58:53.725Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -77424,11 +77452,11 @@
           "label": "Domingo · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=40063341",
           "sourceId": "twitch-domingo",
-          "collectedAt": "2026-11-20T07:18:21.685Z"
+          "collectedAt": "2026-11-20T16:58:53.725Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:21.685Z",
+      "lastVerified": "2026-11-20T16:58:53.725Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -77542,11 +77570,11 @@
           "label": "Ultia · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=68594999",
           "sourceId": "twitch-ultia",
-          "collectedAt": "2026-11-20T07:18:21.685Z"
+          "collectedAt": "2026-11-20T16:58:53.725Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:21.685Z",
+      "lastVerified": "2026-11-20T16:58:53.725Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -77708,11 +77736,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -77735,12 +77763,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -77774,11 +77802,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -77801,12 +77829,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -77840,11 +77868,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -77867,12 +77895,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -77906,11 +77934,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -77933,12 +77961,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -77972,11 +78000,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -77999,12 +78027,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78038,11 +78066,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78065,12 +78093,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78104,11 +78132,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78131,12 +78159,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78170,11 +78198,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78197,12 +78225,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78236,11 +78264,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78263,12 +78291,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78302,11 +78330,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78329,12 +78357,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78368,11 +78396,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78395,12 +78423,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78434,11 +78462,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78461,12 +78489,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78497,11 +78525,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78524,12 +78552,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78560,11 +78588,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78587,12 +78615,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78623,11 +78651,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78650,12 +78678,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78686,11 +78714,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78713,12 +78741,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78752,11 +78780,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78779,12 +78807,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78818,11 +78846,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78845,12 +78873,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78881,11 +78909,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78908,12 +78936,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -78944,11 +78972,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -78971,12 +78999,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -79007,11 +79035,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -79034,12 +79062,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -79070,11 +79098,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -79097,12 +79125,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -79149,16 +79177,22 @@
           "label": "CERN · programme officiel",
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "sourceId": "cern-webcast",
-          "collectedAt": "2026-11-20T07:18:45.462Z"
+          "collectedAt": "2026-11-20T16:59:17.894Z"
+        },
+        {
+          "label": "CERN Indico · annonce de la conférence",
+          "url": "https://indico.cern.ch/event/1754142/",
+          "sourceId": "cern-indico-1754142",
+          "collectedAt": "2026-11-20T16:59:17.894Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:45.462Z",
-      "confirmation": "Conférence publique programmée par le CERN",
+      "lastVerified": "2026-11-20T16:59:17.894Z",
+      "confirmation": "Horaire recoupé : CERN Webcast et CERN Indico",
       "schedule": [],
       "notes": [
         "L’accès public est explicitement indiqué dans le programme CERN. La langue n’est pas déduite du titre.",
-        "Recoupement Indico indisponible : Annonce sans horaire structuré cohérent"
+        "Le programme de diffusion et l’annonce Indico concordent ; les deux pages appartiennent au CERN."
       ],
       "popularity": null,
       "discovery": true,
@@ -79177,18 +79211,23 @@
         "schedule": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "startDate",
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
         },
         "access": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "restricted",
           "value": false,
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
+        },
+        "announcement": {
+          "url": "https://indico.cern.ch/event/1754142/",
+          "start": "2026-11-23T11:30:00.000Z",
+          "observedAt": "2026-11-20T16:59:17.894Z"
         }
       },
       "corroboration": {
         "publisherCount": 1,
-        "pageCount": 1,
+        "pageCount": 2,
         "independent": false
       }
     },
@@ -79230,11 +79269,11 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-11-20T07:18:49.719Z"
+          "collectedAt": "2026-11-20T16:59:22.051Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:49.719Z",
+      "lastVerified": "2026-11-20T16:59:22.051Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
@@ -79259,12 +79298,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-11-20T07:18:49.719Z"
+          "observedAt": "2026-11-20T16:59:22.051Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-11-20T07:18:49.719Z"
+          "observedAt": "2026-11-20T16:59:22.051Z"
         }
       },
       "corroboration": {
@@ -79312,11 +79351,11 @@
           "label": "france.tv · chaîne sport · programme officiel",
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "sourceId": "francetv-sport-week",
-          "collectedAt": "2026-11-20T07:18:49.719Z"
+          "collectedAt": "2026-11-20T16:59:22.051Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:49.719Z",
+      "lastVerified": "2026-11-20T16:59:22.051Z",
       "confirmation": "Diffusion annoncée dans le programme hebdomadaire france.tv",
       "schedule": [],
       "notes": [
@@ -79341,12 +79380,12 @@
         "schedule": {
           "url": "https://www.france.tv/sport/multisports/8440965-nos-directs-a-venir.html",
           "field": "Créneau daté dans le programme hebdomadaire",
-          "observedAt": "2026-11-20T07:18:49.719Z"
+          "observedAt": "2026-11-20T16:59:22.051Z"
         },
         "discovery": {
           "url": "https://www.france.tv/sport/",
           "field": "Lien Nos directs à venir",
-          "observedAt": "2026-11-20T07:18:49.719Z"
+          "observedAt": "2026-11-20T16:59:22.051Z"
         }
       },
       "corroboration": {
@@ -80850,11 +80889,11 @@
           "label": "Ponce · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
           "sourceId": "twitch-ponce",
-          "collectedAt": "2026-11-20T07:18:21.685Z"
+          "collectedAt": "2026-11-20T16:58:53.725Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:21.685Z",
+      "lastVerified": "2026-11-20T16:58:53.725Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -82091,11 +82130,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -82118,12 +82157,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -82157,11 +82196,11 @@
           "label": "Riot Games · programme officiel",
           "url": "https://valorantesports.com/en-US/matches",
           "sourceId": "riot-valorant-schedule",
-          "collectedAt": "2026-11-20T07:18:42.492Z"
+          "collectedAt": "2026-11-20T16:59:16.348Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:42.492Z",
+      "lastVerified": "2026-11-20T16:59:16.348Z",
       "confirmation": "Horaire officiel · diffusion à confirmer",
       "schedule": [],
       "notes": [
@@ -82184,12 +82223,12 @@
         "schedule": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.startTime",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "participants": {
           "url": "https://valorantesports.com/en-US/matches",
           "field": "EventMatch.matchTeams",
-          "observedAt": "2026-11-20T07:18:42.492Z"
+          "observedAt": "2026-11-20T16:59:16.348Z"
         },
         "broadcast": null
       },
@@ -82542,11 +82581,11 @@
           "label": "Red Bull TV · programme officiel",
           "url": "https://www.redbull.com/int-en/events/red-bull-king-of-the-air",
           "sourceId": "redbull-live-a41103152d3d",
-          "collectedAt": "2026-11-20T07:18:43.752Z"
+          "collectedAt": "2026-11-20T16:59:17.159Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:43.752Z",
+      "lastVerified": "2026-11-20T16:59:17.159Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -82570,12 +82609,12 @@
         "schedule": {
           "url": "https://www.redbull.com/int-en/events/red-bull-king-of-the-air",
           "field": "liveStreams.startDate",
-          "observedAt": "2026-11-20T07:18:43.752Z"
+          "observedAt": "2026-11-20T16:59:17.159Z"
         },
         "broadcast": {
           "url": "https://www.redbull.com/int-en/events/red-bull-king-of-the-air",
           "field": "liveStreams.reference.externalUrl",
-          "observedAt": "2026-11-20T07:18:43.752Z"
+          "observedAt": "2026-11-20T16:59:17.159Z"
         }
       },
       "corroboration": {
@@ -82775,16 +82814,22 @@
           "label": "CERN · programme officiel",
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "sourceId": "cern-webcast",
-          "collectedAt": "2026-11-20T07:18:45.462Z"
+          "collectedAt": "2026-11-20T16:59:17.894Z"
+        },
+        {
+          "label": "CERN Indico · annonce de la conférence",
+          "url": "https://indico.cern.ch/event/1753449/",
+          "sourceId": "cern-indico-1753449",
+          "collectedAt": "2026-11-20T16:59:17.894Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:45.462Z",
-      "confirmation": "Conférence publique programmée par le CERN",
+      "lastVerified": "2026-11-20T16:59:17.894Z",
+      "confirmation": "Horaire recoupé : CERN Webcast et CERN Indico",
       "schedule": [],
       "notes": [
         "L’accès public est explicitement indiqué dans le programme CERN. La langue n’est pas déduite du titre.",
-        "Recoupement Indico indisponible : Annonce sans horaire structuré cohérent"
+        "Le programme de diffusion et l’annonce Indico concordent ; les deux pages appartiennent au CERN."
       ],
       "popularity": null,
       "discovery": true,
@@ -82803,18 +82848,23 @@
         "schedule": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "startDate",
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
         },
         "access": {
           "url": "https://live.cern/api/private/v1/webcasts/?type=upcoming",
           "field": "restricted",
           "value": false,
-          "observedAt": "2026-11-20T07:18:45.462Z"
+          "observedAt": "2026-11-20T16:59:17.894Z"
+        },
+        "announcement": {
+          "url": "https://indico.cern.ch/event/1753449/",
+          "start": "2026-11-27T10:00:00.000Z",
+          "observedAt": "2026-11-20T16:59:17.894Z"
         }
       },
       "corroboration": {
         "publisherCount": 1,
-        "pageCount": 1,
+        "pageCount": 2,
         "independent": false
       }
     },
@@ -83657,11 +83707,11 @@
           "label": "Ponce · programme officiel",
           "url": "https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=50597026",
           "sourceId": "twitch-ponce",
-          "collectedAt": "2026-11-20T07:18:21.685Z"
+          "collectedAt": "2026-11-20T16:58:53.725Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:21.685Z",
+      "lastVerified": "2026-11-20T16:58:53.725Z",
       "confirmation": "Diffusion programmée par le diffuseur",
       "schedule": [],
       "notes": [
@@ -85800,29 +85850,29 @@
           "label": "SpaceX · programme officiel",
           "url": "https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming",
           "sourceId": "spacex-upcoming",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "spacex-timings",
           "label": "SpaceX · fenêtre horaire officielle",
           "url": "https://content.spacex.com/cms-assets/future_missions.json",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "spacex-mission-ussf380",
           "label": "SpaceX · annonce et webcast de cette mission",
           "url": "https://www.spacex.com/launches/ussf380",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         },
         {
           "sourceId": "space-devs-upcoming",
           "label": "The Space Devs · calendrier des lancements",
           "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
-          "collectedAt": "2026-11-20T07:18:47.738Z"
+          "collectedAt": "2026-11-20T16:59:21.675Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:18:47.738Z",
+      "lastVerified": "2026-11-20T16:59:21.675Z",
       "confirmation": "Fenêtre SpaceX recoupée avec The Space Devs",
       "schedule": [],
       "notes": [
@@ -85853,19 +85903,19 @@
         "schedule": {
           "url": "https://content.spacex.com/cms-assets/future_missions.json",
           "field": "PrimaryLaunchWindow.Open.Seconds",
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         },
         "broadcast": {
           "url": "https://content.spacex.com/api/spacex-website/missions/ussf380",
           "field": "webcasts",
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         },
         "secondarySchedule": {
           "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=15&mode=detailed",
           "launchId": "b0d27def-0a88-44c3-a947-1fd5b8503e2c",
           "start": "2026-11-28T04:53:00.000Z",
           "agreement": true,
-          "observedAt": "2026-11-20T07:18:47.738Z"
+          "observedAt": "2026-11-20T16:59:21.675Z"
         }
       },
       "corroboration": {
@@ -88771,13 +88821,17 @@
           "label": "start.gg · page du tournoi",
           "url": "https://www.start.gg/tournament/pns-x-tls-kand-i-nov-2026",
           "sourceId": "startgg",
-          "collectedAt": "2026-11-20T07:21:45.796Z"
+          "collectedAt": "2026-11-20T17:01:56.397Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:45.796Z",
+      "lastVerified": "2026-11-20T17:01:56.397Z",
       "confirmation": "Tournoi daté dans le calendrier start.gg",
       "schedule": [
+        {
+          "label": "Ultimate Singles",
+          "start": "2026-11-21T09:00:00.000Z"
+        },
         {
           "label": "Liste d'attente",
           "start": "2026-11-21T09:00:00.000Z"
@@ -88835,11 +88889,11 @@
           "label": "start.gg · page du tournoi",
           "url": "https://www.start.gg/tournament/nantarena-26",
           "sourceId": "startgg",
-          "collectedAt": "2026-11-20T07:21:45.796Z"
+          "collectedAt": "2026-11-20T17:01:56.397Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:45.796Z",
+      "lastVerified": "2026-11-20T17:01:56.397Z",
       "confirmation": "Tournoi daté dans le calendrier start.gg",
       "schedule": [
         {
@@ -88955,11 +89009,11 @@
           "label": "start.gg · page du tournoi",
           "url": "https://www.start.gg/tournament/nantarena-2026-ssbu",
           "sourceId": "startgg",
-          "collectedAt": "2026-11-20T07:21:45.796Z"
+          "collectedAt": "2026-11-20T17:01:56.397Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:45.796Z",
+      "lastVerified": "2026-11-20T17:01:56.397Z",
       "confirmation": "Tournoi daté dans le calendrier start.gg",
       "schedule": [
         {
@@ -89033,11 +89087,11 @@
           "label": "start.gg · page du tournoi",
           "url": "https://www.start.gg/tournament/unit-kongquest",
           "sourceId": "startgg",
-          "collectedAt": "2026-11-20T07:21:45.796Z"
+          "collectedAt": "2026-11-20T17:01:56.397Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:45.796Z",
+      "lastVerified": "2026-11-20T17:01:56.397Z",
       "confirmation": "Tournoi daté dans le calendrier start.gg",
       "schedule": [
         {
@@ -89125,11 +89179,11 @@
           "label": "start.gg · page du tournoi",
           "url": "https://www.start.gg/tournament/cachan-esport-2026",
           "sourceId": "startgg",
-          "collectedAt": "2026-11-20T07:21:45.796Z"
+          "collectedAt": "2026-11-20T17:01:56.397Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:45.796Z",
+      "lastVerified": "2026-11-20T17:01:56.397Z",
       "confirmation": "Tournoi daté dans le calendrier start.gg",
       "schedule": [
         {
@@ -89432,11 +89486,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/european-rapid-blitz-chess-fischer-random-championships-2026-chess960/10x7NnFG",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -89493,11 +89547,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/european-rapid-blitz-chess-fischer-random-championships-2026-blitz/uSQLkQdX",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -89554,11 +89608,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/european-rapid-blitz-chess-fischer-random-championships-2026-rapid/eP0KCftf",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -89781,9 +89835,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -89837,9 +89891,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -89875,34 +89929,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "League The k4sen Season Finale Playoffs",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · lolthek4sen",
-          "url": "https://www.twitch.tv/lolthek4sen",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        },
-        {
-          "platform": "YouTube",
-          "label": "YouTube · lolthek4sen",
-          "url": "https://www.youtube.com/@lolthek4sen",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -89917,9 +89944,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -89955,34 +89982,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "League The k4sen Season Finale Playoffs",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · lolthek4sen",
-          "url": "https://www.twitch.tv/lolthek4sen",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        },
-        {
-          "platform": "YouTube",
-          "label": "YouTube · lolthek4sen",
-          "url": "https://www.youtube.com/@lolthek4sen",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -89997,9 +89997,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -90035,34 +90035,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "League The k4sen Season Finale Playoffs",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · lolthek4sen",
-          "url": "https://www.twitch.tv/lolthek4sen",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        },
-        {
-          "platform": "YouTube",
-          "label": "YouTube · lolthek4sen",
-          "url": "https://www.youtube.com/@lolthek4sen",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -90077,9 +90050,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -90115,34 +90088,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "League The k4sen Season Finale Playoffs",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · lolthek4sen",
-          "url": "https://www.twitch.tv/lolthek4sen",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        },
-        {
-          "platform": "YouTube",
-          "label": "YouTube · lolthek4sen",
-          "url": "https://www.youtube.com/@lolthek4sen",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -90157,9 +90103,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -90213,9 +90159,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -90269,9 +90215,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -91806,11 +91752,11 @@
           "label": "start.gg · page du tournoi",
           "url": "https://www.start.gg/tournament/sweetspot-60-un-petit-dernier",
           "sourceId": "startgg",
-          "collectedAt": "2026-11-20T07:21:45.796Z"
+          "collectedAt": "2026-11-20T17:01:56.397Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:45.796Z",
+      "lastVerified": "2026-11-20T17:01:56.397Z",
       "confirmation": "Tournoi daté dans le calendrier start.gg",
       "schedule": [
         {
@@ -92578,21 +92524,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Legends Premier League Season 5 Swiss Stage",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · legendpremierleague",
-          "url": "https://www.twitch.tv/legendpremierleague",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -92607,9 +92539,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -92663,9 +92595,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -92718,9 +92650,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -92773,9 +92705,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -92828,9 +92760,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -92884,9 +92816,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -92939,9 +92871,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -92992,9 +92924,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93048,9 +92980,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93103,9 +93035,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93159,9 +93091,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93214,9 +93146,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93255,21 +93187,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Legends Premier League Season 5 Swiss Stage",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · legendpremierleague",
-          "url": "https://www.twitch.tv/legendpremierleague",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -93284,9 +93202,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93324,21 +93242,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Legends Premier League Season 5 Swiss Stage",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · legendpremierleague",
-          "url": "https://www.twitch.tv/legendpremierleague",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -93353,9 +93257,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93391,21 +93295,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Legends Premier League Season 5 Swiss Stage",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · legendpremierleague",
-          "url": "https://www.twitch.tv/legendpremierleague",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -93420,9 +93310,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93460,21 +93350,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Legends Premier League Season 5 Swiss Stage",
-      "broadcastOptions": [
-        {
-          "platform": "Twitch",
-          "label": "Twitch · legendpremierleague",
-          "url": "https://www.twitch.tv/legendpremierleague",
-          "access": "free",
-          "accountRequired": false,
-          "language": "À vérifier",
-          "countries": [],
-          "territoryNote": "Chaîne officielle du tournoi référencée par Liquipedia",
-          "confirmed": true,
-          "restrictions": "Chaîne déclarée par l’organisateur sur la page officielle du tournoi.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Liquipedia League of Legends · matchs",
@@ -93489,9 +93365,9 @@
           "collectedAt": "2026-11-20T07:19:15.454Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:19:15.454Z",
-      "confirmation": "Match daté dans le calendrier Liquipedia",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T16:59:56.058Z",
+      "confirmation": "Match absent du dernier calendrier Liquipedia",
       "schedule": [],
       "notes": [
         "Horaire lu dans le timestamp Unix du calendrier Liquipedia, indépendant du fuseau affiché.",
@@ -93533,11 +93409,11 @@
           "label": "start.gg · page du tournoi",
           "url": "https://www.start.gg/tournament/sac-salty-arena-cup-melee-27",
           "sourceId": "startgg",
-          "collectedAt": "2026-11-20T07:21:45.796Z"
+          "collectedAt": "2026-11-20T17:01:56.397Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:45.796Z",
+      "lastVerified": "2026-11-20T17:01:56.397Z",
       "confirmation": "Tournoi daté dans le calendrier start.gg",
       "schedule": [
         {
@@ -93586,21 +93462,7 @@
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Lichess Broadcast",
-      "broadcastOptions": [
-        {
-          "platform": "Web",
-          "label": "Lichess · retransmission officielle",
-          "url": "https://lichess.org/broadcast/2026-us-masters/dWMJHLju",
-          "access": "free",
-          "accountRequired": false,
-          "language": "Multilingue",
-          "countries": [],
-          "territoryNote": "Retransmission mondiale sans restriction territoriale",
-          "confirmed": true,
-          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
-          "linkKind": "channel"
-        }
-      ],
+      "broadcastOptions": [],
       "sources": [
         {
           "label": "Lichess · broadcast officiel",
@@ -93609,9 +93471,9 @@
           "collectedAt": "2026-11-20T07:21:48.575Z"
         }
       ],
-      "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
-      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "status": "Programmation à revérifier",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
+      "confirmation": "Tournoi absent de la dernière liste Lichess Broadcast",
       "schedule": [],
       "notes": [
         "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
@@ -93876,11 +93738,11 @@
           "label": "start.gg · page du tournoi",
           "url": "https://www.start.gg/tournament/dawnpath-s2-05",
           "sourceId": "startgg",
-          "collectedAt": "2026-11-20T07:21:45.796Z"
+          "collectedAt": "2026-11-20T17:01:56.397Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:45.796Z",
+      "lastVerified": "2026-11-20T17:01:56.397Z",
       "confirmation": "Tournoi daté dans le calendrier start.gg",
       "schedule": [
         {
@@ -93962,11 +93824,11 @@
           "label": "PandaScore · calendrier des matchs",
           "url": "https://pandascore.co/",
           "sourceId": "pandascore",
-          "collectedAt": "2026-11-20T07:21:47.466Z"
+          "collectedAt": "2026-11-20T17:01:57.809Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:47.466Z",
+      "lastVerified": "2026-11-20T17:01:57.809Z",
       "confirmation": "Match daté dans le calendrier PandaScore",
       "schedule": [],
       "notes": [
@@ -94038,11 +93900,11 @@
           "label": "PandaScore · calendrier des matchs",
           "url": "https://pandascore.co/",
           "sourceId": "pandascore",
-          "collectedAt": "2026-11-20T07:21:47.466Z"
+          "collectedAt": "2026-11-20T17:01:57.809Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:47.466Z",
+      "lastVerified": "2026-11-20T17:01:57.809Z",
       "confirmation": "Match daté dans le calendrier PandaScore",
       "schedule": [],
       "notes": [
@@ -94066,7 +93928,7 @@
     {
       "id": "ps-1800744",
       "slug": "ps-1800744",
-      "title": "5-6 Tiebreaker: TBD vs TBD",
+      "title": "5-6 Tiebreaker: VAR vs TGG",
       "summary": "Match Overwatch programmé selon le calendrier PandaScore (Asia Stage 3 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
       "category": "esport",
       "subcategory": "Overwatch",
@@ -94074,7 +93936,10 @@
       "start": "2026-11-21T07:00:00Z",
       "end": null,
       "sourceTimezone": "UTC",
-      "participants": [],
+      "participants": [
+        "VARREL",
+        "The Gatos Guapos"
+      ],
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Asia Stage 3 2026",
@@ -94093,12 +93958,12 @@
           "linkKind": "channel"
         },
         {
-          "platform": "Web",
-          "label": "Web · community",
-          "url": "https://www.sooplive.com/station/owesports",
+          "platform": "YouTube",
+          "label": "YouTube · community",
+          "url": "https://www.youtube.com/@ow_esports_jp/live",
           "access": "free",
           "accountRequired": null,
-          "language": "ko",
+          "language": "ja",
           "countries": [],
           "territoryNote": "Diffusion communautaire référencée par PandaScore",
           "confirmed": false,
@@ -94106,12 +93971,12 @@
           "linkKind": "channel"
         },
         {
-          "platform": "YouTube",
-          "label": "YouTube · community",
-          "url": "https://www.youtube.com/@ow_esports_jp/live",
+          "platform": "Web",
+          "label": "Web · community",
+          "url": "https://www.sooplive.com/station/owesports",
           "access": "free",
           "accountRequired": null,
-          "language": "ja",
+          "language": "ko",
           "countries": [],
           "territoryNote": "Diffusion communautaire référencée par PandaScore",
           "confirmed": false,
@@ -94124,11 +93989,11 @@
           "label": "PandaScore · calendrier des matchs",
           "url": "https://pandascore.co/",
           "sourceId": "pandascore",
-          "collectedAt": "2026-11-20T07:21:47.466Z"
+          "collectedAt": "2026-11-20T17:01:57.809Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:47.466Z",
+      "lastVerified": "2026-11-20T17:01:57.809Z",
       "confirmation": "Match daté dans le calendrier PandaScore",
       "schedule": [],
       "notes": [
@@ -94157,8 +94022,8 @@
       "category": "autres",
       "subcategory": "Échecs",
       "date": "2026-11-22",
-      "start": "2026-11-22T11:00:00.000Z",
-      "end": "2026-11-28T07:00:00.000Z",
+      "start": "2026-11-22T11:15:00.000Z",
+      "end": "2026-11-28T07:15:00.000Z",
       "sourceTimezone": "UTC",
       "participants": [],
       "frenchPresence": null,
@@ -94184,11 +94049,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/fide-world-cadet-championship-2026-g08/tyC3qLBp",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -94218,8 +94083,8 @@
       "category": "autres",
       "subcategory": "Échecs",
       "date": "2026-11-22",
-      "start": "2026-11-22T11:00:00.000Z",
-      "end": "2026-11-28T07:00:00.000Z",
+      "start": "2026-11-22T11:15:00.000Z",
+      "end": "2026-11-28T07:15:00.000Z",
       "sourceTimezone": "UTC",
       "participants": [],
       "frenchPresence": null,
@@ -94245,11 +94110,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/fide-world-cadet-championship-2026-o08/oX06aeZy",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -94279,8 +94144,8 @@
       "category": "autres",
       "subcategory": "Échecs",
       "date": "2026-11-22",
-      "start": "2026-11-22T11:00:00.000Z",
-      "end": "2026-11-28T07:00:00.000Z",
+      "start": "2026-11-22T11:15:00.000Z",
+      "end": "2026-11-28T07:15:00.000Z",
       "sourceTimezone": "UTC",
       "participants": [],
       "frenchPresence": null,
@@ -94306,11 +94171,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/fide-world-cadet-championship-2026-g10/dIBYh5hW",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -94340,8 +94205,8 @@
       "category": "autres",
       "subcategory": "Échecs",
       "date": "2026-11-22",
-      "start": "2026-11-22T11:00:00.000Z",
-      "end": "2026-11-28T07:00:00.000Z",
+      "start": "2026-11-22T11:15:00.000Z",
+      "end": "2026-11-28T07:15:00.000Z",
       "sourceTimezone": "UTC",
       "participants": [],
       "frenchPresence": null,
@@ -94367,11 +94232,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/fide-world-cadet-championship-2026-o10/zCivtQJD",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -94401,8 +94266,8 @@
       "category": "autres",
       "subcategory": "Échecs",
       "date": "2026-11-22",
-      "start": "2026-11-22T11:00:00.000Z",
-      "end": "2026-11-28T07:00:00.000Z",
+      "start": "2026-11-22T11:15:00.000Z",
+      "end": "2026-11-28T07:15:00.000Z",
       "sourceTimezone": "UTC",
       "participants": [],
       "frenchPresence": null,
@@ -94428,11 +94293,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/fide-world-cadet-championship-2026-g12/iyv4D6k7",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -94462,8 +94327,8 @@
       "category": "autres",
       "subcategory": "Échecs",
       "date": "2026-11-22",
-      "start": "2026-11-22T11:00:00.000Z",
-      "end": "2026-11-28T07:00:00.000Z",
+      "start": "2026-11-22T11:15:00.000Z",
+      "end": "2026-11-28T07:15:00.000Z",
       "sourceTimezone": "UTC",
       "participants": [],
       "frenchPresence": null,
@@ -94489,11 +94354,11 @@
           "label": "Lichess · broadcast officiel",
           "url": "https://lichess.org/broadcast/fide-world-cadet-championship-2026-o12/mzv5Mt2S",
           "sourceId": "lichess",
-          "collectedAt": "2026-11-20T07:21:48.575Z"
+          "collectedAt": "2026-11-20T17:01:58.626Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:48.575Z",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
       "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
       "schedule": [],
       "notes": [
@@ -94518,7 +94383,7 @@
     {
       "id": "ps-1800741",
       "slug": "ps-1800741",
-      "title": "Semifinal 2: TBD vs TBD",
+      "title": "Semifinal 2: FAL vs CR",
       "summary": "Match Overwatch programmé selon le calendrier PandaScore (Asia Stage 3 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
       "category": "esport",
       "subcategory": "Overwatch",
@@ -94526,7 +94391,10 @@
       "start": "2026-11-21T09:00:00Z",
       "end": null,
       "sourceTimezone": "UTC",
-      "participants": [],
+      "participants": [
+        "Falcons",
+        "Crazy Raccoon"
+      ],
       "frenchPresence": null,
       "frenchNote": "Non renseignée par la source",
       "organizer": "Asia Stage 3 2026",
@@ -94545,12 +94413,12 @@
           "linkKind": "channel"
         },
         {
-          "platform": "Web",
-          "label": "Web · community",
-          "url": "https://www.sooplive.com/station/owesports",
+          "platform": "YouTube",
+          "label": "YouTube · community",
+          "url": "https://www.youtube.com/@ow_esports_jp/live",
           "access": "free",
           "accountRequired": null,
-          "language": "ko",
+          "language": "ja",
           "countries": [],
           "territoryNote": "Diffusion communautaire référencée par PandaScore",
           "confirmed": false,
@@ -94558,12 +94426,12 @@
           "linkKind": "channel"
         },
         {
-          "platform": "YouTube",
-          "label": "YouTube · community",
-          "url": "https://www.youtube.com/@ow_esports_jp/live",
+          "platform": "Web",
+          "label": "Web · community",
+          "url": "https://www.sooplive.com/station/owesports",
           "access": "free",
           "accountRequired": null,
-          "language": "ja",
+          "language": "ko",
           "countries": [],
           "territoryNote": "Diffusion communautaire référencée par PandaScore",
           "confirmed": false,
@@ -94576,11 +94444,11 @@
           "label": "PandaScore · calendrier des matchs",
           "url": "https://pandascore.co/",
           "sourceId": "pandascore",
-          "collectedAt": "2026-11-20T07:21:47.466Z"
+          "collectedAt": "2026-11-20T17:01:57.809Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:47.466Z",
+      "lastVerified": "2026-11-20T17:01:57.809Z",
       "confirmation": "Match daté dans le calendrier PandaScore",
       "schedule": [],
       "notes": [
@@ -94652,15 +94520,246 @@
           "label": "PandaScore · calendrier des matchs",
           "url": "https://pandascore.co/",
           "sourceId": "pandascore",
-          "collectedAt": "2026-11-20T07:21:47.466Z"
+          "collectedAt": "2026-11-20T17:01:57.809Z"
         }
       ],
       "status": "À venir",
-      "lastVerified": "2026-11-20T07:21:47.466Z",
+      "lastVerified": "2026-11-20T17:01:57.809Z",
       "confirmation": "Match daté dans le calendrier PandaScore",
       "schedule": [],
       "notes": [
         "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "ps-1800740",
+      "slug": "ps-1800740",
+      "title": "Semifinal 1: ZETA vs T1",
+      "summary": "Match Overwatch programmé selon le calendrier PandaScore (Asia Stage 3 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Overwatch",
+      "date": "2026-11-21",
+      "start": "2026-11-21T11:00:00Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "ZETA DIVISION",
+        "T1"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Asia Stage 3 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · officiel",
+          "url": "https://www.twitch.tv/ow_esports_jp",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ja",
+          "countries": [],
+          "territoryNote": "Diffusion officielle référencée par PandaScore",
+          "confirmed": true,
+          "restrictions": "Stream officiel du match déclaré dans le calendrier PandaScore.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "YouTube",
+          "label": "YouTube · community",
+          "url": "https://www.youtube.com/@ow_esports_jp/live",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ja",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "Web",
+          "label": "Web · community",
+          "url": "https://www.sooplive.com/station/owesports",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ko",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PandaScore · calendrier des matchs",
+          "url": "https://pandascore.co/",
+          "sourceId": "pandascore",
+          "collectedAt": "2026-11-20T17:01:57.809Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-20T17:01:57.809Z",
+      "confirmation": "Match daté dans le calendrier PandaScore",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "ps-1820246",
+      "slug": "ps-1820246",
+      "title": "Hero vs BOOM",
+      "summary": "Match Honor of Kings programmé selon le calendrier PandaScore (Nation Clash 2026). Les streams listés sont ceux référencés pour ce match ; l’horaire peut évoluer.",
+      "category": "esport",
+      "subcategory": "Honor of Kings",
+      "date": "2026-11-21",
+      "start": "2026-11-21T13:00:00Z",
+      "end": null,
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Hero JiuJing",
+        "BOOM Esports"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Nation Clash 2026",
+      "broadcastOptions": [
+        {
+          "platform": "Twitch",
+          "label": "Twitch · officiel",
+          "url": "https://www.twitch.tv/hok_esports",
+          "access": "free",
+          "accountRequired": null,
+          "language": "ms",
+          "countries": [],
+          "territoryNote": "Diffusion officielle référencée par PandaScore",
+          "confirmed": true,
+          "restrictions": "Stream officiel du match déclaré dans le calendrier PandaScore.",
+          "linkKind": "channel"
+        },
+        {
+          "platform": "Twitch",
+          "label": "Twitch · community",
+          "url": "https://www.twitch.tv/hok_esports_kpl",
+          "access": "free",
+          "accountRequired": null,
+          "language": "zh",
+          "countries": [],
+          "territoryNote": "Diffusion communautaire référencée par PandaScore",
+          "confirmed": false,
+          "restrictions": "Stream communautaire ; canaux officiels possibles ailleurs.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PandaScore · calendrier des matchs",
+          "url": "https://pandascore.co/",
+          "sourceId": "pandascore",
+          "collectedAt": "2026-11-20T17:01:57.809Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-20T17:01:57.809Z",
+      "confirmation": "Match daté dans le calendrier PandaScore",
+      "schedule": [],
+      "notes": [
+        "Horaire fourni en ISO par l’API PandaScore. Les matchs annulés ou terminés sont exclus ; les jeux déjà couverts par Liquipedia et Riot sont ignorés pour éviter les doublons."
+      ],
+      "popularity": null,
+      "discovery": true,
+      "major": false,
+      "featured": false,
+      "art": "JEU",
+      "commercial": {
+        "affiliateUrl": null,
+        "sponsor": null,
+        "sponsored": false
+      },
+      "vpnContext": null,
+      "postponement": null,
+      "cancellation": null,
+      "programType": "livestream"
+    },
+    {
+      "id": "lc-zVXx5cjN",
+      "slug": "lc-fc4e07663a68",
+      "title": "Campeonato de España por Equipos de Club División de Honor",
+      "summary": "Tournoi d’échecs retransmis officiellement par Lichess Broadcast (Marbella, Spain). Les parties sont suivies en direct sur la page du tournoi.",
+      "category": "autres",
+      "subcategory": "Échecs",
+      "date": "2026-11-20",
+      "start": "2026-11-20T15:00:00.000Z",
+      "end": "2026-11-26T15:00:00.000Z",
+      "sourceTimezone": "UTC",
+      "participants": [
+        "Nihal",
+        "Maghsoodloo",
+        "Yakubboev",
+        "Suleymanli"
+      ],
+      "frenchPresence": null,
+      "frenchNote": "Non renseignée par la source",
+      "organizer": "Lichess Broadcast",
+      "broadcastOptions": [
+        {
+          "platform": "Web",
+          "label": "Lichess · retransmission officielle",
+          "url": "https://lichess.org/broadcast/campeonato-de-espana-por-equipos-de-club-division-de-honor/zVXx5cjN",
+          "access": "free",
+          "accountRequired": false,
+          "language": "Multilingue",
+          "countries": [],
+          "territoryNote": "Retransmission mondiale sans restriction territoriale",
+          "confirmed": true,
+          "restrictions": "Visionnage libre et gratuit sur lichess.org, sans compte.",
+          "linkKind": "channel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lichess · broadcast officiel",
+          "url": "https://lichess.org/broadcast/campeonato-de-espana-por-equipos-de-club-division-de-honor/zVXx5cjN",
+          "sourceId": "lichess",
+          "collectedAt": "2026-11-20T17:01:58.626Z"
+        }
+      ],
+      "status": "À venir",
+      "lastVerified": "2026-11-20T17:01:58.626Z",
+      "confirmation": "Tournoi listé dans l’API publique Lichess Broadcast",
+      "schedule": [],
+      "notes": [
+        "Dates de début et de fin fournies par l’API Lichess Broadcast (timestamps).",
+        "Les parties individuelles suivent l’horaire du tournoi ; le flux actif n’est pas surveillé."
       ],
       "popularity": null,
       "discovery": true,
