@@ -1,15 +1,15 @@
 {
   "items": {
     "monitor:riot-primer": {
-      "hash": "8e5f56eba11f299cc6e9d2084ad0f7fbe55fd645725ec910160a32da49c6a1de",
+      "hash": "d193a442385a937dac993f0a3ad5fd1007c0e96b5c1d449f53b547996b2acf69",
       "checkedDay": "2026-11-21"
     },
     "monitor:wtt-french": {
-      "hash": "19ad30807c890be30916aa89644666ac4b57239203405f90f5145e8baba78118",
+      "hash": "c0fe766bc194a908ef792ff4be1153b58c801d5bca95b7bc9b0aad7aa1fa271b",
       "checkedDay": "2026-11-21"
     },
     "monitor:f1-us": {
-      "hash": "50e97fdb0c194bf4d2faa37f61e505cc015374a3284b794615103de7172dcbfc",
+      "hash": "d2aa90f54b1731894b6ce80ff08513efcb83dc227962c7d96ef0b8d44af9ca14",
       "checkedDay": "2026-11-21"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "c8df0b478a143693ce5e94ac4179d29725078ffa09525a715fb6e83a813d583c",
+      "hash": "1f3572e5f84d148ad728ef8475dce84b7eaf45a8ae0913e78e2beff72462d532",
       "checkedDay": "2026-11-21"
     },
     "monitor:nfl-tv": {
@@ -112,7 +112,7 @@
       "checkedDay": "2026-11-21"
     },
     "monitor:riot-valorant-schedule": {
-      "hash": "2414420108ea1e0622c57dfd12fba8fba36d7d8fffa433b8ebc1a718ebafebc5",
+      "hash": "7ef3249b600c4652df2b691d47a60bc173d3a9cfcb0f113167a1b97a48e00cd7",
       "checkedDay": "2026-11-21"
     },
     "twitch-domingo-0f72d3756e00a94b": {
@@ -166,15 +166,15 @@
       "editorialDone": false
     },
     "monitor:redbull-live-b71442187dfb": {
-      "hash": "b0b08d8239023e20ea6717d0be46707a82471bdb4077c17fba844fb09b4e2d25",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-21"
     },
     "monitor:arte-concert-live": {
-      "hash": "a1e38b99c65c20bb2d292828e25208c3a4d1296cc9fddc9dd073c112bfcd532a",
+      "hash": "abb66913d663c62c895958eb6cd363532388a818b59a35abff5c58c76858d8cb",
       "checkedDay": "2026-11-21"
     },
     "monitor:cern-webcast": {
-      "hash": "dbec547b2ec1a1ab5a8c9ede44e227a54da5dda90b8c1d2b04ce43c3ed53d0ad",
+      "hash": "0c06964f2c40594e8a2608a183464d702f7b22db94ca8a556dff3422b356aa6c",
       "checkedDay": "2026-11-21"
     },
     "monitor:cern-indico-1743465": {
@@ -186,11 +186,11 @@
       "checkedDay": "2026-11-21"
     },
     "monitor:spacex-upcoming": {
-      "hash": "da9ad9048dff2298491c27a7440cabf51971af048dc8d08c6c523e0addd0ad17",
+      "hash": "d399e4977460cc4bc875a8259fdd03c712c9c921cb71c1832efea9fe9cc9caaf",
       "checkedDay": "2026-11-21"
     },
     "monitor:spacex-timings": {
-      "hash": "01c97ce7d0721f3a57bcddbdb53fdf85d0ee6c2ced46fdc20700a299cc0ea92c",
+      "hash": "f651fa54d39b8e62448cbbf1a502543b452fed9b70e8f68f5ab84873b1ee4d8b",
       "checkedDay": "2026-11-21"
     },
     "monitor:cern-indico-1745596": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-21"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "8ff8cde7629e9785280b66f7b8bbd75b019d13a4d064924a21c63307dfb11632",
+      "hash": "a0b87074f23a9f0dde06f8683a4d35455cea0b826982def9493d91e35bceb381",
       "checkedDay": "2026-11-21"
     },
     "monitor:yt-rolandgarros": {
@@ -973,6 +973,10 @@
       "hash": "1d198adcd2e03d1cd41056d2d808c7f603b8f5693c30cf8f7b3694fadd4f7fae",
       "checkedDay": "2026-11-21",
       "editorialDone": true
+    },
+    "monitor:spacex-mission-ng25": {
+      "hash": "afd623b148154a550bb1f644012892cc725dcb383cd68fdf05f1665b09e355bc",
+      "checkedDay": "2026-11-21"
     }
   },
   "llmAttemptDay": "2026-11-21"
