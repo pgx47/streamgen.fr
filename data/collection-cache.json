@@ -5,11 +5,11 @@
       "checkedDay": "2026-11-22"
     },
     "monitor:wtt-french": {
-      "hash": "1a1ae619877e52b92fff2737c014175c68bb4819f53b83f83467b647f927b7b5",
+      "hash": "bb90af73f882d1306e8b929767c0aa07390cfa3c144dc55eb8f9c1808a9fcb39",
       "checkedDay": "2026-11-22"
     },
     "monitor:f1-us": {
-      "hash": "428a957e1b5a5f743395b84d6f668c1027afef4234783da5bab11eb4462a3055",
+      "hash": "ed55db224a8074167d8d8a21cc82eebf4d3c63d56e896ff55197312d8af5b01a",
       "checkedDay": "2026-11-22"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "81707b42c850c0717c13c8b28f8cce423d2dee1f10051c53738d936c94ade65a",
+      "hash": "3b5d8bf040e86df6cd4bf202d9ef16ba3424492bff219fd360539a1c4eab19d9",
       "checkedDay": "2026-11-22"
     },
     "monitor:nfl-tv": {
@@ -166,7 +166,7 @@
       "editorialDone": false
     },
     "monitor:redbull-live-b71442187dfb": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "b0b08d8239023e20ea6717d0be46707a82471bdb4077c17fba844fb09b4e2d25",
       "checkedDay": "2026-11-22"
     },
     "monitor:arte-concert-live": {
@@ -186,11 +186,11 @@
       "checkedDay": "2026-11-22"
     },
     "monitor:spacex-upcoming": {
-      "hash": "0004dd1bcb63a6e53c6dc914e3f25c9e61bdcdad6740c478c786af836382e0bf",
+      "hash": "a31f42443e223894758468b348870f395a6526a270428f99ceba2217a5ad6847",
       "checkedDay": "2026-11-22"
     },
     "monitor:spacex-timings": {
-      "hash": "680c84e4e301d6ab8b026fb90cbc535b0d798a28a030ede6c3f0e6a12f38f9bb",
+      "hash": "89678dbe645529301be37a4cba7f01bb518c53297815386626862cef3fba3be8",
       "checkedDay": "2026-11-22"
     },
     "monitor:cern-indico-1745596": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-22"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "cdcf58ba3f57bbb9c7e39231a929150de79ff7a8f2c8144635827404e242a545",
+      "hash": "9358fd7674b0ebd406673f098770a53e95faa131eb57324c874df0cf228e7f80",
       "checkedDay": "2026-11-22"
     },
     "monitor:yt-rolandgarros": {
@@ -331,7 +331,7 @@
       "checkedDay": "2026-11-22"
     },
     "monitor:redbull-live-6a3df2d487e6": {
-      "hash": "fc2988207d62e9e74e96d72be036201492260b171906252ef20edf284bf7cf71",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-22"
     },
     "twitch-domingo-32e342e341b5681f": {
@@ -697,7 +697,7 @@
       "editorialDone": true
     },
     "monitor:redbull-live-020434f10819": {
-      "hash": "50e2ba7fc175d13e45f5946ea34f0eae0ab6ecbe85887f31d65d75c05ca6367c",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-22"
     },
     "eurovision-sport-182e51332ec54390": {
@@ -863,7 +863,7 @@
       "checkedDay": "2026-11-22"
     },
     "monitor:redbull-live-85d28dcb2150": {
-      "hash": "4729e40c162262ee56188df0ea967dcb0c344d1636cedcc64675f3e9a13eef16",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-22"
     },
     "monitor:cern-indico-1753449": {
