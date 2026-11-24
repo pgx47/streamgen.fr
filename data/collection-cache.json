@@ -5,11 +5,11 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:wtt-french": {
-      "hash": "7a0ad5044b3b72d6b1b10e19781610eabf2c5cacafa4faafff9dbeb85d8e93e5",
+      "hash": "bb4ca97b8a235ee31125f1ab45361cf07dae34da08528f1ceb69175854627cfe",
       "checkedDay": "2026-11-24"
     },
     "monitor:f1-us": {
-      "hash": "8787bff6c85be087aa8aa8eb6389e8eae365ee8991885f234f49f1437d03fc51",
+      "hash": "996054faa67cbdf6a6a69f7fda2e4b6789aa655cdbb3e36044c9b84c7fa02628",
       "checkedDay": "2026-11-24"
     },
     "monitor:nfl-time": {
@@ -17,7 +17,7 @@
       "checkedDay": "2026-10-26"
     },
     "monitor:f1-mx": {
-      "hash": "a2e2350963d1d703e5b64c77b5ed658850d5cd4815aca011a66940f18a7aaa70",
+      "hash": "c103639eb00bfcd92cc8c383bd86e7f8819a1b9c20eb7e6b83dcbccdf20fa295",
       "checkedDay": "2026-11-24"
     },
     "monitor:nfl-tv": {
@@ -112,7 +112,7 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:riot-valorant-schedule": {
-      "hash": "0bfe10cfdc99e9b87f9fae78d89685ac77d179c3c22bc0466f65e5498a5c74b3",
+      "hash": "c6c33560d00d6242e35bf0a8fb0db3dd8413e760ddfeb1f2a2e1429033287f6f",
       "checkedDay": "2026-11-24"
     },
     "twitch-domingo-0f72d3756e00a94b": {
@@ -170,11 +170,11 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:arte-concert-live": {
-      "hash": "684727c3c2ee12cef8bff80b3a64e08ea74c520a456a4dfd812c37c3b96858d1",
+      "hash": "066ad38e3b0d97caf7090e3433f4c04dc8d25a06ffe0a86d8d7646b75de2779f",
       "checkedDay": "2026-11-24"
     },
     "monitor:cern-webcast": {
-      "hash": "793cd848092f99b8fc599a56c8e35a587aefa5943f1c0e968c87f75e682d09c6",
+      "hash": "63762ae309ac6a19886f8f909d3d759a7ee57154af1f107e3d100eb8da0b51eb",
       "checkedDay": "2026-11-24"
     },
     "monitor:cern-indico-1743465": {
@@ -186,11 +186,11 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:spacex-upcoming": {
-      "hash": "a31f42443e223894758468b348870f395a6526a270428f99ceba2217a5ad6847",
+      "hash": "11ca76e494289ac8185d3a465737705e4d82c8fa6bf74f50b6ee8b8d8aaa07f6",
       "checkedDay": "2026-11-24"
     },
     "monitor:spacex-timings": {
-      "hash": "547fc7b55ef7121d9f98384b50247680dbf6382f275b8b58ebba6a4f2b32d746",
+      "hash": "97e5410896c71e1ae12a34691c5c7d3e8cac62599ab79dd15e5ceaa58fd672cf",
       "checkedDay": "2026-11-24"
     },
     "monitor:cern-indico-1745596": {
@@ -214,7 +214,7 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:space-devs-upcoming": {
-      "hash": "db87c50894a6c3a70af3c2b2605bd4bfee3103944ccf6f24153917d5a7f6caed",
+      "hash": "f109df12003a9ef7493770e10b1b6ee1f6028a7068705778ba96090734ea3515",
       "checkedDay": "2026-11-24"
     },
     "monitor:yt-rolandgarros": {
@@ -520,7 +520,7 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:cern-indico-1567687": {
-      "hash": "e301c9ee7404acb11463089b2045c25c4926d5cc3c981c861111931ec220bc4f",
+      "hash": "5be8c6dda6da6fbd2097851a885f3941c7b022d0fab575945de00138f7652b54",
       "checkedDay": "2026-11-24"
     },
     "monitor:spacex-mission-ussf317": {
@@ -627,7 +627,7 @@
       "editorialDone": false
     },
     "monitor:cern-indico-1751604": {
-      "hash": "a6e2eb6ac8229af1287f355751d29cde71b48b02098226fd15ec9522ab85cccf",
+      "hash": "f7649e54c591a6d9e00cf8c597a050ab73169607171bde8b9da221c159960dc4",
       "checkedDay": "2026-11-24"
     },
     "monitor:cern-indico-1751601": {
@@ -668,7 +668,7 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:redbull-live-3f74183bef2d": {
-      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash": "5ad808533d2cb5bc18e54855f88cfb3e34e0b7b6b8c07a71dcb6475c0debbfd0",
       "checkedDay": "2026-11-24"
     },
     "twitch-ponce-c2361606aa5cc21a": {
@@ -863,7 +863,7 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:redbull-live-85d28dcb2150": {
-      "hash": "4729e40c162262ee56188df0ea967dcb0c344d1636cedcc64675f3e9a13eef16",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "checkedDay": "2026-11-24"
     },
     "monitor:cern-indico-1753449": {
@@ -871,7 +871,7 @@
       "checkedDay": "2026-11-24"
     },
     "monitor:redbull-live-a41103152d3d": {
-      "hash": "50a31a8b376823e9d430c3dcbd634319c660b1bdebbe677c58d37ba71994ce80",
+      "hash": "c808e218321ece4bee88b72c56906fafdb7dd44d6be6e47458c053c7f8d459a7",
       "checkedDay": "2026-11-24"
     },
     "twitch-ponce-28071be24e5f1f98": {
