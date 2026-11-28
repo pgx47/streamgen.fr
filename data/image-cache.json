@@ -186,17 +186,17 @@
       "lastSuccessfulCheck": null
     },
     "7462325e28d40459c696cd02": {
-      "checkedDay": "2026-11-27",
+      "checkedDay": "2026-11-28",
       "assetKey": null,
       "lastSuccessfulCheck": null
     },
     "ec4d7b8d3efd21e0c57817fb": {
-      "checkedDay": "2026-11-27",
+      "checkedDay": "2026-11-28",
       "assetKey": null,
       "lastSuccessfulCheck": null
     },
     "9be40f1ed0c11b9cd1c4f953": {
-      "checkedDay": "2026-11-27",
+      "checkedDay": "2026-11-28",
       "assetKey": null,
       "lastSuccessfulCheck": null
     },
@@ -296,7 +296,7 @@
       "lastSuccessfulCheck": null
     },
     "953549bc4aef799722c5308d": {
-      "checkedDay": "2026-11-27",
+      "checkedDay": "2026-11-28",
       "assetKey": null,
       "lastSuccessfulCheck": null
     },
@@ -421,12 +421,12 @@
       "lastSuccessfulCheck": null
     },
     "f698724d62717309ebaf6796": {
-      "checkedDay": "2026-11-27",
+      "checkedDay": "2026-11-28",
       "assetKey": null,
       "lastSuccessfulCheck": null
     },
     "622d925d0dd6373f61e874bc": {
-      "checkedDay": "2026-11-27",
+      "checkedDay": "2026-11-28",
       "assetKey": null,
       "lastSuccessfulCheck": null
     }
@@ -499,6 +499,9 @@
       "newAssets": 0
     },
     "2026-11-27": {
+      "newAssets": 0
+    },
+    "2026-11-28": {
       "newAssets": 0
     }
   }
